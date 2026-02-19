@@ -1,0 +1,108 @@
+
+[Display]
+	#displays the EVIL numbers
+	showManaAmount = true
+	#always show red strings even without wand in hand; might have inpact on frame rate, use at your own risk
+	keepRedString = false
+
+[Dandelifeon]
+	#no longer wipe all cells out when consuming
+	skipDandelifeonClearBoard = true
+	#custom rule bitset for new cells
+	#Range: 0 ~ 255
+	ruleLifeGameNew = 8
+	#custom rule bitset for keeping cells
+	#Range: 0 ~ 255
+	ruleLifeGameKeep = 12
+
+[Entropinnyum]
+	#accepts TNTs from dupers
+	skipEntropinnyumDuperCheck = true
+	#accepts TNTs inside liquids
+	enableEntropinnyumUnderwater = true
+
+[Narslimmus]
+	#accepts ALL slimes
+	skipNarslimmusNaturalCheck = true
+
+[Endoflame]
+	#skips the burning process for fuel items
+	instantBurnFuel = true
+	#increases capacity when consuming large fuel
+	extraCapacityForFuel = true
+	#no more 32000 tick burning limit
+	breaksMaxBurningTimeLimit = true
+
+[Exoflame]
+	#heats Blaze Burner blocks from Create
+	heatsBlazeBurner = true
+	#applies hyper-heat for Blaze Burner blocks when on enchanted soil
+	enchantedSoilEnablesSuperHeat = true
+
+[ManaPylonPump]
+	#makes Mana Pylons extract mana from the pool below and dump to wand-bound mana pool
+	enablesManaPylonPump = true
+	#max distance between the pylon and the pool bound
+	#Range: 1 ~ 256
+	pylonPumpMaxRange = 64
+	#how many mana points will be extracted each tick (for reference, each spark pair has speed of 1000)
+	#Range: > 1
+	pylonPumpSpeed = 10000
+	#how much ratio of mana will vanish during the transport
+	#Range: 0.0 ~ 1.0
+	pylonPumpLossRatio = 0.1
+	#displays extra particles when the pylon pump works
+	enablesPylonPumpFx = true
+	#how thick the pump particle line will be
+	#Range: 1 ~ 10
+	pylonPumpFxStrength = 3
+
+[Thermalily]
+	#no longer consumes lava during its cooldown
+	enablesPassiveThermalily = true
+
+[ManaEnchanter]
+	#may enchant books as enchantment table does
+	enchantBooks = true
+	#item enchantments are valid sources too
+	treatEnchantedItemAsBook = true
+	#all available enchantments will be accepted, not onlt the first
+	acceptsAllInsideBook = true
+	#accepts conflicted enchantments (for example, infinity & mending)
+	ignoresCompatibleCheck = true
+	#splits all enchantments as separate books if enchanter structure breaks after enchantment finished
+	doFinalEnchantmentSplit = true
+
+[GaiaGuardian]
+	#accepts damage higher than 32
+	removesDamageCap = true
+	#how many ticks to skip summoning stage when gaia guardian being attacked; 0 to disable this feature
+	#Range: 0 ~ 900
+	decreasesInvulTimeByAttacking = 10
+	#allows being attacked by & dropping loots for fake players (like deployer from `Create`)
+	allowsFakePlayer = true
+
+[Weapon]
+	#Terra Blade beams inherit damage (and fire aspect) from the sword
+	terraBladeBeamInheritsItemDamage = true
+	#Thundercaller's chain lightning inherits damage (and fire aspect) from the sword
+	chainLightningInheritsItemDamage = true
+	#Starcaller's stars inherit damage (and fire aspect) from the sword
+	fallingStarInheritsItemDamage = true
+	#Starcaller's stars don't hurt non-living entities like item frames
+	fallingStarSkipsNonLiving = true
+
+[Misc]
+	#scales the output rate for Power Generator block
+	#Range: 1 ~ 114514
+	multiplyFEGeneratorOutput = 100
+
+[Interop]
+
+	[Interop.Mekanism]
+		#how many mana points each FE point equals
+		#Range: 0.0 ~ 1.0E10
+		MekasuitConversionRatio = 1.0
+		#... as what Terrasteel Helmet does
+		MekasuitHelmetAcceptsAncientWill = true
+

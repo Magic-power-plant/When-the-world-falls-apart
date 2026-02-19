@@ -1,0 +1,93 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "ping_su",
+      "uniqueId": "151bb41d-3718-4a5c-b584-5c86dc9aaa1e"
+    },
+    "time": 1770567109487,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pzMCBTka2T"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ping_su",
+      "uniqueId": "151bb41d-3718-4a5c-b584-5c86dc9aaa1e"
+    },
+    "time": 1770565647310,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/wKd4p5c5W5"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ping_su",
+      "uniqueId": "151bb41d-3718-4a5c-b584-5c86dc9aaa1e"
+    },
+    "time": 1770564453145,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/CteG4IsmKX"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ping_su",
+      "uniqueId": "151bb41d-3718-4a5c-b584-5c86dc9aaa1e"
+    },
+    "time": 1770537087186,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/xndhBSODsm"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ping_su",
+      "uniqueId": "151bb41d-3718-4a5c-b584-5c86dc9aaa1e"
+    },
+    "time": 1770495948818,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/7pq10hlpxN"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ping_su",
+      "uniqueId": "151bb41d-3718-4a5c-b584-5c86dc9aaa1e"
+    },
+    "time": 1770492339785,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/XOY3VC9lt0"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ping_su",
+      "uniqueId": "151bb41d-3718-4a5c-b584-5c86dc9aaa1e"
+    },
+    "time": 1770489789386,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3DBKPl6cxs"
+    }
+  }
+]

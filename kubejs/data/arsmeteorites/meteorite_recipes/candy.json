@@ -1,0 +1,33 @@
+{
+  "input": "kubejs:candy_meteors",
+  "source": 100,
+  "model": 3,
+  "catalysts": "ars_nouveau:source_gem",
+  "meteorites": [
+    "alexscaves:candy_cane_pole",
+    "alexscaves:licoroot",
+    "alexscaves:stripped_candy_cane_block",
+    "alexscaves:rock_candy_orange",
+    "alexscaves:rock_candy_white",
+    "alexscaves:rock_candy_lime",
+    "alexscaves:rock_candy_light_blue",
+    "alexscaves:rock_candy_yellow",
+    "alexscaves:rock_candy_green",
+    "alexscaves:vanilla_ice_cream",
+    "alexscaves:chocolate_ice_cream",
+    "alexscaves:sweetberry_ice_cream",
+    "alexscaves:giant_sweetberry",
+    "alexscaves:block_of_vanilla_frosting",
+    "alexscaves:sugar_glass",
+    "alexscaves:wafer_cookie_block",
+    "alexscaves:block_of_polished_chocolate",
+    "alexscaves:dough_block",
+    "alexscaves:cookie_block",
+    "alexscaves:gingerbread_block",
+    "alexscaves:cake_layer",
+    "alexscaves:block_of_chocolate",
+    "alexscaves:block_of_frosted_chocolate"
+],
+  "weights": [3,5,5,3,3,3,3,3,3,3,3,3,3,4,3,5,5,10,5,7,6,7,5],
+  "layer": [15,8,50,50]
+}

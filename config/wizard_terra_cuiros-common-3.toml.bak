@@ -1,0 +1,444 @@
+
+[base]
+	#魔剑升级法球新生魔艺法强转化率
+	#Range: 0.0 ~ 2.147483647E9
+	magic_sword_upgrade_orb_ars = 0.5
+	#魔剑升级法球铁魔法法强转化率
+	#Range: 0.0 ~ 2.147483647E9
+	magic_sword_upgrade_orb_iron = 0.5
+	#魔剑升级法球基础固定攻击力加成
+	#Range: 0.0 ~ 2.147483647E9
+	magic_sword_upgrade_orb_base_fixed_atk = 1.0
+	#魔剑升级法球基础百分比攻击力加成
+	#Range: 0.0 ~ 2.147483647E9
+	magic_sword_upgrade_orb_base_atk = 0.05
+	#沙暴元素瓶
+	#Range: 0.0 ~ 2.147483647E9
+	sandstorm_elemental_in_bottle = 0.05
+	#魅惑珍珠
+	#Range: 0.0 ~ 2.147483647E9
+	pearl_of_enthrallment = 0.05
+	#风暴之眼
+	#Range: 0.0 ~ 2.147483647E9
+	eye_of_the_storm = 0.05
+	#玫瑰石
+	#Range: 0.0 ~ 2.147483647E9
+	rose_stone = 0.05
+	#核子之源召唤伤害
+	#Range: 0.0 ~ 2.147483647E9
+	nucleogenesis = 0.275
+	#玷星之源召唤伤害
+	#Range: 0.0 ~ 2.147483647E9
+	star_tainted_generator = 0.135
+	#凝胶充能电池召唤伤害
+	#Range: 0.0 ~ 2.147483647E9
+	jelly_charged_battery = 0.085
+	#带电时间
+	#Range: 0.0 ~ 2.147483647E9
+	jelly_charged_battery_time = 3.0
+	#带电等级
+	#Range: 0.0 ~ 2.147483647E9
+	jelly_charged_battery_level = 1.0
+	#暗影焰时长
+	#Range: 0.0 ~ 2.147483647E9
+	shadowflame_time = 3.0
+	#暗影焰等级
+	#Range: 0.0 ~ 2.147483647E9
+	shadowflame_level = 1.0
+	#斯塔提斯的诅咒
+	#Range: 0.0 ~ 2.147483647E9
+	statis_curse = 0.21
+	#斯塔提斯的祝福
+	#Range: 0.0 ~ 2.147483647E9
+	statis_blessing = 0.16
+	#魔鬼之庇护
+	#Range: 0.0 ~ 2.147483647E9
+	abaddon = 0.08
+	#魔鬼之庇护触发爆炸的暴击率倍率
+	#Range: 0.0 ~ 2.147483647E9
+	abaddon_chance = 1.0
+	#魔鬼之庇护触发爆炸的伤害百分比
+	#Range: 0.0 ~ 2.147483647E9
+	abaddon_damage = 0.2
+	#终结虚空暴击率
+	#Range: 0.0 ~ 2.147483647E9
+	void_of_extinction = 0.13
+	#闪避围巾反击等级
+	#Range: 0.0 ~ 2.147483647E9
+	evasion_scarf_lvl = 2.0
+	#闪避围巾反击时间
+	#Range: 0.0 ~ 2.147483647E9
+	evasion_scarf_time = 2.0
+	#闪避围巾真近战
+	#Range: 0.0 ~ 2.147483647E9
+	evasion_scarf = 0.1
+	#反击围巾反击等级
+	#Range: 0.0 ~ 2.147483647E9
+	counter_scarf_lvl = 1.0
+	#反击围巾反击时间
+	#Range: 0.0 ~ 2.147483647E9
+	counter_scarf_time = 2.0
+	#反击围巾真近战
+	#Range: 0.0 ~ 2.147483647E9
+	counter_scarf = 0.1
+	#元素之握附加等级
+	#Range: 0.0 ~ 2.147483647E9
+	elemental_gauntlet_level = 1.0
+	#元素之握附加时间
+	#Range: 0.0 ~ 2.147483647E9
+	elemental_gauntlet_time = 4.0
+	#元素之握概率
+	#Range: 0.0 ~ 2.147483647E9
+	elemental_gauntlet_chance = 0.3
+	#元素之握真近战
+	#Range: 0.0 ~ 2.147483647E9
+	elemental_gauntlet_tmd = 0.2
+	#元素之握暴击
+	#Range: 0.0 ~ 2.147483647E9
+	elemental_gauntlet_cri = 0.05
+	#元素之握攻速
+	#Range: 0.0 ~ 2.147483647E9
+	elemental_gauntlet_speed = 0.15
+	#元素之握近战
+	#Range: 0.0 ~ 2.147483647E9
+	elemental_gauntlet_atk = 0.15
+	#辐辉回血
+	#Range: 0.0 ~ 2.147483647E9
+	radiance_re = 0.4
+	#辐辉buff回血
+	#Range: 0.0 ~ 2.147483647E9
+	radiance_buff_re = 0.5
+	#辐辉护甲值
+	#Range: 0.0 ~ 2.147483647E9
+	radiance_armor = 14.0
+	#辐辉生命值
+	#Range: 0.0 ~ 2.147483647E9
+	radiance_hp = 8.0
+	#辐辉潜行回血
+	#Range: 0.0 ~ 2.147483647E9
+	radiance_shift_re = 0.4000000059604645
+	#疫染星石回血
+	#Range: 0.0 ~ 2.147483647E9
+	infected_jewel_re = 0.2
+	#疫染星石buff回血
+	#Range: 0.0 ~ 2.147483647E9
+	infected_jewel_buff_re = 0.4000000059604645
+	#疫染星石护甲值
+	#Range: 0.0 ~ 2.147483647E9
+	infected_jewel_armor = 6.0
+	#王冠宝石回血
+	#Range: 0.0 ~ 2.147483647E9
+	crown_jewel_re = 0.2
+	#王冠宝石buff回血
+	#Range: 0.0 ~ 2.147483647E9
+	crown_jewel_buff_re = 0.30000001192092896
+	#王冠宝石护甲值
+	#Range: 0.0 ~ 2.147483647E9
+	crown_jewel_armor = 4.0
+	#光泥每10%生命值回复数额
+	#Range: 0.0 ~ 2.147483647E9
+	radiant_ooze_number = 0.1
+	#光泥基础回复
+	#Range: 0.0 ~ 2.147483647E9
+	radiant_ooze_base = 0.4
+	#生命露珠hp
+	#Range: 0.0 ~ 2.147483647E9
+	living_dew_hp = 10.0
+	#蜂蜜露珠Debuff回血
+	#Range: 0.0 ~ 2.147483647E9
+	honey_dew_buff_re = 0.2
+	#蜂蜜露珠潜行回血
+	#Range: 0.0 ~ 2.147483647E9
+	honey_dew_shift_re = 0.3
+	#蜂蜜露珠回血
+	#Range: 0.0 ~ 2.147483647E9
+	honey_dew_re = 0.2
+	#蜂蜜露珠hp
+	#Range: 0.0 ~ 2.147483647E9
+	honey_dew_hp = 6.0
+	#神圣护符
+	#Range: 0.0 ~ 2.147483647E9
+	deific_amulet = 50.0
+	#量子护盾每秒回复等级
+	#Range: 0.0 ~ 2.147483647E9
+	the_sponge_shield_time = 2.0
+	#量子护盾每级状态可以抵消的伤害
+	#Range: 0.0 ~ 2.147483647E9
+	the_sponge_shield_number = 3.6
+	#量子护盾护盾上限
+	#Range: 0.0 ~ 2.147483647E9
+	the_sponge_shield = 10.0
+	#量子护盾充能时间
+	#Range: 0.0 ~ 2.147483647E9
+	the_sponge_time = 9.0
+	#钨钢屏障每级状态可以抵消的伤害
+	#Range: 0.0 ~ 2.147483647E9
+	rover_drive_shield_number = 1.0
+	#钨钢屏障护盾上限
+	#Range: 0.0 ~ 2.147483647E9
+	rover_drive_shield = 4.0
+	#钨钢屏障充能时间
+	#Range: 0.0 ~ 2.147483647E9
+	rover_shield_time = 10.0
+	#暗杀瞄准镜远攻
+	#Range: 0.0 ~ 2.147483647E9
+	assassin_scope_ra = 0.1
+	#暗杀瞄准镜暴击率
+	#Range: 0.0 ~ 2.147483647E9
+	assassin_scope_cri = 0.1
+	#暗杀瞄准镜减仇恨
+	#Range: -10000.0 ~ 2.147483647E9
+	assassin_scope_aggro = -400.0
+	#暗杀瞄准镜最大增伤
+	#Range: 0.0 ~ 2.147483647E9
+	assassin_scope_damage = 0.5
+	#暗杀瞄准镜最长间隔
+	#Range: 0.0 ~ 2.147483647E9
+	assassin_scope_time = 60.0
+	#速射瞄准镜远攻
+	#Range: 0.0 ~ 2.147483647E9
+	rapid_fire_scope_ra = 0.1
+	#速射瞄准镜暴击率
+	#Range: 0.0 ~ 2.147483647E9
+	rapid_fire_scope_cri = 0.1
+	#速射瞄准镜减仇恨
+	#Range: -10000.0 ~ 2.147483647E9
+	rapid_fire_scope_aggro = -400.0
+	#速射瞄准镜最大增伤
+	#Range: 0.0 ~ 2.147483647E9
+	rapid_fire_scope_damage = 0.2
+	#速射瞄准镜清除增伤间隔时间
+	#Range: 0.0 ~ 2.147483647E9
+	rapid_fire_scope_time = 100.0
+	#速射瞄准镜最大增伤所需次数
+	#Range: 0.0 ~ 2.147483647E9
+	rapid_fire_scope_number = 10.0
+	#空灵护符魔攻
+	#Range: 0.0 ~ 2.147483647E9
+	ethereal_talisman_ma = 0.15
+	#空灵护符魔源再生
+	#Range: 0.0 ~ 2.147483647E9
+	ethereal_talisman_ars_re = 0.1
+	#空灵护符法力再生
+	#Range: 0.0 ~ 2.147483647E9
+	ethereal_talisman_iron_re = 0.1
+	#空灵护符魔源上限
+	#Range: 0.0 ~ 2.147483647E9
+	ethereal_talisman_ars_max = 0.3
+	#空灵护符法力上限
+	#Range: 0.0 ~ 2.147483647E9
+	ethereal_talisman_iron_max = 0.3
+	#法力花系列法力补充阈值
+	#Range: 0.0 ~ 2.147483647E9
+	iron_mana_add = 0.5
+	#天界磁铁范围
+	#Range: 0.0 ~ 2.147483647E9
+	celestial_magnet = 10.75
+	#天界徽章法伤
+	#Range: 0.0 ~ 2.147483647E9
+	celestial_emblem = 0.15000000596046448
+	#归一石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	the_community_dr = 0.0025
+	#归一石回血
+	#Range: 0.0 ~ 2.147483647E9
+	the_community_re = 0.03
+	#归一石速度
+	#Range: 0.0 ~ 2.147483647E9
+	the_community_speed = 0.01
+	#归一石护甲
+	#Range: 0.0 ~ 2.147483647E9
+	the_community_armor = 0.5
+	#归一石血量
+	#Range: 0.0 ~ 2.147483647E9
+	the_community_hp = 0.005
+	#归一石召伤
+	#Range: 0.0 ~ 2.147483647E9
+	the_community_sa = 0.0025
+	#归一石法伤
+	#Range: 0.0 ~ 2.147483647E9
+	the_community_ra = 0.005
+	#归一石法伤
+	#Range: 0.0 ~ 2.147483647E9
+	the_community_ma = 0.005
+	#归一石攻击力
+	#Range: 0.0 ~ 2.147483647E9
+	the_community_atk = 0.005
+	#归一石暴击
+	#Range: 0.0 ~ 2.147483647E9
+	the_community_cri = 0.0025
+	#甲虫召唤伤害
+	#Range: 0.0 ~ 2.147483647E9
+	hercules_beetle = 0.075
+	#死灵卷轴召唤伤害
+	#Range: 0.0 ~ 2.147483647E9
+	necromantic_scroll = 0.1
+	#莎草纸召唤伤害
+	#Range: 0.0 ~ 2.147483647E9
+	papyrus_scarab = 0.125
+	#矮人项链召唤伤害
+	#Range: 0.0 ~ 2.147483647E9
+	pygmy_necklace = 0.05
+	#召唤师徽章
+	#Range: 0.0 ~ 2.147483647E9
+	summoner_emblem = 0.075
+	#钨钢电池
+	#Range: 0.0 ~ 2.147483647E9
+	wulfrum_battery = 0.035
+	#最大记入的击杀数
+	#Range: > 0
+	the_community_kill_count = 20
+	#天体洋葱所能提供的最大配饰栏位
+	#Range: 6 ~ 100
+	over_max_accessories = 8
+	#每个击杀数的增长幅度
+	the_community_up_number = 1.0
+	#叶绿箭袋系列弹射物追踪概率
+	#Range: 0.0 ~ 1.0
+	track_chance = 0.5
+	#天界贝壳召唤伤害(其余属性由泰拉饰品本体的天界石配置与月光护身符配置相加得到)
+	#Range: 0.0 ~ 2.147483647E9
+	celestial_shell_summon = 0.05000000074505806
+	#狼人暴击率
+	#Range: 0.0 ~ 2.147483647E9
+	moon_charm_cri = 0.02
+	#狼人攻击力
+	#Range: 0.0 ~ 2.147483647E9
+	moon_charm_atk = 0.051
+	#狼人攻速
+	#Range: 0.0 ~ 2.147483647E9
+	moon_charm_atk_speed = 0.051
+	#狼人移速
+	#Range: 0.0 ~ 2.147483647E9
+	moon_charm_speed = 0.05
+	#狼人护甲
+	#Range: 0.0 ~ 2.147483647E9
+	moon_charm_armor = 3.0
+	#狼人再生
+	#Range: 0.0 ~ 2.147483647E9
+	moon_charm_re = 0.1
+	#灭绝者召唤伤害
+	#Range: 0.0 ~ 2.147483647E9
+	doom_emblem_summon = 0.05
+	#联合召唤伤害
+	#Range: 0.0 ~ 2.147483647E9
+	uniter_emblem_summon = 0.06
+	#幸运币幸运值
+	#Range: 0.0 ~ 2.147483647E9
+	coin_luck = 0.05000000074505806
+	#幸运币爆金币概率
+	#Range: 0.0 ~ 2.147483647E9
+	coin_chance = 0.10000000149011612
+	#金戒指幸运值
+	#Range: 0.0 ~ 2.147483647E9
+	gold_ring_luck = 0.20000000298023224
+	#魔能谐振仪法伤
+	#Range: 0.0 ~ 2.147483647E9
+	mana_polarizer_magic_atk = 0.05999999865889549
+	#魔能谐振仪魔源
+	#Range: 0.0 ~ 2.147483647E9
+	mana_polarizer_ars = 0.1
+	#魔能谐振仪法力
+	#Range: 0.0 ~ 2.147483647E9
+	mana_polarizer_iron = 0.1
+	#魔能谐振仪扣血
+	#Range: 0.0 ~ 2.147483647E9
+	mana_polarizer_u_re = 0.30000001192092896
+	#混乱石扣血数额
+	#Range: 0.0 ~ 2.147483647E9
+	chaos_stone = 1.5
+	#叶绿箭袋伤害
+	#Range: 0.0 ~ 2.147483647E9
+	chlorophyte_quiver_damage = 0.1
+	#叶绿箭袋加速度
+	#Range: 0.0 ~ 2.147483647E9
+	chlorophyte_quiver_speed = 0.2
+	#神射手伤害
+	#Range: 0.0 ~ 2.147483647E9
+	deadshot_brooch_damage = 0.125
+	#神射手加速度
+	#Range: 0.0 ~ 2.147483647E9
+	deadshot_brooch_speed = 0.2
+	#神射手暴击率
+	#Range: 0.0 ~ 2.147483647E9
+	deadshot_brooch_cri = 0.05
+	#元素箭袋伤害
+	#Range: 0.0 ~ 2.147483647E9
+	elemental_quiver_damage = 0.15
+	#元素箭袋加速度
+	#Range: 0.0 ~ 2.147483647E9
+	elemental_quiver_speed = 0.2
+	#元素箭袋暴击率
+	#Range: 0.0 ~ 2.147483647E9
+	elemental_quiver_cri = 0.05
+	#维魂神物增幅
+	#Range: 0.0 ~ 2.147483647E9
+	dimensional_soul_artifact_up = 0.2
+	#维魂神物削弱
+	#Range: 0.0 ~ 2.147483647E9
+	dimensional_soul_artifact_down = 0.15
+	#灾厄符章魔攻
+	#Range: 0.0 ~ 2.147483647E9
+	sigil_of_calamitas_ma = 0.15
+	#灾厄符章魔源再生
+	#Range: 0.0 ~ 2.147483647E9
+	sigil_of_calamitas_ars_re = 0.1
+	#灾厄符章法力再生
+	#Range: 0.0 ~ 2.147483647E9
+	sigil_of_calamitas_iron_re = 0.1
+	#灾厄符章魔源上限
+	#Range: 0.0 ~ 2.147483647E9
+	sigil_of_calamitas_ars_max = 0.2
+	#灾厄符章法力上限
+	#Range: 0.0 ~ 2.147483647E9
+	sigil_of_calamitas_iron_max = 0.2
+	#黄金雨灵液时间
+	#Range: 0.0 ~ 2.147483647E9
+	golden_shower_time = 10.0
+	#灵液箭灵液时间
+	#Range: 0.0 ~ 2.147483647E9
+	ichor_arrow_time = 10.0
+	#灵液药剂灵液时间
+	#Range: 0.0 ~ 2.147483647E9
+	flask_of_ichor_time = 10.0
+	#黄金雨灵液等级
+	#Range: 0.0 ~ 2.147483647E9
+	golden_shower_level = 3.0
+	#灵液箭灵液等级
+	#Range: 0.0 ~ 2.147483647E9
+	ichor_arrow_level = 3.0
+	#灵液药剂灵液等级
+	#Range: 0.0 ~ 2.147483647E9
+	flask_of_ichor_level = 3.0
+
+[goety]
+	#黑暗聚晶提升幅度
+	#Range: 0.0 ~ 2.147483648E9
+	dark_focus_potency_up = 0.25
+	#灵魂聚晶提升幅度
+	#Range: 0.0 ~ 2.147483648E9
+	soul_focus_potency_up = 0.5
+	#诡魂聚晶提升幅度
+	#Range: 0.0 ~ 2.147483648E9
+	warped_focus_potency_up = 0.75
+	#诡厄聚晶提升幅度
+	#Range: 0.0 ~ 2.147483648E9
+	goety_focus_potency_up = 1.0
+	#缠魂聚晶汲取倍率
+	#Range: 0.0 ~ 2.147483648E9
+	haunted_focus_soul_absorb = 0.20000000298023224
+	#汲取上限
+	#Range: 0.0 ~ 100.0
+	max_absorb = 0.10000000149011612
+	#汲取最大回复上限
+	#Range: 0.0 ~ 1.0
+	absorb_max = 0.75
+
+[malum]
+	#魂染镰刃项链提升数量
+	#Range: 0.0 ~ 2.147483648E9
+	necklace_of_the_soulstained_edge = 2.0
+	#挽魂锋镰项链提升数量
+	#Range: 0.0 ~ 2.147483648E9
+	necklace_of_the_deliverance_edge = 4.0
+

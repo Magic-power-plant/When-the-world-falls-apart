@@ -1,0 +1,14 @@
+{
+    "org.cyclops.integrateddynamics.core.inventory.container.ContainerAspectSettings": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.CellWorkbenchMenu": {
+        "ignore": true
+    },
+    "org.cyclops.integratedscripting.inventory.container.ContainerTerminalScripting": {
+        "ignore": true
+    },
+    "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer": {
+        "ignore": true
+    }
+}

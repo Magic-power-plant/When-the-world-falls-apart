@@ -1,0 +1,27 @@
+{
+  "input": "kubejs:abyssal_meteors",
+  "source": 100,
+  "model": 3,
+  "catalysts": "ars_nouveau:source_gem",
+  "meteorites": [
+    "minecraft:water",
+    "alexscaves:bone_worms",
+    "alexscaves:twilight_anemone",
+    "alexscaves:dusk_anemone",
+    "alexscaves:midnight_anemone",
+    "alexscaves:mussel",
+    "alexscaves:ping_pong_sponge",
+    "alexscaves:tube_worm",
+    "minecraft:water",
+    "minecraft:oxidized_copper",
+    "minecraft:wet_sponge",
+    "minecraft:sea_lantern",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:deepslate",
+    "alexscaves:muck",
+    "minecraft:tuff",
+    "alexscaves:abyssmarine"
+],
+  "weights": [25,2,1,1,1,5,10,5,10,5,3,5,2,3,10,2,10],
+  "layer": [8,5,4,50,25,25]
+}

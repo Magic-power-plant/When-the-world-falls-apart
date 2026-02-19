@@ -1,0 +1,11 @@
+{
+    "block.mbd2.dawnstone_crusher_controller" : "黎明石磨粉机控制器",
+    "block.mbd2.ember_input_bin":"余烬能量输入仓",
+    "block.mbd2.fluid_input_bin_dawnstone":"流体输入仓(黎明石)",
+    "block.mbd2.item_input_bin_dawnstone":"物品输入仓(黎明石)",
+    "block.mbd2.item_output_bin_dawnstone":"物品输出仓(黎明石)",
+    "block.mbd2.liquid_ember_complete_combustion_unit":"液态余烬充分燃烧单元",
+    "mbd2.dawnstone_crusher_controller":"磨粉(黎明石)",
+    "mbd2.dwarf_alchemy_cauldron":"矮人炼金釜锅",
+    "block.mbd2.dwarf_alchemy_cauldron_controller":"矮人炼金釜锅控制器"
+}

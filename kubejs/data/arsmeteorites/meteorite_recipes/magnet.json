@@ -1,0 +1,21 @@
+{
+  "input": "kubejs:magnet_meteors",
+  "source": 100,
+  "model": 3,
+  "catalysts": "ars_nouveau:source_gem",
+  "meteorites": [
+    "alexscaves:azure_neodymium_node",
+    "alexscaves:azure_neodymium_pillar",
+    "alexscaves:metal_swarf",
+    "alexscaves:scarlet_neodymium_node",
+    "alexscaves:scarlet_neodymium_pillar",
+    "alexscaves:energized_galena_azure",
+    "alexscaves:energized_galena_scarlet",
+    "alexscaves:energized_galena_neutral",
+    "alexscaves:galena_iron_ore",
+    "alexscaves:galena",
+    "minecraft:deepslate"
+],
+  "weights": [7,8,20,7,8,6,6,5,10,20,3],
+  "layer": [5,6,50,50]
+}

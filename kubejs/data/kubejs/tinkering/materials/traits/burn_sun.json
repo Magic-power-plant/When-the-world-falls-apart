@@ -1,0 +1,16 @@
+{
+  "default": [
+    {
+      "level": 2,
+      "name": "tconstruct:fiery"
+    },
+    {
+        "level":2,
+        "name":"tconstruct:conducting"
+    },
+    {
+        "level":2,
+        "name":"tconstruct:dwarven"
+    }
+  ]
+}

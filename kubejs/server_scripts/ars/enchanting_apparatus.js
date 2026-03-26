@@ -150,4 +150,40 @@ ServerEvents.recipes(event => {
         "kubejs:16k_storage_circuits_etched_substrate",
         50000
     )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ["rootsclassic:infernal_bulb","kubejs:inferno_bulb_seed"],
+        "kubejs:inferno_essence",
+        "2x kubejs:refine_inferno_bulb",
+        10000
+    )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ["kubejs:wildroot_seed","twilightforest:root_strand","rootsclassic:old_root","minecraft:rooted_dirt","twilightforest:liveroot_block","aether:skyroot_log"],
+        "kubejs:aetherwork_inferno_bulb",
+        "kubejs:entangle_aura_root",
+        10000
+    )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ["kubejs:root_wrapped_invar_ingot","kubejs:root_wrapped_invar_ingot","kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate"],
+        "kubejs:aetherworks_machine_frame",
+        "kubejs:root_wrapped_invar_machine_frame",
+        100000
+    )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ["rootsclassic:old_root","rootsclassic:old_root","rootsclassic:verdant_sprig","rootsclassic:verdant_sprig","rootsclassic:infernal_bulb","rootsclassic:infernal_bulb","rootsclassic:dragons_eye","rootsclassic:dragons_eye","goety:highrock_bricks","kubejs:range_mountains_essence","kubejs:lush_forests_essence","aether:sentry_stone"],
+        "kubejs:root_wrapped_invar_machine_frame",
+        "rootsclassic:altar",
+        100000
+    )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ["kubejs:nouveau_essence","kubejs:ember_essence","thermal:steel_block","thermal:steel_block","thermal:steel_block","thermal:steel_block","thermal:steel_block","thermal:steel_block"],
+        "kubejs:aetherworks_machine_frame",
+        "avaritia:neutron_compressor",
+        100000
+    )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ["kubejs:lush_forests_essence","kubejs:lush_forests_essence","kubejs:lush_forests_essence","biomeswevegone:blueberries","biomeswevegone:oddion_bulb","minecraft:beetroot"],
+        "ars_nouveau:magebloom_crop",
+        "kubejs:aubergine_seed",
+        5000
+    )
 })

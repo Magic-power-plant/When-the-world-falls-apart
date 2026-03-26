@@ -1,3 +1,4 @@
+ServerEvents.recipes((event) => {
 //level 0
 function registerDawnstoneCrusherRecipe(event, inputItem, outputItem) {
 
@@ -32,9 +33,6 @@ function alllevelcrusher(event, inputItem, outputItem) {
     registerDawnstoneCrusherRecipe(event, inputItem, outputItem)
     level1registerDawnstoneCrusherRecipe(event, inputItem, outputItem)
 }
-
-ServerEvents.recipes((event) => {
-
     registerDawnstoneCrusherRecipe(event, "minecraft:copper_ingot", "thermal:copper_dust");
     registerDawnstoneCrusherRecipe(event, "embers:lead_ingot", "thermal:lead_dust");
     registerDawnstoneCrusherRecipe(event, "minecraft:netherite_ingot", "thermal:netherite_dust");

@@ -129,22 +129,6 @@
 		}
 		{
 			dependencies: ["76E8EF344AC3684D"]
-			description: [
-				"有时你可能会遇到无法点到你想点开的页面，你可能误触了jei的历史记录"
-				"物品栏页面左下角可以临时关闭历史记录"
-				"在设置里可以永久关闭历史记录"
-			]
-			id: "65A8B70EC86ACE2A"
-			tasks: [{
-				id: "3F4405ECACB5BCAD"
-				title: "误触jei历史记录"
-				type: "checkmark"
-			}]
-			x: -12.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["76E8EF344AC3684D"]
 			id: "3355E1A2FC16B391"
 			tasks: [{
 				id: "4BBBCE9E0E2B87DB"
@@ -172,20 +156,6 @@
 			y: -1.5d
 		}
 		{
-			description: [
-				"你可以随意修改，分发本整合包及其改版(以非盈利的方式)"
-				"但尽量不要侵犯模组作者的权益"
-			]
-			id: "29BD240B1F6089C7"
-			tasks: [{
-				id: "46750C18B0C8CBDF"
-				title: "关于本整合包"
-				type: "checkmark"
-			}]
-			x: -10.5d
-			y: -7.5d
-		}
-		{
 			dependencies: ["76E8EF344AC3684D"]
 			id: "458A6C2CDE215AF6"
 			tasks: [{
@@ -197,6 +167,23 @@
 			x: -12.5d
 			y: -1.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["4E0A277D13CCAF1F"]
+			id: "2E8D69BE2F2CDAE8"
+			rewards: [{
+				command: "/fly"
+				id: "0E5DBF65C792CB6A"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5E3A7268C47CD1B9"
+				title: "创造飞行"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
 	]
-	title: "游玩须知"
+	title: "游玩须知(必看)"
 }

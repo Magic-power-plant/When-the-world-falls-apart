@@ -9,7 +9,7 @@ hellcloud_damage_amount = 0.001
 #Sets the apollyon's health，Default: 666
 apollyon_health = 666.0
 #Limit the amount of damage Apollyon takes each time. Default: 20.0
-apollyon_hurt_limit = 20.0
+apollyon_hurt_limit = 200.0
 #The probability of summoning Apollyon during the ritual of summoning an apostle (Chance: 1 / value),
 #Range: > 1
 summon_apollyon_random_value = 100

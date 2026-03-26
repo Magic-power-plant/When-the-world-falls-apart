@@ -187,4 +187,5 @@ ServerEvents.recipes(event => {
         'output': { 'amount': 90, 'tag':"forge:molten/spirit_silver"}
     })
     embermelting(event,"malum:cthonic_gold_fragment",90,"embers:molten_gold")
+    embermelting(event,"kubejs:herb_residue",100,"kubejs:herb_residue_liquid")
 })

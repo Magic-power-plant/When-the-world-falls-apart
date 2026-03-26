@@ -13,4 +13,6 @@ StartupEvents.registry('fluid', event => {
     event.create('history_adhesive').displayName('历史黏合剂').thickTexture(0xFFFAF0).bucketColor(0xFFFAF0).luminosity(5).density(1500).viscosity(3000).temperature(1).tag('kubejs:fluid/history_adhesive')
     event.create("compression_liquid_source").displayName('压缩液态魔源').thinTexture(0xe70bfe).bucketColor(0xe70bfe).luminosity(0).density(1500).viscosity(3000).temperature(1000).tag('kubejs:fluid/compression_liquid_source')
     event.create("double_compression_liquid_source").displayName('二重压缩液态魔源').thinTexture(0xbd00d1).bucketColor(0xbd00d1).luminosity(0).density(1500).viscosity(3000).temperature(1100).tag('kubejs:fluid/double_compression_liquid_source')
+    event.create('alchemical_extraction_liquid').displayName('炼金萃取液').thickTexture(0xfe43c3).bucketColor(0xfe43c3).luminosity(5).density(1500).viscosity(3000).temperature(1200).tag('kubejs:fluid/alchemical_extraction_liquid')
+    event.create("herb_residue_liquid").displayName("药渣液").thickTexture(0x563612).bucketColor(0x563612).luminosity(0).density(1500).viscosity(3000).temperature(400).tag('kubejs:fluid/herb_residue_liquid')
 })

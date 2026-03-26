@@ -1,0 +1,53 @@
+
+[general]
+	#The configuration that should be loaded on startup.
+	filename = "wtwfa.xml"
+	#Display the overlay in chat.
+	showInChat = true
+	#Display the overlay on the player list.
+	showOnPlayerList = true
+	#The overlay will be scaled by this amount.
+	#Range: 0.5 ~ 2.0
+	scale = 1.0
+	#The interval between file reads for the 'file' tag (in seconds).
+	#Range: 1 ~ 60
+	fileInterval = 5
+	#Display the vanilla potion overlay.
+	showOverlayPotions = true
+	#Display the item overlay on icon (durability, stack size).
+	showOverlayItemIcons = true
+	#Use numerical values to display effect amplifier instead of Roman numerals.
+	NumericAmplifier = false
+	#Send seed to chat when entering the world.
+	SendSeedToChat = false
+	#Default seed in server (if InGameInfo XML NOT INSTALLED in Server).
+	DefaultSeedInServer = 0
+	#Alignment for the middle center side of the screen
+	AlignmentForMiddleCenter = "MIDDLECENTER"
+	#Display the vanilla survival hud (health, foodlevel, armor).
+	ShowSurvivalHUD = true
+	#Health value decimal places retained (health, absorption).
+	HealthDigit = 2
+	#Hunger value decimal places retained (saturation, exhaustion).
+	HungerDigit = 2
+
+[alignment]
+	#Offsets for TOPLEFT (X<space>Y).
+	topleft = "2 2"
+	#Offsets for TOPCENTER (X<space>Y).
+	topcenter = "0 2"
+	#Offsets for TOPRIGHT (X<space>Y).
+	topright = "-2 2"
+	#Offsets for MIDDLELEFT (X<space>Y).
+	middleleft = "2 0"
+	#Offsets for MIDDLECENTER (X<space>Y).
+	middlecenter = "0 0"
+	#Offsets for MIDDLERIGHT (X<space>Y).
+	middleright = "-2 0"
+	#Offsets for BOTTOMLEFT (X<space>Y).
+	bottomleft = "2 -2"
+	#Offsets for BOTTOMCENTER (X<space>Y).
+	bottomcenter = "0 -45"
+	#Offsets for BOTTOMRIGHT (X<space>Y).
+	bottomright = "-2 -2"
+

@@ -1,3 +1,5 @@
+const $ae2 = Java.loadClass("appeng.api.networking.crafting.ICraftingCPU")
+
 StartupEvents.registry("block", event => {
     event.create('stone_iron_block').material('rock').hardness(5).resistance(10).displayName('石铁块').textureAll('kubejs:block/stone_iron_block').tagBlock('forge:storage_blocks/stone_iron').tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool")
     event.create('caminite_machine_frame').material('rock').hardness(5).resistance(5).displayName('方镁矾机器框架').textureAll('kubejs:block/caminite_machine_frame').tagBlock('forge:machine_frames').tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").defaultTranslucent()
@@ -9,4 +11,6 @@ StartupEvents.registry("block", event => {
     event.create('source_gem_steel_machine_shell').material('rock').hardness(6).resistance(5).displayName('魔源钢机器外壳').tagBlock('forge:machine_shells').tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool")
     event.create('burn_sun_block').material('rock').hardness(5).resistance(5).displayName('炎阳块').textureAll('kubejs:block/burn_sun_block').tagBlock('forge:storage_blocks/burn_sun').tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool")
     event.create('aetherworks_machine_frame').material('rock').hardness(7).resistance(5).displayName('天工机器框架').textureAll('kubejs:block/aetherworks_machine_frame').tagBlock('forge:machine_frames').tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").defaultTranslucent()
+})
+StartupEvents.registry("ae2:keytypes",event =>{
 })

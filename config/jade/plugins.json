@@ -99,9 +99,6 @@
   "pipez": {
     "pipe": true
   },
-  "woot_revived": {
-    "machines": true
-  },
   "waystones": {
     "waystone": true
   },
@@ -126,7 +123,24 @@
   "l2hostility": {
     "mob": true
   },
+  "mana_jade": {
+    "runic_altar_recipe_progress": true,
+    "thermalily_info": true,
+    "special_flora_storage": true,
+    "mana_star_info": true,
+    "mana_pool_catalyst": true,
+    "mana_pool_storage": true,
+    "endoflame_info": true,
+    "hydroangeas_info": true,
+    "mana_spreader_burst_info": true,
+    "rosa_arcana_info": true,
+    "pure_daisy_recipe_progress": true,
+    "munchdew_info": true,
+    "mana_spreader_storage": true,
+    "terra_plate_recipe_progress": true
+  },
   "mbd2thread": {
+    "long_fe_energy_hud": true,
     "recipe_thread_hud": true
   },
   "expatternprovider": {
@@ -140,6 +154,9 @@
     "adventure": true,
     "ench": true,
     "spawner": true
+  },
+  "tech_tree": {
+    "owner": true
   },
   "functionalstorage": {
     "armory": true
@@ -174,7 +191,12 @@
     "hat_stand": true
   },
   "aewireless": {
-    "wireless_tooltip": true
+    "wireless_tooltip": true,
+    "block_entity_tooltip": true
+  },
+  "aea": {
+    "wireless_connection_provider": true,
+    "mirror_provider": true
   },
   "goety_revelation": {
     "rune_reactor_id": true,

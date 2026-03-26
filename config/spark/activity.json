@@ -5,6 +5,19 @@
       "name": "ping_su",
       "uniqueId": "151bb41d-3718-4a5c-b584-5c86dc9aaa1e"
     },
+    "time": 1771768102168,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/SFrvxfKbTF"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ping_su",
+      "uniqueId": "151bb41d-3718-4a5c-b584-5c86dc9aaa1e"
+    },
     "time": 1770567109487,
     "type": "Profiler",
     "data": {

@@ -29,6 +29,43 @@ const ingotToPlate = [
 ]
 
 ServerEvents.recipes(event => {
+    /**
+     * 创建 Embers 冲压配方
+     * @param {Object} output - 输出物品，格式：{ tag: "forge:plates/iron" } 或 { item: "thermal:iron_plate" }
+     * @param {Object} stamp - 印章物品，格式：{ item: "embers:plate_stamp" }
+     * @param {Object} options - 可选配置对象
+     *   @param {Object} options.fluid - 流体输入，格式：{ amount: 90, tag: "forge:molten/iron" } 或 { amount: 90, fluid: "minecraft:lava" }
+     *   @param {Object} options.input - 物品输入，格式：{ tag: "forge:ingots/iron" } 或 { item: "minecraft:iron_ingot" }
+     *   @param {Array} options.conditions - 条件数组，用于条件判断
+     * 
+     * 使用说明：
+     * - 可以同时使用 fluid 和 input，也可以单独使用其中一个
+     * - 如果不传 options，则创建一个空配方
+     * - 常用印章：embers:plate_stamp（板材）、embers:ingot_stamp（锭）、embers:flat_stamp（平板）
+     */
+    function createStampingRecipe(output, stamp, options) {
+        const opts = options || {}
+        const recipe = {
+            type: "embers:stamping"
+        }
+
+        if (opts.fluid) {
+            recipe.fluid = opts.fluid
+        }
+        if (opts.input) {
+            recipe.input = opts.input
+        }
+
+        recipe.output = output
+        recipe.stamp = stamp
+
+        if (opts.conditions) {
+            recipe.conditions = opts.conditions
+        }
+
+        event.custom(recipe)
+    }
+
     event.custom(
         {
   "type": "embers:stamping",
@@ -317,5 +354,10 @@ ServerEvents.recipes(event => {
 	"stamp": {
 		"item": "embers:flat_stamp"
 	}
+    })
+    createStampingRecipe({
+      item:"kubejs:root_wrapped_invar_plate"
+    },{item:"embers:flat_stamp"},{
+      input:{item:"kubejs:root_wrapped_invar_ingot"}
     })
 })

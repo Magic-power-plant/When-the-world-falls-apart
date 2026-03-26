@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "7DCD4F3FC64F91FD"
 	group: ""
+	icon: "embers:ember_crystal_cluster"
 	id: "7DCD4F3FC64F91FD"
 	order_index: 1
 	quest_links: [ ]
@@ -2513,5 +2514,5 @@
 			y: 6.0d
 		}
 	]
-	title: "第一章"
+	title: "我的余烬，我的新生(第一章)"
 }

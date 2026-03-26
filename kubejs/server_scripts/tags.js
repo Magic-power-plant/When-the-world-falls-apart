@@ -86,6 +86,9 @@ ServerEvents.tags('item', event => {
     tagsameid.forEach(item =>(
         event.add(item,item)
     ))
+    event.add("forge:bloodorbs",["bloodmagic:weakbloodorb","bloodmagic:apprenticebloodorb","bloodmagic:magicianbloodorb",
+        "bloodmagic:masterbloodorb","bloodmagic:archmagebloodorb","animus:blood_orb_transcendent"
+    ])
 })
 ServerEvents.tags('block', event => {
     event.add('mbd2:bin',"mbd2:item_input_bin_dawnstone")
@@ -99,12 +102,22 @@ ServerEvents.tags('block', event => {
         "mbd2:fluid_out_1",
         "mbd2:item_in_1",
         "mbd2:item_out_1",
-        "mbd2:mob_in_bin"
+        "mbd2:mob_in_bin",
+        "mbd2:me_out",
+        "mbd2:item_out_2",
+        "mbd2:item_out_3",
+        "mbd2:item_out_2",
+        "mbd2:item_out_3",
+        "mbd2:item_out_3_plus",
+        "mbd2:item_in_2",
+        "mbd2:item_in_3"
     ])
+    event.add("aether:portal_fluids","aetherworks:aether_gas_painful_block")
 })
 ServerEvents.tags('fluid',event =>{
     event.add('forge:fluid/liquid_ember',"embers_extended:liquid_ember")
     event.add('forge:fluid/dwarven_oil',"embers:dwarven_oil")
     event.add('forge:molten/duskstone',"embers_extended:molten_duskstone")
     event.add('forge:molten/nightstone',"embers_extended:molten_nightstone")
+    event.add("aether:portal_fluids","aetherworks:aether_gas_painful")
 })

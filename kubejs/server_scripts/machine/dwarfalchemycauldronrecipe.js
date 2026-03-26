@@ -1,3 +1,5 @@
+ServerEvents.recipes(event =>{
+
 function registerlevel0(event,inputtiem1, inputItem, outputItem) {
 
     const recipeId = `mbd2:${inputItem.replace(':', '_').replace('#','')}_to_${outputItem.replace(':', '_').replace(' ','_')}`;
@@ -15,7 +17,6 @@ function registerlevel0(event,inputtiem1, inputItem, outputItem) {
         )
 }
 
-ServerEvents.recipes(event =>{
     registerlevel0(event,"embers:iron_crystal_seed","#forge:cobblestone","2x minecraft:iron_ore")
     registerlevel0(event,"embers:copper_crystal_seed","#forge:cobblestone","2x minecraft:copper_ore")
     registerlevel0(event,"embers:lead_crystal_seed","#forge:cobblestone","2x thermal:lead_ore")

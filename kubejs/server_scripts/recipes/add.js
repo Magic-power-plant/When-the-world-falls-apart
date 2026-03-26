@@ -435,5 +435,6 @@ ServerEvents.recipes(
             'bcb',
             ' d '
         ],{a:"embers:resonating_bell",b:"embers:archaic_circuit",c:"naturescompass:naturescompass",d:"embers:wildfire_core"})
+        event.shapeless(Item.of("minecraft:paper",3),["3x minecraft:bamboo"])
     }
     )

@@ -130,4 +130,7 @@ StartupEvents.registry('item', event => {
       }
       return itemstack
     })
+    event.create("herb_residue", 'basic').displayName("药渣").texture("kubejs:item/herb_residue").tag("kubejs:herb_residue")
+    event.create("refine_inferno_bulb").displayName("炼地狱根茎").texture("kubejs:item/refine_inferno_bulb").tag("kubejs:refine_inferno_bulb")
+    event.create("aetherwork_inferno_bulb").displayName("天华根茎").texture("kubejs:item/aetherwork_inferno_bulb").tag("kubejs:aetherwork_inferno_bul")
 })

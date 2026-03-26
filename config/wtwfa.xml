@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="bottomcenter">
+        <line>
+            <op>
+                <str>eq</str>
+                <var>finedirection</var>
+                <str>North</str>
+                <str>North East</str>
+                <str>East</str>
+                <str>South East</str>
+                <str>South</str>
+                <str>South West</str>
+                <str>West</str>
+                <str>North West</str>
+                <str>$5北</str>
+                <str>$5东北</str>
+                <str>$5东</str>
+                <str>$5东南</str>
+                <str>$5南</str>
+                <str>$5西南</str>
+                <str>$5西</str>
+                <str>$5西北</str>
+            </op>
+            <str> $7丨$cX:{xi} $aY:{yi} $9Z:{zi}</str>
+        </line>
+        <line>
+            <str>$9生命值: $c{health}$7/$c</str>
+            <round>
+                <var>maxhealth</var>
+                <num>0</num>
+            </round>
+            <str> $7| $9护甲值: $e{armor} $7| $9护甲韧性: $6</str>
+            <round>
+                <var>armortoughness</var>
+                <num>0</num>
+            </round>
+        </line>
+    </lines>
+    <lines at="topleft">
+        <line>
+            <str>{pingicon}$e{username}$f</str>
+            <str> $7| $9月相:</str>
+            <op>
+                <str>le</str>
+                <var>moonphase</var>
+                <num>0</num>
+                <num>1</num>
+                <num>2</num>
+                <num>3</num>
+                <num>4</num>
+                <num>5</num>
+                <num>6</num>
+                <num>7</num>
+                <str>$2满月</str>
+                <str>$2亏凸</str>
+                <str>$2下弦月</str>
+                <str>$2残月</str>
+                <str>$2新月</str>
+                <str>$2娥眉月</str>
+                <str>$2上弦月</str>
+                <str>$2盈凸</str>
+            </op>
+            <str>$7丨$9FPS:</str>
+            <operation>
+                <str>GT</str>
+                <var>fps</var>
+                <num>120</num>
+                <num>55</num>
+                <num>20</num>
+                <num>0</num>
+                <str>$5{fps} $a[电竞帧数]</str>
+                <str>$2{fps} $a[流畅渲染]</str>
+                <str>$a{fps} $e[略微卡顿]</str>
+                <str>$4{fps} $c[严重卡顿]</str>
+            </operation>
+        </line>
+        <line>
+            <operation>
+                <str>GT</str>
+                <var>tps</var>
+                <num>20</num>
+                <num>19</num>
+                <num>17</num>
+                <num>15</num>
+                <num>10</num>
+                <num>0</num>
+                    <str>$9TPS: $a{tps}</str>
+                    <str>$9TPS: $2{tps}</str>
+                    <str>$9TPS: $e{tps}</str>
+                    <str>$9TPS: $6{tps}</str>
+                    <str>$9TPS: $c{tps}</str>
+                    <str>$9TPS: $4{tps}</str>
+        </operation>
+        <str>$7丨</str>
+        <operation>
+            <str>GT</str>
+            <var>mspt</var>
+                <num>75</num>
+                <num>50</num>
+                <num>25</num>
+                <num>15</num>
+                <num>10</num>
+                <num>0</num>
+                    <str>$9MSPT: $4{mspt}</str>
+                    <str>$9MSPT: $c{mspt}</str>
+                    <str>$9MSPT: $6{mspt}</str>
+                    <str>$9MSPT: $e{mspt}</str>
+                    <str>$9MSPT: $2{mspt}</str>
+                    <str>$9MSPT: $a{mspt}</str>
+        </operation>
+        <str> $7|</str>
+        <operation>
+            <str>le</str>
+            <var>mspt</var>
+            <num>50</num>
+            <num>55</num>
+            <num>60</num>
+            <num>67</num>
+            <num>75</num>
+            <num>83</num>
+            <num>100</num>
+            <num>125</num>
+            <num>150</num>
+            <num>200</num>
+            <num>300</num>
+            <num>500</num>
+            <num>999</num>
+            <str>$a 无滞后</str>
+            <str>$e 滞后: 9%</str>
+            <str>$e 滞后: 17%</str>
+            <str>$e 滞后: 25%</str>
+            <str>$e 滞后: 33%</str>
+            <str>$e 滞后: 40%</str>
+            <str>$c 滞后: 50%</str>
+            <str>$c 滞后: 60%</str>
+            <str>$c 滞后: 67%</str>
+            <str>$c 滞后: 75%</str>
+            <str>$c 滞后: 83%</str>
+            <str>$c 滞后: 90%</str>
+            <str>$c 滞后: 90%+</str>
+        </operation>
+        </line>
+        <line>
+            <str>$9内存占用: $9[</str>
+            <op>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>5</num>
+                <num>10</num>
+                <num>15</num>
+                <num>20</num>
+                <num>25</num>
+                <num>30</num>
+                <num>35</num>
+                <num>40</num>
+                <num>45</num>
+                <num>50</num>
+                <num>55</num>
+                <num>60</num>
+                <num>65</num>
+                <num>70</num>
+                <num>75</num>
+                <num>80</num>
+                <num>85</num>
+                <num>90</num>
+                <num>95</num>
+                <num>100</num>
+                <str>$a|$7|||||||||||||||||||</str>
+                <str>$a||$7||||||||||||||||||</str>
+                <str>$a|||$7|||||||||||||||||</str>
+                <str>$a||||$7||||||||||||||||</str>
+                <str>$a|||||$7|||||||||||||||</str>
+                <str>$a||||||$7||||||||||||||</str>
+                <str>$a|||||||$7|||||||||||||</str>
+                <str>$a||||||||$7||||||||||||</str>
+                <str>$a|||||||||$7|||||||||||</str>
+                <str>$a||||||||||$7||||||||||</str>
+                <str>$a|||||||||||$7|||||||||</str>
+                <str>$a||||||||||||$7||||||||</str>
+                <str>$a|||||||||||||$7|||||||</str>
+                <str>$a||||||||||||||$7||||||</str>
+                <str>$e|||||||||||||||$7|||||</str>
+                <str>$e||||||||||||||||$7||||</str>
+                <str>$e|||||||||||||||||$7|||</str>
+                <str>$c|||||||||||||||||$7||</str>
+                <str>$c|||||||||||||||||||$7|</str>
+                <str>$4||||||||||||||||||||</str>
+            </op>
+            <str>$9]  $7(</str>
+            <op>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>70</num>
+                <num>80</num>
+                <num>90</num>
+                <num>100</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str />
+            </op>
+            <round>
+                <div>
+                    <var>memused</var>
+                    <num>1073741824</num>
+                </div>
+                <num>1</num>
+            </round>
+            <str>G $7/ </str>
+            <op>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>70</num>
+                <num>80</num>
+                <num>90</num>
+                <num>100</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str />
+            </op>
+            <round>
+                <div>
+                    <var>memmax</var>
+                    <num>1073741824</num>
+                </div>
+                <num>1</num>
+            </round>
+            <str>G$7) $7[</str>
+            <op>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>70</num>
+                <num>80</num>
+                <num>90</num>
+                <num>100</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <round>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>1</num>
+            </round>
+            <str>%$7]</str>
+        </line>
+        <line>
+            <str>$9MC 日期:</str>
+            <str> $fYear {darkaqua}</str>
+            <add>
+                <round>
+                    <div>
+                        <sub>
+                            <var>day</var>
+                            <modi>
+                                <var>day</var>
+                                <num>365</num>
+                            </modi>
+                        </sub>
+                        <num>365</num>
+                    </div>
+                    <num>0</num>
+                </round>
+                <num>1</num>
+            </add>
+            <str> $7丨 $fDay{darkaqua} </str>
+            <modi>
+                <var>day</var>
+                <num>365</num>
+            </modi>
+            <str> $7丨$fTime {gold}[{mctime12}] </str>
+        </line>
+        <line>
+            <str>$9现实时间:{darkaqua}{rltime24}</str>
+        </line>
+        <line>
+            <str>$9生物群系：$6</str>
+            <str> $9[$2{biome}$9]</str>
+            <if>
+                <var>slimechunk</var>
+                <str>   ($a此处为史莱姆区块)</str>
+                <str></str>
+            </if>
+        </line>
+        <line>
+            <str>$9光照： </str>
+            <max>
+                <var>light</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>light</var>
+            <str>$9 (入眼: </str>
+            <max>
+                <var>lighteye</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lighteye</var>
+            <str>$9)</str>
+        </line>
+
+    </lines>
+    <lines at="bottomleft">
+        <line>
+            <str>         {offhandlargeicon}{offhandname}$7</str>
+            <if>
+                <and>
+                    <not>
+                        <equal>
+                            <var>{offhandname}</var>
+                            <var></var>
+                        </equal>
+                    </not>
+                    <not>
+                        <equal>
+                            <var>{mainhandname}</var>
+                            <var></var>
+                        </equal>
+                    </not>
+                </and>
+                <str></str>
+            </if>
+            <if>
+                <or>
+                    <equal>
+                        <var>{offhandmaxdamage}</var>
+                        <var>-1</var>
+                    </equal>
+                    <equal>
+                        <var>{offhandmaxdamage}</var>
+                        <var>0</var>
+                    </equal>
+                </or>
+                <str>   </str>
+            </if>
+            <if>
+                <or>
+                    <equal>
+                        <var>{offhandmaxdamage}</var>
+                        <var>-1</var>
+                    </equal>
+                    <equal>
+                        <var>{offhandmaxdamage}</var>
+                        <var>0</var>
+                    </equal>
+                </or>
+                <str></str>
+                <op>
+                    <str>le</str>
+                    <pct>
+                        <var>offhanddamageleft</var>
+                        <var>offhandmaxdamage</var>
+                    </pct>
+                    <num>33.33</num>
+                    <num>66.66</num>
+                    <num>100</num>
+                    <str> |  $7[$c{offhanddamageleft}$7]$7 / [{green}{offhandmaxdamage}$7]</str>
+                    <str> |  $7[$e{offhanddamageleft}$7]$7 / [{green}{offhandmaxdamage}$7]</str>
+                    <str> |  $7[$a{offhanddamageleft}$7]$7 / [{green}{offhandmaxdamage}$7]</str>
+                </op>
+            </if>
+            </line>
+            <line>
+            <str> </str>
+            </line>
+            <line>
+            <str>$f{mainhandlargeicon}{mainhandname}</str>
+            <if>
+                <and>
+                    <not>
+                        <or>
+                            <equal>
+                                <var>{offhandmaxdamage}</var>
+                                <var>-1</var>
+                            </equal>
+                            <equal>
+                                <var>{offhandmaxdamage}</var>
+                                <var>0</var>
+                            </equal>
+                        </or>
+                    </not>
+                    <not>
+                        <or>
+                            <equal>
+                                <var>{mainhandmaxdamage}</var>
+                                <var>-1</var>
+                            </equal>
+                            <equal>
+                                <var>{mainhandmaxdamage}</var>
+                                <var>0</var>
+                            </equal>
+                        </or>
+                    </not>
+                </and>
+                <str> $7| </str>
+                <str></str>
+            </if>
+            <if>
+                <or>
+                    <equal>
+                        <var>{mainhandmaxdamage}</var>
+                        <var>-1</var>
+                    </equal>
+                    <equal>
+                        <var>{mainhandmaxdamage}</var>
+                        <var>0</var>
+                    </equal>
+                </or>
+                <str></str>
+                <op>
+                    <str>le</str>
+                    <pct>
+                        <var>mainhanddamageleft</var>
+                        <var>mainhandmaxdamage</var>
+                    </pct>
+                    <num>33.33</num>
+                    <num>66.66</num>
+                    <num>100</num>
+                    <str> $7[$c{mainhanddamageleft}$7]$7 / [{green}{mainhandmaxdamage}$7]</str>
+                    <str> $7[$e{mainhanddamageleft}$7]$7 / [{green}{mainhandmaxdamage}$7]</str>
+                    <str> $7[$a{mainhanddamageleft}$7]$7 / [{green}{mainhandmaxdamage}$7]</str>
+                </op>
+            </if>
+        </line>
+    </lines>
+</config>

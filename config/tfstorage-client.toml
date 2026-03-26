@@ -1,0 +1,5 @@
+
+[client]
+	#Invert the sneak behavior when opening TF Bag instead of the vanilla inventory
+	tfBagOpenRequiresSneak = false
+

@@ -1,4 +1,12 @@
 ServerEvents.recipes(event => {
+    function createMixingRecipe(inputs, output) {
+        event.custom({
+            type: "embers:mixing",
+            inputs: inputs.filter(input => input !== undefined),
+            output: output
+        })
+    }
+
     event.custom({
   "type": "embers:mixing",
   "inputs": [
@@ -147,5 +155,8 @@ ServerEvents.recipes(event => {
     "fluid": "aetherworks:aether_gas"
   }
     })
+    createMixingRecipe([
+      {amount:10,fluid:"aetherworks:alchemic_precursor"},{amount:10,fluid:"tconstruct:potion"},{amount:10,fluid:"kubejs:herb_residue_liquid"}
+    ],{amount:30,fluid:"kubejs:alchemical_extraction_liquid"})
 }
 )

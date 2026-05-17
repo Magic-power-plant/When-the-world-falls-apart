@@ -1,7 +1,7 @@
 function banit(event,item) {
     event.addAdvanced(item,(item,advanced,text)=>{
         text.add(0,Text.of("该物品已被禁用").red())
-        text.add(1,Text.of("该物品因宣传极端思想而被禁用").red())
+        text.add(1,Text.of("该物品已被禁用").red())
         text.remove(2)
     })
 }
@@ -40,7 +40,7 @@ event.addAdvanced("embers:ember_emitter",(item,advanced,text)=>{
 })
 event.addAdvanced("embers:pressure_refinery",(item,advanced,text)=>{
     text.add(1,Text.of('在底部放置金属块，在金属块的周围放置岩浆以获得产出倍率加成'))
-    text.add(2,Text.of('放置四桶岩浆时获得最大倍率，倍率为JEI中显示数值'))
+    text.add(2,Text.of('放置四桶岩浆时获得最大倍率, 倍率为JEI中显示数值'))
 })
 event.addAdvanced("minecraft:crafting_table",(item,advanced,text)=>{
     text.add(1,Text.of("匠魂的工作站更好,推荐你用那个").green())
@@ -90,19 +90,19 @@ event.addAdvanced("mbd2:dawnstone_crusher_controller",(item,advanced,text)=>{
     text.add(5,Text.of('    每tick消耗10mB液态余烬, 8最大并行, 耗时x0.75, 执行无等级配方'))
 })
 event.addAdvanced("minecraft:potion",(item,advanced,text)=>{
-    let potionTooltips = item.getNbt().getString("tooltips")
+    let potionTooltips = item.getNbt()?.getString("tooltips")
     if (potionTooltips != ""){
     text.add(1,Text.of(potionTooltips).color(0xc516ab))
     }
 })
 event.addAdvanced("minecraft:splash_potion",(item,advanced,text)=>{
-    let potionTooltips = item.getNbt().getString("tooltips")
+    let potionTooltips = item.getNbt()?.getString("tooltips")
     if (potionTooltips != ""){
     text.add(1,Text.of(potionTooltips).color(0xc516ab))
     }
 })
 event.addAdvanced("minecraft:lingering_potion",(item,advanced,text)=>{
-    let potionTooltips = item.getNbt().getString("tooltips")
+    let potionTooltips = item.getNbt()?.getString("tooltips")
     if (potionTooltips != ""){
     text.add(1,Text.of(potionTooltips).color(0xc516ab))
     }

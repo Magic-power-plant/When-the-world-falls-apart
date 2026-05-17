@@ -11,6 +11,6 @@ StartupEvents.registry("block", event => {
     event.create('source_gem_steel_machine_shell').material('rock').hardness(6).resistance(5).displayName('魔源钢机器外壳').tagBlock('forge:machine_shells').tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool")
     event.create('burn_sun_block').material('rock').hardness(5).resistance(5).displayName('炎阳块').textureAll('kubejs:block/burn_sun_block').tagBlock('forge:storage_blocks/burn_sun').tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool")
     event.create('aetherworks_machine_frame').material('rock').hardness(7).resistance(5).displayName('天工机器框架').textureAll('kubejs:block/aetherworks_machine_frame').tagBlock('forge:machine_frames').tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").defaultTranslucent()
-})
-StartupEvents.registry("ae2:keytypes",event =>{
+    event.create("root_wrapped_invar_machine_frame").material("rock").hardness(7).resistance(5).displayName("根缠殷钢机器框架").tagBlock('forge:machine_frames').tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").defaultTranslucent().textureAll("kubejs:block/root_wrapped_invar_machine_frame")
+    event.create("fel_reactor_unit").material("rock").hardness(7).resistance(5).displayName("邪能反应堆单元").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").textureAll("kubejs:block/fel_reactor_unit")
 })

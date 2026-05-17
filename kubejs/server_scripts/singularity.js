@@ -19,4 +19,14 @@ AvaritiaEvents.singularity(event => {
             .setEnabled(true)
             .setRecipeDisabled(false)
     })
+    event.register("kubejs:bookshelf_singularity", s => {
+        s
+            .setDisplayName("singularity.kubejs.bookshelf_singularity")
+            .setColors(0xC0C0C0, 0xa24e12)
+            .setCount(500)
+            .setTimeCost(200)
+            .setIngredient("#forge:bookshelves")
+            .setEnabled(true)
+            .setRecipeDisabled(false)
+    })
 })

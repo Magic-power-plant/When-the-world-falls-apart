@@ -109,7 +109,7 @@ ServerEvents.recipes(event => {
         1000
     )
     event.recipes.ars_nouveau.enchanting_apparatus(
-        ["thermal:gunpowder_block","minecraft:gold_block","minecraft:gold_block","ars_nouveau:source_gem_block","ars_nouveau:source_gem_block"],
+        ["thermal:gunpowder_block","minecraft:gold_block","thermal:electrum_block","ars_nouveau:source_gem_block","ars_nouveau:source_gem_block"],
         "kubejs:source_gem_steel_machine_frame",
         "ars_nouveau:basic_spell_turret",
         10000

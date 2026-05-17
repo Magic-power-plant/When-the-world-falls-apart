@@ -226,4 +226,33 @@ ServerEvents.recipes(event =>{
     },{
         item:"minecraft:azalea_leaves"
     }],{result:{item:"kubejs:spiritleaf_seed"}})
+
+    const ritualRecipes = [
+        [0,2,"#35f836",["kubejs:root_wrapped_invar_ingot","tconstruct:slimesteel_ingot"],["rootsclassic:sylvan_hood","rootsclassic:sylvan_robe","rootsclassic:sylvan_tunic","rootsclassic:sylvan_boots"],"kubejs:sylvan_ingot"],
+        [
+            0,
+            2,
+            "#35f836",
+            ["kubejs:root_wrapped_invar_ingot","tconstruct:slimesteel_ingot"],
+            ["rootsclassic:living_sword","rootsclassic:living_shovel","rootsclassic:living_pickaxe","rootsclassic:living_axe","rootsclassic:living_hoe"],
+            "kubejs:living_ingot"
+        ]
+    ]
+
+    ritualRecipes.forEach(recipe => {
+        if (recipe[0] === 0) {
+            let ingredients = []
+            let incenses = []
+
+            for (let i = 0; i < recipe[3].length; i++) {
+                ingredients.push(ItemToJson(recipe[3][i]))
+            }
+
+            for (let j = 0; j < recipe[4].length; j++) {
+                incenses.push(ItemToJson(recipe[4][j]))
+            }
+
+            createRitualRecipe("rootsclassic:crafting", recipe[1], recipe[2], ingredients, incenses, { result: ItemToJson(recipe[5]) })
+        }
+    })
 })

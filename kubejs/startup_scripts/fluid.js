@@ -15,4 +15,8 @@ StartupEvents.registry('fluid', event => {
     event.create("double_compression_liquid_source").displayName('二重压缩液态魔源').thinTexture(0xbd00d1).bucketColor(0xbd00d1).luminosity(0).density(1500).viscosity(3000).temperature(1100).tag('kubejs:fluid/double_compression_liquid_source')
     event.create('alchemical_extraction_liquid').displayName('炼金萃取液').thickTexture(0xfe43c3).bucketColor(0xfe43c3).luminosity(5).density(1500).viscosity(3000).temperature(1200).tag('kubejs:fluid/alchemical_extraction_liquid')
     event.create("herb_residue_liquid").displayName("药渣液").thickTexture(0x563612).bucketColor(0x563612).luminosity(0).density(1500).viscosity(3000).temperature(400).tag('kubejs:fluid/herb_residue_liquid')
+    event.create("mutilation_ooze").displayName("血污黏浆").thinTexture(0xc31563).bucketColor(0xc31563).luminosity(0).density(1500).viscosity(3000).temperature(400).tag('kubejs:fluid/mutilation_ooze')
+    event.create("will_mucus").displayName("意志粘液").thinTexture(0x16979b).bucketColor(0x16979b).luminosity(5).density(1500).viscosity(3000).temperature(400).tag('kubejs:fluid/will_mucus')
+    event.create("delicious_jam").density(3000).viscosity(3000).luminosity(0).temperature(290).displayName("美味果酱").thickTexture(0xae02da).bucketColor(0xae02da).tag('kubejs:fluid/delicious_jam')
+    event.create("mind_nectar").density(1000).viscosity(1000).luminosity(5).temperature(230).displayName("思维凝露").thickTexture(0x5ea0a4).bucketColor(0x5ea0a4).tag('kubejs:fluid/mind_nectar')
 })

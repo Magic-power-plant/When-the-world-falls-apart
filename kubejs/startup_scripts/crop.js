@@ -1,4 +1,6 @@
 const FARMLAND = Java.loadClass( "net.minecraft.world.level.block.FarmBlock")
+const BlockBehaviour$Properties = Java.loadClass("net.minecraft.world.level.block.state.BlockBehaviour$Properties")
+const BlockBehaviour = Java.loadClass("net.minecraft.world.level.block.state.BlockBehaviour")
 
 StartupEvents.registry("item",event =>{
     event.create("aubergine","basic").displayName("茄子").texture("kubejs:item/crop/aubergine").tag("forge:crops").tag("forge:crops/aubergine")
@@ -188,3 +190,4 @@ StartupEvents.registry("block",event =>{
         .displayName('嫩叶种子')
     })
 })
+ForgeEvents.onEvent

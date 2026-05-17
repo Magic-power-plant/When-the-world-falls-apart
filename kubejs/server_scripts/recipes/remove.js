@@ -223,4 +223,14 @@ ServerEvents.recipes(event => {
      event.remove({id:"rootsclassic:mundane_standing_stone"})
      event.remove({id:"avaritia:neutron_compressor"})
      event.remove({id:"rootsclassic:attuned_standing_stone"})
+     let removeFromId = [
+          "suppsquared:daub_frame_slab",
+          "suppsquared:daub_frame_stairs",
+          "ars_nouveau:ritual_awakening"
+     ]
+     for (let id in removeFromId) {
+          event.remove({id:removeFromId[id]})
+     }
+     event.remove({output:"tconstruct:fake_storage_block"})
+     event.remove({output:"tconstruct:fake_ingot"})
 })

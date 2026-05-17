@@ -1,4 +1,8 @@
 const metals = [
+    {
+        name:"root_wrapped_invar",
+        localName:"根缠殷钢"
+    }
 ]
 
 const cells = ["1k","4k","16k","64k","256k","1m","4m","16m","64m","256m"]
@@ -53,40 +57,32 @@ StartupEvents.registry('item', event => {
     event.create('abyssal_meteors','basic').displayName('渊海陨石唤位器').texture('kubejs:item/abyssal_meteors')
     event.create('candy_meteors','basic').displayName('糖果陨石唤位器').texture('kubejs:item/candy_meteors')
     metals.forEach(metal => {
-        event.create(`${metal}_ingot`)
-            .texture(`kubejs:item/ingot_${metal}`)
+        event.create(`${metal.name}_ingot`)
+            .displayName(`${metal.localName}锭`)
+            .texture(`kubejs:item/ingot_${metal.name}`)
             .tag('forge:ingots')
-            .tag(`forge:ingots/${metal}`)
+            .tag(`forge:ingots/${metal.name}`)
             .maxStackSize(64);
         
-        event.create(`${metal}_plate`)
-            .texture(`kubejs:item/plate_${metal}`)
+        event.create(`${metal.name}_plate`)
+            .displayName(`${metal.localName}板`)
+            .texture(`kubejs:item/plate_${metal.name}`)
             .tag('forge:plates')
-            .tag(`forge:plates/${metal}`)
-            .maxStackSize(64);
-        
-        event.create(`${metal}_rod`)
-            .texture(`kubejs:item/rod_${metal}`)
-            .tag('forge:rods')
-            .tag(`forge:rods/${metal}`)
+            .tag(`forge:plates/${metal.name}`)
             .maxStackSize(64);
 
-        event.create(`${metal}_nugget`)
-            .texture(`kubejs:item/nugget_${metal}`)
+        event.create(`${metal.name}_nugget`)
+            .displayName(`${metal.localName}粒`)
+            .texture(`kubejs:item/nugget_${metal.name}`)
             .tag('forge:nuggets')
-            .tag(`forge:nuggets/${metal}`)
+            .tag(`forge:nuggets/${metal.name}`)
             .maxStackSize(64);
 
-        event.create(`${metal}_dust`)
-            .texture(`kubejs:item/dust_${metal}`)
+        event.create(`${metal.name}_dust`)
+            .displayName(`${metal.localName}粉`)
+            .texture(`kubejs:item/dust_${metal.name}`)
             .tag('forge:dusts')
-            .tag(`forge:dusts/${metal}`)
-            .maxStackSize(64);
-        
-        event.create(`${metal}_gear`)
-            .texture(`kubejs:item/gear_${metal}`)
-            .tag('forge:gears')
-            .tag(`forge:gears/${metal}`)
+            .tag(`forge:dusts/${metal.name}`)
             .maxStackSize(64);
     })
     event.create('ancient_debris_fragment','basic').displayName('远古残骸碎片').texture('kubejs:item/ancient_debris_fragment').tag('forge:fragments/ancient_debris')
@@ -132,5 +128,23 @@ StartupEvents.registry('item', event => {
     })
     event.create("herb_residue", 'basic').displayName("药渣").texture("kubejs:item/herb_residue").tag("kubejs:herb_residue")
     event.create("refine_inferno_bulb").displayName("炼地狱根茎").texture("kubejs:item/refine_inferno_bulb").tag("kubejs:refine_inferno_bulb")
-    event.create("aetherwork_inferno_bulb").displayName("天华根茎").texture("kubejs:item/aetherwork_inferno_bulb").tag("kubejs:aetherwork_inferno_bul")
+    event.create("aetherwork_inferno_bulb").displayName("天华根茎").texture("kubejs:item/aetherwork_inferno_bulb").tag("kubejs:aetherwork_inferno_bulb")
+    event.create("entangle_aura_root").displayName("缠灵根").tag("kubejs:entangle_aura_root").texture("kubejs:item/entangle_aura_root")
+    event.create("root_component").displayName("源根部件").tag("kubejs:root_component").texture("kubejs:item/root_component")
+    event.create("lp_maker").displayName("LP标识物").tag("kuebjs:maker/lp").texture("kubejs:item/lp_maker")
+    event.create("raw_will_maker").displayName("原生意志标识物").tag("kuebjs:maker/raw_will").texture("kubejs:item/raw_will_maker")
+    event.create("corrosive_will_maker").displayName("腐蚀意志标识物").tag("kuebjs:maker/corrosive_will").texture("kubejs:item/corrosive_will_maker")
+    event.create("destructive_will_maker").displayName("破坏意志标识物").tag("kuebjs:maker/destructive_will").texture("kubejs:item/destructive_will_maker")
+    event.create("steadfast_will_maker").displayName("坚毅意志标识物").tag("kuebjs:maker/steadfast_will").texture("kubejs:item/steadfast_will_maker")
+    event.create("vengeful_will_maker").displayName("复仇意志标识物").tag("kuebjs:maker/vengeful_will").texture("kubejs:item/vengeful_will_maker")
+    event.create("living_ingot").displayName("蕴生锭").tag("forge:ingots/living").texture("kubejs:item/living_ingot")
+    event.create("sylvan_ingot").displayName("繁森锭").tag("forge:ingots/sylvan").texture("kubejs:item/sylvan_ingot")
+    event.create("wildwood_ingot").displayName("野木锭").tag("forge:ingots/wildwood").texture("kubejs:item/wildwood_ingot")
+    event.create("big_currant").displayName("大醋栗").tag("rootsclassic:berries").texture("kubejs:item/big_currant")
+    event.create("vitality_uranium").displayName("血能铀").tag("forge:ingots/vitality_uranium").texture("kubejs:item/vitality_uranium")
+    event.create("craft_logoer").displayName("合成器标识仪").tag("kubejs:maker/craft_logoer").texture("kubejs:item/craft_logoer")
+    event.create("shattered_pages").displayName("破碎的书页").tag("kubejs:shattered_pages").texture("kubejs:item/shattered_pages")
+    event.create("seasonal_rune","botania:rune").displayName("四季符文").texture("kubejs:item/seasonal_runes").tag("botania:runes/seasonal")
+    event.create("sin_rune","botania:rune").displayName("罪恶符文").texture("kubejs:item/sin_rune").tag("botania:runes/sin")
+    event.create("elemental_rune","botania:rune").displayName("元素符文").texture("kubejs:item/elemental_rune").tag("botania:runes/elemental")
 })

@@ -236,6 +236,22 @@ ServerEvents.recipes(event =>{
             ["kubejs:root_wrapped_invar_ingot","tconstruct:slimesteel_ingot"],
             ["rootsclassic:living_sword","rootsclassic:living_shovel","rootsclassic:living_pickaxe","rootsclassic:living_axe","rootsclassic:living_hoe"],
             "kubejs:living_ingot"
+        ],
+        [
+            0,
+            2,
+            "#35f836",
+            ["kubejs:root_wrapped_invar_ingot","tconstruct:slimesteel_ingot"],
+            ["rootsclassic:wildwood_mask","rootsclassic:wildwood_plate","rootsclassic:wildwood_leggings","rootsclassic:wildwood_boots","kubejs:wildroot_seed"],
+            "kubejs:wildwood_ingot"
+        ],
+        [
+            0,
+            2,
+            "#35f836",
+            ["rootsclassic:blackcurrant","rootsclassic:redcurrant","rootsclassic:whitecurrant"],
+            [],
+            "kubejs:big_currant"
         ]
     ]
 

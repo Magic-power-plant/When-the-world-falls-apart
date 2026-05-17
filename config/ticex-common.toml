@@ -35,24 +35,24 @@
 	gloveDropBlacklistAsWhitelist = false
 
 #Provided by AddonAPI:
-#Other Mod Compat Options
-[compat]
-	"Apotheosis Compat" = true
-	"Create Compat" = true
-	"JEI Compat" = true
-	"Mekanism Compat" = true
-	"TiCEX Original Materials and Modifiers" = true
-	"TiCEX Original Utilities" = true
+#Module Options
+[modules]
+	"TaCz Compat" = true
 	"Psi Compat" = true
-	"Botania Compat" = true
-	"Avaritia Compat" = true
-	"SlashBlade Compat" = true
 	"CC:Tweaked Compat" = true
 	Default = true
-	"Ars Nouveau Compat" = true
-	"ProjectE Compat" = true
-	"Draconic Evolution Compat" = true
-	"TaCz Compat" = true
-	"Curios API Compat" = true
+	"TiCEX Original Utilities" = true
 	"Iron's Spells n' Spellbooks Compat" = true
+	"ProjectE Compat" = true
+	"Apotheosis Compat" = true
+	"Draconic Evolution Compat" = true
+	"TiCEX Original Materials and Modifiers" = true
+	"Mekanism Compat" = true
+	"Botania Compat" = true
+	"SlashBlade Compat" = true
+	"Create Compat" = true
+	"Ars Nouveau Compat" = true
+	"Avaritia Compat" = true
+	"Curios API Compat" = true
+	"JEI Compat" = true
 

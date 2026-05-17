@@ -89,24 +89,47 @@ event.addAdvanced("mbd2:dawnstone_crusher_controller",(item,advanced,text)=>{
     text.add(4,[Text.green('安装'),Text.red('液态余烬充分燃烧单元'),Text.green('后')])
     text.add(5,Text.of('    每tick消耗10mB液态余烬, 8最大并行, 耗时x0.75, 执行无等级配方'))
 })
-event.addAdvanced("minecraft:potion",(item,advanced,text)=>{
-    let potionTooltips = item.getNbt()?.getString("tooltips")
-    if (potionTooltips != ""){
-    text.add(1,Text.of(potionTooltips).color(0xc516ab))
+event.addAdvanced("minecraft:potion", (item, advanced, text) => {
+    try {
+        let nbt = item.nbt;  // 不要使用可选链，直接取
+        if (nbt && typeof nbt.getString === 'function') {
+            let potionTooltips = nbt.getString("tooltips");
+            if (potionTooltips && potionTooltips !== "") {
+                text.add(1, Text.of(potionTooltips).color(0xc516ab));
+            }
+        }
+    } catch (e) {
+        console.error("Error in potion tooltip:", e);
     }
-})
-event.addAdvanced("minecraft:splash_potion",(item,advanced,text)=>{
-    let potionTooltips = item.getNbt()?.getString("tooltips")
-    if (potionTooltips != ""){
-    text.add(1,Text.of(potionTooltips).color(0xc516ab))
+});
+
+event.addAdvanced("minecraft:splash_potion", (item, advanced, text) => {
+    try {
+        let nbt = item.nbt;
+        if (nbt && typeof nbt.getString === 'function') {
+            let potionTooltips = nbt.getString("tooltips");
+            if (potionTooltips && potionTooltips !== "") {
+                text.add(1, Text.of(potionTooltips).color(0xc516ab));
+            }
+        }
+    } catch (e) {
+        console.error("Error in splash_potion tooltip:", e);
     }
-})
-event.addAdvanced("minecraft:lingering_potion",(item,advanced,text)=>{
-    let potionTooltips = item.getNbt()?.getString("tooltips")
-    if (potionTooltips != ""){
-    text.add(1,Text.of(potionTooltips).color(0xc516ab))
+});
+
+event.addAdvanced("minecraft:lingering_potion", (item, advanced, text) => {
+    try {
+        let nbt = item.nbt;
+        if (nbt && typeof nbt.getString === 'function') {
+            let potionTooltips = nbt.getString("tooltips");
+            if (potionTooltips && potionTooltips !== "") {
+                text.add(1, Text.of(potionTooltips).color(0xc516ab));
+            }
+        }
+    } catch (e) {
+        console.error("Error in lingering_potion tooltip:", e);
     }
-})
+});
 event.addAdvanced("kubejs:aubergine_seed",(item,addAdvanced,text) => {
     text.add(1,Text.of("注意:用于复刻根源魔法的物品的纹理均来自原模组").red())
     text.add(2,Text.of("纹理所有权属于原模组作者Noobanidus").red())

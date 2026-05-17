@@ -7,7 +7,6 @@ AvaritiaEvents.singularity(event => {
             .setTimeCost(200)
             .setIngredient(Ingredient.of("kubejs:nouveau_essence"))
             .setEnabled(true)
-            .setRecipeDisabled(false)
     })
     event.register("kubejs:ember_essence_singularity", s => {
         s
@@ -17,7 +16,6 @@ AvaritiaEvents.singularity(event => {
             .setTimeCost(200)
             .setIngredient(Ingredient.of("kubejs:ember_essence"))
             .setEnabled(true)
-            .setRecipeDisabled(false)
     })
     event.register("kubejs:bookshelf_singularity", s => {
         s
@@ -27,6 +25,5 @@ AvaritiaEvents.singularity(event => {
             .setTimeCost(200)
             .setIngredient("#forge:bookshelves")
             .setEnabled(true)
-            .setRecipeDisabled(false)
     })
 })

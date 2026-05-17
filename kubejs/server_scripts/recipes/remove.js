@@ -226,7 +226,8 @@ ServerEvents.recipes(event => {
      let removeFromId = [
           "suppsquared:daub_frame_slab",
           "suppsquared:daub_frame_stairs",
-          "ars_nouveau:ritual_awakening"
+          "ars_nouveau:ritual_awakening",
+          "eidolon:pewter_blend"
      ]
      for (let id in removeFromId) {
           event.remove({id:removeFromId[id]})

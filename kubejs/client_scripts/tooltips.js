@@ -134,4 +134,7 @@ event.addAdvanced("kubejs:aubergine_seed",(item,addAdvanced,text) => {
     text.add(1,Text.of("注意:用于复刻根源魔法的物品的纹理均来自原模组").red())
     text.add(2,Text.of("纹理所有权属于原模组作者Noobanidus").red())
 })
+    event.addAdvanced("kubejs:aetherworks_machine_frame",(item,addAdvanced,text) => {
+        text.add(1,Text.red("非常感谢feiniao_plus7为物品纹理做出的贡献"))
+    })
 })

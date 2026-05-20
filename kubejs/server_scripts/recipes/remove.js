@@ -227,7 +227,8 @@ ServerEvents.recipes(event => {
           "suppsquared:daub_frame_slab",
           "suppsquared:daub_frame_stairs",
           "ars_nouveau:ritual_awakening",
-          "eidolon:pewter_blend"
+          "eidolon:pewter_blend",
+          "rootsclassic:mortar"
      ]
      for (let id in removeFromId) {
           event.remove({id:removeFromId[id]})

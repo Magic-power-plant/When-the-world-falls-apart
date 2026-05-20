@@ -252,6 +252,22 @@ ServerEvents.recipes(event =>{
             ["rootsclassic:blackcurrant","rootsclassic:redcurrant","rootsclassic:whitecurrant"],
             [],
             "kubejs:big_currant"
+        ],
+        [
+            0,
+            2,
+            "#35f836",
+            ["kubejs:life_sustaining_metal","thermal:lead_block","minecraft:iron_block"],
+            [],
+            "eidolon:pewter_blend"
+        ],
+        [
+            0,
+            2,
+            "#35f836",
+            ["kubejs:life_sustaining_metal","thermal:lead_block","thermal:tin_block"],
+            [],
+            "kubejs:weighty_lead_ingot"
         ]
     ]
 

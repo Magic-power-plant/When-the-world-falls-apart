@@ -163,7 +163,7 @@ ServerEvents.recipes(event => {
         10000
     )
     event.recipes.ars_nouveau.enchanting_apparatus(
-        ["kubejs:root_wrapped_invar_ingot","kubejs:root_wrapped_invar_ingot","kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate"],
+        ["kubejs:root_component","kubejs:root_wrapped_invar_ingot","kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate"],
         "kubejs:aetherworks_machine_frame",
         "kubejs:root_wrapped_invar_machine_frame",
         100000
@@ -185,5 +185,17 @@ ServerEvents.recipes(event => {
         "ars_nouveau:magebloom_crop",
         "kubejs:aubergine_seed",
         5000
+    )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        [Item.of('tconstruct:seared_lantern', '{tank:{Amount:50,FluidName:"kubejs:delicious_jam"},tic_persistent:{}}').weakNBT(),"kubejs:big_currant","kubejs:spiritleaf","kubejs:wildroot_seed","kubejs:wildwood_ingot","kubejs:sylvan_ingot","kubejs:living_ingot"],
+        "rootsclassic:crystal_staff",
+        "3x kubejs:life_sustaining_metal",
+        10000
+    )
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ["kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate","kubejs:root_wrapped_invar_plate"],
+        "kubejs:source_netherite_component",
+        "kubejs:root_component",
+        10000
     )
 })

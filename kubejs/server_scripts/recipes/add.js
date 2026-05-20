@@ -436,5 +436,10 @@ ServerEvents.recipes(
             ' d '
         ],{a:"embers:resonating_bell",b:"embers:archaic_circuit",c:"naturescompass:naturescompass",d:"embers:wildfire_core"})
         event.shapeless(Item.of("minecraft:paper",3),["3x minecraft:bamboo"])
+        event.shaped("rootsclassic:mortar",[
+            'a a',
+            'a a',
+            ' a '
+        ],{a:"rootsclassic:attuned_standing_stone"})
     }
     )

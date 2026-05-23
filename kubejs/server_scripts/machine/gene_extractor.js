@@ -23,6 +23,5 @@ ServerEvents.recipes(event => {
         .outputItems(array[i][1])
         .duration(100)
         .id("gene_" + i.toString())
-        console.log("gene_" + i.toString())
     }
 })

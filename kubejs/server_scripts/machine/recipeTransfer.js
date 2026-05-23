@@ -3,6 +3,7 @@ let $RegistryAccess = Java.loadClass("net.minecraft.core.RegistryAccess")
 let $ResourceKey = Java.loadClass("net.minecraft.resources.ResourceKey")
 let $RunicAltarRecipe = Java.loadClass("vazkii.botania.common.crafting.RunicAltarRecipe")
 let $PetalsRecipe = Java.loadClass("vazkii.botania.common.crafting.PetalsRecipe")
+
 MBDRecipeTypeEvents.onTransferProxyRecipe("mbd2:modular_ember_alchemy", e => {
     let event = e.event
     const { recipeType, proxyTypeId, proxyType, proxyRecipeId, proxyRecipe } = event
@@ -126,7 +127,7 @@ MBDRecipeTypeEvents.onTransferProxyRecipe("mbd2:genic_altar", e => {
                     let color = id.match(/^botania:(.*)_.*$/)[1]
                     let item = Item.of(`kubejs:${color}_gene`)
                     inputslist.push(item)
-                } else if (id.match(/^botania:.*_mushroom$/)){
+                } else if (id.match(/^botania:.*_mushroom$/)) {
                     return
                 } else {
                     inputslist.push(input)

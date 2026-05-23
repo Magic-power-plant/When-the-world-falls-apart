@@ -28,33 +28,53 @@ let outputs = [
         ["minecraft:ancient_debris", 148]
     ]
 ]
-let weights = []
-for (let i = 0; i < outputs.length - 1; i++) {
-    let total = 0
-    for (let j = 0; j < outputs[i].length - 1; j++) {
-        total += outputs[i][j][1]
+ServerEvents.recipes(event => {
+    inputs.forEach(item => {
+        event.recipes.mbd2.orechid()
+        .inputItems(item)
+    })
+})
+MBDMachineEvents.onBeforeRecipeModify("mbd2:orechid", e => {
+    let event = e.event
+    const {machine, recipe} = event
+
+    function SumOreWeights(oreList) {
+        let total = 0
+        for (let i = 0; i < oreList.length - 1; i++) {
+            total += oreList[i][1]
+        }
+        return total
     }
-    weights.push(total)
-}
-function selectByWeight(outputList, totalWeight) {
-    let rand = Math.random() * totalWeight
-    let cumulative = 0
-    for (let i = 0; i < outputList.length; i++) {
-        cumulative += outputList[i][1]
-        if (rand < cumulative) {
-            return outputList[i][0]
+
+    function selectByWeight(List) {
+        let totalWeight = SumOreWeights(List)
+        let rand = Math.random() * totalWeight
+        for (let i = 0; i < List.length; i++) {
+            rand -= List[i][1]
+            if (rand < 0) {
+                return List[i][0]
+            }
         }
     }
-    return outputList[outputList.length - 1][0]
-}
-MBDMachineEvents.onBeforeRecipeModify("mbd2:orechid", e => {
-    for (let i = 0; i < inputs.length - 1; i++) {
-        let selectedItem = selectByWeight(outputs[i], weights[i])
-        let builder = recipe.toBuilder()
-        builder.inputItems([inputs[i]])
-        builder.outputItems([selectedItem])
-        let newRecipe = builder.buildMBDRecipe()
 
-        e.event.setRecipe(newRecipe)
+    let rawInputItemId = ""
+    let inputItem = recipe.inputs.values().toArray()
+    inputItem[0].forEach(content => {
+        let stacks = content.getContent().getInner().getStacks()
+        stacks.forEach(stack => {
+            rawInputItemId = stack.getId()
+        })
+    })
+
+    let newRecipe = undefined
+    for (let i = 0; i < inputs.length - 1; i++) {
+        if (rawInputItemId === inputs[i]) {
+            let selectedItem = selectByWeight(outputs[i])
+            console.log("Selected item: " + selectedItem)
+            let builder = recipe.toBuilder()
+            builder.outputItems([selectedItem])
+            newRecipe = builder.buildMBDRecipe()
+        }
     }
+    e.event.setRecipe(newRecipe)
 })

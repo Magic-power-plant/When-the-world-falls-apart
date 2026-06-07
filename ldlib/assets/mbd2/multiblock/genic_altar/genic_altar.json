@@ -1,0 +1,2198 @@
+{
+  "placeholders": {
+    "holders": [
+      {
+        "predicates": [
+          0
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          1
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          2
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          3
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          4
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          5
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          6
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          7
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          8
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [],
+        "isController": 1,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          9
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          10
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          11
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          12
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          13
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          14
+        ],
+        "isController": 0,
+        "facing": 2
+      }
+    ],
+    "predicates": [
+      {
+        "type": "builtin",
+        "key": "any"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:blue_petal_block"
+      },
+      {
+        "type": "builtin",
+        "key": "new 0"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:magenta_petal_block"
+      },
+      {
+        "type": "builtin",
+        "key": "naturesaura:spawn_lamp"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:red_petal_block"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:purple_petal_block"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:white_petal_block"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:brown_petal_block"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:pink_petal_block"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:light_blue_petal_block"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:light_gray_petal_block"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:yellow_petal_block"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:gray_petal_block"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:orange_petal_block"
+      }
+    ],
+    "x": 9,
+    "y": 4,
+    "z": 9,
+    "pattern": [
+      [
+        [
+          0,
+          0,
+          0,
+          1,
+          2,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          4,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ]
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        [
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      [
+        [
+          2,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          2
+        ],
+        0,
+        0,
+        0
+      ],
+      [
+        [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        [
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          14,
+          2,
+          15,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          14,
+          0,
+          15,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "layer_axis": "Y",
+  "aisle_repetitions": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "shape_infos": [
+    {
+      "z": 9,
+      "x": 9,
+      "blocks": [
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blue_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:fluid_in_1",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:magenta_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_3",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_3",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blue_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:magenta_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:red_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:purple_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:red_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:purple_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:red_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:purple_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:white_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:brown_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_3",
+            "Properties": {
+              "facing": "south"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_3",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:white_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:brown_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_3",
+            "Properties": {
+              "facing": "south"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "facing": "north"
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_3",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:pink_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:light_blue_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_3",
+            "Properties": {
+              "facing": "south"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_3",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:pink_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:light_blue_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:light_gray_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:yellow_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:light_gray_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:yellow_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:light_gray_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:yellow_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:gray_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_3",
+            "Properties": {
+              "facing": "west"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:orange_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_3",
+            "Properties": {
+              "facing": "west"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_3",
+            "Properties": {
+              "facing": "west"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:gray_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:orange_petal_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "naturesaura:spawn_lamp",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        }
+      ],
+      "description": [],
+      "y": 4
+    }
+  ]
+}

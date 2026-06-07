@@ -1,0 +1,573 @@
+{
+  "placeholders": {
+    "holders": [
+      {
+        "predicates": [
+          0
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          1
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          2
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          3
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          4
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          5
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          6
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          7
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [],
+        "isController": 1,
+        "facing": 5
+      }
+    ],
+    "predicates": [
+      {
+        "type": "builtin",
+        "key": "botania:chiseled_mana_quartz"
+      },
+      {
+        "type": "builtin",
+        "key": "new 0"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:bifrost_perm"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:elf_glass"
+      },
+      {
+        "type": "builtin",
+        "key": "mbd2:mana_output_bus"
+      },
+      {
+        "type": "builtin",
+        "key": "new 1"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:mana_pylon"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:hourglass"
+      }
+    ],
+    "x": 3,
+    "y": 7,
+    "z": 3,
+    "pattern": [
+      [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        0
+      ],
+      [
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          7,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          8,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        0
+      ]
+    ]
+  },
+  "layer_axis": "Y",
+  "aisle_repetitions": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "shape_infos": [
+    {
+      "z": 3,
+      "x": 3,
+      "blocks": [
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_in_1",
+            "Properties": {
+              "facing": "west"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:mana_output_bus",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:mana_input_bus",
+            "Properties": {
+              "facing": "south"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_pylon",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_pylon",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:hourglass",
+            "Properties": {
+              "waterlogged": "false",
+              "powered": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_pylon",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_pylon",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:item_out_1",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "facing": "east"
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:elf_glass"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:bifrost_perm"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:chiseled_mana_quartz"
+          }
+        }
+      ],
+      "description": [],
+      "y": 7
+    }
+  ]
+}

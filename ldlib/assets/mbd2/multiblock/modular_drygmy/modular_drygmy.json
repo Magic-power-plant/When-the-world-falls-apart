@@ -1,0 +1,262 @@
+{
+  "placeholders": {
+    "holders": [
+      {
+        "predicates": [
+          0
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          1
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          2,
+          3
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [],
+        "isController": 1,
+        "facing": 4
+      },
+      {
+        "predicates": [
+          4
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          5
+        ],
+        "isController": 0,
+        "facing": 2
+      }
+    ],
+    "predicates": [
+      {
+        "type": "builtin",
+        "key": "any"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:terrasteel_block"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:livingrock"
+      },
+      {
+        "type": "builtin",
+        "key": "new 0"
+      },
+      {
+        "type": "builtin",
+        "key": "kubejs:source_gem_steel_machine_shell"
+      },
+      {
+        "type": "builtin",
+        "key": "state:mbd2:mob_in_bin[facing=west]"
+      }
+    ],
+    "x": 9,
+    "y": 2,
+    "z": 9,
+    "pattern": [
+      [
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          0,
+          2,
+          4,
+          4,
+          4,
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          2,
+          4,
+          2,
+          2,
+          2,
+          4,
+          2,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          2,
+          4,
+          2,
+          2,
+          2,
+          4,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          2,
+          4,
+          2,
+          2,
+          2,
+          4,
+          2,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          0,
+          2,
+          4,
+          4,
+          4,
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "layer_axis": "Y",
+  "aisle_repetitions": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "shape_infos": []
+}

@@ -1,0 +1,4750 @@
+{
+  "placeholders": {
+    "holders": [
+      {
+        "predicates": [
+          0
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          1
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          2
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          3
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [],
+        "isController": 1,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          4
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          5
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          6
+        ],
+        "isController": 0,
+        "facing": 2
+      },
+      {
+        "predicates": [
+          7
+        ],
+        "isController": 0,
+        "facing": 2
+      }
+    ],
+    "predicates": [
+      {
+        "type": "builtin",
+        "key": "botania:mana_quartz"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:dark_quartz"
+      },
+      {
+        "type": "builtin",
+        "key": "any"
+      },
+      {
+        "type": "builtin",
+        "key": "botania:blaze_block"
+      },
+      {
+        "type": "builtin",
+        "key": "mbd2:fe_output_bus"
+      },
+      {
+        "type": "builtin",
+        "key": "mbd2:mana_input_bus"
+      },
+      {
+        "type": "builtin",
+        "key": "extrabotany:dimension_catalyst"
+      },
+      {
+        "type": "builtin",
+        "key": "extrabotany:orichalcos_block"
+      }
+    ],
+    "x": 5,
+    "y": 10,
+    "z": 15,
+    "pattern": [
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          2,
+          2,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          2,
+          3,
+          0,
+          3,
+          0,
+          3,
+          0,
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          2,
+          3,
+          0,
+          3,
+          0,
+          3,
+          0,
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          2,
+          3,
+          0,
+          3,
+          0,
+          3,
+          0,
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          2,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          4,
+          2,
+          1,
+          2,
+          1,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          2,
+          1,
+          3,
+          0,
+          3,
+          0,
+          3,
+          0,
+          3,
+          1,
+          1,
+          5
+        ],
+        [
+          2,
+          2,
+          6,
+          7,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          1,
+          3,
+          0,
+          3,
+          0,
+          3,
+          0,
+          3,
+          8,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          1,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          2,
+          3,
+          0,
+          3,
+          0,
+          3,
+          0,
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          2,
+          3,
+          0,
+          3,
+          0,
+          3,
+          0,
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          2,
+          3,
+          0,
+          3,
+          0,
+          3,
+          0,
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          2,
+          2,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ]
+    ]
+  },
+  "layer_axis": "Y",
+  "aisle_repetitions": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "shape_infos": [
+    {
+      "z": 15,
+      "x": 5,
+      "blocks": [
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "facing": "north"
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:fe_output_bus"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "mbd2:mana_input_bus",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "blockState": {
+            "Name": "extrabotany:dimension_catalyst"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "extrabotany:orichalcos_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:mana_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:blaze_block"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "botania:dark_quartz"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "blockState": {
+            "Name": "minecraft:air"
+          }
+        }
+      ],
+      "description": [],
+      "y": 10
+    }
+  ]
+}

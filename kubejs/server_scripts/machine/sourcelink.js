@@ -169,7 +169,7 @@ ServerEvents.recipes(event =>{
 const $Potions = Java.loadClass('net.minecraft.world.item.alchemy.Potion')
 const $MobEffect = Java.loadClass('net.minecraft.world.effect.MobEffect')
 
-function effectInstanceToNBT(effect) {
+const effectInstanceToNBT = (effect) => {
     let effectObj = effect.getEffect();
     let registryName = "";
     let effectId = -1;

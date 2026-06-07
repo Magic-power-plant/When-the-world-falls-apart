@@ -91,7 +91,7 @@ event.addAdvanced("mbd2:dawnstone_crusher_controller",(item,advanced,text)=>{
 })
 event.addAdvanced("minecraft:potion", (item, advanced, text) => {
     try {
-        let nbt = item.nbt;  // 不要使用可选链，直接取
+        let nbt = item.nbt; 
         if (nbt && typeof nbt.getString === 'function') {
             let potionTooltips = nbt.getString("tooltips");
             if (potionTooltips && potionTooltips !== "") {
@@ -135,6 +135,6 @@ event.addAdvanced("kubejs:aubergine_seed",(item,addAdvanced,text) => {
     text.add(2,Text.of("纹理所有权属于原模组作者Noobanidus").red())
 })
     event.addAdvanced("kubejs:aetherworks_machine_frame",(item,addAdvanced,text) => {
-        text.add(1,Text.red("非常感谢feiniao_plus7为物品纹理做出的贡献"))
+        text.add(1,Text.red("非常感谢feiniao_plus7为物品纹理,脚本,机器做出的贡献"))
     })
 })

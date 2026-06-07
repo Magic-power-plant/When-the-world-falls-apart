@@ -70,7 +70,6 @@ MBDMachineEvents.onBeforeRecipeModify("mbd2:orechid", e => {
     for (let i = 0; i < inputs.length - 1; i++) {
         if (rawInputItemId === inputs[i]) {
             let selectedItem = selectByWeight(outputs[i])
-            console.log("Selected item: " + selectedItem)
             let builder = recipe.toBuilder()
             builder.outputItems([selectedItem])
             newRecipe = builder.buildMBDRecipe()

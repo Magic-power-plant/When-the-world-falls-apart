@@ -1,3 +1,8 @@
+export {}
+
+const g = global as any
+g.machine = g.machine || {}
+
 /**
  * 将相对于机器的坐标转换为全局坐标，在MBD2机器事件中使用
  * @param {number} relLeft  左偏移, 0为不偏移，正数向左，负数向右
@@ -12,7 +17,7 @@
  * @returns {number[]} [x, y, z]    全局坐标
  */
 
-function relativeToGlobal(relLeft, relFore, relY, machine) {
+g.machine.relativeToGlobal = function (relLeft: number, relFore: number, relY: number, machine: any) {
     let x = machine.x;
     let z = machine.z;
 
@@ -40,3 +45,5 @@ function relativeToGlobal(relLeft, relFore, relY, machine) {
     const y = machine.y + relY;
     return [x, y, z];
 }
+
+g.relativeToGlobal = g.machine.relativeToGlobal

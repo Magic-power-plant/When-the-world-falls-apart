@@ -4,12 +4,12 @@
 	#Base radius of the meteorite sphere
 	#陨石球基础半径
 	#Range: 1 ~ 500
-	baseRadius = 7
+	baseRadius = 3
 	#
 	#Maximum possible radius of a meteorite ball
 	#陨石球最大可能半径
 	#Range: 1 ~ 500
-	maxRadius = 30
+	maxRadius = 12
 	#
 	#true--Call of the Dark Rift--陨石召唤
 	#false--Mark of the Falling Tower--坠星标位

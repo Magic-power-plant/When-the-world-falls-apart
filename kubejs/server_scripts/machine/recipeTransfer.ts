@@ -90,7 +90,7 @@ function addGenicInput(input: any, inputs: any[]) {
         if (id.match(/^botania:.*_petal$/)) {
             let color = id.match(/^botania:(.*)_.*$/)
             if (color) {
-                inputs.push(Item.of(`kubejs:${color[0]}_gene` as Internal.ItemStack_))
+                inputs.push(Item.of(`kubejs:${color[1]}_gene` as Internal.ItemStack_))
             }
         } else if (id.match(/^botania:.*_mushroom$/)) {
             return

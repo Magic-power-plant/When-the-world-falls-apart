@@ -1,0 +1,33 @@
+logs/
+.mixin.out/
+.probe/
+.venv/
+.vscode/
+backups/
+coremods/
+crash-reports/
+data/
+debug/
+hotai-disabled/
+lightspeed-cache/
+local/
+modernfix/
+mods/
+mods-backup/
+nomods/
+patchouli_books/
+saves/
+screenshots/
+xaero/
+XaeroWaypoints_BACKUP240807/
+options.txt
+hotai.zip
+caxton_impl.dll
+新建 文本文档.txt
+fabricloader.log
+usernamecache.json
+usercache.json
+rhino.local.properties
+patchouli_data.json
+observable_announce
+shaderpacks/ComplementaryUnbound_r5.3 + EuphoriaPatches_1.4.3.zip

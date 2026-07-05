@@ -19,4 +19,6 @@ StartupEvents.registry('fluid', event => {
     event.create("will_mucus").displayName("意志粘液").thinTexture(0x16979b).bucketColor(0x16979b).luminosity(5).density(1500).viscosity(3000).temperature(400).tag('kubejs:fluid/will_mucus')
     event.create("delicious_jam").density(3000).viscosity(3000).luminosity(0).temperature(290).displayName("美味果酱").thickTexture(0xae02da).bucketColor(0xae02da).tag('kubejs:fluid/delicious_jam')
     event.create("mind_nectar").density(1000).viscosity(1000).luminosity(5).temperature(230).displayName("思维凝露").thickTexture(0x5ea0a4).bucketColor(0x5ea0a4).tag('kubejs:fluid/mind_nectar')
+    event.create("drygmy_brain_tissue").density(1000).viscosity(1000).luminosity(0).temperature(290).displayName("德格米脑浆").tag("kubejs:fluid/drygmy_brain_tissue").thickTexture(0xddc3c1).bucketColor(0xddc3c1)
+    event.create("source__brain_tissue").density(1000).viscosity(1000).luminosity(0).temperature(290).displayName("魔源脑浆").tag("kubejs:fluid/source__brain_tissue").thickTexture(0xdebfea).bucketColor(0xdebfea)
 })

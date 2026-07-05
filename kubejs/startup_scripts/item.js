@@ -222,4 +222,7 @@ StartupEvents.registry('item', event => {
     genes.forEach(gene => {
         event.create(gene.name).displayName(gene.localName).texture("kubejs:item/" + gene.name).tag("kubejs:gene")
     })
+    event.create("drygmy_head").displayName("德格米头颅").tag("kubejs:item/drygmy_head").texture("kubejs:item/drygmy_head")
+    event.create("drygmy_brain").displayName("德格米大脑").tag("kubejs:item/drygmy_rain").texture("kubejs:item/drygmy_rain")
+    event.create("bookwyrm_scale").displayName("书龙鳞").tag("kubejs:item/bookwyrm_scale").texture("kubejs:item/bookwyrm_scale")
 })

@@ -95,7 +95,7 @@ const removeIds: ItemRef[] = [
     "ae2:network/crystal_resonance_generator", "rootsclassic:brazier", "rootsclassic:altar", "rootsclassic:mundane_standing_stone",
     "avaritia:neutron_compressor", "rootsclassic:attuned_standing_stone", "suppsquared:daub_frame_slab", "suppsquared:daub_frame_stairs",
     "ars_nouveau:ritual_awakening", "eidolon:pewter_blend", "rootsclassic:mortar", "extendedcrafting:black_iron_ingot",
-    "extendedcrafting:luminessence"
+    "extendedcrafting:luminessence","enchanted:witch_oven"
 ]
 
 const removeOutputs: ItemRef[] = [
@@ -108,7 +108,7 @@ const removeOutputs: ItemRef[] = [
     "hexcasting:pride_colorizer_bisexual", "hexcasting:pride_colorizer_demiboy", "hexcasting:pride_colorizer_demigirl", "hexcasting:pride_colorizer_gay",
     "hexcasting:pride_colorizer_genderfluid", "hexcasting:pride_colorizer_genderqueer", "hexcasting:pride_colorizer_intersex", "hexcasting:pride_colorizer_lesbian",
     "hexcasting:pride_colorizer_nonbinary", "hexcasting:pride_colorizer_pansexual", "hexcasting:pride_colorizer_plural", "hexcasting:pride_colorizer_transgender",
-    "tconstruct:fake_storage_block", "tconstruct:fake_ingot"
+    "tconstruct:fake_storage_block", "tconstruct:fake_ingot","suppsquared:daub_frame_slab"
 ]
 
 const specialRemoveFilters: RecipeFilter[] = [

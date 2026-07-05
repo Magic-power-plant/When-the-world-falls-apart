@@ -1,5 +1,77 @@
 {
+  "shape_infos": [],
+  "aisle_repetitions": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "layer_axis": "Y",
   "placeholders": {
+    "y": 14,
+    "x": 13,
+    "predicates": [
+      {
+        "key": "any",
+        "type": "builtin"
+      },
+      {
+        "key": "kubejs:burn_sun_block",
+        "type": "builtin"
+      },
+      {
+        "key": "ars_nouveau:sourcestone",
+        "type": "builtin"
+      },
+      {
+        "key": "new 0",
+        "type": "builtin"
+      },
+      {
+        "key": "kubejs:source_gem_steel_machine_shell",
+        "type": "builtin"
+      },
+      {
+        "key": "ars_nouveau:smooth_sourcestone",
+        "type": "builtin"
+      },
+      {
+        "key": "alexscaves:flood_basalt",
+        "type": "builtin"
+      },
+      {
+        "key": "ars_nouveau:volcanic_sourcelink",
+        "type": "builtin"
+      },
+      {
+        "key": "ars_nouveau:source_gem_block",
+        "type": "builtin"
+      }
+    ],
     "holders": [
       {
         "predicates": [
@@ -64,46 +136,6 @@
         "facing": 2
       }
     ],
-    "predicates": [
-      {
-        "type": "builtin",
-        "key": "any"
-      },
-      {
-        "type": "builtin",
-        "key": "kubejs:burn_sun_block"
-      },
-      {
-        "type": "builtin",
-        "key": "ars_nouveau:sourcestone"
-      },
-      {
-        "type": "builtin",
-        "key": "new 0"
-      },
-      {
-        "type": "builtin",
-        "key": "kubejs:source_gem_steel_machine_shell"
-      },
-      {
-        "type": "builtin",
-        "key": "ars_nouveau:smooth_sourcestone"
-      },
-      {
-        "type": "builtin",
-        "key": "alexscaves:flood_basalt"
-      },
-      {
-        "type": "builtin",
-        "key": "ars_nouveau:volcanic_sourcelink"
-      },
-      {
-        "type": "builtin",
-        "key": "ars_nouveau:source_gem_block"
-      }
-    ],
-    "x": 13,
-    "y": 14,
     "z": 13,
     "pattern": [
       [
@@ -1855,37 +1887,5 @@
         0
       ]
     ]
-  },
-  "layer_axis": "Y",
-  "aisle_repetitions": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1
-  ],
-  "shape_infos": []
+  }
 }

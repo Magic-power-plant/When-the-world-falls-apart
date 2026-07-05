@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "39A8EFB4C2E39667"
-	group: ""
+	group: "408E25382E8101E6"
 	id: "39A8EFB4C2E39667"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -135,6 +135,174 @@
 			x: 1.5d
 			y: 1.0d
 		}
+		{
+			dependencies: [
+				"09C8EEB0DEF8B4F2"
+				"3CBB04167549B946"
+				"153371DCCE02D840"
+			]
+			id: "57012B33115F25E7"
+			tasks: [{
+				id: "6F98FB810BF101E3"
+				item: "kubejs:life_sustaining_metal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["57012B33115F25E7"]
+			id: "3C0C7606E471A213"
+			tasks: [{
+				id: "47078850FFB69E83"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57012B33115F25E7"]
+			id: "2FAF045659CA000C"
+			tasks: [{
+				id: "292B29BA60C38D4F"
+				item: "kubejs:weighty_lead_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3C0C7606E471A213"
+				"2FAF045659CA000C"
+			]
+			id: "7F72584E0E5741CB"
+			tasks: [{
+				id: "6B9E7470A6C9267A"
+				item: "kubejs:pewter_machine_frame"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3C0C7606E471A213"
+				"2FAF045659CA000C"
+			]
+			id: "0CF5AAF109B4F327"
+			tasks: [{
+				id: "69ACA1323E0ED376"
+				item: "kubejs:weighty_lead_machine_frame"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			id: "745D1D16A93CA08E"
+			tasks: [{
+				id: "39B7E835BB75C855"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			id: "259474B8CA2B84F2"
+			tasks: [{
+				id: "061CB1456281E351"
+				item: "enchanted:witch_oven"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "065615941C5F5D00"
+			tasks: [{
+				id: "0ED86CBBBD16741B"
+				item: "enchanted:witch_cauldron"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			id: "7EC9CB298CC6BD97"
+			tasks: [{
+				count: 6L
+				id: "4A20934BAE912A93"
+				item: { Count: 6, id: "enchanted:altar" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["729A048C09EFCC70"]
+			id: "5B8E3745CA4465EA"
+			tasks: [
+				{
+					id: "7DCCF2D442BA6367"
+					item: "rootsclassic:mortar"
+					type: "item"
+				}
+				{
+					id: "65C9DA4FC6F1EF2E"
+					item: "rootsclassic:pestle"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5B8E3745CA4465EA"
+				"3CBB04167549B946"
+			]
+			id: "5AD2EA3919E55CE2"
+			tasks: [{
+				id: "6EC5B9503E203FA0"
+				item: "rootsclassic:spell_powder"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "2738E9D4B8243E55"
+			tasks: [{
+				id: "1FC0F1BDD03D7CB5"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			id: "240350AE373D0768"
+			tasks: [{
+				id: "67FD9CBE2B5A0CE0"
+				item: "enchanted:distillery"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			id: "15DF44B3776C48C8"
+			tasks: [{
+				id: "54B76A5281CB934B"
+				item: "eidolon:planter"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
 	]
-	title: "啊, 自然(第二章)"
+	title: "(主歌)"
 }

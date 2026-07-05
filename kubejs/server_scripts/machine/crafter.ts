@@ -53,8 +53,16 @@ function registerCrafterIngredient(recipe: any, index: number, ingredient: any) 
     }
 }
 
-function transferShapedCrafting(event: any) {
-    let proxyRecipe = event.proxyRecipe
+function NonNullListHaveContent(list:Internal.NonNullList<Internal.Ingredient>) {
+    if (list[0].isEmpty() && list[1].isEmpty() && list[2].isEmpty() && list[3].isEmpty() && list[4].isEmpty() && list[5].isEmpty() && list[6].isEmpty() && list[7].isEmpty() && list[8].isEmpty()) {
+        return false
+    } else {
+        return true
+    }
+}
+
+function transferShapedCrafting(event: Internal.TransferProxyRecipeEvent) {
+    let proxyRecipe = event.proxyRecipe as Internal.ShapedRecipe
     let recipe = event.recipeType.recipeBuilder().id(event.proxyRecipeId + "_mbd2")
 
     recipe.outputItems(proxyRecipe.result)
@@ -62,11 +70,15 @@ function transferShapedCrafting(event: any) {
         registerCrafterIngredient(recipe, i, proxyRecipe.getIngredients()[i])
     }
 
-    event.mbdRecipe = recipe.buildMBDRecipe()
+    if (proxyRecipe.result.isEmpty() || proxyRecipe.getIngredients().isEmpty() || !NonNullListHaveContent(proxyRecipe.getIngredients())) {
+        (event as {mbdRecipe : Internal.MBDRecipe | null}).mbdRecipe = null
+    } else {
+        (event as {mbdRecipe : Internal.MBDRecipe | null}).mbdRecipe = recipe.buildMBDRecipe()
+    }
 }
 
-function transferShapelessCrafting(event: any) {
-    let shapelessRecipe = event.proxyRecipe
+function transferShapelessCrafting(event: Internal.TransferProxyRecipeEvent) {
+    let shapelessRecipe = event.proxyRecipe as Internal.ShapelessRecipe
     let recipe = event.recipeType.recipeBuilder().id(event.proxyRecipeId + "_mbd2")
     let recipeIngredients = shapelessRecipe.getIngredients()
     let ingredientCount = recipeIngredients.size()
@@ -76,7 +88,12 @@ function transferShapelessCrafting(event: any) {
         registerCrafterIngredient(recipe, i, recipeIngredients[i])
     }
 
-    event.mbdRecipe = recipe.buildMBDRecipe()
+    if (shapelessRecipe.result.isEmpty() || recipeIngredients.isEmpty() || !NonNullListHaveContent(recipeIngredients)) {
+        (event as {mbdRecipe : Internal.MBDRecipe | null}).mbdRecipe = null
+    } else {
+        (event as {mbdRecipe : Internal.MBDRecipe | null}).mbdRecipe = recipe.buildMBDRecipe()
+    }
+    
 }
 
 function createEmptyTags(count: number) {
@@ -318,3 +335,64 @@ BlockEvents.rightClicked(event => {
         }
     }
 })
+
+
+function CanCompression (Ingredient : Internal.NonNullList<Internal.Ingredient>) {
+    let firstIngredient = null
+    let hasValue = false
+
+    for (let i = 0; i < Ingredient.size(); i++) {
+        if (!Ingredient[i].isEmpty()) {
+            if (!hasValue) {
+                firstIngredient = Ingredient[i]
+                hasValue = true
+            } else {
+                if (Ingredient[i] !== firstIngredient) {
+                    return false
+                }
+            }
+        }
+    }
+    return true
+}
+
+function CompressionIngredient (Ingredient : Internal.NonNullList<Internal.Ingredient>) {
+    let firstIngredient = null
+    let count = 0
+    for (let i = 0; i < Ingredient.size(); i++) {
+        if (!Ingredient[i].isEmpty()) {
+            if (firstIngredient == null) {
+                firstIngredient = Ingredient[i]
+                count++
+            } else {
+                if (Ingredient[i] === firstIngredient) {
+                    count++
+                }
+            }
+        }
+    }
+    return firstIngredient?.withCount(count)
+}
+
+function ApplyRecipe (recipe :Internal.MBDRecipeSchema$MBDRecipeJS, event : Internal.TransferProxyRecipeEvent) {
+    let proxyRecipe = event.proxyRecipe as Internal.ShapelessRecipe | Internal.ShapedRecipe
+    let ingredients = proxyRecipe.getIngredients()
+    if (CanCompression(ingredients)) {
+        let compressedIngredient = CompressionIngredient(ingredients) as Internal.InputItem
+        recipe.inputItems(compressedIngredient as InputItem_).outputItems(proxyRecipe.result);
+        (event as {mbdRecipe : Internal.MBDRecipe | null}).mbdRecipe = recipe.buildMBDRecipe()
+    }
+}
+
+function CompressionCraftRecipe (event: Internal.TransferProxyRecipeEvent) {
+    let proxyedRecipe = event.proxyRecipe
+    let proxyTypeId = event.proxyTypeId
+    let recipe = event.recipeType.recipeBuilder().id(event.proxyRecipeId + "_mbd2") as Internal.MBDRecipeSchema$MBDRecipeJS
+    if (proxyedRecipe instanceof $ShapelessCrafting) {
+        ApplyRecipe(recipe, event)
+    } else if (proxyedRecipe instanceof $Crafting) {
+        ApplyRecipe(recipe, event)
+    } else {
+        (event as {mbdRecipe : Internal.MBDRecipe | null}).mbdRecipe = null
+    }
+}

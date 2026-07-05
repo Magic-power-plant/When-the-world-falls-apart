@@ -43,17 +43,21 @@ const singularities: SingularityRecipe[] = [
     }
 ]
 
-AvaritiaEvents.singularity((event: any) => {
+function IDtoIngredient (singularities:SingularityRecipe) {
+    return Ingredient.of(singularities.ingredient as Internal.Ingredient_)
+}
+
+AvaritiaEvents.singularity((event: Internal.SingularityRegisterEventJS) => {
     singularities.forEach(recipe => {
-        event.register(recipe.id, (singularity: any) => {
+        event.register(recipe.id, (singularity: (Singularity)) => {
             singularity
                 .setDisplayName(recipe.displayName)
                 .setColors(recipe.overlayColor, recipe.underlayColor)
                 .setCount(recipe.count)
                 .setTimeCost(recipe.timeCost)
-                .setIngredient(recipe.ingredientOf ? Ingredient.of(recipe.ingredient) : recipe.ingredient)
+                .setIngredient(IDtoIngredient(recipe))
                 .setEnabled(true)
-                .setRecipeEnabled(false)
+                .setRecipeEnabled(true)
         })
     })
 })

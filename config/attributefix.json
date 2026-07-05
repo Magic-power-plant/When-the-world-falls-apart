@@ -121,17 +121,6 @@
         "value": 100
       }
     },
-    "hexcasting:ambit_radius": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-      }
-    },
     "irons_spellbooks:nature_magic_resist": {
       "enabled": false,
       "min": {
@@ -141,6 +130,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "hexcasting:ambit_radius": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
     "attributeslib:armor_pierce": {
@@ -154,17 +154,6 @@
         "value": 1000
       }
     },
-    "goety_revelation:spell_burning_value": {
-      "enabled": false,
-      "min": {
-        "default": -1000000,
-        "value": -1000000
-      },
-      "max": {
-        "default": 1000000,
-        "value": 1000000
-      }
-    },
     "irons_spellbooks:lightning_magic_resist": {
       "enabled": false,
       "min": {
@@ -174,6 +163,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "goety_revelation:spell_burning_value": {
+      "enabled": false,
+      "min": {
+        "default": -1000000,
+        "value": -1000000
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
       }
     },
     "malum:soul_ward_recovery_rate": {
@@ -242,7 +242,7 @@
         "value": 2000
       }
     },
-    "hexcasting:feeble_mind": {
+    "ticex:healing_received": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -253,7 +253,7 @@
         "value": 1
       }
     },
-    "ticex:healing_received": {
+    "hexcasting:feeble_mind": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -462,17 +462,6 @@
         "value": 1000
       }
     },
-    "goety_revelation:soul_increase_efficiency": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 32767,
-        "value": 32767
-      }
-    },
     "irons_spellbooks:holy_spell_power": {
       "enabled": false,
       "min": {
@@ -484,7 +473,7 @@
         "value": 100
       }
     },
-    "goety_revelation:void_power": {
+    "goety_revelation:soul_increase_efficiency": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -504,6 +493,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "goety_revelation:void_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
       }
     },
     "irons_spellbooks:evocation_magic_resist": {
@@ -726,17 +726,6 @@
         "value": 1
       }
     },
-    "ars_nouveau:ars_nouveau.perk.max_mana": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
-      }
-    },
     "tconstruct:player.experience_multiplier": {
       "enabled": false,
       "min": {
@@ -746,6 +735,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "botania:pixie_spawn_chance": {
@@ -770,17 +770,6 @@
         "value": 100
       }
     },
-    "eidolon:max_soul_hearts": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2000,
-        "value": 2000
-      }
-    },
     "l2damagetracker:magic_damage": {
       "enabled": false,
       "min": {
@@ -801,6 +790,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "eidolon:max_soul_hearts": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2000,
+        "value": 2000
       }
     },
     "minecraft:generic.max_health": {
@@ -869,17 +869,6 @@
         "value": 10000
       }
     },
-    "ars_nouveau:ars_nouveau.perk.warding": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "irons_spellbooks:max_mana": {
       "enabled": false,
       "min": {
@@ -889,6 +878,17 @@
       "max": {
         "default": 1000000,
         "value": 1000000
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.warding": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "minecraft:generic.knockback_resistance": {
@@ -979,17 +979,6 @@
         "value": 8
       }
     },
-    "goety_revelation:geomancy_power": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 32767,
-        "value": 32767
-      }
-    },
     "irons_spellbooks:holy_magic_resist": {
       "enabled": false,
       "min": {
@@ -999,6 +988,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "goety_revelation:geomancy_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
       }
     },
     "wizard_terra_cuiros:summon_damage": {
@@ -1144,6 +1144,17 @@
         "value": 64
       }
     },
+    "irons_spellbooks:summon_damage": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "ars_nouveau:ars_nouveau.perk.saturation": {
       "enabled": false,
       "min": {
@@ -1155,7 +1166,7 @@
         "value": 10000
       }
     },
-    "irons_spellbooks:summon_damage": {
+    "irons_spellbooks:eldritch_spell_power": {
       "enabled": false,
       "min": {
         "default": -100,
@@ -1175,17 +1186,6 @@
       "max": {
         "default": 32767,
         "value": 32767
-      }
-    },
-    "irons_spellbooks:eldritch_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "irons_spellbooks:cooldown_reduction": {
@@ -1353,6 +1353,28 @@
         "value": 1024
       }
     },
+    "irons_spellbooks:fire_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "irons_spellbooks:eldritch_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "eidolon:magic_power": {
       "enabled": false,
       "min": {
@@ -1384,28 +1406,6 @@
       "max": {
         "default": 2048,
         "value": 2048
-      }
-    },
-    "irons_spellbooks:fire_magic_resist": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "irons_spellbooks:eldritch_magic_resist": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "wizard_terra_cuiros:true_melee_damage": {
@@ -1650,17 +1650,6 @@
         "value": 32767
       }
     },
-    "ars_nouveau:ars_nouveau.perk.feather": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "irons_spellbooks:ender_magic_resist": {
       "enabled": false,
       "min": {
@@ -1670,6 +1659,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.feather": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.armor": {
@@ -1782,17 +1782,6 @@
         "value": 1024
       }
     },
-    "l2hostility:extra_difficulty": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
-      }
-    },
     "tconstruct:player.mining_speed_multiplier": {
       "enabled": false,
       "min": {
@@ -1802,6 +1791,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "l2hostility:extra_difficulty": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "tconstruct:generic.protection_cap": {

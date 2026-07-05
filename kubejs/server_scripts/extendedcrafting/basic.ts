@@ -2,7 +2,7 @@ export {}
 
 type ItemRef = string
 type KeyValue = ItemRef | (() => any)
-type KeyMap = {[key: string]: KeyValue}
+type KeyMap = {[key: string]: KeyValue | Internal.Ingredient}
 
 function spellPowder(effect: ItemRef) {
     return function () {
@@ -43,5 +43,12 @@ ServerEvents.recipes((event: any) => {
         b: "kubejs:weighty_lead_ingot",
         c: spellPowder("rootsclassic:orange_tulip"),
         d: "kubejs:root_wrapped_invar_machine_frame"
+    })
+    shapedTable(event, "enchanted:witch_oven" , ["abcba","addda","aeeea"],{
+        a:Item.of('avaritia:singularity', '{Id:"avaritia:coal"}').weakNBT(),
+        b:"kubejs:weighty_lead_machine_frame",
+        c:"aether:sun_altar",
+        d:"aether:light_hellfire_stone",
+        e:Item.of('tconstruct:scorched_anvil', '{texture:"twilightforest:fiery_block",tic_persistent:{}}').weakNBT()
     })
 })

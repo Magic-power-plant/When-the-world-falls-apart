@@ -1,4 +1,4 @@
-#Early window height
+﻿#Early window height
 earlyWindowHeight = 480
 #Enable forge global version checking
 versionCheck = false

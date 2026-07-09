@@ -55,7 +55,8 @@ const outputReplacements: OutputReplacement[] = [
     {output: "ae2:inscriber", input: "minecraft:sticky_piston", replacement: "embers:automatic_hammer"},
     {output: "ae2:inscriber", input: "minecraft:copper_ingot", replacement: "kubejs:source_gem_steel_machine_frame"},
     {output: "ae2:controller", input: "ae2:smooth_sky_stone_block", replacement: "kubejs:complex_processing_computer"},
-    {output: "ae2:controller", input: "ae2:engineering_processor", replacement: "kubejs:source_gem_steel_machine_frame"}
+    {output: "ae2:controller", input: "ae2:engineering_processor", replacement: "kubejs:source_gem_steel_machine_frame"},
+    {output: "rootsclassic:imbuer", input: "minecraft:chiseled_stone_bricks", replacement: "kubejs:root_wrapped_invar_machine_frame"}
 ]
 
 const filteredReplacements: FilteredReplacement[] = [

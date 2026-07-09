@@ -15,7 +15,7 @@ type RitualRecipe = {
 
 const itemJson = (value: ItemRef) => g.json.ItemObjectToJson(value)
 
-function ritual(event: any, recipe: RitualRecipe) {
+function ritual(event: Internal.RecipesEventJS, recipe: RitualRecipe) {
     const json: any = {
         type: "rootsclassic:ritual",
         effect: recipe.effect,
@@ -307,7 +307,7 @@ const alloyRituals: RitualRecipe[] = [
     }
 ]
 
-ServerEvents.recipes((event: any) => {
+ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     directRituals.forEach(recipe => {
         ritual(event, recipe)
     })

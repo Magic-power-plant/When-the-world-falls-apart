@@ -1,4 +1,7 @@
-function banit(event,item) {
+import {banitsList} from "../shared_scripts/list"
+
+
+function banit(event : Internal.ItemTooltipEventJS,item : Internal.Ingredient_) {
     event.addAdvanced(item,(item,advanced,text)=>{
         text.add(0,Text.of("该物品已被禁用").red())
         text.add(1,Text.of("该物品已被禁用").red())
@@ -6,25 +9,8 @@ function banit(event,item) {
     })
 }
 
-const banits = [
-     "hexcasting:pride_colorizer_aromantic",
-     "hexcasting:pride_colorizer_agender",
-     "hexcasting:pride_colorizer_aroace",
-     "hexcasting:pride_colorizer_asexual",
-     "hexcasting:pride_colorizer_bisexual",
-     "hexcasting:pride_colorizer_demiboy",
-     "hexcasting:pride_colorizer_demigirl",
-     "hexcasting:pride_colorizer_gay",
-     "hexcasting:pride_colorizer_genderfluid",
-     "hexcasting:pride_colorizer_genderqueer",
-     "hexcasting:pride_colorizer_intersex",
-     "hexcasting:pride_colorizer_lesbian",
-     "hexcasting:pride_colorizer_nonbinary",
-     "hexcasting:pride_colorizer_pansexual",
-     "hexcasting:pride_colorizer_plural",
-     "hexcasting:pride_colorizer_transgender"
-]
-
+const banits = banitsList as Internal.Ingredient_[]
+ItemEvents.modelProperties
 ItemEvents.tooltip(event => {
 event.addAdvanced("embers:mechanical_core", (item, advanced, text) => {
     text.add(1,Text.of('可以承接余烬部分机器的功能,来达到拓展机器可使用空间的目的').green())
@@ -45,29 +31,11 @@ event.addAdvanced("embers:pressure_refinery",(item,advanced,text)=>{
 event.addAdvanced("minecraft:crafting_table",(item,advanced,text)=>{
     text.add(1,Text.of("匠魂的工作站更好,推荐你用那个").green())
 })
-banit(event,"malum:pride_prideweave")
-banit(event,"malum:bi_prideweave")
-banit(event,"malum:pan_prideweave")
-banit(event,"malum:aro_prideweave")
-banit(event,"malum:ace_prideweave")
-banit(event,"malum:gay_prideweave")
-banit(event,"malum:poly_prideweave")
-banit(event,"malum:enby_prideweave")
-banit(event,"malum:trans_prideweave")
-banit(event,"malum:plural_prideweave")
-banit(event,"malum:aroace_prideweave")
-banit(event,"malum:agender_prideweave")
-banit(event,"malum:demiboy_prideweave")
-banit(event,"malum:lesbian_prideweave")
-banit(event,"malum:intersex_prideweave")
-banit(event,"malum:demigirl_prideweave")
-banit(event,"malum:genderfluid_prideweave")
-banit(event,"malum:genderqueer_prideweave")
 event.addAdvanced("kubejs:stone_iron_ingot",(item,advanced,text)=>{
     text.add(1,Text.of("感谢tian_fan为物品纹理做出的贡献").red())
 })
 
-banits.forEach((item)=>{
+banits.forEach((item : Internal.Ingredient_)=>{
     banit(event,item)})
 
 event.addAdvanced("embers:beam_splitter",(item,advanced,text)=>{
@@ -95,11 +63,11 @@ event.addAdvanced("minecraft:potion", (item, advanced, text) => {
         if (nbt && typeof nbt.getString === 'function') {
             let potionTooltips = nbt.getString("tooltips");
             if (potionTooltips && potionTooltips !== "") {
-                text.add(1, Text.of(potionTooltips).color(0xc516ab));
+                text.add(1, Text.of(potionTooltips).color(0xc516ab as unknown as dev.latvian.mods.rhino.mod.util.color.Color_));
             }
         }
     } catch (e) {
-        console.error("Error in potion tooltip:", e);
+        console.error("Error in potion tooltip:", e as Internal.Throwable_);
     }
 });
 
@@ -109,11 +77,11 @@ event.addAdvanced("minecraft:splash_potion", (item, advanced, text) => {
         if (nbt && typeof nbt.getString === 'function') {
             let potionTooltips = nbt.getString("tooltips");
             if (potionTooltips && potionTooltips !== "") {
-                text.add(1, Text.of(potionTooltips).color(0xc516ab));
+                text.add(1, Text.of(potionTooltips).color(0xc516ab as unknown as dev.latvian.mods.rhino.mod.util.color.Color_));
             }
         }
     } catch (e) {
-        console.error("Error in splash_potion tooltip:", e);
+        console.error("Error in splash_potion tooltip:", e as Internal.Throwable_);
     }
 });
 
@@ -123,11 +91,11 @@ event.addAdvanced("minecraft:lingering_potion", (item, advanced, text) => {
         if (nbt && typeof nbt.getString === 'function') {
             let potionTooltips = nbt.getString("tooltips");
             if (potionTooltips && potionTooltips !== "") {
-                text.add(1, Text.of(potionTooltips).color(0xc516ab));
+                text.add(1, Text.of(potionTooltips).color(0xc516ab as unknown as dev.latvian.mods.rhino.mod.util.color.Color_));
             }
         }
     } catch (e) {
-        console.error("Error in lingering_potion tooltip:", e);
+        console.error("Error in lingering_potion tooltip:", e as Internal.Throwable_);
     }
 });
 event.addAdvanced("kubejs:aubergine_seed",(item,addAdvanced,text) => {
@@ -138,3 +106,4 @@ event.addAdvanced("kubejs:aubergine_seed",(item,addAdvanced,text) => {
         text.add(1,Text.red("非常感谢feiniao_plus7为物品纹理,脚本,机器做出的贡献"))
     })
 })
+console.log("banitsList",banitsList)

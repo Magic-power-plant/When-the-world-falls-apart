@@ -1,3 +1,4 @@
+import {banitsList} from "../../shared_scripts/list"
 export {}
 
 type ItemRef = string
@@ -95,21 +96,13 @@ const removeIds: ItemRef[] = [
     "ae2:network/crystal_resonance_generator", "rootsclassic:brazier", "rootsclassic:altar", "rootsclassic:mundane_standing_stone",
     "avaritia:neutron_compressor", "rootsclassic:attuned_standing_stone", "suppsquared:daub_frame_slab", "suppsquared:daub_frame_stairs",
     "ars_nouveau:ritual_awakening", "eidolon:pewter_blend", "rootsclassic:mortar", "extendedcrafting:black_iron_ingot",
-    "extendedcrafting:luminessence","enchanted:witch_oven"
+    "extendedcrafting:luminessence","enchanted:witch_oven","enchanted:soft_clay_jar"
 ]
 
 const removeOutputs: ItemRef[] = [
-    "twilightforest:uncrafting_table", "#goety:chests", "malum:pride_prideweave", "malum:bi_prideweave",
-    "malum:pan_prideweave", "malum:aro_prideweave", "malum:ace_prideweave", "malum:gay_prideweave",
-    "malum:poly_prideweave", "malum:enby_prideweave", "malum:trans_prideweave", "malum:plural_prideweave",
-    "malum:aroace_prideweave", "malum:agender_prideweave", "malum:demiboy_prideweave", "malum:lesbian_prideweave",
-    "malum:intersex_prideweave", "malum:demigirl_prideweave", "malum:genderfluid_prideweave", "malum:genderqueer_prideweave",
-    "hexcasting:pride_colorizer_aromantic", "hexcasting:pride_colorizer_agender", "hexcasting:pride_colorizer_aroace", "hexcasting:pride_colorizer_asexual",
-    "hexcasting:pride_colorizer_bisexual", "hexcasting:pride_colorizer_demiboy", "hexcasting:pride_colorizer_demigirl", "hexcasting:pride_colorizer_gay",
-    "hexcasting:pride_colorizer_genderfluid", "hexcasting:pride_colorizer_genderqueer", "hexcasting:pride_colorizer_intersex", "hexcasting:pride_colorizer_lesbian",
-    "hexcasting:pride_colorizer_nonbinary", "hexcasting:pride_colorizer_pansexual", "hexcasting:pride_colorizer_plural", "hexcasting:pride_colorizer_transgender",
+    "twilightforest:uncrafting_table", "#goety:chests", 
     "tconstruct:fake_storage_block", "tconstruct:fake_ingot","suppsquared:daub_frame_slab"
-]
+].concat(banitsList as ItemRef[])
 
 const specialRemoveFilters: RecipeFilter[] = [
     {

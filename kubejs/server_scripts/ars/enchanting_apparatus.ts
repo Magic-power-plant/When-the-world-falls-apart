@@ -1,16 +1,16 @@
 export {}
 
 type ApparatusRecipe = {
-    inputs: any[]
-    reagent: any
-    output: any
+    inputs: InputItem_[]
+    reagent: InputItem_[] | InputItem_
+    output: OutputItem_
     source: number
 }
 
-function enchantingApparatus(event: any, recipe: ApparatusRecipe) {
+function enchantingApparatus(event: Internal.RecipesEventJS, recipe: ApparatusRecipe) {
     event.recipes.ars_nouveau.enchanting_apparatus(
         recipe.inputs,
-        recipe.reagent,
+        recipe.reagent as InputItem_[],
         recipe.output,
         recipe.source
     )
@@ -181,7 +181,7 @@ const apparatusRecipes: ApparatusRecipe[] = [
     {
         inputs: ["rootsclassic:infernal_bulb", "kubejs:inferno_bulb_seed"],
         reagent: "kubejs:inferno_essence",
-        output: "2x kubejs:refine_inferno_bulb",
+        output: "2x kubejs:refine_inferno_bulb" as OutputItem_,
         source: 10000
     },
     {
@@ -225,7 +225,7 @@ const apparatusRecipes: ApparatusRecipe[] = [
             "kubejs:living_ingot"
         ],
         reagent: "rootsclassic:crystal_staff",
-        output: "3x kubejs:life_sustaining_metal",
+        output: "3x kubejs:life_sustaining_metal" as OutputItem_,
         source: 10000
     },
     {
@@ -233,10 +233,16 @@ const apparatusRecipes: ApparatusRecipe[] = [
         reagent: "kubejs:source_netherite_component",
         output: "kubejs:root_component",
         source: 10000
+    },
+    {
+        inputs: ["embers:raw_caminite_block","tconstruct:grout","tconstruct:nether_grout","eidolon:pewter_inlay","eidolon:pewter_inlay"],
+        reagent: "minecraft:glass_bottle",
+        output: "enchanted:soft_clay_jar",
+        source: 100000
     }
 ]
 
-ServerEvents.recipes((event: any) => {
+ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     apparatusRecipes.forEach(recipe => {
         enchantingApparatus(event, recipe)
     })

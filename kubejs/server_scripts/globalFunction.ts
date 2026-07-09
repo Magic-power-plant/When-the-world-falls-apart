@@ -5,7 +5,7 @@ const g = global as unknown as {
         ItemIdToJson : (id: string) => Internal.JsonElement;
         FluidIdToJson : (id: string, num: number) => Internal.JsonObject;
         ItemObjectToJson : (kjsid:string) => Internal.JsonElement;
-        FluidObjectToJson : (kjsid:string) => Internal.JsonObject
+        FluidObjectToJson : (kjsid:string) => Internal.JsonObject;
     }
 }
 
@@ -34,7 +34,7 @@ g.json.ItemObjectToJson = function (kjsid:string) {
             return Item.of(id as Internal.ItemStack_, count).toJson();
         }
     } else {
-        return Item.of(kjsid as Internal.ItemStack_, 1).toJson();
+        return Item.of(kjsid as Internal.ItemStack_).toJson();
     }
 };
 g.json.FluidObjectToJson = function (kjsid:string) {

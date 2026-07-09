@@ -538,4 +538,5 @@ ServerEvents.recipes((event: any) => {
 
     // Smelting
     smelting(event, "kubejs:stone_iron_ingot", "kubejs:stone_iron_dust")
+    smelting(event, "eidolon:withered_heart","minecraft:nether_star")
 })

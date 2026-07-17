@@ -239,6 +239,12 @@ const apparatusRecipes: ApparatusRecipe[] = [
         reagent: "minecraft:glass_bottle",
         output: "enchanted:soft_clay_jar",
         source: 100000
+    },
+    {
+        inputs: ["kubejs:inferno_essence","kubejs:inferno_essence","kubejs:inferno_essence"],
+        reagent: Item.of('avaritia:singularity', '{Id:"kubejs:ender_pearl_singularity"}').weakNBT(),
+        output: "minecraft:ender_eye",
+        source: 10000
     }
 ]
 

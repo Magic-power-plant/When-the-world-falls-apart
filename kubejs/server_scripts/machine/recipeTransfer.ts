@@ -1,5 +1,8 @@
 export {}
 
+let $ManaInfusionRecipe = Java.loadClass("vazkii.botania.common.crafting.ManaInfusionRecipe")
+let $IngredientUtils = Java.loadClass("com.lowdragmc.mbd2.api.utils.IngredientUtils")
+
 type ProxyTransferEvent = {
     recipeType: any
     proxyTypeId: string
@@ -40,7 +43,7 @@ function transferManaInfusion(event: Internal.TransferProxyRecipeEvent) {
     if (event.proxyTypeId as unknown as string != "botania:mana_infusion") {
         return
     }
-
+    // @ts-ignore
     let proxy = event.proxyRecipe as Internal.ManaInfusionRecipe
     let inputs = collectJavaList(proxy.getIngredients())
     let output = proxy.getResultItem(null as unknown as Internal.RegistryAccess_)
@@ -72,7 +75,7 @@ function transferRunicAltar(event: Internal.TransferProxyRecipeEvent) {
     }
 
     let proxy = event.proxyRecipe as Internal.RunicAltarRecipe
-    let inputs = collectJavaList(proxy.getIngredients())
+    let inputs = collectJavaList($IngredientUtils.deduplicateElements(proxy.getIngredients().list))
     let output = proxy.getResultItem(null as unknown as Internal.RegistryAccess_)
     let mana = proxy.getManaUsage()
     let recipe = event.recipeType.recipeBuilder().id(event.proxyRecipeId + "_mbd2")
@@ -139,4 +142,3 @@ MBDRecipeTypeEvents.onTransferProxyRecipe("mbd2:runic_altar", e => {
 MBDRecipeTypeEvents.onTransferProxyRecipe("mbd2:genic_altar", e => {
     transferGenicAltar(e.event)
 })
-let aaa = Java.loadClass("com.lowdragmc.mbd2.common.machine.MBDMultiblockMachine")

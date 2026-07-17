@@ -40,6 +40,15 @@ const singularities: SingularityRecipe[] = [
         count: 500,
         timeCost: 200,
         ingredient: "#forge:bookshelves"
+    },
+    {
+        id: "kubejs:ender_pearl_singularity",
+        displayName: "singularity.kubejs.ender_pearl_singularity",
+        overlayColor: 0x0b744d,
+        underlayColor: 0x175041,
+        count: 1000,
+        timeCost: 200,
+        ingredient: "minecraft:ender_pearl"
     }
 ]
 

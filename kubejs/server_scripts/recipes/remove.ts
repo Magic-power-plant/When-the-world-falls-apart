@@ -96,7 +96,7 @@ const removeIds: ItemRef[] = [
     "ae2:network/crystal_resonance_generator", "rootsclassic:brazier", "rootsclassic:altar", "rootsclassic:mundane_standing_stone",
     "avaritia:neutron_compressor", "rootsclassic:attuned_standing_stone", "suppsquared:daub_frame_slab", "suppsquared:daub_frame_stairs",
     "ars_nouveau:ritual_awakening", "eidolon:pewter_blend", "rootsclassic:mortar", "extendedcrafting:black_iron_ingot",
-    "extendedcrafting:luminessence","enchanted:witch_oven","enchanted:soft_clay_jar"
+    "extendedcrafting:luminessence","enchanted:witch_oven","enchanted:soft_clay_jar","enchanted:altar"
 ]
 
 const removeOutputs: ItemRef[] = [

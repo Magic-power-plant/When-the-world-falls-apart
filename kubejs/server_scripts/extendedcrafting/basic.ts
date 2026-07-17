@@ -24,11 +24,11 @@ function resolvedKey(key: KeyMap) {
     return out
 }
 
-function shapedTable(event: any, output: ItemRef, pattern: string[], key: KeyMap) {
-    event.recipes.extendedcrafting.shaped_table(output, pattern, resolvedKey(key))
+function shapedTable(event: Internal.RecipesEventJS, output: ItemRef, pattern: string[], key: KeyMap) {
+    event.recipes.extendedcrafting.shaped_table(output as OutputItem_, pattern, resolvedKey(key))
 }
 
-ServerEvents.recipes((event: any) => {
+ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     shapedTable(event, "kubejs:pewter_machine_frame", ["abbba", "bcdcb", "befeb", "bcdcb", "abbba"], {
         a: "kubejs:weighty_lead_ingot",
         b: "eidolon:pewter_ingot",
@@ -50,5 +50,18 @@ ServerEvents.recipes((event: any) => {
         c:"aether:sun_altar",
         d:"aether:light_hellfire_stone",
         e:Item.of('tconstruct:scorched_anvil', '{texture:"twilightforest:fiery_block",tic_persistent:{}}').weakNBT()
+    })
+    shapedTable(event, "enchanted:altar" ,["defeg","hijik","abbbc"],{
+        a:"enchanted:hint_of_rebirth",
+        b:"kubejs:flow_stars",
+        c:"enchanted:whiff_of_magic",
+        d:"enchanted:breath_of_the_goddess",
+        e:"enchanted:foul_fume",
+        f:"kubejs:weighty_lead_machine_frame",
+        g:"enchanted:odour_of_purity",
+        h:"enchanted:exhale_of_the_horned_one",
+        i:"rootsclassic:attuned_standing_stone",
+        j:"rootsclassic:altar",
+        k:"enchanted:reek_of_misfortune"
     })
 })

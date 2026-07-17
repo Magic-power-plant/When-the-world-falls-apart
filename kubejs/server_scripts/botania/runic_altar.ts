@@ -1,5 +1,5 @@
 export {}
-
+/*
 type ItemRef = string
 
 const runeGroups: ItemRef[][] = [
@@ -33,24 +33,21 @@ function runicAltar(event: any, output: ItemRef, ingredients: any[], mana: numbe
     event.recipes.botania.runic_altar(`2x ${output}`, ingredients, mana)
 }
 
-ServerEvents.recipes((event: any) => {
-    event.forEachRecipe({type: "botania:runic_altar"}, (recipe: any) => {
+ServerEvents.recipes((event: Internal.RecipesEventJS) => {
+    event.forEachRecipe({type: "botania:runic_altar"}, (recipe: Internal.RecipeJS) => {
         const mana = recipe.allValueMap.get("mana").getValue()
         const output = recipe.outputValues()[0].value.item.id
 
         recipe.inputValues().forEach((input: any) => {
-            const ingredients: ItemRef[] = []
-
-            input.value.forEach((value: any) => {
-                const itemId = value.ingredient.itemIds[0]
-                expandedRuneIngredient(itemId).forEach(ingredient => {
-                    ingredients.push(ingredient)
-                })
+            const ingredients: Internal.Ingredient[] = []
+            input.value.forEach((value: InputItem) => {
+                ingredients.push(value.ingredient)
             })
 
             runicAltar(event, output, ingredients, mana)
         })
 
-        event.remove({id: recipe.getId()})
+        event.remove({id: recipe.getId()} as Internal.RecipeFilter_)
     })
 })
+*/

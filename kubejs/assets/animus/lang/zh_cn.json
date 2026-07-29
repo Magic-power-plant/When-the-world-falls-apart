@@ -127,7 +127,7 @@
   "tooltip.animus.runic_sentient_scythe.malum": "为灵灾的灵魂系统收集精魄",
   "tooltip.animus.hand_of_death.ultimate": "究极死神",
   "tooltip.animus.hand_of_death.lifesteal": "生命窃取: 每次攻击恢复造成伤害20%的生命值 ",
-  "tooltip.animus.hand_of_death.execute": "执行: 斩杀生命值低于15的生物",
+  "tooltip.animus.hand_of_death.execute": "执行: 斩杀生命值低于15%的生物",
   "text.component.animus.hand_of_death.execute": "⚰ 执行: %s",
   "tooltip.animus.key": "钥匙羁绊",
   "tooltip.animus.currentOwner": "主人: %s",

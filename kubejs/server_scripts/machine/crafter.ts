@@ -47,30 +47,37 @@ const faceNumberByDirection: NumberByString = {
 }
 
 function registerCrafterIngredient(recipe: any, index: number, ingredient: any) {
-    if (ingredient != undefined && !ingredient.itemIds.isEmpty()) {
+    if (ingredient != undefined && !ingredient.isEmpty()) {
         recipe.slotName(`crafter_${index}`, (builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputItems(ingredient)
         )
     }
 }
 
 function NonNullListHaveContent(list:Internal.NonNullList<Internal.Ingredient>) {
-    if (list[0].isEmpty() && list[1].isEmpty() && list[2].isEmpty() && list[3].isEmpty() && list[4].isEmpty() && list[5].isEmpty() && list[6].isEmpty() && list[7].isEmpty() && list[8].isEmpty()) {
-        return false
-    } else {
-        return true
+    for (let i = 0; i < list.size(); i++) {
+        if (!list.get(i).isEmpty()) {
+            return true
+        }
     }
+    return false
 }
 
 function transferShapedCrafting(event: Internal.TransferProxyRecipeEvent) {
     let proxyRecipe = event.proxyRecipe as Internal.ShapedRecipe
     let recipe = event.recipeType.recipeBuilder().id(event.proxyRecipeId + "_mbd2")
+    let ingredients = proxyRecipe.getIngredients()
 
-    recipe.outputItems(proxyRecipe.result)
-    for (let i = 0; i < CRAFTER_SLOT_COUNT; i++) {
-        registerCrafterIngredient(recipe, i, proxyRecipe.getIngredients()[i])
+    if (ingredients.size() > CRAFTER_SLOT_COUNT) {
+        (event as {mbdRecipe : Internal.MBDRecipe | null}).mbdRecipe = null
+        return
     }
 
-    if (proxyRecipe.result.isEmpty() || proxyRecipe.getIngredients().isEmpty() || !NonNullListHaveContent(proxyRecipe.getIngredients())) {
+    recipe.outputItems(proxyRecipe.result)
+    for (let i = 0; i < ingredients.size(); i++) {
+        registerCrafterIngredient(recipe, i, ingredients.get(i))
+    }
+
+    if (proxyRecipe.result.isEmpty() || ingredients.isEmpty() || !NonNullListHaveContent(ingredients)) {
         (event as {mbdRecipe : Internal.MBDRecipe | null}).mbdRecipe = null
     } else {
         (event as {mbdRecipe : Internal.MBDRecipe | null}).mbdRecipe = recipe.buildMBDRecipe()
@@ -83,9 +90,14 @@ function transferShapelessCrafting(event: Internal.TransferProxyRecipeEvent) {
     let recipeIngredients = shapelessRecipe.getIngredients()
     let ingredientCount = recipeIngredients.size()
 
+    if (ingredientCount > CRAFTER_SLOT_COUNT) {
+        (event as {mbdRecipe : Internal.MBDRecipe | null}).mbdRecipe = null
+        return
+    }
+
     recipe.outputItems(shapelessRecipe.result)
-    for (let i = 0; i <= ingredientCount; i++) {
-        registerCrafterIngredient(recipe, i, recipeIngredients[i])
+    for (let i = 0; i < ingredientCount; i++) {
+        registerCrafterIngredient(recipe, i, recipeIngredients.get(i))
     }
 
     if (shapelessRecipe.result.isEmpty() || recipeIngredients.isEmpty() || !NonNullListHaveContent(recipeIngredients)) {
@@ -336,7 +348,7 @@ BlockEvents.rightClicked(event => {
     }
 })
 
-
+/*
 function CanCompression (Ingredient : Internal.NonNullList<Internal.Ingredient>) {
     let firstIngredient = null
     let hasValue = false
@@ -396,3 +408,4 @@ function CompressionCraftRecipe (event: Internal.TransferProxyRecipeEvent) {
         (event as {mbdRecipe : Internal.MBDRecipe | null}).mbdRecipe = null
     }
 }
+*/

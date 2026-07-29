@@ -25,7 +25,9 @@ function stamping(event: any, recipe: StampingRecipe) {
         stamp: itemJson(recipe.stamp)
     }
 
-    if (recipe.input) json.input = itemJson(recipe.input)
+    if (recipe.input) {
+        json.input = itemJson(recipe.input)
+    }
     if (recipe.fluid) json.fluid = fluidJson(recipe.fluid)
     if (recipe.conditions) json.conditions = recipe.conditions
 
@@ -89,7 +91,8 @@ const itemRecipes = [
     {input: "#forge:ingots/silver", output: "thermal:silver_plate", stamp: "embers:plate_stamp"},
     {input: "#forge:ingots/lead", output: "thermal:lead_plate", stamp: "embers:plate_stamp"},
     {input: "thermal:sulfur", output: "thermal:sulfur_dust", stamp: "embers:flat_stamp"},
-    {input: "kubejs:root_wrapped_invar_ingot", output: "kubejs:root_wrapped_invar_plate", stamp: "embers:flat_stamp"}
+    {input: "kubejs:root_wrapped_invar_ingot", output: "kubejs:root_wrapped_invar_plate", stamp: "embers:flat_stamp"},
+    {input: "kubejs:drygmy_head", output: "kubejs:drygmy_brain", stamp: "embers:flat_stamp"}
 ]
 
 ServerEvents.recipes((event: any) => {

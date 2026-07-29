@@ -5,9 +5,10 @@ const g = global as any
 type ItemRef = string
 type FluidRef = string
 type EmberInfusionRecipe = {
-    input: ItemRef
-    output: ItemRef
-    fluid: FluidRef
+    input?: ItemRef
+    output?: ItemRef
+    fluid?: FluidRef
+    fluidO?: FluidRef
     emberCost: number
     recipeTime: number
 }
@@ -15,15 +16,20 @@ type EmberInfusionRecipe = {
 const itemJson = (value: ItemRef) => g.json.ItemObjectToJson(value)
 const fluidJson = (value: FluidRef) => g.json.FluidObjectToJson(value)
 
-function emberInfusion(event: any, recipe: EmberInfusionRecipe) {
-    event.custom({
+function emberInfusion(event: Internal.RecipesEventJS, recipe: EmberInfusionRecipe) {
+
+    const json : any = {
         type: "embers_extended:ember_infusing",
-        itemInput: itemJson(recipe.input),
-        itemOutput: itemJson(recipe.output),
-        fluidInput: fluidJson(recipe.fluid),
         emberCost: recipe.emberCost,
         recipeTime: recipe.recipeTime
-    })
+    }
+
+    if (recipe.input) json.itemInput = itemJson(recipe.input)
+    if (recipe.output) json.itemOutput = itemJson(recipe.output)
+    if (recipe.fluid) json.fluidInput = fluidJson(recipe.fluid)
+    if (recipe.fluidO) json.fluidOutput = fluidJson(recipe.fluidO)
+
+    event.custom(json as Internal.JsonObject_)
 }
 
 const emberInfusionRecipes: EmberInfusionRecipe[] = [
@@ -78,7 +84,7 @@ const emberInfusionRecipes: EmberInfusionRecipe[] = [
     }
 ]
 
-ServerEvents.recipes((event: any) => {
+ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     emberInfusionRecipes.forEach(recipe => {
         emberInfusion(event, recipe)
     })

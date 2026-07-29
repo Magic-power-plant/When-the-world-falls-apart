@@ -390,7 +390,7 @@ function drainVitalicEntities(level: any, machine: any) {
     let entities = level.getEntitiesWithin(AABB.of(posLow[0], posLow[1], posLow[2], posHigh[0], posHigh[1], posHigh[2]))
     let totalHealth = 0
 
-    entities.forEach((entity:Internal.Entity) => {
+    entities.forEach((entity:any) => {
         if (entity.type != "minecraft:player" && entity.isLiving() && entity.type != "dummmmmmy:target_dummy") {
             let livingEntity = entity as unknown as Internal.LivingEntity
             totalHealth += livingEntity.health

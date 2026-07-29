@@ -1,6 +1,8 @@
+import {g} from "../globalFunction"
 export {}
 
 type ItemRef = string
+type FluidRef = string
 type FluidJson = {
     amount: number
     fluid?: string
@@ -9,7 +11,7 @@ type FluidJson = {
 type CastingRecipe = {
     cast?: ItemRef | (() => any)
     result: any
-    fluid: FluidJson
+    fluid: FluidJson | FluidRef
     castConsumed?: boolean
     coolingTime?: number
 }
@@ -21,13 +23,18 @@ function spellPowderCast() {
         .toJson()
 }
 
-function castingBasin(event: any, recipe: CastingRecipe) {
+function castingBasin(event: Internal.RecipesEventJS, recipe: CastingRecipe) {
     const json: any = {
         type: "tconstruct:casting_basin",
         cast_consumed: recipe.castConsumed != undefined ? recipe.castConsumed : true,
         cooling_time: recipe.coolingTime != undefined ? recipe.coolingTime : 120,
-        fluid: recipe.fluid,
         result: recipe.result
+    }
+
+    if (typeof recipe.fluid === "string") {
+        json.fluid = g.json.FluidObjectToJson(recipe.fluid)
+    } else {
+        json.fluid = recipe.fluid
     }
 
     if (typeof recipe.cast == "string") {
@@ -67,10 +74,17 @@ const basinRecipes: CastingRecipe[] = [
         fluid: {amount: 10000, fluid: "thermal:glowstone"},
         castConsumed: true,
         coolingTime: 200
+    },
+    {
+        cast: "kubejs:uninspired_computer",
+        result: "kubejs:complex_processing_computer",
+        fluid: "360x kubejs:mind_nectar",
+        castConsumed: true,
+        coolingTime:4000
     }
 ]
 
-ServerEvents.recipes((event: any) => {
+ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     basinRecipes.forEach(recipe => {
         castingBasin(event, recipe)
     })

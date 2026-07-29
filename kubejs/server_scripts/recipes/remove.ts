@@ -96,8 +96,11 @@ const removeIds: ItemRef[] = [
     "ae2:network/crystal_resonance_generator", "rootsclassic:brazier", "rootsclassic:altar", "rootsclassic:mundane_standing_stone",
     "avaritia:neutron_compressor", "rootsclassic:attuned_standing_stone", "suppsquared:daub_frame_slab", "suppsquared:daub_frame_stairs",
     "ars_nouveau:ritual_awakening", "eidolon:pewter_blend", "rootsclassic:mortar", "extendedcrafting:black_iron_ingot",
-    "extendedcrafting:luminessence","enchanted:witch_oven","enchanted:soft_clay_jar","enchanted:altar"
-]
+    "extendedcrafting:luminessence","enchanted:witch_oven","enchanted:soft_clay_jar","enchanted:altar","integrateddynamics:crafting/squeezer","integrateddynamics:crafting/energy_battery",
+    "eidolon:crucible","eidolon:merammer_resin","expatternprovider:water_cell","expatternprovider:cobblestone_cell","avaritia:tc3_creative_slot_upgrades",
+    "avaritia:tc3_creative_slot_defense","avaritia:botania_mana_tablet","avaritia:tc3_creative_slot_souls","avaritia:ae2_creative_energy_cell",
+    "avaritia:tc3_creative_slot_ability","enchanted:quicklime"
+    ]
 
 const removeOutputs: ItemRef[] = [
     "twilightforest:uncrafting_table", "#goety:chests", 

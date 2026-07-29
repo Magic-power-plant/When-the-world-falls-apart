@@ -26,27 +26,27 @@ function applyExtras(builder: any, extras?: RecipeExtras) {
     if (extras.id) builder.id(extras.id)
 }
 
-function shaped(event: any, output: ItemOutput, pattern: string[], key: KeyMap, extras?: RecipeExtras) {
-    const builder = event.shaped(outputOf(output), pattern, key)
+function shaped(event: Internal.RecipesEventJS, output: ItemOutput, pattern: string[], key: KeyMap, extras?: RecipeExtras) {
+    const builder = (event as {shaped: Internal.RecipeTypeFunction | any}).shaped(outputOf(output), pattern, key)
     applyExtras(builder, extras)
 }
 
-function shapeless(event: any, output: ItemOutput, inputs: any[], extras?: RecipeExtras) {
-    const builder = event.shapeless(outputOf(output), inputs)
+function shapeless(event: Internal.RecipesEventJS, output: ItemOutput, inputs: any[], extras?: RecipeExtras) {
+    const builder = (event as {shapeless: Internal.RecipeTypeFunction | any}).shapeless(outputOf(output), inputs)
     applyExtras(builder, extras)
 }
 
-function campfire(event: any, output: ItemOutput, input: any, xp?: number, time?: number, extras?: RecipeExtras) {
-    const builder = event.campfireCooking(outputOf(output), input, xp, time)
+function campfire(event: Internal.RecipesEventJS, output: ItemOutput, input: any, xp?: number, time?: number, extras?: RecipeExtras) {
+    const builder = (event as {campfireCooking: Internal.RecipeTypeFunction | any}).campfireCooking(outputOf(output), input, xp, time)
     applyExtras(builder, extras)
 }
 
-function smelting(event: any, output: ItemOutput, input: any, extras?: RecipeExtras) {
-    const builder = event.smelting(outputOf(output), input)
+function smelting(event: Internal.RecipesEventJS, output: ItemOutput, input: any, extras?: RecipeExtras) {
+    const builder = (event as {smelting: Internal.RecipeTypeFunction | any}).smelting(outputOf(output), input)
     applyExtras(builder, extras)
 }
 
-ServerEvents.recipes((event: any) => {
+ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     // Shaped crafting
     shaped(event, "minecraft:crafting_table", ["pp ", "ll ", "   "], {
         p: "#minecraft:planks",
@@ -426,7 +426,7 @@ ServerEvents.recipes((event: any) => {
         b: "kubejs:source_netherite_component",
         c: "kubejs:source_gem_steel_machine_frame"
     })
-    shaped(event, "kubejs:complex_processing_computer", ["aba", "cdc", "ebe"], {
+    shaped(event, "kubejs:uninspired_computer", ["aba", "cdc", "ebe"], {
         a: "ae2:logic_processor",
         b: "kubejs:ultra_neodymium_plate",
         c: "ae2:calculation_processor",
@@ -497,6 +497,19 @@ ServerEvents.recipes((event: any) => {
     })
     shaped(event, "rootsclassic:mortar", ["a a", "a a", " a "], {
         a: "rootsclassic:attuned_standing_stone"
+    })
+    shaped(event, "integrateddynamics:squeezer", ["aba","cdc","aea"],{
+        a:"kubejs:uninspired_computer",
+        b:"ae2:inscriber",
+        c:"kubejs:root_wrapped_invar_plate",
+        d:"kubejs:root_wrapped_invar_machine_frame",
+        e:"embers:stamp_base"
+    })
+    shaped(event, "wtwfacore:disposable_ritual_chalk" ,['aba','aca','ada'],{
+        a:"enchanted:quicklime",
+        b:"minecraft:slime_block",
+        c:"tconstruct:sky_slime",
+        d:"tconstruct:ender_slime"
     })
 
     // Shapeless crafting

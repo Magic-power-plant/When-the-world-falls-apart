@@ -143,7 +143,7 @@ function felUnitCount(machine: any) {
     return felUnitPositions(machine).length
 }
 
-function setFelUnitsToMucus(level: any, machine: any) {
+function setFelUnitsToMucus(level: Internal.Level, machine: any) {
     felUnitPositions(machine).forEach(pos => {
         level.getBlock(pos[0], pos[1], pos[2]).set(WILL_MUCUS_BLOCK)
     })

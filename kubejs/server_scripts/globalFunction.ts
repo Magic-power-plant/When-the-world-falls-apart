@@ -56,3 +56,5 @@ g.json.FluidObjectToJson = function (kjsid:string) {
         return Fluid.of(kjsid as Internal.FluidStackJS_, 1).toJson();
     }
 };
+
+export {g}

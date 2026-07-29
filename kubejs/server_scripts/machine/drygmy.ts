@@ -102,7 +102,7 @@ function addMobJarDrops(level: any, block: any, fakePlayer: any, damageSource: a
 function getLootFromMobJarPositions(level: any, anchor: MachineAnchor, positions: RelativeBlockPos[]) {
     const fakePlayer = $ANFakePlayer.getPlayer(level)
     const damageSource = level.damageSources().playerAttack(fakePlayer)
-    const drops : any[] = []
+    const drops : Internal.ItemStack[] = []
 
     for (let i = 0; i < positions.length; i++) {
         let blockPos = relativeToMachine(anchor, positions[i])

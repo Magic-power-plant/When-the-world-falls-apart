@@ -91,7 +91,6 @@ function registerLevel1CrusherRecipe(event: any, recipe: CrusherRecipe) {
         .duration(50)
         .inputItems(recipe.input)
         .outputItems(recipe.output)
-        .isXEIHidden(true)
         .blocksInStructure(1, 1, "mbd2:liquid_ember_complete_combustion_unit")
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 10"))
 }
@@ -105,4 +104,11 @@ ServerEvents.recipes((event) => {
     commonCrusherRecipes.forEach(recipe => registerLevel0CrusherRecipe(event, recipe))
     commonCrusherRecipes.forEach(recipe => registerLevel1CrusherRecipe(event, recipe))
     extraBothLevelCrusherRecipes.forEach(recipe => registerBothCrusherLevels(event, recipe))
+
+    event.recipes.mbd2.dawnstone_crusher_controller()
+        .inputItems(["2x eidolon:merammer_root","eidolon:pewter_blend","kubejs:nouveau_essence"] as unknown as InputItem_[])
+        .outputItems("eidolon:merammer_resin")
+        .duration(500)
+        .blocksInStructure(1, 1, "mbd2:liquid_ember_complete_combustion_unit")
+        .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 50"))
 });

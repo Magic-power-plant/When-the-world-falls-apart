@@ -245,6 +245,12 @@ const apparatusRecipes: ApparatusRecipe[] = [
         reagent: Item.of('avaritia:singularity', '{Id:"kubejs:ender_pearl_singularity"}').weakNBT(),
         output: "minecraft:ender_eye",
         source: 10000
+    },
+    {
+        inputs: ['tconstruct:seared_fuel_tank',Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT()],
+        reagent: "kubejs:drygmy_brain",
+        output: Item.of('tconstruct:seared_fuel_tank', '{tank:{Amount:360,FluidName:"kubejs:drygmy_brain_tissue"},tic_persistent:{}}').weakNBT() as unknown as OutputItem_,
+        source: 1000
     }
 ]
 

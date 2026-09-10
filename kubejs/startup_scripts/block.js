@@ -15,4 +15,5 @@ StartupEvents.registry("block", event => {
     event.create("fel_reactor_unit").material("rock").hardness(7).resistance(5).displayName("邪能反应堆单元").tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").textureAll("kubejs:block/fel_reactor_unit")
     event.create("pewter_machine_frame").material("rock").hardness(7).resistance(5).displayName("白镴机器框架").tagBlock('forge:machine_frames').tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").defaultTranslucent().textureAll("kubejs:block/pewter_machine_frame")
     event.create("weighty_lead_machine_frame").material("rock").hardness(7).resistance(5).displayName("重铅机器框架").tagBlock('forge:machine_frames').tagBlock("minecraft:mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").defaultTranslucent().textureAll("kubejs:block/weighty_lead_machine_frame")
+    event.create('treated_wood_plank').material("wood").hardness(2).resistance(2).displayName("防腐木板").tagBlock('minecraft:mineable/axe').tagBlock("minecraft:needs_stone_tool")
 })

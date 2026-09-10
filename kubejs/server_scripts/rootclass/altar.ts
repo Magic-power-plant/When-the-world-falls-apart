@@ -1,8 +1,6 @@
+import {itemJson, ItemRef} from "../globalFunction"
 export {}
 
-const g = global as any
-
-type ItemRef = string
 type RitualRecipe = {
     effect: string
     level: number
@@ -12,8 +10,6 @@ type RitualRecipe = {
     result?: ItemRef
     entity?: string
 }
-
-const itemJson = (value: ItemRef) => g.json.ItemObjectToJson(value)
 
 function ritual(event: Internal.RecipesEventJS, recipe: RitualRecipe) {
     const json: any = {

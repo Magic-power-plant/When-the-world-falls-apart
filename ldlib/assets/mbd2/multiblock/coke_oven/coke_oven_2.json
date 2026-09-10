@@ -1,0 +1,97 @@
+{
+  "placeholders": {
+    "pattern": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        [
+          1,
+          2,
+          0
+        ],
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "z": 3,
+    "holders": [
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          0
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 1,
+        "predicates": []
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          1
+        ]
+      }
+    ],
+    "predicates": [
+      {
+        "type": "builtin",
+        "key": "tconstruct:seared_cracked_bricks"
+      },
+      {
+        "type": "builtin",
+        "key": "any"
+      }
+    ],
+    "x": 3,
+    "y": 3
+  },
+  "layer_axis": "Y",
+  "aisle_repetitions": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "shape_infos": [],
+  "__mbd2_nbt_types": {
+    "/placeholders/pattern": "list",
+    "/placeholders/pattern/0": "list",
+    "/placeholders/pattern/1": "list",
+    "/placeholders/pattern/1/1": "int_array",
+    "/placeholders/pattern/2": "list",
+    "/placeholders/z": "int",
+    "/placeholders/holders": "list",
+    "/placeholders/holders/0/facing": "int",
+    "/placeholders/holders/0/isController": "byte",
+    "/placeholders/holders/0/predicates": "int_array",
+    "/placeholders/holders/1/facing": "int",
+    "/placeholders/holders/1/isController": "byte",
+    "/placeholders/holders/1/predicates": "int_array",
+    "/placeholders/holders/2/facing": "int",
+    "/placeholders/holders/2/isController": "byte",
+    "/placeholders/holders/2/predicates": "int_array",
+    "/placeholders/predicates": "list",
+    "/placeholders/predicates/0/type": "string",
+    "/placeholders/predicates/0/key": "string",
+    "/placeholders/predicates/1/type": "string",
+    "/placeholders/predicates/1/key": "string",
+    "/placeholders/x": "int",
+    "/placeholders/y": "int",
+    "/layer_axis": "string",
+    "/aisle_repetitions": "int_array",
+    "/shape_infos": "list"
+  }
+}

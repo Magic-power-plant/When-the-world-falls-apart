@@ -1,11 +1,19 @@
+import {itemJson, fluidJson, ItemRef, FluidRef, FluidJson} from "../globalFunction"
 export {}
 
-type ItemRef = string
-type FluidJson = {
-    amount: number
-    fluid?: string
-    tag?: string
+type MeltingRecipe = {
+    input: ItemRef
+    result: FluidRef
+    temperature: number
+    time: number
 }
+
+type MaterialFluidRecipe = {
+    fluid: FluidJson
+    temperature: number
+    output: string
+}
+
 type CastingRecipe = {
     type: "tconstruct:casting_table" | "tconstruct:casting_basin"
     result: ItemRef
@@ -15,16 +23,16 @@ type CastingRecipe = {
     castConsumed?: boolean
 }
 
-const meltingRecipes = [
+const meltingRecipes: MeltingRecipe[] = [
     {
-        input: {item: "kubejs:burn_sun_ingot"},
-        result: {amount: 900, fluid: "kubejs:motlen_burn_sun"},
+        input: "kubejs:burn_sun_ingot",
+        result: "900x kubejs:motlen_burn_sun",
         temperature: 1450,
         time: 100
     }
 ]
 
-const materialFluidRecipes = [
+const materialFluidRecipes: MaterialFluidRecipe[] = [
     {
         fluid: {amount: 90, fluid: "kubejs:motlen_burn_sun"},
         temperature: 800,
@@ -87,6 +95,25 @@ const castingRecipes: CastingRecipe[] = [
     }
 ]
 
+function melting(event: Internal.RecipesEventJS, recipe: MeltingRecipe) {
+    event.custom({
+        type: "tconstruct:melting",
+        ingredient: itemJson(recipe.input),
+        result: fluidJson(recipe.result),
+        temperature: recipe.temperature,
+        time: recipe.time
+    } as unknown as Internal.JsonObject)
+}
+
+function materialFluid(event: Internal.RecipesEventJS, recipe: MaterialFluidRecipe) {
+    event.custom({
+        type: "tconstruct:material_fluid",
+        fluid: recipe.fluid,
+        temperature: recipe.temperature,
+        output: recipe.output
+    } as unknown as Internal.JsonObject)
+}
+
 function castingJson(recipe: CastingRecipe) {
     const json: any = {
         type: recipe.type,
@@ -101,24 +128,13 @@ function castingJson(recipe: CastingRecipe) {
     return json
 }
 
-ServerEvents.recipes((event: any) => {
+ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     meltingRecipes.forEach(recipe => {
-        event.custom({
-            type: "tconstruct:melting",
-            ingredient: recipe.input,
-            result: recipe.result,
-            temperature: recipe.temperature,
-            time: recipe.time
-        })
+        melting(event, recipe)
     })
 
     materialFluidRecipes.forEach(recipe => {
-        event.custom({
-            type: "tconstruct:material_fluid",
-            fluid: recipe.fluid,
-            temperature: recipe.temperature,
-            output: recipe.output
-        })
+        materialFluid(event, recipe)
     })
 
     castingRecipes.forEach(recipe => {

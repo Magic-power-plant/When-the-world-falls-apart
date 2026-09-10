@@ -1,69 +1,59 @@
-import {g} from "../globalFunction"
+import {ingredientJson, ItemRef, IngredientRef} from "../globalFunction"
 export {}
 
-type ItemRef = string
-type RecipeIngredient = ItemRef | Internal.Ingredient
-type FiveRecipeIngredientList = [RecipeIngredient,RecipeIngredient,RecipeIngredient,RecipeIngredient,RecipeIngredient]
+type FiveRecipeIngredientList = [IngredientRef, IngredientRef, IngredientRef, IngredientRef, IngredientRef]
 type AfterHandleElement = [] | Internal.JsonElement | null
-type AfterHandleList = [AfterHandleElement,AfterHandleElement,AfterHandleElement,AfterHandleElement,AfterHandleElement]
+type AfterHandleList = [AfterHandleElement, AfterHandleElement, AfterHandleElement, AfterHandleElement, AfterHandleElement]
 type AetherworksToolStationRecipe = {
-  input:FiveRecipeIngredientList
-  output:ItemRef | Internal.Ingredient
-  temperature:number
-  temperature_rate:number
+  input: FiveRecipeIngredientList
+  output: ItemRef | Internal.Ingredient
+  temperature: number
+  temperature_rate: number
 }
 
-function ClassItem (item : RecipeIngredient) {
-  if (typeof item === "string") {
-    return g.json.ItemObjectToJson(item as string)
-  } else {
-    return item.toJson()
-  }
-}
-
-function HandleList (list:FiveRecipeIngredientList) {
-  let NEWList:AfterHandleList = [null,null,null,null,null]
+function handleList (list: FiveRecipeIngredientList) {
+  let newList: AfterHandleList = [null, null, null, null, null]
   for (let i = 0 ; i < list.length ;i++) {
     let element = list[i]
     if (typeof element === "string") {
       if (element === " " || element === "") {
-        NEWList[i] = []
+        newList[i] = []
       } else {
-        NEWList[i] = ClassItem(element)
+        newList[i] = ingredientJson(element)
       }
     } else {
-      NEWList[i] = element.toJson()
+      newList[i] = element.toJson()
     }
   }
-  if (NEWList.every(item => item === null)){
-    NEWList.forEach((element:AfterHandleElement ,i ,array) => {
+  if (newList.every(item => item === null)){
+    newList.forEach((element: AfterHandleElement, i, array) => {
       if (element === null) array[i] = []
     })
   }
-  return NEWList
+  return newList
 }
 
-function AetherworksToolStation(event:Internal.RecipesEventJS,recipe:AetherworksToolStationRecipe) {
+function aetherworksToolStation(event: Internal.RecipesEventJS, recipe: AetherworksToolStationRecipe) {
   event.custom({
     type: "aetherworks:tool_station",
-    inputs: HandleList(recipe.input),
-    output:ClassItem(recipe.output),
-    temperature:recipe.temperature,
-    temperature_rate:recipe.temperature_rate
+    inputs: handleList(recipe.input),
+    output: ingredientJson(recipe.output),
+    temperature: recipe.temperature,
+    temperature_rate: recipe.temperature_rate
   } as unknown as Internal.JsonObject)
 }
 
-const RecipeList : AetherworksToolStationRecipe[] = [
+const toolStationRecipes: AetherworksToolStationRecipe[] = [
   {
-    input:["embers:stamper","embers:stamper",Item.of('avaritia:singularity', '{Id:"kubejs:bookshelf_singularity"}').weakNBT(),"embers:stamp_base","embers:stamp_base"],
-    output:"kubejs:shattered_pages",
-    temperature:2000,
-    temperature_rate:20
+    input: ["embers:stamper", "embers:stamper", Item.of('avaritia:singularity', '{Id:"kubejs:bookshelf_singularity"}').weakNBT(), "embers:stamp_base", "embers:stamp_base"],
+    output: "kubejs:shattered_pages",
+    temperature: 2000,
+    temperature_rate: 20
   }
 ]
 
-ServerEvents.recipes((event:Internal.RecipesEventJS) => {
-  RecipeList.forEach(recipe => {
-    AetherworksToolStation(event,recipe)
+ServerEvents.recipes((event: Internal.RecipesEventJS) => {
+  toolStationRecipes.forEach(recipe => {
+    aetherworksToolStation(event, recipe)
   })
 })

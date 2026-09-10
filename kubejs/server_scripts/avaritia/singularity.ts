@@ -58,6 +58,25 @@ const singularities: SingularityRecipe[] = [
         count: 1000,
         timeCost: 200,
         ingredient:"#forge:cobblestone"
+    },
+    {
+        id: "kubejs:wooden_singularity",
+        displayName: "singularity.kubejs.wooden_singularity",
+        overlayColor:0xbc8300,
+        underlayColor:0x915700,
+        count:1000,
+        timeCost:200,
+        ingredient:"#minecraft:planks"
+    },
+    {
+        id: "kubejs:treated_wood_singularity",
+        displayName: "singularity.kubejs.treated_wood_singularity",
+        overlayColor:0xe67301,
+        underlayColor:0xc36800,
+        count:1000,
+        timeCost:200,
+        ingredient:"minecraft:acacia_boat",
+        ingredientOf:false
     }
 ]
 
@@ -75,7 +94,7 @@ AvaritiaEvents.singularity((event: Internal.SingularityRegisterEventJS) => {
                 .setTimeCost(recipe.timeCost)
                 .setIngredient(IDtoIngredient(recipe))
                 .setEnabled(true)
-                .setRecipeEnabled(true)
+                .setRecipeEnabled((recipe.ingredientOf === false) ? false : true)
         })
     })
 })

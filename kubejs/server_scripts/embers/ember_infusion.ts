@@ -1,9 +1,6 @@
+import {itemJson, fluidJson, ItemRef, FluidRef} from "../globalFunction"
 export {}
 
-const g = global as any
-
-type ItemRef = string
-type FluidRef = string
 type EmberInfusionRecipe = {
     input?: ItemRef
     output?: ItemRef
@@ -12,9 +9,6 @@ type EmberInfusionRecipe = {
     emberCost: number
     recipeTime: number
 }
-
-const itemJson = (value: ItemRef) => g.json.ItemObjectToJson(value)
-const fluidJson = (value: FluidRef) => g.json.FluidObjectToJson(value)
 
 function emberInfusion(event: Internal.RecipesEventJS, recipe: EmberInfusionRecipe) {
 

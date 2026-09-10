@@ -1,7 +1,7 @@
 import {banitsList} from "../../shared_scripts/list"
+import {ItemRef} from "../globalFunction"
 export {}
 
-type ItemRef = string
 type RecipeFilter = {[key: string]: any}
 
 const removeIds: ItemRef[] = [
@@ -99,7 +99,7 @@ const removeIds: ItemRef[] = [
     "extendedcrafting:luminessence","enchanted:witch_oven","enchanted:soft_clay_jar","enchanted:altar","integrateddynamics:crafting/squeezer","integrateddynamics:crafting/energy_battery",
     "eidolon:crucible","eidolon:merammer_resin","expatternprovider:water_cell","expatternprovider:cobblestone_cell","avaritia:tc3_creative_slot_upgrades",
     "avaritia:tc3_creative_slot_defense","avaritia:botania_mana_tablet","avaritia:tc3_creative_slot_souls","avaritia:ae2_creative_energy_cell",
-    "avaritia:tc3_creative_slot_ability","enchanted:quicklime"
+    "avaritia:tc3_creative_slot_ability","enchanted:quicklime","enchanted:distillery","eidolon:worktable","eidolon:wooden_altar"
     ]
 
 const removeOutputs: ItemRef[] = [
@@ -121,16 +121,16 @@ const specialRemoveFilters: RecipeFilter[] = [
     }
 ]
 
-ServerEvents.recipes((event: any) => {
+ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     removeIds.forEach(id => {
-        event.remove({id: id})
+        event.remove({id: id} as Internal.RecipeFilter_)
     })
 
     removeOutputs.forEach(output => {
-        event.remove({output: output})
+        event.remove({output: output} as Internal.RecipeFilter_)
     })
 
     specialRemoveFilters.forEach(filter => {
-        event.remove(filter)
+        event.remove(filter as Internal.RecipeFilter_)
     })
 })

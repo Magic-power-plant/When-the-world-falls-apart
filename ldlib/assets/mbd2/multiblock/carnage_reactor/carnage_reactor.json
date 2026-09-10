@@ -626,163 +626,163 @@
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_slab_d[type=top,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_slab_destructive[type=top,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_slab_s[type=top,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_slab_steadfast[type=top,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_slab_d"
+        "key": "bloodmagic:dungeon_polished_slab_destructive"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_slab_s"
+        "key": "bloodmagic:dungeon_polished_slab_steadfast"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_stone_slab_d"
+        "key": "bloodmagic:dungeon_stone_slab_destructive"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_stone_slab_s"
+        "key": "bloodmagic:dungeon_stone_slab_steadfast"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_d"
+        "key": "bloodmagic:dungeon_polished_destructive"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_d[facing=north,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=north,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_s[facing=south,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=south,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_s"
+        "key": "bloodmagic:dungeon_polished_steadfast"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_d[facing=east,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=east,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_s[facing=east,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=east,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_tile_d"
+        "key": "bloodmagic:dungeon_tile_destructive"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_tile_s"
+        "key": "bloodmagic:dungeon_tile_steadfast"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_d[facing=east,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=east,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_s[facing=east,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=east,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_brick1_stairs_d"
+        "key": "bloodmagic:dungeon_brick1_stairs_destructive"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_s[facing=south,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=south,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_stone_slab_d[type=top,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_stone_slab_destructive[type=top,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_stone_slab_s[type=top,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_stone_slab_steadfast[type=top,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_d[facing=east,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing=east,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_s[facing=east,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_steadfast[facing=east,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_d[facing=south,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=south,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_brick1_stairs_s"
+        "key": "bloodmagic:dungeon_brick1_stairs_steadfast"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_d[facing=south,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=south,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_s[facing=north,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=north,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_d[facing=east,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing=east,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_s[facing=east,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_steadfast[facing=east,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_d[facing=west,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=west,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_s[facing=west,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=west,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_d[facing=south,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing=south,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_s[facing=north,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_steadfast[facing=north,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_d[facing=south,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing=south,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_stairs_s"
+        "key": "bloodmagic:dungeon_polished_stairs_steadfast"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_d[facing=west,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=west,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_s[facing=west,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=west,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_d[facing=west,half=top,shape=outer_right,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=west,half=top,shape=outer_right,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_s[facing=south,half=top,shape=outer_right,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=south,half=top,shape=outer_right,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_d[facing=west,half=bottom,shape=outer_right,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=west,half=bottom,shape=outer_right,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_s[facing=south,half=bottom,shape=outer_right,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=south,half=bottom,shape=outer_right,waterlogged=false]"
       },
       {
         "type": "builtin",
@@ -818,163 +818,163 @@
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_v[facing=south,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing=south,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_stairs_c"
+        "key": "bloodmagic:dungeon_polished_stairs_corrosive"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_slab_v"
+        "key": "bloodmagic:dungeon_polished_slab_vengeful"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_slab_c"
+        "key": "bloodmagic:dungeon_polished_slab_corrosive"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_slab_v[type=top,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_slab_vengeful[type=top,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_slab_c[type=top,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_slab_corrosive[type=top,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_v[facing=west,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing=west,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_c[facing=west,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_corrosive[facing=west,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_v[facing=east,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=east,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_c[facing=east,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=east,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_v[facing=east,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=east,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_c[facing=east,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=east,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_brick1_stairs_v"
+        "key": "bloodmagic:dungeon_brick1_stairs_vengeful"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_c[facing=south,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=south,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_tile_v"
+        "key": "bloodmagic:dungeon_tile_vengeful"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_v"
+        "key": "bloodmagic:dungeon_polished_vengeful"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_c"
+        "key": "bloodmagic:dungeon_polished_corrosive"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_tile_c"
+        "key": "bloodmagic:dungeon_tile_corrosive"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_v[facing=south,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=south,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_v[facing=north,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=north,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_c[facing=south,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=south,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_brick1_stairs_c"
+        "key": "bloodmagic:dungeon_brick1_stairs_corrosive"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_v[facing=south,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=south,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_c[facing=north,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=north,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_stone_slab_v"
+        "key": "bloodmagic:dungeon_stone_slab_vengeful"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_v[facing=west,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=west,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_c[facing=west,half=bottom,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=west,half=bottom,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "bloodmagic:dungeon_stone_slab_c"
+        "key": "bloodmagic:dungeon_stone_slab_corrosive"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_stone_slab_v[type=top,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_stone_slab_vengeful[type=top,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_v[facing=west,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=west,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_c[facing=west,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=west,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_stone_slab_c[type=top,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_stone_slab_corrosive[type=top,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_v[facing=south,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing=south,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_c[facing=north,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_corrosive[facing=north,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_v[facing=west,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing=west,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_c[facing=west,half=top,shape=straight,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_polished_stairs_corrosive[facing=west,half=top,shape=straight,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_v[facing=north,half=top,shape=outer_right,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=north,half=top,shape=outer_right,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_c[facing=east,half=top,shape=outer_right,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=east,half=top,shape=outer_right,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_v[facing=north,half=bottom,shape=outer_right,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=north,half=bottom,shape=outer_right,waterlogged=false]"
       },
       {
         "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_c[facing=south,half=bottom,shape=outer_left,waterlogged=false]"
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=south,half=bottom,shape=outer_left,waterlogged=false]"
       }
     ],
     "x": 37,

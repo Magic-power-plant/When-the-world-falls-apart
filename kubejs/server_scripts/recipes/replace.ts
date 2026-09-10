@@ -1,6 +1,6 @@
+import {ItemRef} from "../globalFunction"
 export {}
 
-type ItemRef = string
 type RecipeFilter = {[key: string]: any}
 type OutputReplacement = {output: ItemRef; input: ItemRef; replacement: ItemRef}
 type FilteredReplacement = {filter: RecipeFilter; input: ItemRef; replacement: ItemRef}
@@ -86,12 +86,12 @@ const filteredReplacements: FilteredReplacement[] = [
     }
 ]
 
-ServerEvents.recipes((event: any) => {
+ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     outputReplacements.forEach(recipe => {
-        event.replaceInput({output: recipe.output}, recipe.input, recipe.replacement)
+        event.replaceInput({output: recipe.output} as Internal.RecipeFilter_, recipe.input as Internal.ReplacementMatch_, recipe.replacement as Internal.InputReplacement_)
     })
 
     filteredReplacements.forEach(recipe => {
-        event.replaceInput(recipe.filter, recipe.input, recipe.replacement)
+        event.replaceInput(recipe.filter as Internal.RecipeFilter_, recipe.input as Internal.ReplacementMatch_, recipe.replacement as Internal.InputReplacement_)
     })
 })

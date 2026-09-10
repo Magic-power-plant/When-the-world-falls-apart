@@ -111,4 +111,11 @@ ServerEvents.recipes((event) => {
         .duration(500)
         .blocksInStructure(1, 1, "mbd2:liquid_ember_complete_combustion_unit")
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 50"))
+
+    event.recipes.mbd2.dawnstone_crusher_controller()
+        .inputItems(Item.of('avaritia:singularity', '{Id:"kubejs:treated_wood_singularity"}').weakNBT())
+        .outputItems("80x kubejs:treated_wood_plank" as InputItem_)
+        .duration(500)
+        .blocksInStructure(1, 1, "mbd2:liquid_ember_complete_combustion_unit")
+        .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 25"))
 });

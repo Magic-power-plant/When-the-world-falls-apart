@@ -82,7 +82,15 @@ const itemTags: TagEntry[] = [
     {tag: "alexsmobs:banana_slug_slime", values: "alexsmobs:banana_slug_slime"},
     {tag: "minecraft:magma_cream", values: "minecraft:magma_cream"},
     {tag: "kubejs:metal_essence", values: "kubejs:metal_essence"},
-    {tag: "kubejs:dawnstone_machine_frame", values: "kubejs:dawnstone_machine_frame"}
+    {tag: "kubejs:dawnstone_machine_frame", values: "kubejs:dawnstone_machine_frame"},
+    {
+        tag:"forge:block/coals",
+        values: [
+            "minecraft:coal_block",
+            "thermal:charcoal_block",
+            "divinerpg:coalstone"
+        ]
+    }
 ]
 
 const bloodOrbs = [

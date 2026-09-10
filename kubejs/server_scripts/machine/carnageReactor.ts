@@ -1,3 +1,4 @@
+import {machineAnchor, relativeToMachine, MachineAnchor, RelativePos} from "../globalFunction"
 export {}
 
 const $MBDRecipe = Java.loadClass("com.lowdragmc.mbd2.api.recipe.MBDRecipe")
@@ -5,19 +6,6 @@ const $ACEntityRegistry = Java.loadClass("com.github.alexmodguy.alexscaves.serve
 const $FluidStack = Java.loadClass("com.lowdragmc.lowdraglib.side.fluid.FluidStack")
 const $MobJarItem = Java.loadClass("com.hollingsworth.arsnouveau.common.items.MobJarItem")
 const $ContentModifier = Java.loadClass("com.lowdragmc.mbd2.api.recipe.content.ContentModifier")
-
-type MachineAnchor = {
-    x: number
-    y: number
-    z: number
-    direction: string
-}
-
-type RelativePos = {
-    left: number
-    fore: number
-    y: number
-}
 
 type FuelData = {
     burnTime: number
@@ -66,44 +54,6 @@ const coolingFluids: { [key: string]: CoolingFluidData } = {
         highTemperature: 400,
         amountMultiplier: 5,
     },
-}
-
-function machineAnchor(machine: any): MachineAnchor {
-    let pos = machine.getPos()
-    return {
-        x: pos.getX(),
-        y: pos.getY(),
-        z: pos.getZ(),
-        direction: machine.frontFacing.get(),
-    }
-}
-
-function relativeToMachine(anchor: MachineAnchor, rel: RelativePos) {
-    let x = anchor.x
-    let z = anchor.z
-
-    switch (anchor.direction) {
-        case "south":
-            x += rel.left
-            z += rel.fore
-            break
-        case "north":
-            x -= rel.left
-            z -= rel.fore
-            break
-        case "east":
-            x += rel.fore
-            z -= rel.left
-            break
-        case "west":
-            x -= rel.fore
-            z += rel.left
-            break
-        default:
-            break
-    }
-
-    return [x, anchor.y + rel.y, z]
 }
 
 function scanBox(anchor: MachineAnchor, start: RelativePos, end: RelativePos) {

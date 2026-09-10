@@ -1,8 +1,6 @@
-import {g} from "../globalFunction"
+import {g, ingredientJson, ItemRef, IngredientRef} from "../globalFunction"
 export {}
 
-type ItemRef = string
-type IngredientRef = ItemRef | Internal.Ingredient
 type CrucibleItemStep = {
     items: IngredientRef[]
     stirs?: number
@@ -16,10 +14,6 @@ type CrucibleRecipe = {
     id?: string
     steps: CrucibleStep[]
     result: ItemRef
-}
-
-const ingredientJson = (value: IngredientRef) => {
-    return typeof value === "string" ? g.json.ItemObjectToJson(value) : value.toJson()
 }
 
 function eidolonCrucible(event: Internal.RecipesEventJS, recipe: CrucibleRecipe) {
@@ -126,6 +120,22 @@ const crucibleRecipes: CrucibleRecipe[] = [
         }
     ],
     result:"enchanted:witch_cauldron"
+   },
+   {
+    steps:[
+        {
+            items:["enchanted:breath_of_the_goddess","kubejs:flow_stars"],
+            stirs:2
+        },{
+            items:[Item.of('avaritia:singularity', '{Id:"kubejs:ender_pearl_singularity"}').weakNBT()]
+        },{
+            items:[Item.of('avaritia:singularity', '{Id:"kubejs:ender_pearl_singularity"}').weakNBT()]
+        },{
+            items:["botania:purple_mystical_flower"],
+            stirs:1
+        }
+    ],
+    result:"enchanted:tear_of_the_goddess"
    }
 ]
 

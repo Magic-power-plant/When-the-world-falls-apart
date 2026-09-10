@@ -1,12 +1,19 @@
+import {ItemRef} from "../globalFunction"
 export {}
 
-type ItemRef = string
 type ItemOutput = ItemRef | (() => any)
-type KeyMap = {[key: string]: any}
+type KeyMap = {[key: string]: ItemRef | (() => any) | Internal.Ingredient}
 type RecipeExtras = {
     damage?: {item: ItemRef; amount: number}
     keep?: ItemRef
     id?: string
+}
+
+type RecipeBuilderMethods = {
+    shaped: (output: any, pattern: string[], key: KeyMap) => any
+    shapeless: (output: any, inputs: any[]) => any
+    campfireCooking: (output: any, input: any, xp: number, time: number) => any
+    smelting: (output: any, input: any, xp?: number, time?: number) => any
 }
 
 function nbtItem(item: ItemRef, nbt: string) {
@@ -27,22 +34,22 @@ function applyExtras(builder: any, extras?: RecipeExtras) {
 }
 
 function shaped(event: Internal.RecipesEventJS, output: ItemOutput, pattern: string[], key: KeyMap, extras?: RecipeExtras) {
-    const builder = (event as {shaped: Internal.RecipeTypeFunction | any}).shaped(outputOf(output), pattern, key)
+    const builder = (event as unknown as RecipeBuilderMethods).shaped(outputOf(output), pattern, key)
     applyExtras(builder, extras)
 }
 
 function shapeless(event: Internal.RecipesEventJS, output: ItemOutput, inputs: any[], extras?: RecipeExtras) {
-    const builder = (event as {shapeless: Internal.RecipeTypeFunction | any}).shapeless(outputOf(output), inputs)
+    const builder = (event as unknown as RecipeBuilderMethods).shapeless(outputOf(output), inputs)
     applyExtras(builder, extras)
 }
 
 function campfire(event: Internal.RecipesEventJS, output: ItemOutput, input: any, xp?: number, time?: number, extras?: RecipeExtras) {
-    const builder = (event as {campfireCooking: Internal.RecipeTypeFunction | any}).campfireCooking(outputOf(output), input, xp, time)
+    const builder = (event as unknown as RecipeBuilderMethods).campfireCooking(outputOf(output), input, xp as number, time as number)
     applyExtras(builder, extras)
 }
 
 function smelting(event: Internal.RecipesEventJS, output: ItemOutput, input: any, extras?: RecipeExtras) {
-    const builder = (event as {smelting: Internal.RecipeTypeFunction | any}).smelting(outputOf(output), input)
+    const builder = (event as unknown as RecipeBuilderMethods).smelting(outputOf(output), input)
     applyExtras(builder, extras)
 }
 

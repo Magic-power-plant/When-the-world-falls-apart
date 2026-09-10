@@ -1,14 +1,11 @@
+import {itemJson, ItemRef} from "../globalFunction"
 export {}
 
-const g = global as any
-
-const itemJson = (value: string) => g.json.ItemObjectToJson(value)
-
 type InscriberRecipe = {
-    bottom: string
-    middle: string
-    top: string
-    result: string
+    bottom: ItemRef
+    middle: ItemRef
+    top: ItemRef
+    result: ItemRef
 }
 
 function inscriber(event: any, recipe: InscriberRecipe) {
@@ -57,9 +54,14 @@ const digitalTransducers: InscriberRecipe[] = [
     }
 ]
 
+type PressTemplate = {
+    top: ItemRef
+    result: (tier: string) => ItemRef
+}
+
 const storageTiers = ["1k", "4k", "16k"]
 
-const componentPresses = [
+const componentPresses: PressTemplate[] = [
     {
         top: "kubejs:item_digital_transducer",
         result: (tier: string) => `ae2:cell_component_${tier}`
@@ -82,7 +84,13 @@ const componentPresses = [
     }
 ]
 
-const cellPresses = [
+type CellPressTemplate = {
+    bottom: ItemRef
+    top: (tier: string) => ItemRef
+    result: (tier: string) => ItemRef
+}
+
+const cellPresses: CellPressTemplate[] = [
     {
         bottom: "ae2:item_cell_housing",
         top: (tier: string) => `ae2:cell_component_${tier}`,

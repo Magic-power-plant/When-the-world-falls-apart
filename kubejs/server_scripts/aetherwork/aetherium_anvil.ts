@@ -1,8 +1,6 @@
+import {itemJson, ItemRef} from "../globalFunction"
 export {}
 
-const g = global as any
-
-type ItemRef = string
 type AetheriumAnvilRecipe = {
     input: ItemRef
     output: ItemRef
@@ -14,8 +12,6 @@ type AetheriumAnvilRecipe = {
     chance?: number
     count?: number
 }
-
-const itemJson = (value: ItemRef) => g.json.ItemObjectToJson(value)
 
 function aetheriumAnvil(event: any, recipe: AetheriumAnvilRecipe) {
     const difficulty = recipe.difficulty != undefined ? recipe.difficulty : 5

@@ -1,3 +1,5 @@
+#文件夹
+.idea/
 logs/
 .mixin.out/
 .probe/
@@ -23,6 +25,7 @@ plan/
 XaeroWaypoints_BACKUP240807/
 icon-exports-x32/
 config/jei/world/
+#文件
 options.txt
 hotai.zip
 caxton_impl.dll
@@ -33,6 +36,7 @@ usercache.json
 rhino.local.properties
 patchouli_data.json
 observable_announce
+#纹理包和光影包
 shaderpacks/ComplementaryUnbound_r5.3 + EuphoriaPatches_1.4.3.zip
 resourcepacks/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip
 resourcepacks/Goety Old Textures.zip

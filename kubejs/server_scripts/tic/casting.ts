@@ -1,19 +1,18 @@
-import {g} from "../globalFunction"
+import {fluidJson, ItemRef, FluidRef, FluidJson, g} from "../globalFunction"
 export {}
 
-type ItemRef = string
-type FluidRef = string
-type FluidJson = {
-    amount: number
-    fluid?: string
-    tag?: string
-}
 type CastingRecipe = {
-    cast?: ItemRef | (() => any)
-    result: any
+    cast?: ItemRef | (() => any)| Internal.ItemStack
+    result: ItemRef | Internal.ItemStack | ItemOutputJson
     fluid: FluidJson | FluidRef
     castConsumed?: boolean
     coolingTime?: number
+}
+
+type ItemOutputJson = {
+    item: ItemRef
+    count?: number
+    nbt?: {[key: string]: any}
 }
 
 function spellPowderCast() {
@@ -28,11 +27,10 @@ function castingBasin(event: Internal.RecipesEventJS, recipe: CastingRecipe) {
         type: "tconstruct:casting_basin",
         cast_consumed: recipe.castConsumed != undefined ? recipe.castConsumed : true,
         cooling_time: recipe.coolingTime != undefined ? recipe.coolingTime : 120,
-        result: recipe.result
     }
 
     if (typeof recipe.fluid === "string") {
-        json.fluid = g.json.FluidObjectToJson(recipe.fluid)
+        json.fluid = fluidJson(recipe.fluid)
     } else {
         json.fluid = recipe.fluid
     }
@@ -41,6 +39,16 @@ function castingBasin(event: Internal.RecipesEventJS, recipe: CastingRecipe) {
         json.cast = {item: recipe.cast}
     } else if (typeof recipe.cast == "function") {
         json.cast = recipe.cast()
+    } else {
+        json.cast = recipe.cast?.weakNBT().toJson()
+    }
+
+    if (typeof recipe.result == "string") {
+        json.result = g.json.ItemObjectToJson(recipe.result)
+    } else if (typeof (recipe.result as any).toJson == "function") {
+        json.result = (recipe.result as Internal.ItemStack).toJson()
+    } else {
+        json.result = recipe.result
     }
 
     event.custom(json)
@@ -70,7 +78,7 @@ const basinRecipes: CastingRecipe[] = [
     },
     {
         cast: spellPowderCast,
-        result: {item: "extendedcrafting:luminessence"},
+        result: "extendedcrafting:luminessence",
         fluid: {amount: 10000, fluid: "thermal:glowstone"},
         castConsumed: true,
         coolingTime: 200
@@ -81,6 +89,16 @@ const basinRecipes: CastingRecipe[] = [
         fluid: "360x kubejs:mind_nectar",
         castConsumed: true,
         coolingTime:4000
+    },
+    {
+        cast:Item.of('avaritia:singularity').withNBT('{Id:"kubejs:wooden_singularity"}'),
+        result: {
+            item: 'avaritia:singularity',
+            nbt: {Id: 'kubejs:treated_wood_singularity'}
+        },
+        fluid:"125000x thermal:creosote",
+        castConsumed:true,
+        coolingTime:20000
     }
 ]
 

@@ -1,3 +1,4 @@
+import {machineAnchor, relativeToMachine, RelativePos} from "../globalFunction"
 export {}
 
 const $RECIPE_TYPE = Java.loadClass("net.minecraft.world.item.crafting.RecipeType")
@@ -16,18 +17,84 @@ type SourceTier = {
     hidden: boolean
 }
 
-type MachineAnchor = {
-    x: number
-    y: number
-    z: number
-    direction: string
+type PotionMixDefinition = {
+    fromPotion: string
+    ingredient: string
+    toPotion: string
 }
 
-type RelativePos = {
-    left: number
-    fore: number
-    y: number
+type ItemToPotionMixDefinition = {
+    inputItem: string
+    ingredient: string
+    outputPotion: string
 }
+
+type PotionToItemMixDefinition = {
+    inputPotion: string
+    ingredient: string
+    outputItem: string
+}
+
+type ItemMixDefinition = {
+    inputItem: string
+    ingredient: string
+    outputItem: string
+}
+
+// These use Forge BrewingRecipeRegistry or Yungs API recipes, so they are not in PotionBrewing.POTION_MIXES.
+const MODDED_POTION_MIXES: PotionMixDefinition[] = [
+    // Alex's Mobs
+    { fromPotion: "minecraft:strength", ingredient: "alexsmobs:bear_fur", toPotion: "alexsmobs:knockback_resistance" },
+    { fromPotion: "alexsmobs:knockback_resistance", ingredient: "minecraft:redstone", toPotion: "alexsmobs:long_knockback_resistance" },
+    { fromPotion: "alexsmobs:knockback_resistance", ingredient: "minecraft:glowstone_dust", toPotion: "alexsmobs:strong_knockback_resistance" },
+    { fromPotion: "alexsmobs:lava_vision", ingredient: "minecraft:redstone", toPotion: "alexsmobs:long_lava_vision" },
+    { fromPotion: "alexsmobs:poison_resistance", ingredient: "alexsmobs:komodo_spit", toPotion: "alexsmobs:long_poison_resistance" },
+    { fromPotion: "minecraft:strong_swiftness", ingredient: "alexsmobs:gazelle_horn", toPotion: "alexsmobs:speed_iii" },
+    { fromPotion: "minecraft:awkward", ingredient: "alexsmobs:cockroach_wing", toPotion: "alexsmobs:bug_pheromones" },
+    { fromPotion: "alexsmobs:bug_pheromones", ingredient: "minecraft:redstone", toPotion: "alexsmobs:long_bug_pheromones" },
+    { fromPotion: "minecraft:awkward", ingredient: "alexsmobs:soul_heart", toPotion: "alexsmobs:soulsteal" },
+    { fromPotion: "alexsmobs:soulsteal", ingredient: "minecraft:redstone", toPotion: "alexsmobs:long_soulsteal" },
+    { fromPotion: "alexsmobs:soulsteal", ingredient: "minecraft:glowstone_dust", toPotion: "alexsmobs:strong_soulsteal" },
+    { fromPotion: "minecraft:awkward", ingredient: "alexsmobs:dropbear_claw", toPotion: "alexsmobs:clinging" },
+    { fromPotion: "alexsmobs:clinging", ingredient: "minecraft:redstone", toPotion: "alexsmobs:long_clinging" },
+
+    // Alex's Caves
+    { fromPotion: "minecraft:awkward", ingredient: "alexscaves:ferrouslime_ball", toPotion: "alexscaves:magnetizing" },
+    { fromPotion: "alexscaves:magnetizing", ingredient: "minecraft:redstone", toPotion: "alexscaves:long_magnetizing" },
+    { fromPotion: "minecraft:awkward", ingredient: "alexscaves:lanternfish", toPotion: "alexscaves:deepsight" },
+    { fromPotion: "alexscaves:deepsight", ingredient: "minecraft:redstone", toPotion: "alexscaves:long_deepsight" },
+    { fromPotion: "minecraft:awkward", ingredient: "alexscaves:bioluminesscence", toPotion: "alexscaves:glowing" },
+    { fromPotion: "alexscaves:glowing", ingredient: "minecraft:redstone", toPotion: "alexscaves:long_glowing" },
+    { fromPotion: "minecraft:awkward", ingredient: "alexscaves:corrodent_teeth", toPotion: "alexscaves:haste" },
+    { fromPotion: "alexscaves:haste", ingredient: "minecraft:redstone", toPotion: "alexscaves:long_haste" },
+    { fromPotion: "alexscaves:haste", ingredient: "minecraft:glowstone_dust", toPotion: "alexscaves:strong_haste" },
+    { fromPotion: "minecraft:strong_swiftness", ingredient: "alexscaves:sweet_tooth", toPotion: "alexscaves:sugar_rush" },
+    { fromPotion: "alexscaves:sugar_rush", ingredient: "minecraft:redstone", toPotion: "alexscaves:long_sugar_rush" },
+
+    // YUNG's Cave Biomes
+    { fromPotion: "minecraft:awkward", ingredient: "yungscavebiomes:frost_lily", toPotion: "yungscavebiomes:frost" },
+    { fromPotion: "yungscavebiomes:frost", ingredient: "minecraft:fermented_spider_eye", toPotion: "minecraft:fire_resistance" },
+    { fromPotion: "minecraft:fire_resistance", ingredient: "minecraft:fermented_spider_eye", toPotion: "yungscavebiomes:frost" },
+    { fromPotion: "yungscavebiomes:frost", ingredient: "minecraft:glowstone_dust", toPotion: "yungscavebiomes:strong_frost" },
+
+    // Goety
+    { fromPotion: "minecraft:awkward", ingredient: "goety:spider_egg", toPotion: "goety:climbing" },
+    { fromPotion: "goety:climbing", ingredient: "minecraft:redstone", toPotion: "goety:long_climbing" },
+]
+
+const MODDED_ITEM_TO_POTION_MIXES: ItemToPotionMixDefinition[] = [
+    { inputItem: "alexsmobs:lava_bottle", ingredient: "alexsmobs:bone_serpent_tooth", outputPotion: "alexsmobs:lava_vision" },
+    { inputItem: "alexsmobs:poison_bottle", ingredient: "alexsmobs:centipede_leg", outputPotion: "alexsmobs:poison_resistance" },
+    { inputItem: "alexsmobs:komodo_spit_bottle", ingredient: "alexsmobs:centipede_leg", outputPotion: "alexsmobs:poison_resistance" },
+]
+
+const MODDED_POTION_TO_ITEM_MIXES: PotionToItemMixDefinition[] = [
+    { inputPotion: "minecraft:poison", ingredient: "alexsmobs:rattlesnake_rattle", outputItem: "alexsmobs:poison_bottle" },
+]
+
+const MODDED_ITEM_MIXES: ItemMixDefinition[] = [
+    { inputItem: "goety:snap_fungus", ingredient: "minecraft:lily_of_the_valley", outputItem: "goety:berserk_fungus" },
+]
 
 const STANDARD_SOURCE_TIERS: SourceTier[] = [
     { catalyst: "ars_nouveau:source_gem", outputFluid: "starbunclemania:source_fluid 100", hidden: false },
@@ -77,45 +144,6 @@ const AGRONOMIC_CROP_POSITIONS: RelativePos[] = [
     { left: 0, fore: -5, y: 7 },
     { left: 1, fore: -5, y: 7 },
 ]
-
-function machineAnchor(machine: any): MachineAnchor {
-    return {
-        x: machine.pos.getX(),
-        y: machine.pos.getY(),
-        z: machine.pos.getZ(),
-        direction: machine.frontFacing.get(),
-    }
-}
-
-function relativeToMachine(anchor: MachineAnchor, pos: RelativePos, legacySouthFallthrough: boolean) {
-    let x = anchor.x
-    let z = anchor.z
-
-    switch (anchor.direction) {
-        case "south":
-            x += pos.left
-            z += pos.fore
-            if (!legacySouthFallthrough) {
-                break
-            }
-        case "north":
-            x -= pos.left
-            z -= pos.fore
-            break
-        case "east":
-            x += pos.fore
-            z -= pos.left
-            break
-        case "west":
-            x -= pos.fore
-            z += pos.left
-            break
-        default:
-            break
-    }
-
-    return [x, anchor.y + pos.y, z]
-}
 
 function applySourceTier(recipe: any, tier: SourceTier) {
     if (tier.hidden) {
@@ -191,33 +219,62 @@ function potionStack(itemId: string, potionId: string) {
     return Item.of(itemId as Internal.ItemStack_, `{Potion:"${potionId}"}`).weakNBT().withCount(6)
 }
 
+function wixieItemStack(itemId: string) {
+    return Item.of(itemId as Internal.ItemStack_).weakNBT().withCount(6)
+}
+
 function wixiePotionOutput(itemId: string, potionId: string) {
     return Item.of(itemId as Internal.ItemStack_, { Potion: potionId, tooltips: WIXIE_TOOLTIP }).weakNBT().withCount(6)
 }
 
-function registerWixiePotionRecipe(event: any, inputItem: string, inputPotion: string, ingredient: any, outputItem: string, outputPotion: string, duration: number) {
+function registerWixieBrewingRecipe(event: any, input: any, ingredient: any, output: any, duration: number) {
     event.recipes.mbd2.modular_wixie_cauldron()
-        .inputItems(potionStack(inputItem, inputPotion))
+        .inputItems(input)
         .inputItems(ingredient)
         .outputItems("3x kubejs:herb_residue")
         .duration(duration)
-        .outputItems(wixiePotionOutput(outputItem, outputPotion))
+        .outputItems(output)
         .chance(0, (builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputEntities("1x ars_nouveau:wixie")
         )
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("starbunclemania:source_fluid 10")
         )
 }
 
-function registerWixiePotionMix(event: any, potionMix: any) {
-    let fromPotion = potionMix.from.key().location().toString()
-    let toPotion = potionMix.to.key().location().toString()
-    let ingredient = potionMix.ingredient
+function registerWixiePotionRecipe(event: any, inputItem: string, inputPotion: string, ingredient: any, outputItem: string, outputPotion: string, duration: number) {
+    registerWixieBrewingRecipe(event, potionStack(inputItem, inputPotion), ingredient, wixiePotionOutput(outputItem, outputPotion), duration)
+}
 
+function registerWixieItemToPotionRecipe(event: any, inputItem: string, ingredient: any, outputPotion: string, duration: number) {
+    registerWixieBrewingRecipe(event, wixieItemStack(inputItem), ingredient, wixiePotionOutput("minecraft:potion", outputPotion), duration)
+}
+
+function registerWixiePotionToItemRecipe(event: any, inputPotion: string, ingredient: any, outputItem: string, duration: number) {
+    registerWixieBrewingRecipe(event, potionStack("minecraft:potion", inputPotion), ingredient, wixieItemStack(outputItem), duration)
+}
+
+function registerWixieItemRecipe(event: any, inputItem: string, ingredient: any, outputItem: string, duration: number) {
+    registerWixieBrewingRecipe(event, wixieItemStack(inputItem), ingredient, wixieItemStack(outputItem), duration)
+}
+
+function registerWixiePotionFormRecipes(event: any, potionId: string) {
+    registerWixiePotionRecipe(event, "minecraft:potion", potionId, "minecraft:gunpowder", "minecraft:splash_potion", potionId, 100)
+    registerWixiePotionRecipe(event, "minecraft:splash_potion", potionId, "minecraft:dragon_breath", "minecraft:lingering_potion", potionId, 100)
+}
+
+function registerWixiePotionMixById(event: any, fromPotion: string, ingredient: any, toPotion: string) {
     registerWixiePotionRecipe(event, "minecraft:potion", fromPotion, ingredient, "minecraft:potion", toPotion, 200)
-    registerWixiePotionRecipe(event, "minecraft:potion", toPotion, "minecraft:gunpowder", "minecraft:splash_potion", toPotion, 100)
-    registerWixiePotionRecipe(event, "minecraft:splash_potion", toPotion, "minecraft:dragon_breath", "minecraft:lingering_potion", toPotion, 100)
+    registerWixiePotionFormRecipes(event, toPotion)
     registerWixiePotionRecipe(event, "minecraft:splash_potion", fromPotion, ingredient, "minecraft:splash_potion", toPotion, 200)
     registerWixiePotionRecipe(event, "minecraft:lingering_potion", fromPotion, ingredient, "minecraft:lingering_potion", toPotion, 200)
+}
+
+function registerWixiePotionMix(event: any, potionMix: any) {
+    registerWixiePotionMixById(
+        event,
+        potionMix.from.key().location().toString(),
+        potionMix.ingredient,
+        potionMix.to.key().location().toString()
+    )
 }
 
 function effectInstanceToNBT(effect: any) {
@@ -461,6 +518,23 @@ ServerEvents.recipes(event => {
 
     POTION_MIXES.forEach(potionMix => {
         registerWixiePotionMix(event, potionMix)
+    })
+
+    MODDED_POTION_MIXES.forEach(potionMix => {
+        registerWixiePotionMixById(event, potionMix.fromPotion, potionMix.ingredient, potionMix.toPotion)
+    })
+
+    MODDED_ITEM_TO_POTION_MIXES.forEach(potionMix => {
+        registerWixieItemToPotionRecipe(event, potionMix.inputItem, potionMix.ingredient, potionMix.outputPotion, 200)
+        registerWixiePotionFormRecipes(event, potionMix.outputPotion)
+    })
+
+    MODDED_POTION_TO_ITEM_MIXES.forEach(potionMix => {
+        registerWixiePotionToItemRecipe(event, potionMix.inputPotion, potionMix.ingredient, potionMix.outputItem, 200)
+    })
+
+    MODDED_ITEM_MIXES.forEach(itemMix => {
+        registerWixieItemRecipe(event, itemMix.inputItem, itemMix.ingredient, itemMix.outputItem, 200)
     })
 })
 

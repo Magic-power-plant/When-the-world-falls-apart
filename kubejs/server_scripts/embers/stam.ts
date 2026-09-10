@@ -1,9 +1,6 @@
+import {itemJson, fluidJson, notEmptyTag, ItemRef, FluidRef} from "../globalFunction"
 export {}
 
-const g = global as any
-
-type ItemRef = string
-type FluidRef = string
 type StampingRecipe = {
     output: ItemRef
     stamp: ItemRef
@@ -11,12 +8,6 @@ type StampingRecipe = {
     fluid?: FluidRef
     conditions?: any[]
 }
-
-const itemJson = (value: ItemRef) =>
-    g.json.ItemObjectToJson(value)
-
-const fluidJson = (value: FluidRef) =>
-    g.json.FluidObjectToJson(value)
 
 function stamping(event: any, recipe: StampingRecipe) {
     const json: any = {
@@ -64,13 +55,7 @@ const plateMaterials = [
 ]
 
 const notEmptyIronIngot = [
-    {
-        type: "forge:not",
-        value: {
-            type: "forge:tag_empty",
-            tag: "forge:ingot/iron"
-        }
-    }
+    notEmptyTag("forge:ingot/iron")
 ]
 
 const moltenRecipes = [

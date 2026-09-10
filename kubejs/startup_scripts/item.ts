@@ -252,4 +252,5 @@ StartupEvents.registry('item', registryEvent => {
     event.create("drygmy_brain").displayName("德格米大脑").tag("kubejs:item/drygmy_rain").texture("kubejs:item/drygmy_rain")
     event.create("bookwyrm_scale").displayName("书龙鳞").tag("kubejs:item/bookwyrm_scale").texture("kubejs:item/bookwyrm_scale")
     event.create("uninspired_computer").displayName("无灵气的计算机").tag("kubejs:item/uninspired_computer").texture("kubejs:item/uninspired_computer")
+    event.create("dishwater").displayName("刷锅水").tag("kubejs:item/dishwater").texture("kubejs:item/dishwater")
 })

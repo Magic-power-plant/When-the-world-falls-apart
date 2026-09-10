@@ -1,3 +1,4 @@
+import {machineAnchor, relativeToMachine, MachineAnchor, RelativePos} from "../globalFunction"
 export {}
 
 const $LootParams = Java.loadClass("net.minecraft.world.level.storage.loot.LootParams")
@@ -5,20 +6,7 @@ const $LootContextParams = Java.loadClass("net.minecraft.world.level.storage.loo
 const $HashMap = Java.loadClass("java.util.HashMap")
 const $ANFakePlayer = Java.loadClass("com.hollingsworth.arsnouveau.api.ANFakePlayer")
 
-type MachineAnchor = {
-    x: number
-    y: number
-    z: number
-    direction: string
-}
-
-type RelativeBlockPos = {
-    left: number
-    fore: number
-    y: number
-}
-
-const drygmyMobJarPositions: RelativeBlockPos[] = [
+const drygmyMobJarPositions: RelativePos[] = [
     { left: 0, fore: -2, y: 1 },
     { left: 1, fore: -2, y: 1 },
     { left: -1, fore: -2, y: 1 },
@@ -32,43 +20,6 @@ const drygmyMobJarPositions: RelativeBlockPos[] = [
     { left: 1, fore: -6, y: 1 },
     { left: -1, fore: -6, y: 1 },
 ]
-
-function anchorFromMachine(machine: any): MachineAnchor {
-    return {
-        x: machine.pos.getX(),
-        y: machine.pos.getY(),
-        z: machine.pos.getZ(),
-        direction: machine.frontFacing.get(),
-    }
-}
-
-function relativeToMachine(anchor: MachineAnchor, pos: RelativeBlockPos) {
-    let x = anchor.x
-    let z = anchor.z
-
-    switch (anchor.direction) {
-        case "south":
-            x += pos.left
-            z += pos.fore
-            break
-        case "north":
-            x -= pos.left
-            z -= pos.fore
-            break
-        case "east":
-            x += pos.fore
-            z -= pos.left
-            break
-        case "west":
-            x -= pos.fore
-            z += pos.left
-            break
-        default:
-            break
-    }
-
-    return [x, anchor.y + pos.y, z]
-}
 
 function addMobJarDrops(level: any, block: any, fakePlayer: any, damageSource: any, drops: any[]) {
     if (!block || block.getId().toString() !== "ars_nouveau:mob_jar" || !block.getEntity()) {
@@ -99,7 +50,7 @@ function addMobJarDrops(level: any, block: any, fakePlayer: any, damageSource: a
     })
 }
 
-function getLootFromMobJarPositions(level: any, anchor: MachineAnchor, positions: RelativeBlockPos[]) {
+function getLootFromMobJarPositions(level: any, anchor: MachineAnchor, positions: RelativePos[]) {
     const fakePlayer = $ANFakePlayer.getPlayer(level)
     const damageSource = level.damageSources().playerAttack(fakePlayer)
     const drops : Internal.ItemStack[] = []
@@ -120,7 +71,7 @@ ServerEvents.recipes(event => {
 MBDMachineEvents.onBeforeRecipeModify("mbd2:modular_drygmy", e => {
     const { machine, recipe } = e.event
     let level = machine.getLevel()
-    let outputCon = getLootFromMobJarPositions(level, anchorFromMachine(machine), drygmyMobJarPositions)
+    let outputCon = getLootFromMobJarPositions(level, machineAnchor(machine), drygmyMobJarPositions)
 
     let builder = recipe.toBuilder()
     builder.inputItems("ars_nouveau:source_gem")

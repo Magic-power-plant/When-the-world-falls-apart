@@ -1,6 +1,6 @@
+import {ItemRef} from "../globalFunction"
 export {}
 
-type ItemRef = string
 type KeyValue = ItemRef | (() => any)
 type KeyMap = {[key: string]: KeyValue | Internal.Ingredient}
 

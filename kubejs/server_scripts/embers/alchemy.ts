@@ -1,8 +1,6 @@
+import {itemJson, notEmptyTag, ItemRef} from "../globalFunction"
 export {}
 
-const g = global as any
-
-type ItemRef = string
 type AlchemyRecipe = {
     aspects: string[]
     inputs: ItemRef[]
@@ -11,16 +9,7 @@ type AlchemyRecipe = {
     conditions?: any[]
 }
 
-const itemJson = (value: ItemRef) => g.json.ItemObjectToJson(value)
 const aspectJson = (tag: string) => ({tag: tag})
-
-const notEmptyTag = (tag: string) => ({
-    type: "forge:not",
-    value: {
-        type: "forge:tag_empty",
-        tag: tag
-    }
-})
 
 const ironAlchemyConditions = [
     {

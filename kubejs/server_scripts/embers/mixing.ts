@@ -1,14 +1,10 @@
+import {fluidJson, FluidRef} from "../globalFunction"
 export {}
 
-const g = global as any
-
-type FluidRef = string
 type MixingRecipe = {
     inputs: FluidRef[]
     output: FluidRef
 }
-
-const fluidJson = (value: FluidRef) => g.json.FluidObjectToJson(value)
 
 function mixing(event: any, recipe: MixingRecipe) {
     event.custom({

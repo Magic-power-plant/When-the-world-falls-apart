@@ -1,8 +1,6 @@
+import {itemJson, ItemRef} from "../globalFunction"
 export {}
 
-const g = global as any
-
-type ItemRef = string
 type ExcavationRecipe = {
     output: ItemRef
     blockTag: string
@@ -11,8 +9,6 @@ type ExcavationRecipe = {
     weight: number
     maxHeight: number
 }
-
-const itemJson = (value: ItemRef) => g.json.ItemObjectToJson(value)
 
 function excavation(event: any, recipe: ExcavationRecipe) {
     event.custom({

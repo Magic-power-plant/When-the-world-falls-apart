@@ -1,15 +1,12 @@
+import {itemJson, ItemRef} from "../globalFunction"
 export {}
-const g = global as any
 
-type ItemRef = string
 type ByproductRecipe = {
-    ingredients: ItemRef,
+    ingredients: ItemRef
     result: ItemRef
 }
 
-const itemJson = (value: ItemRef) => g.json.ItemObjectToJson(value) as Internal.JsonElement
-
-function Byproduct (event: Internal.RecipesEventJS, recipe: ByproductRecipe) {
+function byproduct (event: Internal.RecipesEventJS, recipe: ByproductRecipe) {
     const json: any = {
         type: "enchanted:byproduct",
         ingredient: itemJson(recipe.ingredients),
@@ -27,6 +24,6 @@ const byproductRecipes: ByproductRecipe[] = [
 
 ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     byproductRecipes.forEach(recipe => {
-        Byproduct(event, recipe)
+        byproduct(event, recipe)
     })
 })

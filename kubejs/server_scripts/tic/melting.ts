@@ -1,18 +1,12 @@
+import {itemJson, fluidJson, ItemRef, FluidRef} from "../globalFunction"
 export {}
 
-const g = global as any
-
-type ItemRef = string
-type FluidRef = string
 type MeltingRecipe = {
     input: ItemRef
     result: FluidRef
     temperature: number
     time: number
 }
-
-const itemJson = (value: ItemRef) => g.json.ItemObjectToJson(value)
-const fluidJson = (value: FluidRef) => g.json.FluidObjectToJson(value)
 
 function melting(event: any, recipe: MeltingRecipe) {
     event.custom({

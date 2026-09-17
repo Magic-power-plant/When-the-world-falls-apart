@@ -26,6 +26,7 @@ XaeroWaypoints_BACKUP240807/
 icon-exports-x32/
 config/jei/world/
 tsmodify-cache/
+defaultconfigs/
 #文件
 options.txt
 hotai.zip
@@ -47,3 +48,4 @@ resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
 resourcepacks/tconjeidark.zip
 ldlib/assets/mbd2/multiblock/carnage_reactor/carnage_reactor.json
 ldlib/assets/mbd2/multiblock/carnage_reactor/carnage_reactor.mb
+ModPackPlan.md

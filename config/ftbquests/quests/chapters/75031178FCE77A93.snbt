@@ -1,329 +1,368 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "75031178FCE77A93"
-	group: ""
-	id: "75031178FCE77A93"
-	order_index: 0
-	quest_links: [ ]
-	quests: [
-		{
-			id: "4E0A277D13CCAF1F"
-			tasks: [{
-				id: "1F080F0E116918F1"
-				type: "checkmark"
-			}]
-			title: "如果你想以非常规方式游玩本整合包"
-			x: -8.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["4E0A277D13CCAF1F"]
-			id: "7B9913B9FB4BA1DE"
-			rewards: [{
-				command: "/gamerule keepInventory true"
-				id: "7878878CE288E7F5"
-				type: "command"
-			}]
-			tasks: [{
-				id: "3457825326064FA5"
-				title: "死亡不掉落"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: -7.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["4E0A277D13CCAF1F"]
-			id: "539297FEBF5C6ACF"
-			rewards: [{
-				command: "/ae2 channelmode infinite"
-				id: "5E06257175A18CBA"
-				type: "command"
-			}]
-			tasks: [{
-				id: "04A41532F6413A3A"
-				type: "checkmark"
-			}]
-			title: "无限ME频道"
-			x: -5.5d
-			y: -6.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["4E0A277D13CCAF1F"]
-			id: "43C734D9747C26A9"
-			rewards: [{
-				command: "/effect give @s minecraft:night_vision infinite 100"
-				id: "2D65179A1E46F68D"
-				type: "command"
-			}]
-			tasks: [{
-				id: "4D0F4C3630F027FA"
-				title: "无限夜视"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["4E0A277D13CCAF1F"]
-			id: "652D8403459BBE48"
-			rewards: [{
-				command: "/effect give @s minecraft:saturation infinite 100"
-				id: "3390F9437772D38F"
-				type: "command"
-			}]
-			tasks: [{
-				id: "522B033FAEA06596"
-				title: "无限饱和"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4E0A277D13CCAF1F"]
-			description: [
-				"Ctrl+鼠标左键，jei右下加的扳手可以开启作弊模式"
-				"如果因整合包设计问题而导致卡进度可以通过这样解决"
-				"当然你也可以随时直接从jei获取你想的东西"
-				"只要你想"
-			]
-			id: "690C1B29594B7D7E"
-			tasks: [{
-				id: "2ADFDEDD30EB9BFD"
-				title: "JEI作弊模式"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["4E0A277D13CCAF1F"]
-			description: [
-				"点击任务页面右下加的铅笔可以开启任务编辑模式"
-				"可以解决卡任务问题"
-				"也可以直接完成你不想完成的任务"
-			]
-			id: "00A9326861D4A65E"
-			tasks: [{
-				id: "18E54299EB1ADAC1"
-				title: "任务编辑模式"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -6.0d
-		}
-		{
-			id: "76E8EF344AC3684D"
-			tasks: [{
-				id: "1D08DB7B152D70DE"
-				title: "注意事项"
-				type: "checkmark"
-			}]
-			x: -10.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["76E8EF344AC3684D"]
-			id: "3355E1A2FC16B391"
-			tasks: [{
-				id: "4BBBCE9E0E2B87DB"
-				title: "有部分物品被禁用了"
-				type: "checkmark"
-			}]
-			x: -12.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["4E0A277D13CCAF1F"]
-			description: [
-				"你可以"
-				"随意添加，删除，更新(换旧)模组"
-				"随意修改魔改文件"
-				"&4&l但是因此出现的bug需要你自己解决&r&r"
-			]
-			id: "57B8878CD2889A94"
-			tasks: [{
-				id: "28310869D929AA21"
-				title: "私货"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["76E8EF344AC3684D"]
-			id: "458A6C2CDE215AF6"
-			tasks: [{
-				id: "3486EA23CDA76FC5"
-				title: "记得领取任务奖励，不然可能会卡进度"
-				type: "checkmark"
-			}]
-			title: "记得领取任务奖励，不然可能会卡进度"
-			x: -12.5d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["4E0A277D13CCAF1F"]
-			id: "2E8D69BE2F2CDAE8"
-			rewards: [{
-				command: "/fly"
-				id: "0E5DBF65C792CB6A"
-				type: "command"
-			}]
-			tasks: [{
-				id: "5E3A7268C47CD1B9"
-				title: "创造飞行"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["4E0A277D13CCAF1F"]
-			id: "08CE5B676C69D452"
-			rewards: [
-				{
-					id: "7A3F1A6481A6178D"
-					item: {
-						Count: 1
-						id: "megacells:item_storage_cell_256m"
-						tag: {
-							amts: [L;
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-								119749091L
-							]
-							ic: 1145141919810L
-							keys: [
-								{
-									"#c": "ae2:i"
-									id: "ae2:quartz_fiber"
-								}
-								{
-									"#c": "ae2:i"
-									id: "megacells:256m_crafting_storage"
-								}
-								{
-									"#c": "ae2:i"
-									id: "ae2:storage_bus"
-								}
-								{
-									"#c": "ae2:i"
-									id: "ae2:blank_pattern"
-								}
-								{
-									"#c": "ae2:i"
-									id: "ae2:controller"
-								}
-								{
-									"#c": "ae2:i"
-									id: "extendedae_plus:1024x_crafting_accelerator"
-								}
-								{
-									"#c": "ae2:i"
-									id: "ae2:creative_energy_cell"
-								}
-								{
-									"#c": "ae2:i"
-									id: "ae2:singularity"
-								}
-								{
-									"#c": "ae2:i"
-									id: "expatternprovider:ex_import_bus_part"
-								}
-								{
-									"#c": "ae2:i"
-									id: "ae2:fluix_covered_dense_cable"
-								}
-								{
-									"#c": "ae2:i"
-									id: "ae2:drive"
-								}
-								{
-									"#c": "ae2:i"
-									id: "ae2:fluix_covered_cable"
-								}
-								{
-									"#c": "ae2:i"
-									id: "ae2:crafting_terminal"
-								}
-								{
-									"#c": "ae2:i"
-									id: "ae2:pattern_encoding_terminal"
-								}
-								{
-									"#c": "ae2:i"
-									id: "ae2omnicells:creative_ae_cell_long"
-									tag: { }
-								}
-								{
-									"#c": "ae2:i"
-									id: "expatternprovider:ex_pattern_provider"
-								}
-								{
-									"#c": "ae2:i"
-									id: "expatternprovider:ex_export_bus_part"
-								}
-								{
-									"#c": "ae2:i"
-									id: "expatternprovider:oversize_interface"
-								}
-							]
-						}
-					}
-					title: "超级超级多东西"
-					type: "item"
-				}
-				{
-					id: "29D12DA0D6D5789C"
-					item: "ae2:creative_energy_cell"
-					type: "item"
-				}
-				{
-					id: "5436E57BCE2685A0"
-					item: "ae2:fluix_covered_cable"
-					type: "item"
-				}
-				{
-					id: "13E06217EFF126E5"
-					item: "ae2:drive"
-					type: "item"
-				}
-				{
-					id: "7DF4530C49705E56"
-					item: "ae2:crafting_terminal"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "76D79579B0A14882"
-				title: "我想要开局AE启动"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -3.0d
-		}
-	]
-	title: "游玩须知(必看)"
+  default_hide_dependency_lines: false,
+  default_quest_shape: "",
+  filename: "75031178FCE77A93",
+  group: "",
+  id: "75031178FCE77A93",
+  order_index: 0,
+  quest_links: [],
+  quests: [
+    {
+      id: "4E0A277D13CCAF1F",
+      tasks: [
+        {
+          id: "1F080F0E116918F1",
+          type: "checkmark"
+        }
+      ],
+      title: "如果你想以非常规方式游玩本整合包",
+      x: -8d,
+      y: -4.5d
+    },
+    {
+      dependencies: [
+        "4E0A277D13CCAF1F"
+      ],
+      id: "7B9913B9FB4BA1DE",
+      rewards: [
+        {
+          command: "/gamerule keepInventory true",
+          id: "7878878CE288E7F5",
+          type: "command"
+        }
+      ],
+      tasks: [
+        {
+          id: "3457825326064FA5",
+          title: "死亡不掉落",
+          type: "checkmark"
+        }
+      ],
+      x: -5.5d,
+      y: -7.5d
+    },
+    {
+      can_repeat: true,
+      dependencies: [
+        "4E0A277D13CCAF1F"
+      ],
+      id: "539297FEBF5C6ACF",
+      rewards: [
+        {
+          command: "/ae2 channelmode infinite",
+          id: "5E06257175A18CBA",
+          type: "command"
+        }
+      ],
+      tasks: [
+        {
+          id: "04A41532F6413A3A",
+          type: "checkmark"
+        }
+      ],
+      title: "无限ME频道",
+      x: -5.5d,
+      y: -6d
+    },
+    {
+      can_repeat: true,
+      dependencies: [
+        "4E0A277D13CCAF1F"
+      ],
+      id: "43C734D9747C26A9",
+      rewards: [
+        {
+          command: "/effect give @s minecraft:night_vision infinite 100",
+          id: "2D65179A1E46F68D",
+          type: "command"
+        }
+      ],
+      tasks: [
+        {
+          id: "4D0F4C3630F027FA",
+          title: "无限夜视",
+          type: "checkmark"
+        }
+      ],
+      x: -5.5d,
+      y: -4.5d
+    },
+    {
+      can_repeat: true,
+      dependencies: [
+        "4E0A277D13CCAF1F"
+      ],
+      id: "652D8403459BBE48",
+      rewards: [
+        {
+          command: "/effect give @s minecraft:saturation infinite 100",
+          id: "3390F9437772D38F",
+          type: "command"
+        }
+      ],
+      tasks: [
+        {
+          id: "522B033FAEA06596",
+          title: "无限饱和",
+          type: "checkmark"
+        }
+      ],
+      x: -5.5d,
+      y: -3d
+    },
+    {
+      dependencies: [
+        "4E0A277D13CCAF1F"
+      ],
+      description: [
+        "Ctrl+鼠标左键，jei右下加的扳手可以开启作弊模式",
+        "如果因整合包设计问题而导致卡进度可以通过这样解决",
+        "当然你也可以随时直接从jei获取你想的东西",
+        "只要你想"
+      ],
+      id: "690C1B29594B7D7E",
+      tasks: [
+        {
+          id: "2ADFDEDD30EB9BFD",
+          title: "JEI作弊模式",
+          type: "checkmark"
+        }
+      ],
+      x: -3.5d,
+      y: -7.5d
+    },
+    {
+      dependencies: [
+        "4E0A277D13CCAF1F"
+      ],
+      description: [
+        "点击任务页面右下加的铅笔可以开启任务编辑模式",
+        "可以解决卡任务问题",
+        "也可以直接完成你不想完成的任务"
+      ],
+      id: "00A9326861D4A65E",
+      tasks: [
+        {
+          id: "18E54299EB1ADAC1",
+          title: "任务编辑模式",
+          type: "checkmark"
+        }
+      ],
+      x: -3.5d,
+      y: -6d
+    },
+    {
+      id: "76E8EF344AC3684D",
+      tasks: [
+        {
+          id: "1D08DB7B152D70DE",
+          title: "注意事项",
+          type: "checkmark"
+        }
+      ],
+      x: -10.5d,
+      y: -4.5d
+    },
+    {
+      dependencies: [
+        "76E8EF344AC3684D"
+      ],
+      id: "3355E1A2FC16B391",
+      tasks: [
+        {
+          id: "4BBBCE9E0E2B87DB",
+          title: "有部分物品被禁用了",
+          type: "checkmark"
+        }
+      ],
+      x: -12.5d,
+      y: -6d
+    },
+    {
+      dependencies: [
+        "4E0A277D13CCAF1F"
+      ],
+      description: [
+        "你可以",
+        "随意添加，删除，更新(换旧)模组",
+        "随意修改魔改文件",
+        "&4&l但是因此出现的bug需要你自己解决&r&r"
+      ],
+      id: "57B8878CD2889A94",
+      tasks: [
+        {
+          id: "28310869D929AA21",
+          title: "私货",
+          type: "checkmark"
+        }
+      ],
+      x: -5.5d,
+      y: -1.5d
+    },
+    {
+      dependencies: [
+        "76E8EF344AC3684D"
+      ],
+      id: "458A6C2CDE215AF6",
+      tasks: [
+        {
+          id: "3486EA23CDA76FC5",
+          title: "记得领取任务奖励，不然可能会卡进度",
+          type: "checkmark"
+        }
+      ],
+      title: "记得领取任务奖励，不然可能会卡进度",
+      x: -12.5d,
+      y: -1.5d
+    },
+    {
+      can_repeat: true,
+      dependencies: [
+        "4E0A277D13CCAF1F"
+      ],
+      id: "2E8D69BE2F2CDAE8",
+      rewards: [
+        {
+          command: "/fly",
+          id: "0E5DBF65C792CB6A",
+          type: "command"
+        }
+      ],
+      tasks: [
+        {
+          id: "5E3A7268C47CD1B9",
+          title: "创造飞行",
+          type: "checkmark"
+        }
+      ],
+      x: -3.5d,
+      y: -4.5d
+    },
+    {
+      dependencies: [
+        "4E0A277D13CCAF1F"
+      ],
+      id: "08CE5B676C69D452",
+      rewards: [
+        {
+          id: "7A3F1A6481A6178D",
+          item: {
+            Count: 1,
+            id: "megacells:item_storage_cell_256m",
+            tag: {
+              amts: [L; 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091, 119749091],
+              ic: 1145141919810l,
+              keys: [
+                {
+                  "#c": "ae2:i",
+                  id: "ae2:quartz_fiber"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "megacells:256m_crafting_storage"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "ae2:storage_bus"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "ae2:blank_pattern"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "ae2:controller"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "extendedae_plus:1024x_crafting_accelerator"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "ae2:creative_energy_cell"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "ae2:singularity"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "expatternprovider:ex_import_bus_part"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "ae2:fluix_covered_dense_cable"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "ae2:drive"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "ae2:fluix_covered_cable"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "ae2:crafting_terminal"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "ae2:pattern_encoding_terminal"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "ae2omnicells:creative_ae_cell_long",
+                  tag: {}
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "expatternprovider:ex_pattern_provider"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "expatternprovider:ex_export_bus_part"
+                },
+                {
+                  "#c": "ae2:i",
+                  id: "expatternprovider:oversize_interface"
+                }
+              ]
+            }
+          },
+          title: "超级超级多东西",
+          type: "item"
+        },
+        {
+          id: "29D12DA0D6D5789C",
+          item: "ae2:creative_energy_cell",
+          type: "item"
+        },
+        {
+          id: "5436E57BCE2685A0",
+          item: "ae2:fluix_covered_cable",
+          type: "item"
+        },
+        {
+          id: "13E06217EFF126E5",
+          item: "ae2:drive",
+          type: "item"
+        },
+        {
+          id: "7DF4530C49705E56",
+          item: "ae2:crafting_terminal",
+          type: "item"
+        }
+      ],
+      tasks: [
+        {
+          id: "76D79579B0A14882",
+          title: "我想要开局AE启动",
+          type: "checkmark"
+        }
+      ],
+      x: -3.5d,
+      y: -3d
+    }
+  ],
+  title: "游玩须知(必看)"
 }

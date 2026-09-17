@@ -80,6 +80,15 @@ const itemRecipes = [
     {input: "kubejs:drygmy_head", output: "kubejs:drygmy_brain", stamp: "embers:flat_stamp"}
 ]
 
+const normalRecipe:StampingRecipe[] = [
+    {
+        input:"rftoolsbase:dimensionalshard",
+        fluid:"10x kubejs:history_adhesive",
+        output:"kubejs:dimensional_reath",
+        stamp:"ae2:controller"
+    }
+]
+
 ServerEvents.recipes((event: any) => {
     moltenRecipes.forEach(recipe => {
         stamping(event, {
@@ -100,5 +109,14 @@ ServerEvents.recipes((event: any) => {
 
     itemRecipes.forEach(recipe => {
         stamping(event, recipe)
+    })
+
+    normalRecipe.forEach(recipe => {
+        stamping(event,{
+            fluid:recipe.fluid,
+            output:recipe.output,
+            input:recipe.input,
+            stamp:recipe.stamp
+        })
     })
 })

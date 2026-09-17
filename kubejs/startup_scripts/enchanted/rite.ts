@@ -18,4 +18,11 @@ StartupEvents.registry('enchanted:circle_magic/rite',event => {
         .createItem("enchanted:distillery")
         .power(500)
         .tickPower(2)
+    
+    event.create("wtwfacore:magic_table","circle_rite")
+        .shape("kubejs:shape_1","wtwfacore:light_blue_chalk")
+        .shape("kubejs:shape_2","enchanted:otherwhere_chalk")
+        .items("kubejs:treated_wood_plank","kubejs:treated_wood_plank","kubejs:treated_wood_plank","kubejs:treated_wood_plank","kubejs:pewter_machine_frame","kubejs:dishwater","extendedcrafting:advanced_table")
+        .createItem("eidolon:worktable")
+        .power(500).tickPower(1)
 })

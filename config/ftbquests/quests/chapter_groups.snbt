@@ -1,3 +1,8 @@
 {
-	chapter_groups: [{ id: "408E25382E8101E6", title: "自然颂歌(第二章)" }]
+  chapter_groups: [
+    {
+      id: "408E25382E8101E6",
+      title: "自然颂歌(第二章)"
+    }
+  ]
 }

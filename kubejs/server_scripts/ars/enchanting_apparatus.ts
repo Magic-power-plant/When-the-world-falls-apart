@@ -251,6 +251,12 @@ const apparatusRecipes: ApparatusRecipe[] = [
         reagent: "kubejs:drygmy_brain",
         output: Item.of('tconstruct:seared_fuel_tank', '{tank:{Amount:360,FluidName:"kubejs:drygmy_brain_tissue"},tic_persistent:{}}').weakNBT() as unknown as OutputItem_,
         source: 1000
+    },
+    {
+        inputs: [Item.of('avaritia:singularity', '{Id:"avaritia:gold"}').weakNBT(),"minecraft:dandelion","minecraft:sunflower","minecraft:yellow_dye","minecraft:yellow_dye"],
+        reagent:"wtwfacore:disposable_ritual_chalk",
+        output:"wtwfacore:disposable_golden_chalk",
+        source:100000
     }
 ]
 

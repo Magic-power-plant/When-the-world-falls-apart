@@ -1,308 +1,622 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "39A8EFB4C2E39667"
-	group: "408E25382E8101E6"
-	id: "39A8EFB4C2E39667"
-	order_index: 0
-	quest_links: [ ]
-	quests: [
-		{
-			dependencies: ["7603CF0B7E7C1D64"]
-			id: "5174BBE55742E968"
-			tasks: [{
-				id: "398D2F5D8023FA85"
-				item: "aether:sun_altar"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7603CF0B7E7C1D64"]
-			id: "3A0CA38C24DF3C94"
-			tasks: [{
-				id: "7BF0C6C3AACA4FEF"
-				item: {
-					Count: 1
-					id: "twilightforest:lamp_of_cinders"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -8.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"3A0CA38C24DF3C94"
-				"5174BBE55742E968"
-			]
-			id: "2411FF8071232F1C"
-			tasks: [{
-				id: "15809B8A851EC470"
-				item: "kubejs:root_wrapped_invar_ingot"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2411FF8071232F1C"]
-			id: "6860C38ABBA65E67"
-			tasks: [{
-				id: "5C60EA82B3FFF5CA"
-				item: "kubejs:root_wrapped_invar_machine_frame"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6860C38ABBA65E67"]
-			id: "305F875F7FEF6940"
-			tasks: [
-				{
-					id: "35D80C784F8B9A6C"
-					item: "rootsclassic:altar"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "191DA6294345005D"
-					item: { Count: 4, id: "rootsclassic:brazier" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["305F875F7FEF6940"]
-			id: "729A048C09EFCC70"
-			tasks: [{
-				id: "39A85DD3D7255C3D"
-				item: "rootsclassic:attuned_standing_stone"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["729A048C09EFCC70"]
-			id: "3CBB04167549B946"
-			tasks: [{
-				id: "31C8002C5DAF3923"
-				item: "rootsclassic:crystal_staff"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["729A048C09EFCC70"]
-			id: "153371DCCE02D840"
-			tasks: [
-				{
-					id: "724AF674CF94271E"
-					item: "kubejs:living_ingot"
-					type: "item"
-				}
-				{
-					id: "0219C26D7A825BA4"
-					item: "kubejs:wildwood_ingot"
-					type: "item"
-				}
-				{
-					id: "20E356D165478A88"
-					item: "kubejs:sylvan_ingot"
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["729A048C09EFCC70"]
-			id: "09C8EEB0DEF8B4F2"
-			tasks: [{
-				id: "074F437C61FA1E02"
-				item: "kubejs:spiritleaf"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"09C8EEB0DEF8B4F2"
-				"3CBB04167549B946"
-				"153371DCCE02D840"
-			]
-			id: "57012B33115F25E7"
-			tasks: [{
-				id: "6F98FB810BF101E3"
-				item: "kubejs:life_sustaining_metal"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["57012B33115F25E7"]
-			id: "3C0C7606E471A213"
-			tasks: [{
-				id: "47078850FFB69E83"
-				item: "eidolon:pewter_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["57012B33115F25E7"]
-			id: "2FAF045659CA000C"
-			tasks: [{
-				id: "292B29BA60C38D4F"
-				item: "kubejs:weighty_lead_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"3C0C7606E471A213"
-				"2FAF045659CA000C"
-			]
-			id: "7F72584E0E5741CB"
-			tasks: [{
-				id: "6B9E7470A6C9267A"
-				item: "kubejs:pewter_machine_frame"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"3C0C7606E471A213"
-				"2FAF045659CA000C"
-			]
-			id: "0CF5AAF109B4F327"
-			tasks: [{
-				id: "69ACA1323E0ED376"
-				item: "kubejs:weighty_lead_machine_frame"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 1.0d
-		}
-		{
-			id: "745D1D16A93CA08E"
-			tasks: [{
-				id: "39B7E835BB75C855"
-				item: "eidolon:crucible"
-				type: "item"
-			}]
-			x: 11.5d
-			y: -2.0d
-		}
-		{
-			id: "259474B8CA2B84F2"
-			tasks: [{
-				id: "061CB1456281E351"
-				item: "enchanted:witch_oven"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 1.0d
-		}
-		{
-			id: "065615941C5F5D00"
-			tasks: [{
-				id: "0ED86CBBBD16741B"
-				item: "enchanted:witch_cauldron"
-				type: "item"
-			}]
-			x: 15.5d
-			y: 1.0d
-		}
-		{
-			id: "7EC9CB298CC6BD97"
-			tasks: [{
-				count: 6L
-				id: "4A20934BAE912A93"
-				item: { Count: 6, id: "enchanted:altar" }
-				type: "item"
-			}]
-			x: 13.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["729A048C09EFCC70"]
-			id: "5B8E3745CA4465EA"
-			tasks: [
-				{
-					id: "7DCCF2D442BA6367"
-					item: "rootsclassic:mortar"
-					type: "item"
-				}
-				{
-					id: "65C9DA4FC6F1EF2E"
-					item: "rootsclassic:pestle"
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"5B8E3745CA4465EA"
-				"3CBB04167549B946"
-			]
-			id: "5AD2EA3919E55CE2"
-			tasks: [{
-				id: "6EC5B9503E203FA0"
-				item: "rootsclassic:spell_powder"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			id: "2738E9D4B8243E55"
-			tasks: [{
-				id: "1FC0F1BDD03D7CB5"
-				item: "eidolon:worktable"
-				type: "item"
-			}]
-			x: 15.5d
-			y: -2.0d
-		}
-		{
-			id: "240350AE373D0768"
-			tasks: [{
-				id: "67FD9CBE2B5A0CE0"
-				item: "enchanted:distillery"
-				type: "item"
-			}]
-			x: 15.5d
-			y: -0.5d
-		}
-		{
-			id: "15DF44B3776C48C8"
-			tasks: [{
-				id: "54B76A5281CB934B"
-				item: "eidolon:planter"
-				type: "item"
-			}]
-			x: 15.5d
-			y: -3.5d
-		}
-	]
-	title: "(主歌)"
+  default_hide_dependency_lines: false,
+  default_quest_shape: "",
+  filename: "39A8EFB4C2E39667",
+  group: "408E25382E8101E6",
+  id: "39A8EFB4C2E39667",
+  order_index: 0,
+  quest_links: [],
+  quests: [
+    {
+      dependencies: [
+        "7603CF0B7E7C1D64"
+      ],
+      id: "5174BBE55742E968",
+      tasks: [
+        {
+          id: "398D2F5D8023FA85",
+          item: "aether:sun_altar",
+          type: "item"
+        }
+      ],
+      title: "天堂制造",
+      x: -8.5d,
+      y: -1.5d
+    },
+    {
+      dependencies: [
+        "7603CF0B7E7C1D64"
+      ],
+      id: "3A0CA38C24DF3C94",
+      tasks: [
+        {
+          id: "7BF0C6C3AACA4FEF",
+          item: {
+            Count: 1,
+            id: "twilightforest:lamp_of_cinders",
+            tag: {
+              Damage: 0
+            }
+          },
+          type: "item"
+        }
+      ],
+      title: "月光灼人",
+      x: -8.5d,
+      y: 0d
+    },
+    {
+      dependencies: [
+        "3A0CA38C24DF3C94",
+        "5174BBE55742E968"
+      ],
+      id: "2411FF8071232F1C",
+      tasks: [
+        {
+          id: "15809B8A851EC470",
+          item: "kubejs:root_wrapped_invar_ingot",
+          type: "item"
+        }
+      ],
+      title: "我不能呼吸了",
+      x: -6d,
+      y: -0.5d
+    },
+    {
+      dependencies: [
+        "2411FF8071232F1C"
+      ],
+      id: "6860C38ABBA65E67",
+      subtitle: "6",
+      tasks: [
+        {
+          id: "5C60EA82B3FFF5CA",
+          item: "kubejs:root_wrapped_invar_machine_frame",
+          type: "item"
+        }
+      ],
+      title: "呃啊，这是第几个了？",
+      x: -4d,
+      y: -0.5d
+    },
+    {
+      dependencies: [
+        "6860C38ABBA65E67"
+      ],
+      id: "305F875F7FEF6940",
+      subtitle: "",
+      tasks: [
+        {
+          id: "35D80C784F8B9A6C",
+          item: "rootsclassic:altar",
+          type: "item"
+        },
+        {
+          count: 4l,
+          id: "191DA6294345005D",
+          item: {
+            Count: 4,
+            id: "rootsclassic:brazier"
+          },
+          type: "item"
+        }
+      ],
+      x: -2d,
+      y: -0.5d
+    },
+    {
+      dependencies: [
+        "305F875F7FEF6940"
+      ],
+      id: "729A048C09EFCC70",
+      tasks: [
+        {
+          id: "39A85DD3D7255C3D",
+          item: "rootsclassic:attuned_standing_stone",
+          type: "item"
+        }
+      ],
+      x: 0d,
+      y: -0.5d
+    },
+    {
+      dependencies: [
+        "729A048C09EFCC70"
+      ],
+      id: "3CBB04167549B946",
+      tasks: [
+        {
+          id: "31C8002C5DAF3923",
+          item: "rootsclassic:crystal_staff",
+          type: "item"
+        }
+      ],
+      x: 1.5d,
+      y: -2d
+    },
+    {
+      dependencies: [
+        "729A048C09EFCC70"
+      ],
+      id: "153371DCCE02D840",
+      tasks: [
+        {
+          id: "724AF674CF94271E",
+          item: "kubejs:living_ingot",
+          type: "item"
+        },
+        {
+          id: "0219C26D7A825BA4",
+          item: "kubejs:wildwood_ingot",
+          type: "item"
+        },
+        {
+          id: "20E356D165478A88",
+          item: "kubejs:sylvan_ingot",
+          type: "item"
+        }
+      ],
+      x: 1.5d,
+      y: -0.5d
+    },
+    {
+      dependencies: [
+        "729A048C09EFCC70"
+      ],
+      id: "09C8EEB0DEF8B4F2",
+      tasks: [
+        {
+          id: "074F437C61FA1E02",
+          item: "kubejs:spiritleaf",
+          type: "item"
+        }
+      ],
+      x: 1.5d,
+      y: 1d
+    },
+    {
+      dependencies: [
+        "09C8EEB0DEF8B4F2",
+        "3CBB04167549B946",
+        "153371DCCE02D840"
+      ],
+      id: "57012B33115F25E7",
+      tasks: [
+        {
+          id: "6F98FB810BF101E3",
+          item: "kubejs:life_sustaining_metal",
+          type: "item"
+        }
+      ],
+      x: 3.5d,
+      y: -0.5d
+    },
+    {
+      dependencies: [
+        "57012B33115F25E7"
+      ],
+      id: "3C0C7606E471A213",
+      tasks: [
+        {
+          id: "47078850FFB69E83",
+          item: "eidolon:pewter_ingot",
+          type: "item"
+        }
+      ],
+      x: 6d,
+      y: -2d
+    },
+    {
+      dependencies: [
+        "57012B33115F25E7"
+      ],
+      id: "2FAF045659CA000C",
+      tasks: [
+        {
+          id: "292B29BA60C38D4F",
+          item: "kubejs:weighty_lead_ingot",
+          type: "item"
+        }
+      ],
+      x: 6d,
+      y: 1d
+    },
+    {
+      dependencies: [
+        "3C0C7606E471A213",
+        "2FAF045659CA000C"
+      ],
+      id: "7F72584E0E5741CB",
+      tasks: [
+        {
+          id: "6B9E7470A6C9267A",
+          item: "kubejs:pewter_machine_frame",
+          type: "item"
+        }
+      ],
+      x: 8.5d,
+      y: -2d
+    },
+    {
+      dependencies: [
+        "3C0C7606E471A213",
+        "2FAF045659CA000C"
+      ],
+      id: "0CF5AAF109B4F327",
+      tasks: [
+        {
+          id: "69ACA1323E0ED376",
+          item: "kubejs:weighty_lead_machine_frame",
+          type: "item"
+        }
+      ],
+      x: 8.5d,
+      y: 1d
+    },
+    {
+      dependencies: [
+        "7F72584E0E5741CB",
+        "7EC9CB298CC6BD97"
+      ],
+      id: "745D1D16A93CA08E",
+      tasks: [
+        {
+          id: "39B7E835BB75C855",
+          item: "eidolon:crucible",
+          type: "item"
+        }
+      ],
+      x: 11.5d,
+      y: -2d
+    },
+    {
+      dependencies: [
+        "0CF5AAF109B4F327"
+      ],
+      id: "259474B8CA2B84F2",
+      tasks: [
+        {
+          id: "061CB1456281E351",
+          item: "enchanted:witch_oven",
+          type: "item"
+        }
+      ],
+      x: 11.5d,
+      y: 1d
+    },
+    {
+      dependencies: [
+        "745D1D16A93CA08E",
+        "7EC9CB298CC6BD97"
+      ],
+      id: "065615941C5F5D00",
+      tasks: [
+        {
+          id: "0ED86CBBBD16741B",
+          item: "enchanted:witch_cauldron",
+          type: "item"
+        }
+      ],
+      x: 15.5d,
+      y: 1d
+    },
+    {
+      dependencies: [
+        "259474B8CA2B84F2"
+      ],
+      id: "7EC9CB298CC6BD97",
+      tasks: [
+        {
+          count: 6l,
+          id: "4A20934BAE912A93",
+          item: {
+            Count: 6,
+            id: "enchanted:altar"
+          },
+          type: "item"
+        }
+      ],
+      x: 13.5d,
+      y: 1d
+    },
+    {
+      dependencies: [
+        "729A048C09EFCC70"
+      ],
+      id: "5B8E3745CA4465EA",
+      tasks: [
+        {
+          id: "7DCCF2D442BA6367",
+          item: "rootsclassic:mortar",
+          type: "item"
+        },
+        {
+          id: "65C9DA4FC6F1EF2E",
+          item: "rootsclassic:pestle",
+          type: "item"
+        }
+      ],
+      x: 0d,
+      y: -3d
+    },
+    {
+      dependencies: [
+        "5B8E3745CA4465EA",
+        "3CBB04167549B946"
+      ],
+      id: "5AD2EA3919E55CE2",
+      tasks: [
+        {
+          id: "6EC5B9503E203FA0",
+          item: "rootsclassic:spell_powder",
+          type: "item"
+        }
+      ],
+      x: 1.5d,
+      y: -3d
+    },
+    {
+      dependencies: [
+        "240350AE373D0768",
+        "745D1D16A93CA08E"
+      ],
+      id: "2738E9D4B8243E55",
+      tasks: [
+        {
+          id: "1FC0F1BDD03D7CB5",
+          item: "eidolon:worktable",
+          type: "item"
+        }
+      ],
+      x: 15.5d,
+      y: -2d
+    },
+    {
+      dependencies: [
+        "065615941C5F5D00"
+      ],
+      id: "240350AE373D0768",
+      tasks: [
+        {
+          id: "67FD9CBE2B5A0CE0",
+          item: "enchanted:distillery",
+          type: "item"
+        }
+      ],
+      x: 15.5d,
+      y: -0.5d
+    },
+    {
+      dependencies: [
+        "2738E9D4B8243E55",
+        "15DF44B3776C48C8"
+      ],
+      id: "15DF44B3776C48C8",
+      tasks: [
+        {
+          id: "54B76A5281CB934B",
+          item: "eidolon:planter",
+          type: "item"
+        }
+      ],
+      x: 15.5d,
+      y: -3.5d
+    },
+    {
+      dependencies: [
+        "065615941C5F5D00",
+        "15DF44B3776C48C8"
+      ],
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BABD",
+      rewards: [],
+      shape: "circle",
+      tasks: [
+        {
+          id: "#7F947B961216BABE",
+          item: "enchanted:kettle",
+          type: "item"
+        }
+      ],
+      title: "新任务",
+      x: 17.5d,
+      y: 0d
+    },
+    {
+      dependencies: [
+        "#7F947B961216BABD",
+        "2738E9D4B8243E55"
+      ],
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BABF",
+      rewards: [],
+      shape: "circle",
+      tasks: [
+        {
+          id: "#7F947B961216BAC0",
+          item: "enchanted:spinning_wheel",
+          type: "item"
+        }
+      ],
+      title: "新任务",
+      x: 17.5d,
+      y: -1d
+    },
+    {
+      dependencies: [
+        "#7F947B961216BABF"
+      ],
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BAC1",
+      rewards: [],
+      shape: "circle",
+      tasks: [
+        {
+          id: "#7F947B961216BAC3",
+          item: "enchanted:poppet_shelf",
+          type: "item"
+        }
+      ],
+      title: "新任务",
+      x: 17.5d,
+      y: -2d
+    },
+    {
+      dependencies: [
+        "#7F947B961216BABF",
+        "#7F947B961216BABD"
+      ],
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BAC2",
+      rewards: [],
+      shape: "circle",
+      tasks: [
+        {
+          id: "#7F947B961216BAC4",
+          item: "enchanted:witch_cauldron",
+          type: "item"
+        }
+      ],
+      title: "新任务",
+      x: 19.5d,
+      y: -0.5d
+    },
+    {
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BAC5",
+      rewards: [],
+      shape: "circle",
+      tasks: [
+        {
+          count: 6,
+          id: "#7F947B961216BAC7",
+          item: "eidolon:wooden_altar",
+          type: "item"
+        }
+      ],
+      title: "新任务",
+      x: 11.5d,
+      y: -3.5d
+    },
+    {
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BAC6",
+      rewards: [],
+      shape: "circle",
+      tasks: [
+        {
+          count: 6,
+          id: "#7F947B961216BAC8",
+          item: "eidolon:stone_altar",
+          type: "item"
+        }
+      ],
+      title: "新任务",
+      x: 13.5d,
+      y: -3.5d
+    },
+    {
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BAC9",
+      rewards: [],
+      shape: "circle",
+      tasks: [
+        {
+          id: "#7F947B961216BACA",
+          item: "enchanted:mutandis",
+          type: "item"
+        }
+      ],
+      title: "新任务",
+      x: 21.5d,
+      y: -0.5d
+    },
+    {
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BACB",
+      rewards: [],
+      shape: "circle",
+      tasks: [],
+      title: "新任务",
+      x: 21.5d,
+      y: -1.5d
+    },
+    {
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BACC",
+      rewards: [],
+      shape: "circle",
+      tasks: [
+        {
+          id: "#7F947B961216BACD",
+          item: "naturesaura:gold_leaf",
+          type: "item"
+        }
+      ],
+      title: "新任务",
+      x: 23.5d,
+      y: -0.5d
+    },
+    {
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BACE",
+      rewards: [],
+      shape: "circle",
+      tasks: [],
+      title: "新任务",
+      x: 25.5d,
+      y: -0.5d
+    },
+    {
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BACF",
+      rewards: [],
+      shape: "circle",
+      tasks: [],
+      title: "新任务",
+      x: 27.5d,
+      y: -0.5d
+    },
+    {
+      description: [
+        "在这里写下任务说明。"
+      ],
+      id: "#7F947B961216BAD0",
+      rewards: [],
+      shape: "circle",
+      tasks: [
+        {
+          id: "#7F947B961216BAD1",
+          item: "integrateddynamics:squeezer",
+          type: "item"
+        }
+      ],
+      title: "新任务",
+      x: -4d,
+      y: -2d
+    }
+  ],
+  title: "蹂践刍荛(前奏)"
 }

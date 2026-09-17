@@ -101,6 +101,8 @@
   "mana_jade:special_flora_storage": null,
   "mana_jade:terra_plate_recipe_progress": null,
   "mana_jade:thermalily_info": null,
+  "mbd2:energy_storage": null,
+  "mbd2:energy_transfer_limits": null,
   "mbd2:long_fe_energy_hud": null,
   "mbd2:long_fluid_storage": null,
   "mbd2:multiblock_provider": null,

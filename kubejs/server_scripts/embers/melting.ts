@@ -83,6 +83,16 @@ const meltingRecipes: MeltingRecipe[] = [
         input: "kubejs:herb_residue",
         output: "100x kubejs:herb_residue_liquid",
         conditionTag: amberCondition
+    },
+    {
+        input:"minecraft:blaze_rod",
+        output:"80x tconstruct:blazing_blood",
+        conditionTag: amberCondition
+    },
+    {
+        input:"minecraft:blaze_powder",
+        output:"35x tconstruct:blazing_blood",
+        conditionTag: amberCondition
     }
 ]
 

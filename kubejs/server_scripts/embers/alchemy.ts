@@ -257,6 +257,25 @@ const alchemyRecipes: AlchemyRecipe[] = [
         ],
         output: "arseng:creative_source_cell",
         tablet: "ars_nouveau:creative_source_jar"
+    },
+    {
+        aspects:[
+            "embers:aspectus/nightstone",
+            "embers:aspectus/duskstone",
+            "embers:aspectus/dawnstone"
+        ],
+        inputs:[
+            'kubejs:dawnstone_machine_frame',
+            'kubejs:dawnstone_machine_frame',
+            'kubejs:dawnstone_machine_frame',
+            'kubejs:dawnstone_machine_frame',
+            'kubejs:dawnstone_machine_frame',
+            'kubejs:dawnstone_machine_frame',
+            'kubejs:ember_dawnstone_component',
+            'kubejs:ember_dawnstone_component'
+        ],
+        output:'mbd2:dwarf_alchemy_cauldron_controller',
+        tablet:'embers:ember_injector'
     }
 ]
 

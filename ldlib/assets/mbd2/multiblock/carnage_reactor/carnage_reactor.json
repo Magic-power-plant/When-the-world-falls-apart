@@ -1,985 +1,5 @@
 {
   "placeholders": {
-    "holders": [
-      {
-        "predicates": [
-          0
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          1
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          2
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          3
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          4
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          5
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          6
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          7
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          8
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          9
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          10
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          11
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          12
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          13
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          14
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          15
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          16
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          17
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          18
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          19
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          20
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          21
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          22
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          23
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          24
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          25
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          26
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          27
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          28
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          29
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          30
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          31
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          32
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          33
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          34
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          35
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          36
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          37
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          38
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          39
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          40
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          41
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          42
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          43
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          42,
-          44
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [],
-        "isController": 1,
-        "facing": 4
-      },
-      {
-        "predicates": [
-          45
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          46,
-          47,
-          48
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          49
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          50
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          51
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          52
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          53
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          54
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          55
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          56
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          57
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          58
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          59
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          60
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          61
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          62
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          63
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          64
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          65
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          66
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          67
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          68
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          69
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          70
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          71
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          72
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          73
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          74
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          75
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          76
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          77
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          78
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          79
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          80
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          81
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          82
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          83
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          84
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          85
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          86
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          87
-        ],
-        "isController": 0,
-        "facing": 2
-      },
-      {
-        "predicates": [
-          88
-        ],
-        "isController": 0,
-        "facing": 2
-      }
-    ],
-    "predicates": [
-      {
-        "type": "builtin",
-        "key": "any"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_slab_destructive[type=top,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_slab_steadfast[type=top,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_slab_destructive"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_slab_steadfast"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_stone_slab_destructive"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_stone_slab_steadfast"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_destructive"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=north,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=south,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_steadfast"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=east,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=east,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_tile_destructive"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_tile_steadfast"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=east,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=east,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_brick1_stairs_destructive"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=south,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_stone_slab_destructive[type=top,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_stone_slab_steadfast[type=top,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing=east,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_steadfast[facing=east,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=south,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_brick1_stairs_steadfast"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=south,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=north,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing=east,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_steadfast[facing=east,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=west,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=west,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing=south,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_steadfast[facing=north,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing=south,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_stairs_steadfast"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=west,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=west,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=west,half=top,shape=outer_right,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=south,half=top,shape=outer_right,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing=west,half=bottom,shape=outer_right,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing=south,half=bottom,shape=outer_right,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "animus:crystallized_demon_will_block"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:blankrune"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:sacrificerune2"
-      },
-      {
-        "type": "builtin",
-        "key": "new 2"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:selfsacrificerune2"
-      },
-      {
-        "type": "builtin",
-        "key": "new 0"
-      },
-      {
-        "type": "builtin",
-        "key": "new 1"
-      },
-      {
-        "type": "builtin",
-        "key": "air"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing=south,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_stairs_corrosive"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_slab_vengeful"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_slab_corrosive"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_slab_vengeful[type=top,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_slab_corrosive[type=top,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing=west,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_corrosive[facing=west,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=east,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=east,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=east,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=east,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_brick1_stairs_vengeful"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=south,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_tile_vengeful"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_vengeful"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_polished_corrosive"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_tile_corrosive"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=south,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=north,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=south,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_brick1_stairs_corrosive"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=south,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=north,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_stone_slab_vengeful"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=west,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=west,half=bottom,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "bloodmagic:dungeon_stone_slab_corrosive"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_stone_slab_vengeful[type=top,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=west,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=west,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_stone_slab_corrosive[type=top,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing=south,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_corrosive[facing=north,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing=west,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_polished_stairs_corrosive[facing=west,half=top,shape=straight,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=north,half=top,shape=outer_right,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=east,half=top,shape=outer_right,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing=north,half=bottom,shape=outer_right,waterlogged=false]"
-      },
-      {
-        "type": "builtin",
-        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing=south,half=bottom,shape=outer_left,waterlogged=false]"
-      }
-    ],
-    "x": 37,
-    "y": 25,
-    "z": 37,
     "pattern": [
       [
         0,
@@ -16344,7 +15364,987 @@
         0,
         0
       ]
-    ]
+    ],
+    "z": 37,
+    "holders": [
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          0
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          1
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          2
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          3
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          4
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          5
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          6
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          7
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          8
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          9
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          10
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          11
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          12
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          13
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          14
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          15
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          16
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          17
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          18
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          19
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          20
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          21
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          22
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          23
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          24
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          25
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          26
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          27
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          28
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          29
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          30
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          31
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          32
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          33
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          34
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          35
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          36
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          37
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          38
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          39
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          40
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          41
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          42
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          43
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          42,
+          44
+        ]
+      },
+      {
+        "facing": 4,
+        "isController": 1,
+        "predicates": []
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          45
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          46,
+          47,
+          48
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          49
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          50
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          51
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          52
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          53
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          54
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          55
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          56
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          57
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          58
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          59
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          60
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          61
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          62
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          63
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          64
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          65
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          66
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          67
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          68
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          69
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          70
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          71
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          72
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          73
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          74
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          75
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          76
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          77
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          78
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          79
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          80
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          81
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          82
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          83
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          84
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          85
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          86
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          87
+        ]
+      },
+      {
+        "facing": 2,
+        "isController": 0,
+        "predicates": [
+          88
+        ]
+      }
+    ],
+    "predicates": [
+      {
+        "type": "builtin",
+        "key": "any"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_slab_destructive[type\u003dtop,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_slab_steadfast[type\u003dtop,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_polished_slab_destructive"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_polished_slab_steadfast"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_stone_slab_destructive"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_stone_slab_steadfast"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_polished_destructive"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing\u003dnorth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing\u003dsouth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_polished_steadfast"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing\u003deast,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing\u003deast,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_tile_destructive"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_tile_steadfast"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_brick1_stairs_destructive"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing\u003dsouth,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_stone_slab_destructive[type\u003dtop,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_stone_slab_steadfast[type\u003dtop,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_steadfast[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing\u003dsouth,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_brick1_stairs_steadfast"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing\u003dsouth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing\u003dnorth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing\u003deast,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_steadfast[facing\u003deast,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing\u003dsouth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_steadfast[facing\u003dnorth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_destructive[facing\u003dsouth,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_polished_stairs_steadfast"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing\u003dwest,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing\u003dwest,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing\u003dwest,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing\u003dsouth,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_destructive[facing\u003dwest,half\u003dbottom,shape\u003douter_right,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_steadfast[facing\u003dsouth,half\u003dbottom,shape\u003douter_right,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "animus:crystallized_demon_will_block"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:blankrune"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:sacrificerune2"
+      },
+      {
+        "type": "builtin",
+        "key": "new 2"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:selfsacrificerune2"
+      },
+      {
+        "type": "builtin",
+        "key": "new 0"
+      },
+      {
+        "type": "builtin",
+        "key": "new 1"
+      },
+      {
+        "type": "builtin",
+        "key": "air"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing\u003dsouth,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_polished_stairs_corrosive"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_polished_slab_vengeful"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_polished_slab_corrosive"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_slab_vengeful[type\u003dtop,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_slab_corrosive[type\u003dtop,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing\u003dwest,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_corrosive[facing\u003dwest,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing\u003deast,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing\u003deast,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_brick1_stairs_vengeful"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing\u003dsouth,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_tile_vengeful"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_polished_vengeful"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_polished_corrosive"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_tile_corrosive"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing\u003dsouth,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing\u003dnorth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing\u003dsouth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_brick1_stairs_corrosive"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing\u003dsouth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing\u003dnorth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_stone_slab_vengeful"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing\u003dwest,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing\u003dwest,half\u003dbottom,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "bloodmagic:dungeon_stone_slab_corrosive"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_stone_slab_vengeful[type\u003dtop,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_stone_slab_corrosive[type\u003dtop,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing\u003dsouth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_corrosive[facing\u003dnorth,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_vengeful[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_polished_stairs_corrosive[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing\u003dnorth,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing\u003deast,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_vengeful[facing\u003dnorth,half\u003dbottom,shape\u003douter_right,waterlogged\u003dfalse]"
+      },
+      {
+        "type": "builtin",
+        "key": "state:bloodmagic:dungeon_brick1_stairs_corrosive[facing\u003dsouth,half\u003dbottom,shape\u003douter_left,waterlogged\u003dfalse]"
+      }
+    ],
+    "x": 37,
+    "y": 25
   },
   "layer_axis": "Z",
   "aisle_repetitions": [
@@ -16423,5 +16423,873 @@
     1,
     1
   ],
-  "shape_infos": []
+  "shape_infos": [],
+  "__mbd2_nbt_types": {
+    "/placeholders/pattern": "list",
+    "/placeholders/pattern/0": "list",
+    "/placeholders/pattern/0/11": "int_array",
+    "/placeholders/pattern/0/13": "int_array",
+    "/placeholders/pattern/1": "list",
+    "/placeholders/pattern/1/11": "int_array",
+    "/placeholders/pattern/1/13": "int_array",
+    "/placeholders/pattern/2": "list",
+    "/placeholders/pattern/2/11": "int_array",
+    "/placeholders/pattern/2/13": "int_array",
+    "/placeholders/pattern/3": "list",
+    "/placeholders/pattern/3/10": "int_array",
+    "/placeholders/pattern/3/11": "int_array",
+    "/placeholders/pattern/3/13": "int_array",
+    "/placeholders/pattern/3/14": "int_array",
+    "/placeholders/pattern/4": "list",
+    "/placeholders/pattern/4/8": "int_array",
+    "/placeholders/pattern/4/10": "int_array",
+    "/placeholders/pattern/4/11": "int_array",
+    "/placeholders/pattern/4/13": "int_array",
+    "/placeholders/pattern/4/14": "int_array",
+    "/placeholders/pattern/4/16": "int_array",
+    "/placeholders/pattern/5": "list",
+    "/placeholders/pattern/5/5": "int_array",
+    "/placeholders/pattern/5/8": "int_array",
+    "/placeholders/pattern/5/10": "int_array",
+    "/placeholders/pattern/5/11": "int_array",
+    "/placeholders/pattern/5/13": "int_array",
+    "/placeholders/pattern/5/14": "int_array",
+    "/placeholders/pattern/5/16": "int_array",
+    "/placeholders/pattern/5/19": "int_array",
+    "/placeholders/pattern/6": "list",
+    "/placeholders/pattern/6/4": "int_array",
+    "/placeholders/pattern/6/5": "int_array",
+    "/placeholders/pattern/6/8": "int_array",
+    "/placeholders/pattern/6/10": "int_array",
+    "/placeholders/pattern/6/11": "int_array",
+    "/placeholders/pattern/6/12": "int_array",
+    "/placeholders/pattern/6/13": "int_array",
+    "/placeholders/pattern/6/14": "int_array",
+    "/placeholders/pattern/6/16": "int_array",
+    "/placeholders/pattern/6/19": "int_array",
+    "/placeholders/pattern/6/20": "int_array",
+    "/placeholders/pattern/7": "list",
+    "/placeholders/pattern/7/3": "int_array",
+    "/placeholders/pattern/7/4": "int_array",
+    "/placeholders/pattern/7/5": "int_array",
+    "/placeholders/pattern/7/6": "int_array",
+    "/placeholders/pattern/7/7": "int_array",
+    "/placeholders/pattern/7/8": "int_array",
+    "/placeholders/pattern/7/9": "int_array",
+    "/placeholders/pattern/7/10": "int_array",
+    "/placeholders/pattern/7/11": "int_array",
+    "/placeholders/pattern/7/12": "int_array",
+    "/placeholders/pattern/7/13": "int_array",
+    "/placeholders/pattern/7/14": "int_array",
+    "/placeholders/pattern/7/15": "int_array",
+    "/placeholders/pattern/7/16": "int_array",
+    "/placeholders/pattern/7/17": "int_array",
+    "/placeholders/pattern/7/18": "int_array",
+    "/placeholders/pattern/7/19": "int_array",
+    "/placeholders/pattern/7/20": "int_array",
+    "/placeholders/pattern/7/21": "int_array",
+    "/placeholders/pattern/8": "list",
+    "/placeholders/pattern/8/1": "int_array",
+    "/placeholders/pattern/8/2": "int_array",
+    "/placeholders/pattern/8/3": "int_array",
+    "/placeholders/pattern/8/4": "int_array",
+    "/placeholders/pattern/8/7": "int_array",
+    "/placeholders/pattern/8/8": "int_array",
+    "/placeholders/pattern/8/9": "int_array",
+    "/placeholders/pattern/8/10": "int_array",
+    "/placeholders/pattern/8/11": "int_array",
+    "/placeholders/pattern/8/13": "int_array",
+    "/placeholders/pattern/8/14": "int_array",
+    "/placeholders/pattern/8/15": "int_array",
+    "/placeholders/pattern/8/16": "int_array",
+    "/placeholders/pattern/8/17": "int_array",
+    "/placeholders/pattern/8/20": "int_array",
+    "/placeholders/pattern/8/21": "int_array",
+    "/placeholders/pattern/8/22": "int_array",
+    "/placeholders/pattern/8/23": "int_array",
+    "/placeholders/pattern/9": "list",
+    "/placeholders/pattern/9/0": "int_array",
+    "/placeholders/pattern/9/1": "int_array",
+    "/placeholders/pattern/9/2": "int_array",
+    "/placeholders/pattern/9/3": "int_array",
+    "/placeholders/pattern/9/4": "int_array",
+    "/placeholders/pattern/9/5": "int_array",
+    "/placeholders/pattern/9/6": "int_array",
+    "/placeholders/pattern/9/7": "int_array",
+    "/placeholders/pattern/9/8": "int_array",
+    "/placeholders/pattern/9/9": "int_array",
+    "/placeholders/pattern/9/15": "int_array",
+    "/placeholders/pattern/9/16": "int_array",
+    "/placeholders/pattern/9/17": "int_array",
+    "/placeholders/pattern/9/18": "int_array",
+    "/placeholders/pattern/9/19": "int_array",
+    "/placeholders/pattern/9/20": "int_array",
+    "/placeholders/pattern/9/21": "int_array",
+    "/placeholders/pattern/9/22": "int_array",
+    "/placeholders/pattern/9/23": "int_array",
+    "/placeholders/pattern/9/24": "int_array",
+    "/placeholders/pattern/10": "list",
+    "/placeholders/pattern/10/0": "int_array",
+    "/placeholders/pattern/10/1": "int_array",
+    "/placeholders/pattern/10/2": "int_array",
+    "/placeholders/pattern/10/3": "int_array",
+    "/placeholders/pattern/10/4": "int_array",
+    "/placeholders/pattern/10/5": "int_array",
+    "/placeholders/pattern/10/6": "int_array",
+    "/placeholders/pattern/10/7": "int_array",
+    "/placeholders/pattern/10/8": "int_array",
+    "/placeholders/pattern/10/16": "int_array",
+    "/placeholders/pattern/10/17": "int_array",
+    "/placeholders/pattern/10/18": "int_array",
+    "/placeholders/pattern/10/19": "int_array",
+    "/placeholders/pattern/10/20": "int_array",
+    "/placeholders/pattern/10/21": "int_array",
+    "/placeholders/pattern/10/22": "int_array",
+    "/placeholders/pattern/10/23": "int_array",
+    "/placeholders/pattern/10/24": "int_array",
+    "/placeholders/pattern/11": "list",
+    "/placeholders/pattern/11/0": "int_array",
+    "/placeholders/pattern/11/1": "int_array",
+    "/placeholders/pattern/11/2": "int_array",
+    "/placeholders/pattern/11/9": "int_array",
+    "/placeholders/pattern/11/10": "int_array",
+    "/placeholders/pattern/11/22": "int_array",
+    "/placeholders/pattern/11/23": "int_array",
+    "/placeholders/pattern/11/24": "int_array",
+    "/placeholders/pattern/12": "list",
+    "/placeholders/pattern/12/1": "int_array",
+    "/placeholders/pattern/12/2": "int_array",
+    "/placeholders/pattern/12/3": "int_array",
+    "/placeholders/pattern/12/7": "int_array",
+    "/placeholders/pattern/12/8": "int_array",
+    "/placeholders/pattern/12/9": "int_array",
+    "/placeholders/pattern/12/11": "int_array",
+    "/placeholders/pattern/12/12": "int_array",
+    "/placeholders/pattern/12/16": "int_array",
+    "/placeholders/pattern/12/17": "int_array",
+    "/placeholders/pattern/12/21": "int_array",
+    "/placeholders/pattern/12/22": "int_array",
+    "/placeholders/pattern/12/23": "int_array",
+    "/placeholders/pattern/13": "list",
+    "/placeholders/pattern/13/2": "int_array",
+    "/placeholders/pattern/13/3": "int_array",
+    "/placeholders/pattern/13/4": "int_array",
+    "/placeholders/pattern/13/5": "int_array",
+    "/placeholders/pattern/13/7": "int_array",
+    "/placeholders/pattern/13/8": "int_array",
+    "/placeholders/pattern/13/9": "int_array",
+    "/placeholders/pattern/13/10": "int_array",
+    "/placeholders/pattern/13/11": "int_array",
+    "/placeholders/pattern/13/12": "int_array",
+    "/placeholders/pattern/13/13": "int_array",
+    "/placeholders/pattern/13/16": "int_array",
+    "/placeholders/pattern/13/17": "int_array",
+    "/placeholders/pattern/13/19": "int_array",
+    "/placeholders/pattern/13/20": "int_array",
+    "/placeholders/pattern/13/21": "int_array",
+    "/placeholders/pattern/13/22": "int_array",
+    "/placeholders/pattern/14": "list",
+    "/placeholders/pattern/14/3": "int_array",
+    "/placeholders/pattern/14/4": "int_array",
+    "/placeholders/pattern/14/7": "int_array",
+    "/placeholders/pattern/14/8": "int_array",
+    "/placeholders/pattern/14/9": "int_array",
+    "/placeholders/pattern/14/10": "int_array",
+    "/placeholders/pattern/14/11": "int_array",
+    "/placeholders/pattern/14/12": "int_array",
+    "/placeholders/pattern/14/13": "int_array",
+    "/placeholders/pattern/14/14": "int_array",
+    "/placeholders/pattern/14/15": "int_array",
+    "/placeholders/pattern/14/16": "int_array",
+    "/placeholders/pattern/14/17": "int_array",
+    "/placeholders/pattern/14/20": "int_array",
+    "/placeholders/pattern/14/21": "int_array",
+    "/placeholders/pattern/15": "list",
+    "/placeholders/pattern/15/3": "int_array",
+    "/placeholders/pattern/15/9": "int_array",
+    "/placeholders/pattern/15/10": "int_array",
+    "/placeholders/pattern/15/11": "int_array",
+    "/placeholders/pattern/15/12": "int_array",
+    "/placeholders/pattern/15/13": "int_array",
+    "/placeholders/pattern/15/14": "int_array",
+    "/placeholders/pattern/15/15": "int_array",
+    "/placeholders/pattern/15/16": "int_array",
+    "/placeholders/pattern/15/21": "int_array",
+    "/placeholders/pattern/16": "list",
+    "/placeholders/pattern/16/9": "int_array",
+    "/placeholders/pattern/16/10": "int_array",
+    "/placeholders/pattern/16/11": "int_array",
+    "/placeholders/pattern/16/12": "int_array",
+    "/placeholders/pattern/16/13": "int_array",
+    "/placeholders/pattern/16/14": "int_array",
+    "/placeholders/pattern/16/15": "int_array",
+    "/placeholders/pattern/17": "list",
+    "/placeholders/pattern/17/9": "int_array",
+    "/placeholders/pattern/17/10": "int_array",
+    "/placeholders/pattern/17/11": "int_array",
+    "/placeholders/pattern/17/12": "int_array",
+    "/placeholders/pattern/17/13": "int_array",
+    "/placeholders/pattern/17/14": "int_array",
+    "/placeholders/pattern/18": "list",
+    "/placeholders/pattern/18/9": "int_array",
+    "/placeholders/pattern/18/10": "int_array",
+    "/placeholders/pattern/18/11": "int_array",
+    "/placeholders/pattern/18/12": "int_array",
+    "/placeholders/pattern/18/13": "int_array",
+    "/placeholders/pattern/18/14": "int_array",
+    "/placeholders/pattern/19": "list",
+    "/placeholders/pattern/19/9": "int_array",
+    "/placeholders/pattern/19/10": "int_array",
+    "/placeholders/pattern/19/11": "int_array",
+    "/placeholders/pattern/19/12": "int_array",
+    "/placeholders/pattern/19/13": "int_array",
+    "/placeholders/pattern/19/14": "int_array",
+    "/placeholders/pattern/20": "list",
+    "/placeholders/pattern/20/9": "int_array",
+    "/placeholders/pattern/20/10": "int_array",
+    "/placeholders/pattern/20/11": "int_array",
+    "/placeholders/pattern/20/12": "int_array",
+    "/placeholders/pattern/20/13": "int_array",
+    "/placeholders/pattern/20/14": "int_array",
+    "/placeholders/pattern/20/15": "int_array",
+    "/placeholders/pattern/21": "list",
+    "/placeholders/pattern/21/3": "int_array",
+    "/placeholders/pattern/21/9": "int_array",
+    "/placeholders/pattern/21/10": "int_array",
+    "/placeholders/pattern/21/11": "int_array",
+    "/placeholders/pattern/21/12": "int_array",
+    "/placeholders/pattern/21/13": "int_array",
+    "/placeholders/pattern/21/14": "int_array",
+    "/placeholders/pattern/21/15": "int_array",
+    "/placeholders/pattern/21/16": "int_array",
+    "/placeholders/pattern/21/21": "int_array",
+    "/placeholders/pattern/22": "list",
+    "/placeholders/pattern/22/3": "int_array",
+    "/placeholders/pattern/22/4": "int_array",
+    "/placeholders/pattern/22/7": "int_array",
+    "/placeholders/pattern/22/8": "int_array",
+    "/placeholders/pattern/22/9": "int_array",
+    "/placeholders/pattern/22/10": "int_array",
+    "/placeholders/pattern/22/11": "int_array",
+    "/placeholders/pattern/22/12": "int_array",
+    "/placeholders/pattern/22/13": "int_array",
+    "/placeholders/pattern/22/14": "int_array",
+    "/placeholders/pattern/22/15": "int_array",
+    "/placeholders/pattern/22/16": "int_array",
+    "/placeholders/pattern/22/17": "int_array",
+    "/placeholders/pattern/22/20": "int_array",
+    "/placeholders/pattern/22/21": "int_array",
+    "/placeholders/pattern/23": "list",
+    "/placeholders/pattern/23/2": "int_array",
+    "/placeholders/pattern/23/3": "int_array",
+    "/placeholders/pattern/23/4": "int_array",
+    "/placeholders/pattern/23/5": "int_array",
+    "/placeholders/pattern/23/7": "int_array",
+    "/placeholders/pattern/23/8": "int_array",
+    "/placeholders/pattern/23/9": "int_array",
+    "/placeholders/pattern/23/10": "int_array",
+    "/placeholders/pattern/23/11": "int_array",
+    "/placeholders/pattern/23/12": "int_array",
+    "/placeholders/pattern/23/13": "int_array",
+    "/placeholders/pattern/23/16": "int_array",
+    "/placeholders/pattern/23/17": "int_array",
+    "/placeholders/pattern/23/19": "int_array",
+    "/placeholders/pattern/23/20": "int_array",
+    "/placeholders/pattern/23/21": "int_array",
+    "/placeholders/pattern/23/22": "int_array",
+    "/placeholders/pattern/24": "list",
+    "/placeholders/pattern/24/1": "int_array",
+    "/placeholders/pattern/24/2": "int_array",
+    "/placeholders/pattern/24/3": "int_array",
+    "/placeholders/pattern/24/7": "int_array",
+    "/placeholders/pattern/24/8": "int_array",
+    "/placeholders/pattern/24/9": "int_array",
+    "/placeholders/pattern/24/11": "int_array",
+    "/placeholders/pattern/24/12": "int_array",
+    "/placeholders/pattern/24/16": "int_array",
+    "/placeholders/pattern/24/17": "int_array",
+    "/placeholders/pattern/24/21": "int_array",
+    "/placeholders/pattern/24/22": "int_array",
+    "/placeholders/pattern/24/23": "int_array",
+    "/placeholders/pattern/25": "list",
+    "/placeholders/pattern/25/0": "int_array",
+    "/placeholders/pattern/25/1": "int_array",
+    "/placeholders/pattern/25/2": "int_array",
+    "/placeholders/pattern/25/9": "int_array",
+    "/placeholders/pattern/25/10": "int_array",
+    "/placeholders/pattern/25/22": "int_array",
+    "/placeholders/pattern/25/23": "int_array",
+    "/placeholders/pattern/25/24": "int_array",
+    "/placeholders/pattern/26": "list",
+    "/placeholders/pattern/26/0": "int_array",
+    "/placeholders/pattern/26/1": "int_array",
+    "/placeholders/pattern/26/2": "int_array",
+    "/placeholders/pattern/26/3": "int_array",
+    "/placeholders/pattern/26/4": "int_array",
+    "/placeholders/pattern/26/5": "int_array",
+    "/placeholders/pattern/26/6": "int_array",
+    "/placeholders/pattern/26/7": "int_array",
+    "/placeholders/pattern/26/8": "int_array",
+    "/placeholders/pattern/26/16": "int_array",
+    "/placeholders/pattern/26/17": "int_array",
+    "/placeholders/pattern/26/18": "int_array",
+    "/placeholders/pattern/26/19": "int_array",
+    "/placeholders/pattern/26/20": "int_array",
+    "/placeholders/pattern/26/21": "int_array",
+    "/placeholders/pattern/26/22": "int_array",
+    "/placeholders/pattern/26/23": "int_array",
+    "/placeholders/pattern/26/24": "int_array",
+    "/placeholders/pattern/27": "list",
+    "/placeholders/pattern/27/0": "int_array",
+    "/placeholders/pattern/27/1": "int_array",
+    "/placeholders/pattern/27/2": "int_array",
+    "/placeholders/pattern/27/3": "int_array",
+    "/placeholders/pattern/27/4": "int_array",
+    "/placeholders/pattern/27/5": "int_array",
+    "/placeholders/pattern/27/6": "int_array",
+    "/placeholders/pattern/27/7": "int_array",
+    "/placeholders/pattern/27/8": "int_array",
+    "/placeholders/pattern/27/9": "int_array",
+    "/placeholders/pattern/27/15": "int_array",
+    "/placeholders/pattern/27/16": "int_array",
+    "/placeholders/pattern/27/17": "int_array",
+    "/placeholders/pattern/27/18": "int_array",
+    "/placeholders/pattern/27/19": "int_array",
+    "/placeholders/pattern/27/20": "int_array",
+    "/placeholders/pattern/27/21": "int_array",
+    "/placeholders/pattern/27/22": "int_array",
+    "/placeholders/pattern/27/23": "int_array",
+    "/placeholders/pattern/27/24": "int_array",
+    "/placeholders/pattern/28": "list",
+    "/placeholders/pattern/28/1": "int_array",
+    "/placeholders/pattern/28/2": "int_array",
+    "/placeholders/pattern/28/3": "int_array",
+    "/placeholders/pattern/28/4": "int_array",
+    "/placeholders/pattern/28/7": "int_array",
+    "/placeholders/pattern/28/8": "int_array",
+    "/placeholders/pattern/28/9": "int_array",
+    "/placeholders/pattern/28/10": "int_array",
+    "/placeholders/pattern/28/11": "int_array",
+    "/placeholders/pattern/28/13": "int_array",
+    "/placeholders/pattern/28/14": "int_array",
+    "/placeholders/pattern/28/15": "int_array",
+    "/placeholders/pattern/28/16": "int_array",
+    "/placeholders/pattern/28/17": "int_array",
+    "/placeholders/pattern/28/20": "int_array",
+    "/placeholders/pattern/28/21": "int_array",
+    "/placeholders/pattern/28/22": "int_array",
+    "/placeholders/pattern/28/23": "int_array",
+    "/placeholders/pattern/29": "list",
+    "/placeholders/pattern/29/3": "int_array",
+    "/placeholders/pattern/29/4": "int_array",
+    "/placeholders/pattern/29/5": "int_array",
+    "/placeholders/pattern/29/6": "int_array",
+    "/placeholders/pattern/29/7": "int_array",
+    "/placeholders/pattern/29/8": "int_array",
+    "/placeholders/pattern/29/9": "int_array",
+    "/placeholders/pattern/29/10": "int_array",
+    "/placeholders/pattern/29/11": "int_array",
+    "/placeholders/pattern/29/12": "int_array",
+    "/placeholders/pattern/29/13": "int_array",
+    "/placeholders/pattern/29/14": "int_array",
+    "/placeholders/pattern/29/15": "int_array",
+    "/placeholders/pattern/29/16": "int_array",
+    "/placeholders/pattern/29/17": "int_array",
+    "/placeholders/pattern/29/18": "int_array",
+    "/placeholders/pattern/29/19": "int_array",
+    "/placeholders/pattern/29/20": "int_array",
+    "/placeholders/pattern/29/21": "int_array",
+    "/placeholders/pattern/30": "list",
+    "/placeholders/pattern/30/4": "int_array",
+    "/placeholders/pattern/30/5": "int_array",
+    "/placeholders/pattern/30/8": "int_array",
+    "/placeholders/pattern/30/10": "int_array",
+    "/placeholders/pattern/30/11": "int_array",
+    "/placeholders/pattern/30/12": "int_array",
+    "/placeholders/pattern/30/13": "int_array",
+    "/placeholders/pattern/30/14": "int_array",
+    "/placeholders/pattern/30/16": "int_array",
+    "/placeholders/pattern/30/19": "int_array",
+    "/placeholders/pattern/30/20": "int_array",
+    "/placeholders/pattern/31": "list",
+    "/placeholders/pattern/31/5": "int_array",
+    "/placeholders/pattern/31/8": "int_array",
+    "/placeholders/pattern/31/10": "int_array",
+    "/placeholders/pattern/31/11": "int_array",
+    "/placeholders/pattern/31/13": "int_array",
+    "/placeholders/pattern/31/14": "int_array",
+    "/placeholders/pattern/31/16": "int_array",
+    "/placeholders/pattern/31/19": "int_array",
+    "/placeholders/pattern/32": "list",
+    "/placeholders/pattern/32/8": "int_array",
+    "/placeholders/pattern/32/10": "int_array",
+    "/placeholders/pattern/32/11": "int_array",
+    "/placeholders/pattern/32/13": "int_array",
+    "/placeholders/pattern/32/14": "int_array",
+    "/placeholders/pattern/32/16": "int_array",
+    "/placeholders/pattern/33": "list",
+    "/placeholders/pattern/33/10": "int_array",
+    "/placeholders/pattern/33/11": "int_array",
+    "/placeholders/pattern/33/13": "int_array",
+    "/placeholders/pattern/33/14": "int_array",
+    "/placeholders/pattern/34": "list",
+    "/placeholders/pattern/34/11": "int_array",
+    "/placeholders/pattern/34/13": "int_array",
+    "/placeholders/pattern/35": "list",
+    "/placeholders/pattern/35/11": "int_array",
+    "/placeholders/pattern/35/13": "int_array",
+    "/placeholders/pattern/36": "list",
+    "/placeholders/pattern/36/11": "int_array",
+    "/placeholders/pattern/36/13": "int_array",
+    "/placeholders/z": "int",
+    "/placeholders/holders": "list",
+    "/placeholders/holders/0/facing": "int",
+    "/placeholders/holders/0/isController": "byte",
+    "/placeholders/holders/0/predicates": "int_array",
+    "/placeholders/holders/1/facing": "int",
+    "/placeholders/holders/1/isController": "byte",
+    "/placeholders/holders/1/predicates": "int_array",
+    "/placeholders/holders/2/facing": "int",
+    "/placeholders/holders/2/isController": "byte",
+    "/placeholders/holders/2/predicates": "int_array",
+    "/placeholders/holders/3/facing": "int",
+    "/placeholders/holders/3/isController": "byte",
+    "/placeholders/holders/3/predicates": "int_array",
+    "/placeholders/holders/4/facing": "int",
+    "/placeholders/holders/4/isController": "byte",
+    "/placeholders/holders/4/predicates": "int_array",
+    "/placeholders/holders/5/facing": "int",
+    "/placeholders/holders/5/isController": "byte",
+    "/placeholders/holders/5/predicates": "int_array",
+    "/placeholders/holders/6/facing": "int",
+    "/placeholders/holders/6/isController": "byte",
+    "/placeholders/holders/6/predicates": "int_array",
+    "/placeholders/holders/7/facing": "int",
+    "/placeholders/holders/7/isController": "byte",
+    "/placeholders/holders/7/predicates": "int_array",
+    "/placeholders/holders/8/facing": "int",
+    "/placeholders/holders/8/isController": "byte",
+    "/placeholders/holders/8/predicates": "int_array",
+    "/placeholders/holders/9/facing": "int",
+    "/placeholders/holders/9/isController": "byte",
+    "/placeholders/holders/9/predicates": "int_array",
+    "/placeholders/holders/10/facing": "int",
+    "/placeholders/holders/10/isController": "byte",
+    "/placeholders/holders/10/predicates": "int_array",
+    "/placeholders/holders/11/facing": "int",
+    "/placeholders/holders/11/isController": "byte",
+    "/placeholders/holders/11/predicates": "int_array",
+    "/placeholders/holders/12/facing": "int",
+    "/placeholders/holders/12/isController": "byte",
+    "/placeholders/holders/12/predicates": "int_array",
+    "/placeholders/holders/13/facing": "int",
+    "/placeholders/holders/13/isController": "byte",
+    "/placeholders/holders/13/predicates": "int_array",
+    "/placeholders/holders/14/facing": "int",
+    "/placeholders/holders/14/isController": "byte",
+    "/placeholders/holders/14/predicates": "int_array",
+    "/placeholders/holders/15/facing": "int",
+    "/placeholders/holders/15/isController": "byte",
+    "/placeholders/holders/15/predicates": "int_array",
+    "/placeholders/holders/16/facing": "int",
+    "/placeholders/holders/16/isController": "byte",
+    "/placeholders/holders/16/predicates": "int_array",
+    "/placeholders/holders/17/facing": "int",
+    "/placeholders/holders/17/isController": "byte",
+    "/placeholders/holders/17/predicates": "int_array",
+    "/placeholders/holders/18/facing": "int",
+    "/placeholders/holders/18/isController": "byte",
+    "/placeholders/holders/18/predicates": "int_array",
+    "/placeholders/holders/19/facing": "int",
+    "/placeholders/holders/19/isController": "byte",
+    "/placeholders/holders/19/predicates": "int_array",
+    "/placeholders/holders/20/facing": "int",
+    "/placeholders/holders/20/isController": "byte",
+    "/placeholders/holders/20/predicates": "int_array",
+    "/placeholders/holders/21/facing": "int",
+    "/placeholders/holders/21/isController": "byte",
+    "/placeholders/holders/21/predicates": "int_array",
+    "/placeholders/holders/22/facing": "int",
+    "/placeholders/holders/22/isController": "byte",
+    "/placeholders/holders/22/predicates": "int_array",
+    "/placeholders/holders/23/facing": "int",
+    "/placeholders/holders/23/isController": "byte",
+    "/placeholders/holders/23/predicates": "int_array",
+    "/placeholders/holders/24/facing": "int",
+    "/placeholders/holders/24/isController": "byte",
+    "/placeholders/holders/24/predicates": "int_array",
+    "/placeholders/holders/25/facing": "int",
+    "/placeholders/holders/25/isController": "byte",
+    "/placeholders/holders/25/predicates": "int_array",
+    "/placeholders/holders/26/facing": "int",
+    "/placeholders/holders/26/isController": "byte",
+    "/placeholders/holders/26/predicates": "int_array",
+    "/placeholders/holders/27/facing": "int",
+    "/placeholders/holders/27/isController": "byte",
+    "/placeholders/holders/27/predicates": "int_array",
+    "/placeholders/holders/28/facing": "int",
+    "/placeholders/holders/28/isController": "byte",
+    "/placeholders/holders/28/predicates": "int_array",
+    "/placeholders/holders/29/facing": "int",
+    "/placeholders/holders/29/isController": "byte",
+    "/placeholders/holders/29/predicates": "int_array",
+    "/placeholders/holders/30/facing": "int",
+    "/placeholders/holders/30/isController": "byte",
+    "/placeholders/holders/30/predicates": "int_array",
+    "/placeholders/holders/31/facing": "int",
+    "/placeholders/holders/31/isController": "byte",
+    "/placeholders/holders/31/predicates": "int_array",
+    "/placeholders/holders/32/facing": "int",
+    "/placeholders/holders/32/isController": "byte",
+    "/placeholders/holders/32/predicates": "int_array",
+    "/placeholders/holders/33/facing": "int",
+    "/placeholders/holders/33/isController": "byte",
+    "/placeholders/holders/33/predicates": "int_array",
+    "/placeholders/holders/34/facing": "int",
+    "/placeholders/holders/34/isController": "byte",
+    "/placeholders/holders/34/predicates": "int_array",
+    "/placeholders/holders/35/facing": "int",
+    "/placeholders/holders/35/isController": "byte",
+    "/placeholders/holders/35/predicates": "int_array",
+    "/placeholders/holders/36/facing": "int",
+    "/placeholders/holders/36/isController": "byte",
+    "/placeholders/holders/36/predicates": "int_array",
+    "/placeholders/holders/37/facing": "int",
+    "/placeholders/holders/37/isController": "byte",
+    "/placeholders/holders/37/predicates": "int_array",
+    "/placeholders/holders/38/facing": "int",
+    "/placeholders/holders/38/isController": "byte",
+    "/placeholders/holders/38/predicates": "int_array",
+    "/placeholders/holders/39/facing": "int",
+    "/placeholders/holders/39/isController": "byte",
+    "/placeholders/holders/39/predicates": "int_array",
+    "/placeholders/holders/40/facing": "int",
+    "/placeholders/holders/40/isController": "byte",
+    "/placeholders/holders/40/predicates": "int_array",
+    "/placeholders/holders/41/facing": "int",
+    "/placeholders/holders/41/isController": "byte",
+    "/placeholders/holders/41/predicates": "int_array",
+    "/placeholders/holders/42/facing": "int",
+    "/placeholders/holders/42/isController": "byte",
+    "/placeholders/holders/42/predicates": "int_array",
+    "/placeholders/holders/43/facing": "int",
+    "/placeholders/holders/43/isController": "byte",
+    "/placeholders/holders/43/predicates": "int_array",
+    "/placeholders/holders/44/facing": "int",
+    "/placeholders/holders/44/isController": "byte",
+    "/placeholders/holders/44/predicates": "int_array",
+    "/placeholders/holders/45/facing": "int",
+    "/placeholders/holders/45/isController": "byte",
+    "/placeholders/holders/45/predicates": "int_array",
+    "/placeholders/holders/46/facing": "int",
+    "/placeholders/holders/46/isController": "byte",
+    "/placeholders/holders/46/predicates": "int_array",
+    "/placeholders/holders/47/facing": "int",
+    "/placeholders/holders/47/isController": "byte",
+    "/placeholders/holders/47/predicates": "int_array",
+    "/placeholders/holders/48/facing": "int",
+    "/placeholders/holders/48/isController": "byte",
+    "/placeholders/holders/48/predicates": "int_array",
+    "/placeholders/holders/49/facing": "int",
+    "/placeholders/holders/49/isController": "byte",
+    "/placeholders/holders/49/predicates": "int_array",
+    "/placeholders/holders/50/facing": "int",
+    "/placeholders/holders/50/isController": "byte",
+    "/placeholders/holders/50/predicates": "int_array",
+    "/placeholders/holders/51/facing": "int",
+    "/placeholders/holders/51/isController": "byte",
+    "/placeholders/holders/51/predicates": "int_array",
+    "/placeholders/holders/52/facing": "int",
+    "/placeholders/holders/52/isController": "byte",
+    "/placeholders/holders/52/predicates": "int_array",
+    "/placeholders/holders/53/facing": "int",
+    "/placeholders/holders/53/isController": "byte",
+    "/placeholders/holders/53/predicates": "int_array",
+    "/placeholders/holders/54/facing": "int",
+    "/placeholders/holders/54/isController": "byte",
+    "/placeholders/holders/54/predicates": "int_array",
+    "/placeholders/holders/55/facing": "int",
+    "/placeholders/holders/55/isController": "byte",
+    "/placeholders/holders/55/predicates": "int_array",
+    "/placeholders/holders/56/facing": "int",
+    "/placeholders/holders/56/isController": "byte",
+    "/placeholders/holders/56/predicates": "int_array",
+    "/placeholders/holders/57/facing": "int",
+    "/placeholders/holders/57/isController": "byte",
+    "/placeholders/holders/57/predicates": "int_array",
+    "/placeholders/holders/58/facing": "int",
+    "/placeholders/holders/58/isController": "byte",
+    "/placeholders/holders/58/predicates": "int_array",
+    "/placeholders/holders/59/facing": "int",
+    "/placeholders/holders/59/isController": "byte",
+    "/placeholders/holders/59/predicates": "int_array",
+    "/placeholders/holders/60/facing": "int",
+    "/placeholders/holders/60/isController": "byte",
+    "/placeholders/holders/60/predicates": "int_array",
+    "/placeholders/holders/61/facing": "int",
+    "/placeholders/holders/61/isController": "byte",
+    "/placeholders/holders/61/predicates": "int_array",
+    "/placeholders/holders/62/facing": "int",
+    "/placeholders/holders/62/isController": "byte",
+    "/placeholders/holders/62/predicates": "int_array",
+    "/placeholders/holders/63/facing": "int",
+    "/placeholders/holders/63/isController": "byte",
+    "/placeholders/holders/63/predicates": "int_array",
+    "/placeholders/holders/64/facing": "int",
+    "/placeholders/holders/64/isController": "byte",
+    "/placeholders/holders/64/predicates": "int_array",
+    "/placeholders/holders/65/facing": "int",
+    "/placeholders/holders/65/isController": "byte",
+    "/placeholders/holders/65/predicates": "int_array",
+    "/placeholders/holders/66/facing": "int",
+    "/placeholders/holders/66/isController": "byte",
+    "/placeholders/holders/66/predicates": "int_array",
+    "/placeholders/holders/67/facing": "int",
+    "/placeholders/holders/67/isController": "byte",
+    "/placeholders/holders/67/predicates": "int_array",
+    "/placeholders/holders/68/facing": "int",
+    "/placeholders/holders/68/isController": "byte",
+    "/placeholders/holders/68/predicates": "int_array",
+    "/placeholders/holders/69/facing": "int",
+    "/placeholders/holders/69/isController": "byte",
+    "/placeholders/holders/69/predicates": "int_array",
+    "/placeholders/holders/70/facing": "int",
+    "/placeholders/holders/70/isController": "byte",
+    "/placeholders/holders/70/predicates": "int_array",
+    "/placeholders/holders/71/facing": "int",
+    "/placeholders/holders/71/isController": "byte",
+    "/placeholders/holders/71/predicates": "int_array",
+    "/placeholders/holders/72/facing": "int",
+    "/placeholders/holders/72/isController": "byte",
+    "/placeholders/holders/72/predicates": "int_array",
+    "/placeholders/holders/73/facing": "int",
+    "/placeholders/holders/73/isController": "byte",
+    "/placeholders/holders/73/predicates": "int_array",
+    "/placeholders/holders/74/facing": "int",
+    "/placeholders/holders/74/isController": "byte",
+    "/placeholders/holders/74/predicates": "int_array",
+    "/placeholders/holders/75/facing": "int",
+    "/placeholders/holders/75/isController": "byte",
+    "/placeholders/holders/75/predicates": "int_array",
+    "/placeholders/holders/76/facing": "int",
+    "/placeholders/holders/76/isController": "byte",
+    "/placeholders/holders/76/predicates": "int_array",
+    "/placeholders/holders/77/facing": "int",
+    "/placeholders/holders/77/isController": "byte",
+    "/placeholders/holders/77/predicates": "int_array",
+    "/placeholders/holders/78/facing": "int",
+    "/placeholders/holders/78/isController": "byte",
+    "/placeholders/holders/78/predicates": "int_array",
+    "/placeholders/holders/79/facing": "int",
+    "/placeholders/holders/79/isController": "byte",
+    "/placeholders/holders/79/predicates": "int_array",
+    "/placeholders/holders/80/facing": "int",
+    "/placeholders/holders/80/isController": "byte",
+    "/placeholders/holders/80/predicates": "int_array",
+    "/placeholders/holders/81/facing": "int",
+    "/placeholders/holders/81/isController": "byte",
+    "/placeholders/holders/81/predicates": "int_array",
+    "/placeholders/holders/82/facing": "int",
+    "/placeholders/holders/82/isController": "byte",
+    "/placeholders/holders/82/predicates": "int_array",
+    "/placeholders/holders/83/facing": "int",
+    "/placeholders/holders/83/isController": "byte",
+    "/placeholders/holders/83/predicates": "int_array",
+    "/placeholders/holders/84/facing": "int",
+    "/placeholders/holders/84/isController": "byte",
+    "/placeholders/holders/84/predicates": "int_array",
+    "/placeholders/holders/85/facing": "int",
+    "/placeholders/holders/85/isController": "byte",
+    "/placeholders/holders/85/predicates": "int_array",
+    "/placeholders/holders/86/facing": "int",
+    "/placeholders/holders/86/isController": "byte",
+    "/placeholders/holders/86/predicates": "int_array",
+    "/placeholders/holders/87/facing": "int",
+    "/placeholders/holders/87/isController": "byte",
+    "/placeholders/holders/87/predicates": "int_array",
+    "/placeholders/predicates": "list",
+    "/placeholders/predicates/0/type": "string",
+    "/placeholders/predicates/0/key": "string",
+    "/placeholders/predicates/1/type": "string",
+    "/placeholders/predicates/1/key": "string",
+    "/placeholders/predicates/2/type": "string",
+    "/placeholders/predicates/2/key": "string",
+    "/placeholders/predicates/3/type": "string",
+    "/placeholders/predicates/3/key": "string",
+    "/placeholders/predicates/4/type": "string",
+    "/placeholders/predicates/4/key": "string",
+    "/placeholders/predicates/5/type": "string",
+    "/placeholders/predicates/5/key": "string",
+    "/placeholders/predicates/6/type": "string",
+    "/placeholders/predicates/6/key": "string",
+    "/placeholders/predicates/7/type": "string",
+    "/placeholders/predicates/7/key": "string",
+    "/placeholders/predicates/8/type": "string",
+    "/placeholders/predicates/8/key": "string",
+    "/placeholders/predicates/9/type": "string",
+    "/placeholders/predicates/9/key": "string",
+    "/placeholders/predicates/10/type": "string",
+    "/placeholders/predicates/10/key": "string",
+    "/placeholders/predicates/11/type": "string",
+    "/placeholders/predicates/11/key": "string",
+    "/placeholders/predicates/12/type": "string",
+    "/placeholders/predicates/12/key": "string",
+    "/placeholders/predicates/13/type": "string",
+    "/placeholders/predicates/13/key": "string",
+    "/placeholders/predicates/14/type": "string",
+    "/placeholders/predicates/14/key": "string",
+    "/placeholders/predicates/15/type": "string",
+    "/placeholders/predicates/15/key": "string",
+    "/placeholders/predicates/16/type": "string",
+    "/placeholders/predicates/16/key": "string",
+    "/placeholders/predicates/17/type": "string",
+    "/placeholders/predicates/17/key": "string",
+    "/placeholders/predicates/18/type": "string",
+    "/placeholders/predicates/18/key": "string",
+    "/placeholders/predicates/19/type": "string",
+    "/placeholders/predicates/19/key": "string",
+    "/placeholders/predicates/20/type": "string",
+    "/placeholders/predicates/20/key": "string",
+    "/placeholders/predicates/21/type": "string",
+    "/placeholders/predicates/21/key": "string",
+    "/placeholders/predicates/22/type": "string",
+    "/placeholders/predicates/22/key": "string",
+    "/placeholders/predicates/23/type": "string",
+    "/placeholders/predicates/23/key": "string",
+    "/placeholders/predicates/24/type": "string",
+    "/placeholders/predicates/24/key": "string",
+    "/placeholders/predicates/25/type": "string",
+    "/placeholders/predicates/25/key": "string",
+    "/placeholders/predicates/26/type": "string",
+    "/placeholders/predicates/26/key": "string",
+    "/placeholders/predicates/27/type": "string",
+    "/placeholders/predicates/27/key": "string",
+    "/placeholders/predicates/28/type": "string",
+    "/placeholders/predicates/28/key": "string",
+    "/placeholders/predicates/29/type": "string",
+    "/placeholders/predicates/29/key": "string",
+    "/placeholders/predicates/30/type": "string",
+    "/placeholders/predicates/30/key": "string",
+    "/placeholders/predicates/31/type": "string",
+    "/placeholders/predicates/31/key": "string",
+    "/placeholders/predicates/32/type": "string",
+    "/placeholders/predicates/32/key": "string",
+    "/placeholders/predicates/33/type": "string",
+    "/placeholders/predicates/33/key": "string",
+    "/placeholders/predicates/34/type": "string",
+    "/placeholders/predicates/34/key": "string",
+    "/placeholders/predicates/35/type": "string",
+    "/placeholders/predicates/35/key": "string",
+    "/placeholders/predicates/36/type": "string",
+    "/placeholders/predicates/36/key": "string",
+    "/placeholders/predicates/37/type": "string",
+    "/placeholders/predicates/37/key": "string",
+    "/placeholders/predicates/38/type": "string",
+    "/placeholders/predicates/38/key": "string",
+    "/placeholders/predicates/39/type": "string",
+    "/placeholders/predicates/39/key": "string",
+    "/placeholders/predicates/40/type": "string",
+    "/placeholders/predicates/40/key": "string",
+    "/placeholders/predicates/41/type": "string",
+    "/placeholders/predicates/41/key": "string",
+    "/placeholders/predicates/42/type": "string",
+    "/placeholders/predicates/42/key": "string",
+    "/placeholders/predicates/43/type": "string",
+    "/placeholders/predicates/43/key": "string",
+    "/placeholders/predicates/44/type": "string",
+    "/placeholders/predicates/44/key": "string",
+    "/placeholders/predicates/45/type": "string",
+    "/placeholders/predicates/45/key": "string",
+    "/placeholders/predicates/46/type": "string",
+    "/placeholders/predicates/46/key": "string",
+    "/placeholders/predicates/47/type": "string",
+    "/placeholders/predicates/47/key": "string",
+    "/placeholders/predicates/48/type": "string",
+    "/placeholders/predicates/48/key": "string",
+    "/placeholders/predicates/49/type": "string",
+    "/placeholders/predicates/49/key": "string",
+    "/placeholders/predicates/50/type": "string",
+    "/placeholders/predicates/50/key": "string",
+    "/placeholders/predicates/51/type": "string",
+    "/placeholders/predicates/51/key": "string",
+    "/placeholders/predicates/52/type": "string",
+    "/placeholders/predicates/52/key": "string",
+    "/placeholders/predicates/53/type": "string",
+    "/placeholders/predicates/53/key": "string",
+    "/placeholders/predicates/54/type": "string",
+    "/placeholders/predicates/54/key": "string",
+    "/placeholders/predicates/55/type": "string",
+    "/placeholders/predicates/55/key": "string",
+    "/placeholders/predicates/56/type": "string",
+    "/placeholders/predicates/56/key": "string",
+    "/placeholders/predicates/57/type": "string",
+    "/placeholders/predicates/57/key": "string",
+    "/placeholders/predicates/58/type": "string",
+    "/placeholders/predicates/58/key": "string",
+    "/placeholders/predicates/59/type": "string",
+    "/placeholders/predicates/59/key": "string",
+    "/placeholders/predicates/60/type": "string",
+    "/placeholders/predicates/60/key": "string",
+    "/placeholders/predicates/61/type": "string",
+    "/placeholders/predicates/61/key": "string",
+    "/placeholders/predicates/62/type": "string",
+    "/placeholders/predicates/62/key": "string",
+    "/placeholders/predicates/63/type": "string",
+    "/placeholders/predicates/63/key": "string",
+    "/placeholders/predicates/64/type": "string",
+    "/placeholders/predicates/64/key": "string",
+    "/placeholders/predicates/65/type": "string",
+    "/placeholders/predicates/65/key": "string",
+    "/placeholders/predicates/66/type": "string",
+    "/placeholders/predicates/66/key": "string",
+    "/placeholders/predicates/67/type": "string",
+    "/placeholders/predicates/67/key": "string",
+    "/placeholders/predicates/68/type": "string",
+    "/placeholders/predicates/68/key": "string",
+    "/placeholders/predicates/69/type": "string",
+    "/placeholders/predicates/69/key": "string",
+    "/placeholders/predicates/70/type": "string",
+    "/placeholders/predicates/70/key": "string",
+    "/placeholders/predicates/71/type": "string",
+    "/placeholders/predicates/71/key": "string",
+    "/placeholders/predicates/72/type": "string",
+    "/placeholders/predicates/72/key": "string",
+    "/placeholders/predicates/73/type": "string",
+    "/placeholders/predicates/73/key": "string",
+    "/placeholders/predicates/74/type": "string",
+    "/placeholders/predicates/74/key": "string",
+    "/placeholders/predicates/75/type": "string",
+    "/placeholders/predicates/75/key": "string",
+    "/placeholders/predicates/76/type": "string",
+    "/placeholders/predicates/76/key": "string",
+    "/placeholders/predicates/77/type": "string",
+    "/placeholders/predicates/77/key": "string",
+    "/placeholders/predicates/78/type": "string",
+    "/placeholders/predicates/78/key": "string",
+    "/placeholders/predicates/79/type": "string",
+    "/placeholders/predicates/79/key": "string",
+    "/placeholders/predicates/80/type": "string",
+    "/placeholders/predicates/80/key": "string",
+    "/placeholders/predicates/81/type": "string",
+    "/placeholders/predicates/81/key": "string",
+    "/placeholders/predicates/82/type": "string",
+    "/placeholders/predicates/82/key": "string",
+    "/placeholders/predicates/83/type": "string",
+    "/placeholders/predicates/83/key": "string",
+    "/placeholders/predicates/84/type": "string",
+    "/placeholders/predicates/84/key": "string",
+    "/placeholders/predicates/85/type": "string",
+    "/placeholders/predicates/85/key": "string",
+    "/placeholders/predicates/86/type": "string",
+    "/placeholders/predicates/86/key": "string",
+    "/placeholders/predicates/87/type": "string",
+    "/placeholders/predicates/87/key": "string",
+    "/placeholders/predicates/88/type": "string",
+    "/placeholders/predicates/88/key": "string",
+    "/placeholders/x": "int",
+    "/placeholders/y": "int",
+    "/layer_axis": "string",
+    "/aisle_repetitions": "int_array",
+    "/shape_infos": "list"
+  }
 }

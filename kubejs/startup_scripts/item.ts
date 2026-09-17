@@ -1,4 +1,4 @@
-
+export{}
 
 const metals = [
     {
@@ -253,4 +253,9 @@ StartupEvents.registry('item', registryEvent => {
     event.create("bookwyrm_scale").displayName("书龙鳞").tag("kubejs:item/bookwyrm_scale").texture("kubejs:item/bookwyrm_scale")
     event.create("uninspired_computer").displayName("无灵气的计算机").tag("kubejs:item/uninspired_computer").texture("kubejs:item/uninspired_computer")
     event.create("dishwater").displayName("刷锅水").tag("kubejs:item/dishwater").texture("kubejs:item/dishwater")
+    event.create("dimensional_reath").displayName("维度之息")
+    event.create("cinefilm").displayName("空白电影胶片")
+    event.create("dead_silence").displayName("死寂")
+    event.create("vertigo").displayName("迷魂记")
+    event.create("nothing_gold_can_stay").displayName("美景易逝")
 })

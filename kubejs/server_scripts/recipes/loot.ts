@@ -30,4 +30,33 @@ LootJS.modifiers((event:Internal.LootModificationEventJS) => {
         .addEntityLootModifier('ars_nouveau:drygmy')
         .randomChance(0.1)
         .addLoot("kubejs:drygmy_head" as unknown as Internal.LootEntry_)
+
+    event
+        .addEntityLootModifier("minecraft:iron_golem")
+        .addLoot(LootEntry.of("minecraft:raw_iron").limitCount([3,5]))
+        .removeLoot("minecraft:iron_ingot" as unknown as Internal.ItemFilter_)
+    event
+        .addEntityLootModifier("minecraft:zombie","minecraft:husk","minecraft:zombie_villager","divinerpg:miner")
+        .addLoot(LootEntry.of("minecraft:raw_iron"))
+        .removeLoot("minecraft:iron_ingot" as unknown as Internal.ItemFilter_)
+    event
+        .addEntityLootModifier("iceandfire:dread_knight","goety:piker","goety:crusher")
+        .addLoot(LootEntry.of("minecraft:raw_iron").limitCount([0,1]))
+        .removeLoot("minecraft:iron_ingot" as unknown as Internal.ItemFilter_)
+    event
+        .addEntityLootModifier("twilightforest:carminite_golem")
+        .addLoot(LootEntry.of("minecraft:raw_iron").limitCount([0,2]))
+        .removeLoot("minecraft:iron_ingot" as unknown as Internal.ItemFilter_)
+    event
+        .addEntityLootModifier("cataclysm:the_prowler")
+        .addLoot(LootEntry.of("minecraft:raw_iron_block"))
+        .removeLoot("minecraft:iron_ingot" as unknown as Internal.ItemFilter_)
+    event
+        .addEntityLootModifier("iceandfire:stymphalian_bird")
+        .addLoot(LootEntry.of("minecraft:raw_iron").limitCount([0,4]))
+        .removeLoot("minecraft:iron_ingot" as unknown as Internal.ItemFilter_)
+    event
+        .addEntityLootModifier("cataclysm:the_watcher")
+        .addLoot(LootEntry.of("minecraft:raw_iron").limitCount([1,3]))
+        .removeLoot("minecraft:iron_ingot" as unknown as Internal.ItemFilter_)
 })

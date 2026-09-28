@@ -6,6 +6,8 @@ logs/
 .venv/
 .vscode/
 backups/
+#config/：整目录忽略，仅保留已纳入版本管理的配置文件
+config/
 coremods/
 crash-reports/
 data/
@@ -15,6 +17,8 @@ lightspeed-cache/
 local/
 modernfix/
 mods/
+apricity/
+astralsorcery
 mods-backup/
 nomods/
 patchouli_books/
@@ -24,7 +28,6 @@ xaero/
 plan/
 XaeroWaypoints_BACKUP240807/
 icon-exports-x32/
-config/jei/world/
 tsmodify-cache/
 defaultconfigs/
 #文件

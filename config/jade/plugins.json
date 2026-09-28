@@ -89,6 +89,12 @@
     "multiblock_provider": true,
     "energy_transfer_limits": false
   },
+  "thaumicenergistics": {
+    "infusion_monitor": true,
+    "assembler": true,
+    "provider_network": true,
+    "vibration_chamber": true
+  },
   "extendedcrafting": {
     "elite_auto_table": true,
     "ender_crafter": true,
@@ -189,6 +195,13 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "thaumcraft": {
+    "node_info": true,
+    "essentia_storage": true,
+    "machine_info": true,
+    "golem_activity": true,
+    "essentia_tube": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -204,6 +217,9 @@
   "aewireless": {
     "wireless_tooltip": true,
     "block_entity_tooltip": true
+  },
+  "thaumictinkerer": {
+    "device_info": true
   },
   "aea": {
     "wireless_connection_provider": true,

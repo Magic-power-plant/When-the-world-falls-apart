@@ -99,7 +99,7 @@ const removeIds: ItemRef[] = [
     "extendedcrafting:luminessence","enchanted:witch_oven","enchanted:soft_clay_jar","enchanted:altar","integrateddynamics:crafting/squeezer","integrateddynamics:crafting/energy_battery",
     "eidolon:crucible","eidolon:merammer_resin","expatternprovider:water_cell","expatternprovider:cobblestone_cell","avaritia:tc3_creative_slot_upgrades",
     "avaritia:tc3_creative_slot_defense","avaritia:botania_mana_tablet","avaritia:tc3_creative_slot_souls","avaritia:ae2_creative_energy_cell",
-    "avaritia:tc3_creative_slot_ability","enchanted:quicklime","enchanted:distillery","eidolon:worktable","eidolon:wooden_altar"
+    "avaritia:tc3_creative_slot_ability","enchanted:quicklime","enchanted:distillery","eidolon:worktable","eidolon:wooden_altar","minecraft:wooden_axe"
     ]
 
 const removeOutputs: ItemRef[] = [

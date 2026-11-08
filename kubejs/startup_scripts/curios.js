@@ -1,5 +1,5 @@
 StartupEvents.registry("item",event=>{
-    event.create("wtwfacore:martial_way_of_heavenly_evolution").displayName("天之衍武").texture("wtwfacore:item/martial_way_of_heavenly_evolution").tag("curios:curio").attachCuriosCapability(
+    event.create("wtwfacore:martial_way_of_heavenly_evolution").texture("wtwfacore:item/martial_way_of_heavenly_evolution").tag("curios:curio").attachCuriosCapability(
         CuriosJSCapabilityBuilder.create()
         .curioTick((slotContext, stack) => {
             slotContext.entity().potionEffects.add("minecraft:saturation",10,2,false,true)

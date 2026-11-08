@@ -31,7 +31,7 @@ event.addAdvanced("embers:pressure_refinery",(item,advanced,text)=>{
 event.addAdvanced("minecraft:crafting_table",(item,advanced,text)=>{
     text.add(1,Text.of("匠魂的工作站更好,推荐你用那个").green())
 })
-event.addAdvanced("kubejs:stone_iron_ingot",(item,advanced,text)=>{
+event.addAdvanced("wtwfacore:stone_iron_ingot",(item,advanced,text)=>{
     text.add(1,Text.of("感谢tian_fan为物品纹理做出的贡献").red())
 })
 
@@ -50,7 +50,7 @@ event.addAdvanced("embers_extended:ember_infuser",(item,advanced,text)=>{
     text.add(1,Text.of('输入物品为配方要求时才能工作,过多或过少时无法工作').green())
 })
 event.add(["embers:ancient_motive_core","embers:archaic_brick"],Text.of('太古魔像的刷怪蛋可以合成').red())
-event.addAdvanced("mbd2:dawnstone_crusher_controller",(item,advanced,text)=>{
+event.addAdvanced("wtwfacore:dawnstone_crusher_controller",(item,advanced,text)=>{
     text.add(1,Text.of('注意:多方块结构中的硬化玻璃可替换为仓室').red())
     text.add(2,Text.of('默认结构下').green())
     text.add(3,Text.of('    每tick消耗10点余烬能量, 2最大并行, 执行无等级配方'))
@@ -98,11 +98,11 @@ event.addAdvanced("minecraft:lingering_potion", (item, advanced, text) => {
         console.error("Error in lingering_potion tooltip:", e as Internal.Throwable_);
     }
 });
-event.addAdvanced("kubejs:aubergine_seed",(item,addAdvanced,text) => {
+event.addAdvanced("wtwfacore:aubergine_seed",(item,addAdvanced,text) => {
     text.add(1,Text.of("注意:用于复刻根源魔法的物品的纹理均来自原模组").red())
     text.add(2,Text.of("纹理所有权属于原模组作者Noobanidus").red())
 })
-    event.addAdvanced("kubejs:aetherworks_machine_frame",(item,addAdvanced,text) => {
+    event.addAdvanced("wtwfacore:aetherworks_machine_frame",(item,addAdvanced,text) => {
         text.add(1,Text.red("非常感谢feiniao_plus7为物品纹理,脚本,机器做出的贡献"))
     })
 })

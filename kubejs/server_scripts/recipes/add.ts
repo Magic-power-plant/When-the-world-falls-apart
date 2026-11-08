@@ -59,178 +59,178 @@ ServerEvents.recipes((event: Internal.RecipesEventJS) => {
         p: "#minecraft:planks",
         l: "#minecraft:logs"
     })
-    shaped(event, "kubejs:fliny_hammer", [" fs", " sf", "s  "], {
+    shaped(event, "wtwfacore:fliny_hammer", [" fs", " sf", "s  "], {
         f: "minecraft:flint",
         s: "#forge:rods/wooden"
     })
-    shaped(event, "2x kubejs:stone_iron_rod", ["  s", " ts", "  s"], {
-        s: "kubejs:stone_iron_ingot",
+    shaped(event, "2x wtwfacore:stone_iron_rod", ["  s", " ts", "  s"], {
+        s: "wtwfacore:stone_iron_ingot",
         t: "embers:tinker_hammer"
     }, {keep: "embers:tinker_hammer"})
-    shaped(event, "2x kubejs:simple_basic_component", ["srs", "rpr", "srs"], {
-        r: "kubejs:stone_iron_rod",
-        p: "kubejs:caminite_stoneiron_combine_plate",
-        s: "kubejs:stone_iron_plate"
+    shaped(event, "2x wtwfacore:simple_basic_component", ["srs", "rpr", "srs"], {
+        r: "wtwfacore:stone_iron_rod",
+        p: "wtwfacore:caminite_stoneiron_combine_plate",
+        s: "wtwfacore:stone_iron_plate"
     })
-    shaped(event, "kubejs:caminite_machine_frame", ["qcq", "bfb", "ada"], {
-        c: "kubejs:caminite_stoneiron_combine_plate",
-        b: "kubejs:stone_iron_rod",
-        f: "kubejs:simple_basic_component",
+    shaped(event, "wtwfacore:caminite_machine_frame", ["qcq", "bfb", "ada"], {
+        c: "wtwfacore:caminite_stoneiron_combine_plate",
+        b: "wtwfacore:stone_iron_rod",
+        f: "wtwfacore:simple_basic_component",
         q: "minecraft:cobblestone",
         a: "embers:caminite_bricks",
-        d: "kubejs:stone_iron_plate"
+        d: "wtwfacore:stone_iron_plate"
     })
     shaped(event, "embers:mechanical_core", ["sgs", "lfl", "s s"], {
-        g: "kubejs:caminite_machine_frame",
-        s: "kubejs:stone_iron_plate",
+        g: "wtwfacore:caminite_machine_frame",
+        s: "wtwfacore:stone_iron_plate",
         l: "thermal:lead_plate",
-        f: "kubejs:caminite_stoneiron_combine_plate"
+        f: "wtwfacore:caminite_stoneiron_combine_plate"
     })
     shaped(event, "embers:ember_bore", ["eme", "fcf", "bsb"], {
         e: "thermal:copper_plate",
         m: "embers:mechanical_core",
-        f: "kubejs:stone_iron_plate",
-        c: "kubejs:simple_basic_component",
-        s: "kubejs:stone_iron_rod",
+        f: "wtwfacore:stone_iron_plate",
+        c: "wtwfacore:simple_basic_component",
+        s: "wtwfacore:stone_iron_rod",
         b: "embers:caminite_bricks"
     })
-    shaped(event, "2x kubejs:copper_rod", ["  s", " ts", "  s"], {
+    shaped(event, "2x wtwfacore:copper_rod", ["  s", " ts", "  s"], {
         s: "minecraft:copper_ingot",
         t: "embers:tinker_hammer"
     }, {keep: "embers:tinker_hammer"})
     shaped(event, "embers:ember_activator", ["ece", "fmf", " b "], {
         e: "thermal:copper_plate",
-        c: "kubejs:copper_rod",
-        f: "kubejs:stone_iron_plate",
-        m: "kubejs:caminite_machine_frame",
-        b: "kubejs:simple_basic_component"
+        c: "wtwfacore:copper_rod",
+        f: "wtwfacore:stone_iron_plate",
+        m: "wtwfacore:caminite_machine_frame",
+        b: "wtwfacore:simple_basic_component"
     })
     shaped(event, "minecraft:hopper", ["bpb", "ici", " i "], {
-        i: "kubejs:stone_iron_ingot",
-        p: "kubejs:stone_iron_plate",
-        c: "kubejs:simple_basic_component",
-        b: "kubejs:stone_iron_block"
+        i: "wtwfacore:stone_iron_ingot",
+        p: "wtwfacore:stone_iron_plate",
+        c: "wtwfacore:simple_basic_component",
+        b: "wtwfacore:stone_iron_block"
     })
     shaped(event, "embers:melter", ["eme", "cfc", "aba"], {
         e: "thermal:copper_plate",
-        m: "kubejs:caminite_stoneiron_combine_plate",
+        m: "wtwfacore:caminite_stoneiron_combine_plate",
         c: "embers:caminite_bricks",
-        f: "kubejs:caminite_machine_frame",
-        a: "kubejs:stone_iron_plate",
-        b: "kubejs:simple_basic_component"
+        f: "wtwfacore:caminite_machine_frame",
+        a: "wtwfacore:stone_iron_plate",
+        b: "wtwfacore:simple_basic_component"
     })
     shaped(event, "8x embers:fluid_pipe", [" c ", "aba", " c "], {
-        a: "kubejs:stone_iron_ingot",
-        c: "kubejs:stone_iron_plate",
-        b: "kubejs:simple_basic_component"
+        a: "wtwfacore:stone_iron_ingot",
+        c: "wtwfacore:stone_iron_plate",
+        b: "wtwfacore:simple_basic_component"
     })
     shaped(event, "8x embers:item_pipe", [" c ", "aba", " c "], {
         a: "minecraft:copper_ingot",
         c: "thermal:copper_plate",
-        b: "kubejs:simple_basic_component"
+        b: "wtwfacore:simple_basic_component"
     })
     shaped(event, "embers:fluid_extractor", [" a ", "cfc", " a "], {
         a: "minecraft:redstone",
         c: "embers:fluid_pipe",
-        f: "kubejs:simple_basic_component"
+        f: "wtwfacore:simple_basic_component"
     })
     shaped(event, "embers:item_extractor", [" a ", "cfc", " a "], {
         a: "minecraft:redstone",
         c: "embers:item_pipe",
-        f: "kubejs:simple_basic_component"
+        f: "wtwfacore:simple_basic_component"
     })
     shaped(event, "2x embers:fluid_vessel", ["a a", "bcb", "ada"], {
         a: "embers:caminite_brick",
-        b: "kubejs:stone_iron_plate",
-        c: "kubejs:caminite_machine_frame",
-        d: "kubejs:stone_iron_ingot"
+        b: "wtwfacore:stone_iron_plate",
+        c: "wtwfacore:caminite_machine_frame",
+        d: "wtwfacore:stone_iron_ingot"
     })
     shaped(event, "embers:stamper", ["aba", "aca", " c "], {
         a: "embers:caminite_brick",
-        b: "kubejs:caminite_machine_frame",
-        c: "kubejs:stone_iron_block"
+        b: "wtwfacore:caminite_machine_frame",
+        c: "wtwfacore:stone_iron_block"
     })
     shaped(event, "embers:tinker_hammer", ["aba", " c ", " c "], {
-        a: "kubejs:stone_iron_ingot",
+        a: "wtwfacore:stone_iron_ingot",
         b: "thermal:lead_ingot",
         c: "#forge:rods/wooden"
     })
     shaped(event, "embers:tinker_lens", ["abc", "deb", "abc"], {
-        a: "kubejs:stone_iron_ingot",
+        a: "wtwfacore:stone_iron_ingot",
         b: "thermal:lead_nugget",
         c: "#forge:glass",
         d: "thermal:lead_plate",
-        e: "kubejs:simple_basic_component"
+        e: "wtwfacore:simple_basic_component"
     })
     shaped(event, "embers:atmospheric_gauge", [" a ", "bcb", "bdb"], {
         a: "minecraft:redstone",
         b: "thermal:copper_plate",
-        c: "kubejs:simple_basic_component",
-        d: "kubejs:stone_iron_ingot"
+        c: "wtwfacore:simple_basic_component",
+        d: "wtwfacore:stone_iron_ingot"
     })
     shaped(event, "embers:ember_dial", [" a ", " b ", "   "], {
-        a: "kubejs:simple_basic_component",
+        a: "wtwfacore:simple_basic_component",
         b: "thermal:copper_plate"
     })
     shaped(event, "embers:item_dial", [" a ", " b ", "   "], {
-        a: "kubejs:simple_basic_component",
+        a: "wtwfacore:simple_basic_component",
         b: "thermal:lead_plate"
     })
     shaped(event, "embers:fluid_dial", [" a ", " b ", "   "], {
-        a: "kubejs:simple_basic_component",
-        b: "kubejs:stone_iron_plate"
+        a: "wtwfacore:simple_basic_component",
+        b: "wtwfacore:stone_iron_plate"
     })
     shaped(event, "embers:stamp_base", ["   ", "aba", "cdc"], {
-        a: "kubejs:stone_iron_plate",
-        b: "kubejs:caminite_machine_frame",
+        a: "wtwfacore:stone_iron_plate",
+        b: "wtwfacore:caminite_machine_frame",
         c: "embers:caminite_brick",
-        d: "kubejs:stone_iron_block"
+        d: "wtwfacore:stone_iron_block"
     })
     shaped(event, "5x embers:ember_emitter", [" a ", " b ", "cdc"], {
         a: "minecraft:lightning_rod",
-        b: "kubejs:caminite_machine_frame",
-        c: "kubejs:stone_iron_plate",
-        d: "kubejs:simple_basic_component"
+        b: "wtwfacore:caminite_machine_frame",
+        c: "wtwfacore:stone_iron_plate",
+        d: "wtwfacore:simple_basic_component"
     })
     shaped(event, "5x embers:ember_receiver", ["   ", "aba", "cdc"], {
-        a: "kubejs:stone_iron_plate",
-        b: "kubejs:caminite_machine_frame",
+        a: "wtwfacore:stone_iron_plate",
+        b: "wtwfacore:caminite_machine_frame",
         c: "thermal:copper_plate",
-        d: "kubejs:simple_basic_component"
+        d: "wtwfacore:simple_basic_component"
     })
     shaped(event, "2x embers:bin", ["a a", "aba", "ccc"], {
         a: "thermal:lead_ingot",
-        b: "kubejs:caminite_machine_frame",
+        b: "wtwfacore:caminite_machine_frame",
         c: "thermal:lead_plate"
     })
     shaped(event, "embers:clockwork_attenuator", [" a ", " b ", "   "], {
-        a: "kubejs:simple_basic_component",
+        a: "wtwfacore:simple_basic_component",
         b: "thermal:silver_plate"
     })
     shaped(event, "embers:ember_siphon", ["aba", " c ", "ddd"], {
         a: "embers:caminite_brick",
         b: "thermal:copper_plate",
-        c: "kubejs:caminite_machine_frame",
+        c: "wtwfacore:caminite_machine_frame",
         d: "embers:caminite_plate"
     })
     shaped(event, "embers:mechanical_pump", ["aba", "cdc", "e e"], {
         a: "embers:fluid_pipe",
         b: "embers:fluid_extractor",
-        c: "kubejs:stone_iron_plate",
-        d: "kubejs:caminite_machine_frame",
+        c: "wtwfacore:stone_iron_plate",
+        d: "wtwfacore:caminite_machine_frame",
         e: "embers:caminite_plate"
     })
     shaped(event, "embers:mini_boiler", ["aba", "cdb", "aba"], {
-        a: "kubejs:stone_iron_plate",
-        b: "kubejs:stone_iron_block",
+        a: "wtwfacore:stone_iron_plate",
+        b: "wtwfacore:stone_iron_block",
         c: "thermal:steel_block",
-        d: "kubejs:caminite_machine_frame"
+        d: "wtwfacore:caminite_machine_frame"
     })
     shaped(event, "minecraft:furnace", ["aba", "cdc", "aba"], {
         a: "minecraft:cobblestone",
         b: "thermal:iron_plate",
         c: "#forge:rods/iron",
-        d: "kubejs:caminite_machine_frame"
+        d: "wtwfacore:caminite_machine_frame"
     })
     shaped(event, "minecraft:chest", ["aaa", "bcb", "aaa"], {
         a: "#minecraft:planks",
@@ -249,112 +249,112 @@ ServerEvents.recipes((event: Internal.RecipesEventJS) => {
         d: "minecraft:furnace",
         e: "embers:mechanical_core"
     })
-    shaped(event, "kubejs:dawnstone_machine_frame", ["aba", "bcb", "aba"], {
+    shaped(event, "wtwfacore:dawnstone_machine_frame", ["aba", "bcb", "aba"], {
         a: "embers:dawnstone_ingot",
         b: "embers:dawnstone_plate",
-        c: "kubejs:caminite_machine_frame"
+        c: "wtwfacore:caminite_machine_frame"
     })
     shaped(event, "embers:alchemy_pedestal", ["a a", "bcb", "ded"], {
         a: "embers:dawnstone_plate",
         b: "embers:dawnstone_ingot",
         c: "embers:ember_crystal",
         d: "embers:caminite_bricks",
-        e: "kubejs:dawnstone_machine_frame"
+        e: "wtwfacore:dawnstone_machine_frame"
     })
     shaped(event, "embers:alchemy_tablet", [" a ", "bcb", "bdb"], {
         a: "embers:dawnstone_plate",
         b: "embers:caminite_bricks",
-        c: "kubejs:dawnstone_machine_frame",
+        c: "wtwfacore:dawnstone_machine_frame",
         d: "embers:dawnstone_ingot"
     })
     shaped(event, "embers:beam_cannon", ["aba", "aba", "cdc"], {
         a: "thermal:copper_plate",
         b: "embers:ember_crystal",
         c: "embers:dawnstone_ingot",
-        d: "kubejs:dawnstone_machine_frame"
+        d: "wtwfacore:dawnstone_machine_frame"
     })
     shaped(event, "embers:ancient_golem_spawn_egg", [" a ", "aba", " a "], {
         a: "embers:caminite_brick",
-        b: "kubejs:stone_iron_ingot"
+        b: "wtwfacore:stone_iron_ingot"
     })
     shaped(event, "embers_extended:liquifier", [" a ", "bcb", "ded"], {
         a: "embers:intelligent_apparatus",
         b: "thermal:steel_ingot",
         c: "embers:wildfire_core",
         d: "embers:dawnstone_plate",
-        e: "kubejs:dawnstone_machine_frame"
+        e: "wtwfacore:dawnstone_machine_frame"
     })
     shaped(event, "embers_extended:ember_infuser", [" a ", "bcb", "ded"], {
         a: "embers:fluid_vessel",
         b: "embers:dawnstone_plate",
         c: "embers:focal_lens",
         d: "embers:caminite_bricks",
-        e: "kubejs:dawnstone_machine_frame"
+        e: "wtwfacore:dawnstone_machine_frame"
     })
     shaped(event, "tconstruct:seared_melter", ["   ", "aba", "aca"], {
         a: "tconstruct:seared_brick",
-        b: "kubejs:ember_dawnstone_component",
+        b: "wtwfacore:ember_dawnstone_component",
         c: "embers:melter"
     })
     shaped(event, "tconstruct:seared_table", ["aaa", "aba", "a a"], {
         a: "tconstruct:seared_brick",
-        b: "kubejs:ember_dawnstone_component"
+        b: "wtwfacore:ember_dawnstone_component"
     })
     shaped(event, "tconstruct:seared_basin", ["a a", "aba", "aaa"], {
         a: "tconstruct:seared_brick",
-        b: "kubejs:ember_dawnstone_component"
+        b: "wtwfacore:ember_dawnstone_component"
     })
     shaped(event, "tconstruct:scorched_table", ["aaa", "aba", "a a"], {
         a: "tconstruct:scorched_brick",
-        b: "kubejs:ember_dawnstone_component"
+        b: "wtwfacore:ember_dawnstone_component"
     })
     shaped(event, "tconstruct:scorched_basin", ["a a", "aba", "aaa"], {
         a: "tconstruct:scorched_brick",
-        b: "kubejs:ember_dawnstone_component"
+        b: "wtwfacore:ember_dawnstone_component"
     })
     shaped(event, nbtItem("alexscaves:cave_map", "{BiomeTargetResourceKey:\"alexscaves:primordial_caves\"}"), [" a ", "aba", " a "], {
         a: "embers:archaic_brick",
         b: "minecraft:paper"
     })
-    shaped(event, "kubejs:stoneiron_machine_shell", [" a ", "aba", " a "], {
-        a: "kubejs:stone_iron_plate",
-        b: "kubejs:caminite_machine_frame"
+    shaped(event, "wtwfacore:stoneiron_machine_shell", [" a ", "aba", " a "], {
+        a: "wtwfacore:stone_iron_plate",
+        b: "wtwfacore:caminite_machine_frame"
     })
-    shaped(event, "kubejs:dawnstone_machine_shell", [" a ", "aba", " a "], {
+    shaped(event, "wtwfacore:dawnstone_machine_shell", [" a ", "aba", " a "], {
         a: "embers:dawnstone_plate",
-        b: "kubejs:dawnstone_machine_frame"
+        b: "wtwfacore:dawnstone_machine_frame"
     })
-    shaped(event, "mbd2:dawnstone_crusher_controller", ["aba", "bcb", "aba"], {
-        a: "kubejs:dawnstone_machine_frame",
+    shaped(event, "wtwfacore:dawnstone_crusher_controller", ["aba", "bcb", "aba"], {
+        a: "wtwfacore:dawnstone_machine_frame",
         b: "embers:dawnstone_block",
-        c: "kubejs:ember_dawnstone_component"
+        c: "wtwfacore:ember_dawnstone_component"
     })
-    shaped(event, "mbd2:item_input_bin_dawnstone", [" a ", "aba", " a "], {
+    shaped(event, "wtwfacore:item_input_bin_dawnstone", [" a ", "aba", " a "], {
         a: "embers:dawnstone_plate",
         b: "embers:bin"
     })
-    shaped(event, "mbd2:item_output_bin_dawnstone", ["a a", " b ", "a a"], {
+    shaped(event, "wtwfacore:item_output_bin_dawnstone", ["a a", " b ", "a a"], {
         a: "embers:dawnstone_plate",
         b: "embers:bin"
     })
-    shaped(event, "mbd2:fluid_input_bin_dawnstone", [" a ", "aba", " a "], {
+    shaped(event, "wtwfacore:fluid_input_bin_dawnstone", [" a ", "aba", " a "], {
         a: "embers:dawnstone_plate",
         b: "embers:fluid_vessel"
     })
-    shaped(event, "mbd2:ember_input_bin", [" a ", " b ", " c "], {
+    shaped(event, "wtwfacore:ember_input_bin", [" a ", " b ", " c "], {
         a: "embers:copper_cell",
-        b: "kubejs:ember_dawnstone_component",
-        c: "kubejs:dawnstone_machine_frame"
+        b: "wtwfacore:ember_dawnstone_component",
+        c: "wtwfacore:dawnstone_machine_frame"
     })
-    shaped(event, "kubejs:reinforced_archwood_planks", [" a ", "aba", " a "], {
-        a: "kubejs:burn_sun_plate",
+    shaped(event, "wtwfacore:reinforced_archwood_planks", [" a ", "aba", " a "], {
+        a: "wtwfacore:burn_sun_plate",
         b: "ars_nouveau:archwood_planks"
     })
-    shaped(event, "3x kubejs:burn_sun_ingot", [" a ", "b c", " d "], {
-        a: "kubejs:burn_sun_ingot",
+    shaped(event, "3x wtwfacore:burn_sun_ingot", [" a ", "b c", " d "], {
+        a: "wtwfacore:burn_sun_ingot",
         b: "embers_extended:duskstone_ingot",
         c: "embers_extended:nightstone_ingot",
-        d: "kubejs:ember_dawnstone_ingot"
+        d: "wtwfacore:ember_dawnstone_ingot"
     })
     shaped(event, "mob_grinding_utils:tank", ["aba", "bbb", "aba"], {
         a: "embers:fluid_vessel",
@@ -367,7 +367,7 @@ ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     })
     shaped(event, "ars_nouveau:arcane_pedestal", ["aaa", " b ", "ccc"], {
         a: "#forge:ingots/electrum",
-        b: "kubejs:source_gem_steel_machine_frame",
+        b: "wtwfacore:source_gem_steel_machine_frame",
         c: "ars_nouveau:sourcestone"
     })
     shaped(event, "16x alexscaves:depth_glass", ["aaa", "aba", "aaa"], {
@@ -377,74 +377,74 @@ ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     shaped(event, "ars_nouveau:source_jar", ["aaa", "bcb", "aaa"], {
         a: "ars_nouveau:archwood_slab",
         b: "#forge:glass",
-        c: "kubejs:source_gem_steel_machine_frame"
+        c: "wtwfacore:source_gem_steel_machine_frame"
     })
     shaped(event, "ars_nouveau:alchemical_sourcelink", ["aba", "bcb", "aba"], {
         a: "minecraft:brewing_stand",
         b: "ars_nouveau:source_gem",
-        c: "kubejs:source_gem_steel_machine_frame"
+        c: "wtwfacore:source_gem_steel_machine_frame"
     })
     shaped(event, "ars_nouveau:vitalic_sourcelink", ["aba", "bcb", "aba"], {
         a: "#forge:bones/wither",
         b: "ars_nouveau:source_gem",
-        c: "kubejs:source_gem_steel_machine_frame"
+        c: "wtwfacore:source_gem_steel_machine_frame"
     })
     shaped(event, "ars_nouveau:mycelial_sourcelink", ["aba", "bcb", "aba"], {
         a: "minecraft:mycelium",
         b: "ars_nouveau:source_gem",
-        c: "kubejs:source_gem_steel_machine_frame"
+        c: "wtwfacore:source_gem_steel_machine_frame"
     })
     shaped(event, "ars_nouveau:agronomic_sourcelink", ["aba", "bcb", "aba"], {
         a: "tconstruct:mattock",
         b: "ars_nouveau:source_gem",
-        c: "kubejs:source_gem_steel_machine_frame"
+        c: "wtwfacore:source_gem_steel_machine_frame"
     })
     shaped(event, "ars_nouveau:volcanic_sourcelink", ["aba", "bcb", "aba"], {
-        a: "kubejs:super_ember_fuel",
+        a: "wtwfacore:super_ember_fuel",
         b: "ars_nouveau:source_gem",
-        c: "kubejs:source_gem_steel_machine_frame"
+        c: "wtwfacore:source_gem_steel_machine_frame"
     })
     shaped(event, "starbunclemania:fluid_sourcelink", ["aba", "bcb", "aba"], {
         a: "starbunclemania:source_condenser",
         b: "ars_nouveau:source_gem",
-        c: "kubejs:source_gem_steel_machine_frame"
+        c: "wtwfacore:source_gem_steel_machine_frame"
     })
     shaped(event, "2x aetherworks:forge_vent", ["aba", "ccc", "ada"], {
-        a: "kubejs:ember_dawnstone_ingot",
-        b: "kubejs:source_netherite_component",
+        a: "wtwfacore:ember_dawnstone_ingot",
+        b: "wtwfacore:source_netherite_component",
         c: "tconstruct:gold_bars",
-        d: "kubejs:aetherworks_machine_frame"
+        d: "wtwfacore:aetherworks_machine_frame"
     })
     shaped(event, "aetherworks:forge_tool_station", [" a ", "bcb", "ded"], {
         a: "aetherworks:gem_aether",
-        b: "kubejs:ember_dawnstone_plate",
-        c: "kubejs:source_netherite_component",
+        b: "wtwfacore:ember_dawnstone_plate",
+        c: "wtwfacore:source_netherite_component",
         d: "#forge:storage_blocks/silver",
-        e: "kubejs:aetherworks_machine_frame"
+        e: "wtwfacore:aetherworks_machine_frame"
     })
     shaped(event, "aetherworks:moonlight_amplifier", ["aba", "abb", "cdc"], {
-        a: "kubejs:ember_dawnstone_plate",
+        a: "wtwfacore:ember_dawnstone_plate",
         b: "aetherworks:aetherium_lens",
         c: "embers:dawnstone_block",
-        d: "kubejs:aetherworks_machine_frame"
+        d: "wtwfacore:aetherworks_machine_frame"
     })
     shaped(event, "ae2:charger", ["aba", "c  ", "aba"], {
         a: "minecraft:iron_ingot",
-        b: "kubejs:source_netherite_component",
-        c: "kubejs:source_gem_steel_machine_frame"
+        b: "wtwfacore:source_netherite_component",
+        c: "wtwfacore:source_gem_steel_machine_frame"
     })
-    shaped(event, "kubejs:uninspired_computer", ["aba", "cdc", "ebe"], {
+    shaped(event, "wtwfacore:uninspired_computer", ["aba", "cdc", "ebe"], {
         a: "ae2:logic_processor",
-        b: "kubejs:ultra_neodymium_plate",
+        b: "wtwfacore:ultra_neodymium_plate",
         c: "ae2:calculation_processor",
-        d: "kubejs:source_gem_steel_machine_frame",
+        d: "wtwfacore:source_gem_steel_machine_frame",
         e: "ae2:engineering_processor"
     })
     shaped(event, "ae2:drive", ["aba", "cd ", "aba"], {
         a: "minecraft:iron_ingot",
-        b: "kubejs:source_netherite_component",
-        c: "kubejs:source_gem_steel_machine_frame",
-        d: "kubejs:complex_processing_computer"
+        b: "wtwfacore:source_netherite_component",
+        c: "wtwfacore:source_gem_steel_machine_frame",
+        d: "wtwfacore:complex_processing_computer"
     })
     shaped(event, "ae2:pattern_provider", ["aba", "dcb", "ada"], {
         a: "minecraft:crafting_table",
@@ -453,42 +453,42 @@ ServerEvents.recipes((event: Internal.RecipesEventJS) => {
         c: "ae2:interface"
     })
     shaped(event, "ae2:interface", ["eba", "cdb", "ace"], {
-        a: "kubejs:source_netherite_component",
+        a: "wtwfacore:source_netherite_component",
         e: "ae2:fluix_glass_cable",
         b: "ae2:formation_core",
         c: "ae2:annihilation_core",
-        d: "kubejs:source_gem_steel_machine_frame"
+        d: "wtwfacore:source_gem_steel_machine_frame"
     })
     shaped(event, "8x ae2:annihilation_core", [" a ", "bcb", " b "], {
-        a: "kubejs:source_netherite_component",
+        a: "wtwfacore:source_netherite_component",
         b: "pipez:universal_pipe",
-        c: "kubejs:complex_processing_computer"
+        c: "wtwfacore:complex_processing_computer"
     })
     shaped(event, "8x ae2:formation_core", [" a ", "aba", " c "], {
         a: "pipez:universal_pipe",
-        b: "kubejs:complex_processing_computer",
-        c: "kubejs:source_netherite_component"
+        b: "wtwfacore:complex_processing_computer",
+        c: "wtwfacore:source_netherite_component"
     })
     shaped(event, "ae2:crafting_unit", ["aba", "bcb", "aba"], {
-        a: "kubejs:source_gem_steel_plate",
+        a: "wtwfacore:source_gem_steel_plate",
         b: "ae2:fluix_glass_cable",
-        c: "kubejs:complex_processing_computer"
+        c: "wtwfacore:complex_processing_computer"
     })
     shaped(event, "ae2:semi_dark_monitor", ["aba", "aca", "ada"], {
         a: "ae2:quartz_glass",
-        c: "kubejs:complex_processing_computer",
+        c: "wtwfacore:complex_processing_computer",
         b: "ae2:formation_core",
         d: "ae2:annihilation_core"
     })
     shaped(event, "ae2:crafting_accelerator", ["aba", "bcb", "aba"], {
-        a: "kubejs:source_gem_steel_plate",
+        a: "wtwfacore:source_gem_steel_plate",
         b: "ae2:crafting_unit",
-        c: "kubejs:source_gem_steel_machine_frame"
+        c: "wtwfacore:source_gem_steel_machine_frame"
     })
     shaped(event, "4x ae2:blank_pattern", ["aab", "acb", "abb"], {
         a: "ae2:quartz_block",
         b: "ae2:quartz_glass",
-        c: "kubejs:complex_processing_computer"
+        c: "wtwfacore:complex_processing_computer"
     })
     shaped(event, "embers:codebreaking_slate", ["aba", "cdc", "aca"], {
         a: "embers:dawnstone_plate",
@@ -506,10 +506,10 @@ ServerEvents.recipes((event: Internal.RecipesEventJS) => {
         a: "rootsclassic:attuned_standing_stone"
     })
     shaped(event, "integrateddynamics:squeezer", ["aba","cdc","aea"],{
-        a:"kubejs:uninspired_computer",
+        a:"wtwfacore:uninspired_computer",
         b:"ae2:inscriber",
-        c:"kubejs:root_wrapped_invar_plate",
-        d:"kubejs:root_wrapped_invar_machine_frame",
+        c:"wtwfacore:root_wrapped_invar_plate",
+        d:"wtwfacore:root_wrapped_invar_machine_frame",
         e:"embers:stamp_base"
     })
     shaped(event, "wtwfacore:disposable_ritual_chalk" ,['aba','aca','ada'],{
@@ -520,43 +520,43 @@ ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     })
 
     // Shapeless crafting
-    shapeless(event, "thermal:iron_dust", ["kubejs:fliny_hammer", "2x minecraft:iron_ore"], {damage: {item: "kubejs:fliny_hammer", amount: 1}})
-    shapeless(event, "thermal:iron_dust", ["kubejs:fliny_hammer", "2x minecraft:raw_iron"], {damage: {item: "kubejs:fliny_hammer", amount: 1}})
-    shapeless(event, "biomancy:stone_powder", ["kubejs:fliny_hammer", "2x #minecraft:stone_tool_materials"], {damage: {item: "kubejs:fliny_hammer", amount: 1}})
-    shapeless(event, "kubejs:stone_iron_dust", ["thermal:iron_dust", "biomancy:stone_powder"])
-    shapeless(event, "6x embers:caminite_blend", ["4x minecraft:clay_ball", "kubejs:stone_iron_dust", "#forge:sand"])
-    shapeless(event, "kubejs:stone_iron_block", ["9x kubejs:stone_iron_ingot"])
-    shapeless(event, "9x kubejs:stone_iron_ingot", ["kubejs:stone_iron_block"])
-    shapeless(event, "thermal:silver_dust", ["kubejs:fliny_hammer", "2x #forge:ores/silver"], {damage: {item: "kubejs:fliny_hammer", amount: 1}})
-    shapeless(event, "thermal:silver_dust", ["kubejs:fliny_hammer", "2x #forge:raw_materials/silver"], {damage: {item: "kubejs:fliny_hammer", amount: 1}})
-    shapeless(event, "thermal:copper_dust", ["kubejs:fliny_hammer", "2x minecraft:copper_ore"], {damage: {item: "kubejs:fliny_hammer", amount: 1}})
-    shapeless(event, "thermal:copper_dust", ["kubejs:fliny_hammer", "2x minecraft:raw_copper"], {damage: {item: "kubejs:fliny_hammer", amount: 1}})
-    shapeless(event, "thermal:lead_dust", ["kubejs:fliny_hammer", "2x #forge:ores/lead"], {damage: {item: "kubejs:fliny_hammer", amount: 1}})
-    shapeless(event, "thermal:lead_dust", ["kubejs:fliny_hammer", "2x #forge:raw_materials/lead"], {damage: {item: "kubejs:fliny_hammer", amount: 1}})
-    shapeless(event, "kubejs:stone_iron_plate", ["2x kubejs:stone_iron_ingot", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
-    shapeless(event, "kubejs:caminite_stoneiron_combine_plate", ["kubejs:stone_iron_plate", "embers:caminite_plate", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
-    shapeless(event, "minecraft:lever", ["#forge:rods/wooden", "kubejs:stone_iron_ingot"])
-    shapeless(event, "kubejs:raw_steel_billet", ["thermal:iron_dust", "kubejs:high_carbon_iron_ingot", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
-    shapeless(event, "thermal:steel_ingot", ["kubejs:steel_billet", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
-    shapeless(event, "4x kubejs:amber_fragment", ["4x alexscaves:amber", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
-    shapeless(event, "4x kubejs:heavy_ingot", ["embers:solidified_metal", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
+    shapeless(event, "thermal:iron_dust", ["wtwfacore:fliny_hammer", "2x minecraft:iron_ore"], {damage: {item: "wtwfacore:fliny_hammer", amount: 1}})
+    shapeless(event, "thermal:iron_dust", ["wtwfacore:fliny_hammer", "2x minecraft:raw_iron"], {damage: {item: "wtwfacore:fliny_hammer", amount: 1}})
+    shapeless(event, "biomancy:stone_powder", ["wtwfacore:fliny_hammer", "2x #minecraft:stone_tool_materials"], {damage: {item: "wtwfacore:fliny_hammer", amount: 1}})
+    shapeless(event, "wtwfacore:stone_iron_dust", ["thermal:iron_dust", "biomancy:stone_powder"])
+    shapeless(event, "6x embers:caminite_blend", ["4x minecraft:clay_ball", "wtwfacore:stone_iron_dust", "#forge:sand"])
+    shapeless(event, "wtwfacore:stone_iron_block", ["9x wtwfacore:stone_iron_ingot"])
+    shapeless(event, "9x wtwfacore:stone_iron_ingot", ["wtwfacore:stone_iron_block"])
+    shapeless(event, "thermal:silver_dust", ["wtwfacore:fliny_hammer", "2x #forge:ores/silver"], {damage: {item: "wtwfacore:fliny_hammer", amount: 1}})
+    shapeless(event, "thermal:silver_dust", ["wtwfacore:fliny_hammer", "2x #forge:raw_materials/silver"], {damage: {item: "wtwfacore:fliny_hammer", amount: 1}})
+    shapeless(event, "thermal:copper_dust", ["wtwfacore:fliny_hammer", "2x minecraft:copper_ore"], {damage: {item: "wtwfacore:fliny_hammer", amount: 1}})
+    shapeless(event, "thermal:copper_dust", ["wtwfacore:fliny_hammer", "2x minecraft:raw_copper"], {damage: {item: "wtwfacore:fliny_hammer", amount: 1}})
+    shapeless(event, "thermal:lead_dust", ["wtwfacore:fliny_hammer", "2x #forge:ores/lead"], {damage: {item: "wtwfacore:fliny_hammer", amount: 1}})
+    shapeless(event, "thermal:lead_dust", ["wtwfacore:fliny_hammer", "2x #forge:raw_materials/lead"], {damage: {item: "wtwfacore:fliny_hammer", amount: 1}})
+    shapeless(event, "wtwfacore:stone_iron_plate", ["2x wtwfacore:stone_iron_ingot", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
+    shapeless(event, "wtwfacore:caminite_stoneiron_combine_plate", ["wtwfacore:stone_iron_plate", "embers:caminite_plate", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
+    shapeless(event, "minecraft:lever", ["#forge:rods/wooden", "wtwfacore:stone_iron_ingot"])
+    shapeless(event, "wtwfacore:raw_steel_billet", ["thermal:iron_dust", "wtwfacore:high_carbon_iron_ingot", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
+    shapeless(event, "thermal:steel_ingot", ["wtwfacore:steel_billet", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
+    shapeless(event, "4x wtwfacore:amber_fragment", ["4x alexscaves:amber", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
+    shapeless(event, "4x wtwfacore:heavy_ingot", ["embers:solidified_metal", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
     shapeless(event, "minecraft:flint_and_steel", ["thermal:steel_ingot", "minecraft:flint"])
     shapeless(event, "thermal:steel_plate", ["2x thermal:steel_ingot", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
     shapeless(event, "4x tconstruct:grout", ["minecraft:clay_ball", "#minecraft:sand", "embers:caminite_blend", "minecraft:gravel"])
     shapeless(event, "16x tconstruct:grout", ["minecraft:clay", "3x #minecraft:sand", "embers:raw_caminite_block", "4x minecraft:gravel"])
-    shapeless(event, "kubejs:burn_sun_plate", ["2x kubejs:burn_sun_ingot", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
+    shapeless(event, "wtwfacore:burn_sun_plate", ["2x wtwfacore:burn_sun_ingot", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
     shapeless(event, "embers_extended:ember_crystal_block", ["9x embers:ember_crystal"])
-    shapeless(event, "4x kubejs:forged_nether_alloy_plate", ["embers:tinker_hammer", "kubejs:stable_alloy_casting_block"], {keep: "embers:tinker_hammer"})
-    shapeless(event, "kubejs:source_gem_steel_plate", ["2x kubejs:source_gem_steel_ingot", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
+    shapeless(event, "4x wtwfacore:forged_nether_alloy_plate", ["embers:tinker_hammer", "wtwfacore:stable_alloy_casting_block"], {keep: "embers:tinker_hammer"})
+    shapeless(event, "wtwfacore:source_gem_steel_plate", ["2x wtwfacore:source_gem_steel_ingot", "embers:tinker_hammer"], {keep: "embers:tinker_hammer"})
     shapeless(event, "3x minecraft:paper", ["3x minecraft:bamboo"])
 
     // Campfire cooking
-    campfire(event, "kubejs:stone_iron_ingot", "kubejs:stone_iron_dust", 0.35, 100)
+    campfire(event, "wtwfacore:stone_iron_ingot", "wtwfacore:stone_iron_dust", 0.35, 100)
     campfire(event, "embers:caminite_brick", "embers:caminite_blend", 0.35, 100)
     campfire(event, "embers:caminite_plate", "embers:raw_caminite_plate", 0.35, 100)
     campfire(event, "embers:ingot_stamp", "embers:raw_ingot_stamp", 0.35, 100)
 
     // Smelting
-    smelting(event, "kubejs:stone_iron_ingot", "kubejs:stone_iron_dust")
+    smelting(event, "wtwfacore:stone_iron_ingot", "wtwfacore:stone_iron_dust")
     smelting(event, "eidolon:withered_heart","minecraft:nether_star")
 })

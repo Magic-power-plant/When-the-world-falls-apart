@@ -3,6 +3,6 @@
   "type": "connecting",
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "kubejs:block/reinforced_archwood_planks"
+    "all": "wtwfacore:block/stoneiron_machine_shell"
   }
 }

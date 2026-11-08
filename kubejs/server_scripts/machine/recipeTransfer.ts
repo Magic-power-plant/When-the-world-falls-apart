@@ -93,7 +93,7 @@ function addGenicInput(input: any, inputs: any[]) {
         if (id.match(/^botania:.*_petal$/)) {
             let color = id.match(/^botania:(.*)_.*$/)
             if (color) {
-                inputs.push(Item.of(`kubejs:${color[1]}_gene` as Internal.ItemStack_))
+                inputs.push(Item.of(`wtwfacore:${color[1]}_gene` as Internal.ItemStack_))
             }
         } else if (id.match(/^botania:.*_mushroom$/)) {
             return
@@ -126,19 +126,19 @@ function transferGenicAltar(event: Internal.TransferProxyRecipeEvent) {
     (event as {mbdRecipe : Internal.MBDRecipe}).mbdRecipe = recipe.buildMBDRecipe()
 }
 
-MBDRecipeTypeEvents.onTransferProxyRecipe("mbd2:modular_ember_alchemy", e => {
+MBDRecipeTypeEvents.onTransferProxyRecipe("wtwfacore:modular_ember_alchemy", e => {
     transferEmberAlchemy(e.event)
     e.getEvent().mbdRecipe
 })
 
-MBDRecipeTypeEvents.onTransferProxyRecipe("mbd2:mana_pool", e => {
+MBDRecipeTypeEvents.onTransferProxyRecipe("wtwfacore:mana_pool", e => {
     transferManaInfusion(e.event)
 })
 
-MBDRecipeTypeEvents.onTransferProxyRecipe("mbd2:runic_altar", e => {
+MBDRecipeTypeEvents.onTransferProxyRecipe("wtwfacore:runic_altar", e => {
     transferRunicAltar(e.event)
 })
 
-MBDRecipeTypeEvents.onTransferProxyRecipe("mbd2:genic_altar", e => {
+MBDRecipeTypeEvents.onTransferProxyRecipe("wtwfacore:genic_altar", e => {
     transferGenicAltar(e.event)
 })

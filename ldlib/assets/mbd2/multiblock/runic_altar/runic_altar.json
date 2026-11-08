@@ -15289,7 +15289,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:mana_input_bus",
+            "Name": "wtwfacore:mana_input_bus",
             "Properties": {
               "facing": "east"
             }

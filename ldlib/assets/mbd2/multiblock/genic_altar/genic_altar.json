@@ -522,7 +522,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:fluid_in_1",
+            "Name": "wtwfacore:fluid_in_1",
             "Properties": {
               "facing": "east"
             }
@@ -565,7 +565,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_in_3",
+            "Name": "wtwfacore:item_in_3",
             "Properties": {
               "facing": "east"
             }
@@ -578,7 +578,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_in_3",
+            "Name": "wtwfacore:item_in_3",
             "Properties": {
               "facing": "east"
             }
@@ -1108,7 +1108,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_in_3",
+            "Name": "wtwfacore:item_in_3",
             "Properties": {
               "facing": "south"
             }
@@ -1151,7 +1151,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_in_3",
+            "Name": "wtwfacore:item_in_3",
             "Properties": {
               "facing": "north"
             }
@@ -1255,7 +1255,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_in_3",
+            "Name": "wtwfacore:item_in_3",
             "Properties": {
               "facing": "south"
             }
@@ -1296,7 +1296,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_in_3",
+            "Name": "wtwfacore:item_in_3",
             "Properties": {
               "facing": "north"
             }
@@ -1484,7 +1484,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_in_3",
+            "Name": "wtwfacore:item_in_3",
             "Properties": {
               "facing": "south"
             }
@@ -1527,7 +1527,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_in_3",
+            "Name": "wtwfacore:item_in_3",
             "Properties": {
               "facing": "north"
             }
@@ -2017,7 +2017,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_in_3",
+            "Name": "wtwfacore:item_in_3",
             "Properties": {
               "facing": "west"
             }
@@ -2060,7 +2060,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_in_3",
+            "Name": "wtwfacore:item_in_3",
             "Properties": {
               "facing": "west"
             }
@@ -2073,7 +2073,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_in_3",
+            "Name": "wtwfacore:item_in_3",
             "Properties": {
               "facing": "west"
             }

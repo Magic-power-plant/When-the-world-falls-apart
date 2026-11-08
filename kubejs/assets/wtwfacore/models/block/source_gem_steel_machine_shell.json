@@ -3,6 +3,6 @@
   "type": "connecting",
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "kubejs:block/dawnstone_machine_shell"
+    "all": "wtwfacore:block/source_gem_steel_machine_shell"
   }
 }

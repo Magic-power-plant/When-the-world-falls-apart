@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "mbd2:block/overlay/fluid"
+    "layer0": "wtwfacore:block/overlay/fluid"
   }
 }

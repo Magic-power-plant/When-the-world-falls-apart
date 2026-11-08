@@ -44,8 +44,8 @@ const alchemyRecipes: AlchemyRecipe[] = [
             "#forge:plates/spirit_silver",
             "#embers:wildfire_core"
         ],
-        output: "kubejs:ember_dawnstone_component",
-        tablet: "#kubejs:simple_basic_component",
+        output: "wtwfacore:ember_dawnstone_component",
+        tablet: "#wtwfacore:simple_basic_component",
         conditions: ironAlchemyConditions
     },
     {
@@ -56,7 +56,7 @@ const alchemyRecipes: AlchemyRecipe[] = [
             "#forge:ingots/iron",
             "#forge:normal_stone"
         ],
-        output: "kubejs:stone_iron_block",
+        output: "wtwfacore:stone_iron_block",
         tablet: "#forge:deepslate",
         conditions: ironAlchemyConditions
     },
@@ -91,7 +91,7 @@ const alchemyRecipes: AlchemyRecipe[] = [
             "#forge:ingots/duskstone",
             "#forge:ingots/nightstone"
         ],
-        output: "kubejs:burn_sun_ingot",
+        output: "wtwfacore:burn_sun_ingot",
         tablet: "#forge:ingots/ember_dawnstone",
         conditions: ironAlchemyConditions
     },
@@ -101,14 +101,14 @@ const alchemyRecipes: AlchemyRecipe[] = [
             "#forge:ingots/azure_neodymium",
             "#forge:ingots/scarlet_neodymium"
         ],
-        output: "kubejs:ultra_neodymium_ingot",
+        output: "wtwfacore:ultra_neodymium_ingot",
         tablet: "#forge:ingots/stone_iron",
         conditions: ironAlchemyConditions
     },
     {
         aspects: ["embers:aspectus/nightstone", "embers:aspectus/duskstone"],
         inputs: ["#forge:dusts/source_gem"],
-        output: "kubejs:raw_source_gem_steel",
+        output: "wtwfacore:raw_source_gem_steel",
         tablet: "#forge:ingots/steel",
         conditions: ironAlchemyConditions
     },
@@ -120,14 +120,14 @@ const alchemyRecipes: AlchemyRecipe[] = [
             "#minecraft:magma_cream",
             "#forge:dusts/gold"
         ],
-        output: "kubejs:purified_alloy_mass",
+        output: "wtwfacore:purified_alloy_mass",
         tablet: "#forge:slag/crude_nether_alloy",
         conditions: ironAlchemyConditions
     },
     {
         aspects: ["embers:aspectus/nightstone", "embers:aspectus/duskstone"],
-        inputs: ["#kubejs:metal_essence"],
-        output: "kubejs:energized_nether_alloy_crystal",
+        inputs: ["#wtwfacore:metal_essence"],
+        output: "wtwfacore:energized_nether_alloy_crystal",
         tablet: "#forge:ingots/annealed_alloy",
         conditions: ironAlchemyConditions
     },
@@ -139,8 +139,8 @@ const alchemyRecipes: AlchemyRecipe[] = [
             "#forge:plates/source_gem_steel",
             "#forge:plates/source_gem_steel"
         ],
-        output: "kubejs:source_gem_steel_machine_frame",
-        tablet: "#kubejs:dawnstone_machine_frame",
+        output: "wtwfacore:source_gem_steel_machine_frame",
+        tablet: "#wtwfacore:dawnstone_machine_frame",
         conditions: ironAlchemyConditions
     },
     {
@@ -155,10 +155,10 @@ const alchemyRecipes: AlchemyRecipe[] = [
             "embers_extended:duskstone_ingot",
             "embers_extended:nightstone_ingot",
             "embers:dawnstone_ingot",
-            "kubejs:burn_sun_ingot",
+            "wtwfacore:burn_sun_ingot",
             "aetherworks:ingot_aether"
         ],
-        output: "kubejs:ember_essence",
+        output: "wtwfacore:ember_essence",
         tablet: "aetherworks:aether_pearl",
         conditions: ironAlchemyConditions
     },
@@ -176,8 +176,8 @@ const alchemyRecipes: AlchemyRecipe[] = [
             "ae2:engineering_processor",
             "ae2:engineering_processor"
         ],
-        output: "kubejs:1k_storage_circuits_etched_substrate",
-        tablet: "kubejs:complex_processing_computer",
+        output: "wtwfacore:1k_storage_circuits_etched_substrate",
+        tablet: "wtwfacore:complex_processing_computer",
         conditions: ironAlchemyConditions
     },
     {
@@ -244,16 +244,16 @@ const alchemyRecipes: AlchemyRecipe[] = [
             "ars_nouveau:earth_essence",
             "ars_nouveau:fire_essence",
             "ars_nouveau:water_essence",
-            "kubejs:tree_essence",
-            "kubejs:metal_essence"
+            "wtwfacore:tree_essence",
+            "wtwfacore:metal_essence"
         ],
         inputs: [
-            "kubejs:sky_essence",
-            "kubejs:swords_essence",
-            "kubejs:range_mountains_essence",
-            "kubejs:vast_ocean_essence",
-            "kubejs:inferno_essence",
-            "kubejs:lush_forests_essence"
+            "wtwfacore:sky_essence",
+            "wtwfacore:swords_essence",
+            "wtwfacore:range_mountains_essence",
+            "wtwfacore:vast_ocean_essence",
+            "wtwfacore:inferno_essence",
+            "wtwfacore:lush_forests_essence"
         ],
         output: "arseng:creative_source_cell",
         tablet: "ars_nouveau:creative_source_jar"
@@ -265,16 +265,16 @@ const alchemyRecipes: AlchemyRecipe[] = [
             "embers:aspectus/dawnstone"
         ],
         inputs:[
-            'kubejs:dawnstone_machine_frame',
-            'kubejs:dawnstone_machine_frame',
-            'kubejs:dawnstone_machine_frame',
-            'kubejs:dawnstone_machine_frame',
-            'kubejs:dawnstone_machine_frame',
-            'kubejs:dawnstone_machine_frame',
-            'kubejs:ember_dawnstone_component',
-            'kubejs:ember_dawnstone_component'
+            'wtwfacore:dawnstone_machine_frame',
+            'wtwfacore:dawnstone_machine_frame',
+            'wtwfacore:dawnstone_machine_frame',
+            'wtwfacore:dawnstone_machine_frame',
+            'wtwfacore:dawnstone_machine_frame',
+            'wtwfacore:dawnstone_machine_frame',
+            'wtwfacore:ember_dawnstone_component',
+            'wtwfacore:ember_dawnstone_component'
         ],
-        output:'mbd2:dwarf_alchemy_cauldron_controller',
+        output:'wtwfacore:dwarf_alchemy_cauldron_controller',
         tablet:'embers:ember_injector'
     }
 ]

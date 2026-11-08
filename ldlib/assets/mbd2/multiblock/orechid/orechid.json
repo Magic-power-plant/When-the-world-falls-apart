@@ -126,7 +126,7 @@
       },
       {
         "type": "builtin",
-        "key": "state:mbd2:mana_input_bus[facing=west]"
+        "key": "state:wtwfacore:mana_input_bus[facing=west]"
       },
       {
         "type": "builtin",
@@ -2869,7 +2869,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_out_3_plus",
+            "Name": "wtwfacore:item_out_3_plus",
             "Properties": {
               "facing": "east"
             }
@@ -7128,7 +7128,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:mana_input_bus",
+            "Name": "wtwfacore:mana_input_bus",
             "Properties": {
               "facing": "west"
             }
@@ -7612,7 +7612,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_out_3_plus",
+            "Name": "wtwfacore:item_out_3_plus",
             "Properties": {
               "facing": "south"
             }
@@ -7683,7 +7683,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_out_3_plus",
+            "Name": "wtwfacore:item_out_3_plus",
             "Properties": {
               "facing": "north"
             }
@@ -7736,7 +7736,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_out_3_plus",
+            "Name": "wtwfacore:item_out_3_plus",
             "Properties": {
               "facing": "north"
             }
@@ -12420,7 +12420,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:item_out_3_plus",
+            "Name": "wtwfacore:item_out_3_plus",
             "Properties": {
               "facing": "west"
             }

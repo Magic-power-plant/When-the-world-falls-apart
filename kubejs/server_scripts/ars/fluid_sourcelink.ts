@@ -14,8 +14,8 @@ function fluidSourcelink(event: any, recipe: FluidSourcelinkRecipe) {
 }
 
 const fluidSourcelinkRecipes: FluidSourcelinkRecipe[] = [
-    {fluid: "kubejs:compression_liquid_source", mbToSourceRatio: 10},
-    {fluid: "kubejs:double_compression_liquid_source", mbToSourceRatio: 100}
+    {fluid: "wtwfacore:compression_liquid_source", mbToSourceRatio: 10},
+    {fluid: "wtwfacore:double_compression_liquid_source", mbToSourceRatio: 100}
 ]
 
 ServerEvents.recipes((event: any) => {

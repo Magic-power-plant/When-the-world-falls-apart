@@ -40,19 +40,19 @@ const emberImbuements: ImbuementRecipe[] = [
 
 const arsImbuements: ImbuementRecipe[] = [
     {
-        input: "kubejs:essence_base",
-        output: "kubejs:tree_essence",
+        input: "wtwfacore:essence_base",
+        output: "wtwfacore:tree_essence",
         source: 2000,
         pedestalItems: ["#minecraft:saplings", "#forge:seeds", "#minecraft:flowers"]
     },
     {
-        input: "kubejs:essence_base",
-        output: "kubejs:metal_essence",
+        input: "wtwfacore:essence_base",
+        output: "wtwfacore:metal_essence",
         source: 2000,
         pedestalItems: ["minecraft:gold_ingot", "#forge:ingots/silver", "#forge:ingots/copper"]
     },
     {
-        input: "kubejs:source_gem_steel_machine_frame",
+        input: "wtwfacore:source_gem_steel_machine_frame",
         output: "ars_nouveau:arcane_core",
         source: 10000,
         pedestalItems: [
@@ -64,7 +64,7 @@ const arsImbuements: ImbuementRecipe[] = [
         ]
     },
     {
-        input: "kubejs:source_gem_steel_machine_frame",
+        input: "wtwfacore:source_gem_steel_machine_frame",
         output: "ars_nouveau:enchanting_apparatus",
         source: 10000,
         pedestalItems: [
@@ -72,27 +72,27 @@ const arsImbuements: ImbuementRecipe[] = [
             "ars_nouveau:sourcestone",
             "ars_nouveau:sourcestone",
             "ars_nouveau:air_essence",
-            "kubejs:metal_essence",
-            "kubejs:tree_essence",
+            "wtwfacore:metal_essence",
+            "wtwfacore:tree_essence",
             "ars_nouveau:earth_essence",
             "ars_nouveau:water_essence",
             "ars_nouveau:fire_essence"
         ]
     },
     {
-        input: "kubejs:purified_alloy_mass",
-        output: "kubejs:annealed_alloy_ingot_semi_stable",
+        input: "wtwfacore:purified_alloy_mass",
+        output: "wtwfacore:annealed_alloy_ingot_semi_stable",
         source: 1000,
         pedestalItems: []
     },
     {
-        input: "kubejs:raw_source_gem_steel",
-        output: "kubejs:source_gem_steel_ingot",
+        input: "wtwfacore:raw_source_gem_steel",
+        output: "wtwfacore:source_gem_steel_ingot",
         source: 1000,
         pedestalItems: []
     },
     {
-        input: "kubejs:source_gem_steel_machine_frame",
+        input: "wtwfacore:source_gem_steel_machine_frame",
         output: "ars_nouveau:relay",
         source: 1000,
         pedestalItems: [
@@ -103,14 +103,14 @@ const arsImbuements: ImbuementRecipe[] = [
         ]
     },
     {
-        input: "kubejs:1k_storage_circuits_etched_substrate",
-        output: "kubejs:4k_storage_circuits_etched_substrate",
+        input: "wtwfacore:1k_storage_circuits_etched_substrate",
+        output: "wtwfacore:4k_storage_circuits_etched_substrate",
         source: 10000,
         pedestalItems: [
-            "kubejs:ember_dawnstone_component",
-            "kubejs:ember_dawnstone_component",
-            "kubejs:ember_dawnstone_component",
-            "kubejs:ember_dawnstone_component"
+            "wtwfacore:ember_dawnstone_component",
+            "wtwfacore:ember_dawnstone_component",
+            "wtwfacore:ember_dawnstone_component",
+            "wtwfacore:ember_dawnstone_component"
         ]
     }
 ]

@@ -1,5 +1,5 @@
 StartupEvents.registry('enchanted:circle_magic/shape', (event:Registry.CircleMagicShape) => {
-    event.create("kubejs:shape_1" , 'circle_shape')
+    event.create("wtwfacore:shape_1" , 'circle_shape')
         .pattern(
             'XOOOOOOOX',
             'OOXOOOXOO',
@@ -12,7 +12,7 @@ StartupEvents.registry('enchanted:circle_magic/shape', (event:Registry.CircleMag
             'XOOOOOOOX'
         )
     
-    event.create("kubejs:shape_2" , "circle_shape")
+    event.create("wtwfacore:shape_2" , "circle_shape")
         .pattern(
             'XXOOOOOOOOOOOXX',
             'XOOOOOOOOOOOOOX',
@@ -31,7 +31,7 @@ StartupEvents.registry('enchanted:circle_magic/shape', (event:Registry.CircleMag
             'XXOOOOOOOOOOOXX'
         )
 
-    event.create("kubejs:shape_3" , "circle_shape")
+    event.create("wtwfacore:shape_3" , "circle_shape")
         .pattern(
             'OOOOXOOOO',
             'OOOOXOOOO',

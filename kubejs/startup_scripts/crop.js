@@ -3,15 +3,15 @@ const BlockBehaviour$Properties = Java.loadClass("net.minecraft.world.level.bloc
 const BlockBehaviour = Java.loadClass("net.minecraft.world.level.block.state.BlockBehaviour")
 
 StartupEvents.registry("item",event =>{
-    event.create("aubergine","basic").displayName("茄子").texture("kubejs:item/crop/aubergine").tag("forge:crops").tag("forge:crops/aubergine")
-    event.create("moonglow","basic").displayName("月萤").texture("kubejs:item/crop/moonglow").tag("forge:crops").tag("forge:crops/moonglow")
-    event.create("pereskia","basic").displayName("木麒麟").texture("kubejs:item/crop/pereskia").tag("forge:crops").tag("forge:crops/pereskia")
-    event.create("wildewheet","basic").displayName("野麦").texture("kubejs:item/crop/wildewheet").tag("forge:crops").tag("forge:crops/wildewheet")
-    event.create("spiritleaf","basic").displayName("嫩叶").texture("kubejs:item/crop/spiritleaf").tag("forge:crops").tag("forge:crops/spiritleaf")
+    event.create("wtwfacore:aubergine","basic").displayName("茄子").texture("wtwfacore:item/crop/aubergine").tag("forge:crops").tag("forge:crops/aubergine")
+    event.create("wtwfacore:moonglow","basic").displayName("月萤").texture("wtwfacore:item/crop/moonglow").tag("forge:crops").tag("forge:crops/moonglow")
+    event.create("wtwfacore:pereskia","basic").displayName("木麒麟").texture("wtwfacore:item/crop/pereskia").tag("forge:crops").tag("forge:crops/pereskia")
+    event.create("wtwfacore:wildewheet","basic").displayName("野麦").texture("wtwfacore:item/crop/wildewheet").tag("forge:crops").tag("forge:crops/wildewheet")
+    event.create("wtwfacore:spiritleaf","basic").displayName("嫩叶").texture("wtwfacore:item/crop/spiritleaf").tag("forge:crops").tag("forge:crops/spiritleaf")
 })
 StartupEvents.registry("block",event =>{
-    event.create("aubergine","crop").displayName("茄子")
-    .crop("kubejs:aubergine",1).crop("kubejs:aubergine",0.05)
+    event.create("wtwfacore:aubergine","crop").displayName("茄子")
+    .crop("wtwfacore:aubergine",1).crop("wtwfacore:aubergine",0.05)
     .age(7,builder => {
         builder.shape(0,0,0,0,16,2,16)
         builder.shape(1,0,0,0,16,2,16)
@@ -30,41 +30,41 @@ StartupEvents.registry("block",event =>{
           } else return false;
       })
     .growTick((tickevent) => 5)
-    .texture(0,'kubejs:block/crop/aubergine_0')
-    .texture(1,'kubejs:block/crop/aubergine_1')
-    .texture(2,'kubejs:block/crop/aubergine_2')
-    .texture(3,'kubejs:block/crop/aubergine_3')
-    .texture(4,'kubejs:block/crop/aubergine_4')
-    .texture(5,'kubejs:block/crop/aubergine_5')
-    .texture(6,'kubejs:block/crop/aubergine_6')
-    .texture(7,'kubejs:block/crop/aubergine_7')
+    .texture(0,'wtwfacore:block/crop/aubergine_0')
+    .texture(1,'wtwfacore:block/crop/aubergine_1')
+    .texture(2,'wtwfacore:block/crop/aubergine_2')
+    .texture(3,'wtwfacore:block/crop/aubergine_3')
+    .texture(4,'wtwfacore:block/crop/aubergine_4')
+    .texture(5,'wtwfacore:block/crop/aubergine_5')
+    .texture(6,'wtwfacore:block/crop/aubergine_6')
+    .texture(7,'wtwfacore:block/crop/aubergine_7')
     .item((seedItem) => {
         seedItem
-        .texture('kubejs:item/crop/aubergine_seeds')
+        .texture('wtwfacore:item/crop/aubergine_seeds')
         .displayName('茄子种子')
     })
     const crops7 = [
     {
       name: "moonglow",
       seedTexture: "moonglow_seeds",
-      cropItem: "kubejs:moonglow",
+      cropItem: "wtwfacore:moonglow",
       localName:"月萤",
       localSeedName:"月萤种子"
     },{
         name: "pereskia",
         seedTexture: "pereskia_bulb",
-        cropItem: "kubejs:pereskia",
+        cropItem: "wtwfacore:pereskia",
         localName:"木麒麟",
         localSeedName:"木麒麟根茎"
     },{
         name: "wildewheet",
         seedTexture: "wildewheet_seeds",
-        cropItem: "kubejs:wildewheet",
+        cropItem: "wtwfacore:wildewheet",
         localName:"野麦",
         localSeedName:"野麦种子"
     }]
     crops7.forEach(crop => {
-        event.create(crop.name,"crop").displayName(crop.localName)
+        event.create(`wtwfacore:${crop.name}`,"crop").displayName(crop.localName)
         .crop(crop.cropItem,1).crop(crop.cropItem,0.05)
         .age(7,builder => {
             builder.shape(0,0,0,0,16,2,16)
@@ -84,17 +84,17 @@ StartupEvents.registry("block",event =>{
           } else return false;
         })
         .growTick((tickevent) => 5)
-        .texture(0,'kubejs:block/crop/'+crop.name+'_0')
-        .texture(1,'kubejs:block/crop/'+crop.name+'_1')
-        .texture(2,'kubejs:block/crop/'+crop.name+'_2')
-        .texture(3,'kubejs:block/crop/'+crop.name+'_3')
-        .texture(4,'kubejs:block/crop/'+crop.name+'_4')
-        .texture(5,'kubejs:block/crop/'+crop.name+'_5')
-        .texture(6,'kubejs:block/crop/'+crop.name+'_6')
-        .texture(7,'kubejs:block/crop/'+crop.name+'_7')
+        .texture(0,'wtwfacore:block/crop/'+crop.name+'_0')
+        .texture(1,'wtwfacore:block/crop/'+crop.name+'_1')
+        .texture(2,'wtwfacore:block/crop/'+crop.name+'_2')
+        .texture(3,'wtwfacore:block/crop/'+crop.name+'_3')
+        .texture(4,'wtwfacore:block/crop/'+crop.name+'_4')
+        .texture(5,'wtwfacore:block/crop/'+crop.name+'_5')
+        .texture(6,'wtwfacore:block/crop/'+crop.name+'_6')
+        .texture(7,'wtwfacore:block/crop/'+crop.name+'_7')
         .item((seedItem) => {
             seedItem
-            .texture('kubejs:item/crop/'+crop.seedTexture)
+            .texture('wtwfacore:item/crop/'+crop.seedTexture)
             .displayName(crop.localSeedName)
         })
     })
@@ -114,7 +114,7 @@ StartupEvents.registry("block",event =>{
         }
     ]
     crop3.forEach(crop => {
-        event.create(crop.name,"crop").displayName(crop.localName)
+        event.create(`wtwfacore:${crop.name}`,"crop").displayName(crop.localName)
         .age(3,builder => {
             builder.shape(0,0,0,0,16,2,16)
             builder.shape(1,0,0,0,16,6,16)
@@ -129,15 +129,15 @@ StartupEvents.registry("block",event =>{
           } else return false;
         })
         .growTick((tickevent) => 5)
-        .texture(0,'kubejs:block/crop/'+crop.name+'_0')
-        .texture(1,'kubejs:block/crop/'+crop.name+'_1')
-        .texture(2,'kubejs:block/crop/'+crop.name+'_2')
-        .texture(3,'kubejs:block/crop/'+crop.name+'_3')
+        .texture(0,'wtwfacore:block/crop/'+crop.name+'_0')
+        .texture(1,'wtwfacore:block/crop/'+crop.name+'_1')
+        .texture(2,'wtwfacore:block/crop/'+crop.name+'_2')
+        .texture(3,'wtwfacore:block/crop/'+crop.name+'_3')
         .item(seedItem =>
-            seedItem.displayName(crop.localName).texture(`kubejs:item/crop/${crop.name}`).tag("forge:crops").tag(`forge:crops/${crop.name}`).tag("forge:seeds").tag(`forge:seeds/${crop.name}`)
+            seedItem.displayName(crop.localName).texture(`wtwfacore:item/crop/${crop.name}`).tag("forge:crops").tag(`forge:crops/${crop.name}`).tag("forge:seeds").tag(`forge:seeds/${crop.name}`)
         )
     })
-    event.create("inferno_bulb","crop").displayName("地狱根茎")
+    event.create("wtwfacore:inferno_bulb","crop").displayName("地狱根茎")
     .crop("rootsclassic:infernal_bulb",1).crop("rootsclassic:infernal_bulb",0.05)
     .age(3,builder => {
         builder.shape(0,0,0,0,16,2,16)
@@ -153,17 +153,17 @@ StartupEvents.registry("block",event =>{
           } else return false;
     })
     .growTick((tickevent) => 5)
-    .texture(0,'kubejs:block/crop/inferno_bulb_0')
-    .texture(1,'kubejs:block/crop/inferno_bulb_1')
-    .texture(2,'kubejs:block/crop/inferno_bulb_2')
-    .texture(3,'kubejs:block/crop/inferno_bulb_3')
+    .texture(0,'wtwfacore:block/crop/inferno_bulb_0')
+    .texture(1,'wtwfacore:block/crop/inferno_bulb_1')
+    .texture(2,'wtwfacore:block/crop/inferno_bulb_2')
+    .texture(3,'wtwfacore:block/crop/inferno_bulb_3')
     .item((seedItem) => {
         seedItem
-        .texture('kubejs:item/crop/inferno_bulb')
+        .texture('wtwfacore:item/crop/inferno_bulb')
         .displayName('地狱根茎')
     })
-    event.create("spiritleaf","crop").displayName("嫩叶")
-    .crop("kubejs:spiritleaf",1).crop("kubejs:spiritleaf",0.05).crop("rootsclassic:verdant_sprig",1).crop("rootsclassic:verdant_sprig",0.05)
+    event.create("wtwfacore:spiritleaf","crop").displayName("嫩叶")
+    .crop("wtwfacore:spiritleaf",1).crop("wtwfacore:spiritleaf",0.05).crop("rootsclassic:verdant_sprig",1).crop("rootsclassic:verdant_sprig",0.05)
     .age(4,builder => {
         builder.shape(0,0,0,0,16,2,16)
         builder.shape(1,0,0,0,16,6,16)
@@ -179,14 +179,14 @@ StartupEvents.registry("block",event =>{
           } else return false;
     })
     .growTick((tickevent) => 5)
-    .texture(0,'kubejs:block/crop/spiritleaf_0')
-    .texture(1,'kubejs:block/crop/spiritleaf_1')
-    .texture(2,'kubejs:block/crop/spiritleaf_2')
-    .texture(3,'kubejs:block/crop/spiritleaf_3')
-    .texture(4,'kubejs:block/crop/spiritleaf_4')
+    .texture(0,'wtwfacore:block/crop/spiritleaf_0')
+    .texture(1,'wtwfacore:block/crop/spiritleaf_1')
+    .texture(2,'wtwfacore:block/crop/spiritleaf_2')
+    .texture(3,'wtwfacore:block/crop/spiritleaf_3')
+    .texture(4,'wtwfacore:block/crop/spiritleaf_4')
     .item((seedItem) => {
         seedItem
-        .texture('kubejs:item/crop/spiritleaf_seeds')
+        .texture('wtwfacore:item/crop/spiritleaf_seeds')
         .displayName('嫩叶种子')
     })
 })

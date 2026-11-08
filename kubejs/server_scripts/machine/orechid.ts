@@ -83,12 +83,12 @@ function readRecipeInputItemId(recipe: any) {
 
 ServerEvents.recipes(event => {
     orechidTables.forEach(table => {
-        event.recipes.mbd2.orechid()
+        event.recipes.wtwfacore.orechid()
             .inputItems(table.input as InputItem_)
     })
 })
 
-MBDMachineEvents.onBeforeRecipeModify("mbd2:orechid", e => {
+MBDMachineEvents.onBeforeRecipeModify("wtwfacore:orechid", e => {
     const { recipe } = e.event
     const rawInputItemId = readRecipeInputItemId(recipe)
 

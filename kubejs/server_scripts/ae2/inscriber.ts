@@ -26,31 +26,31 @@ const digitalTransducers: InscriberRecipe[] = [
         bottom: "ae2:annihilation_core",
         middle: "minecraft:chest",
         top: "ae2:formation_core",
-        result: "kubejs:item_digital_transducer"
+        result: "wtwfacore:item_digital_transducer"
     },
     {
         bottom: "ae2:annihilation_core",
         middle: "embers:fluid_vessel",
         top: "ae2:formation_core",
-        result: "kubejs:fluid_digital_transducer"
+        result: "wtwfacore:fluid_digital_transducer"
     },
     {
         bottom: "ae2:annihilation_core",
         middle: "botania:mana_pool",
         top: "ae2:formation_core",
-        result: "kubejs:mana_digital_transducer"
+        result: "wtwfacore:mana_digital_transducer"
     },
     {
         bottom: "ae2:annihilation_core",
         middle: "ars_nouveau:source_jar",
         top: "ae2:formation_core",
-        result: "kubejs:source_digital_transducer"
+        result: "wtwfacore:source_digital_transducer"
     },
     {
         bottom: "ae2:annihilation_core",
         middle: "ae2:energy_cell",
         top: "ae2:formation_core",
-        result: "kubejs:energy_digital_transducer"
+        result: "wtwfacore:energy_digital_transducer"
     }
 ]
 
@@ -63,24 +63,24 @@ const storageTiers = ["1k", "4k", "16k"]
 
 const componentPresses: PressTemplate[] = [
     {
-        top: "kubejs:item_digital_transducer",
+        top: "wtwfacore:item_digital_transducer",
         result: (tier: string) => `ae2:cell_component_${tier}`
     },
     {
-        top: "kubejs:fluid_digital_transducer",
-        result: (tier: string) => `kubejs:${tier}_fluid_cell`
+        top: "wtwfacore:fluid_digital_transducer",
+        result: (tier: string) => `wtwfacore:${tier}_fluid_cell`
     },
     {
-        top: "kubejs:mana_digital_transducer",
-        result: (tier: string) => `kubejs:${tier}_mana_cell`
+        top: "wtwfacore:mana_digital_transducer",
+        result: (tier: string) => `wtwfacore:${tier}_mana_cell`
     },
     {
-        top: "kubejs:energy_digital_transducer",
+        top: "wtwfacore:energy_digital_transducer",
         result: (tier: string) => `appflux:core_${tier}`
     },
     {
-        top: "kubejs:source_digital_transducer",
-        result: (tier: string) => `kubejs:${tier}_source_cell`
+        top: "wtwfacore:source_digital_transducer",
+        result: (tier: string) => `wtwfacore:${tier}_source_cell`
     }
 ]
 
@@ -98,12 +98,12 @@ const cellPresses: CellPressTemplate[] = [
     },
     {
         bottom: "ae2:fluid_cell_housing",
-        top: (tier: string) => `kubejs:${tier}_fluid_cell`,
+        top: (tier: string) => `wtwfacore:${tier}_fluid_cell`,
         result: (tier: string) => `ae2:fluid_storage_cell_${tier}`
     },
     {
         bottom: "arseng:source_cell_housing",
-        top: (tier: string) => `kubejs:${tier}_source_cell`,
+        top: (tier: string) => `wtwfacore:${tier}_source_cell`,
         result: (tier: string) => `arseng:source_storage_cell_${tier}`
     },
     {
@@ -113,7 +113,7 @@ const cellPresses: CellPressTemplate[] = [
     },
     {
         bottom: "appbot:mana_cell_housing",
-        top: (tier: string) => `kubejs:${tier}_mana_cell`,
+        top: (tier: string) => `wtwfacore:${tier}_mana_cell`,
         result: (tier: string) => `appbot:mana_storage_cell_${tier}`
     }
 ]
@@ -126,7 +126,7 @@ ServerEvents.recipes((event: any) => {
     storageTiers.forEach(tier => {
         componentPresses.forEach(recipe => {
             inscriber(event, {
-                bottom: `kubejs:${tier}_storage_circuits_etched_substrate`,
+                bottom: `wtwfacore:${tier}_storage_circuits_etched_substrate`,
                 middle: "tconstruct:queens_slime_ingot",
                 top: recipe.top,
                 result: recipe.result(tier)

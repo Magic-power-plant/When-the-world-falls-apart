@@ -25,8 +25,8 @@ type CastingRecipe = {
 
 const meltingRecipes: MeltingRecipe[] = [
     {
-        input: "kubejs:burn_sun_ingot",
-        result: "900x kubejs:motlen_burn_sun",
+        input: "wtwfacore:burn_sun_ingot",
+        result: "900x wtwfacore:motlen_burn_sun",
         temperature: 1450,
         time: 100
     }
@@ -34,9 +34,9 @@ const meltingRecipes: MeltingRecipe[] = [
 
 const materialFluidRecipes: MaterialFluidRecipe[] = [
     {
-        fluid: {amount: 90, fluid: "kubejs:motlen_burn_sun"},
+        fluid: {amount: 90, fluid: "wtwfacore:motlen_burn_sun"},
         temperature: 800,
-        output: "kubejs:burn_sun"
+        output: "wtwfacore:burn_sun"
     }
 ]
 
@@ -46,40 +46,40 @@ const castingRecipes: CastingRecipe[] = [
         cast: {tag: "tconstruct:casts/multi_use/ingot"},
         castConsumed: false,
         coolingTime: 200,
-        fluid: {amount: 90, fluid: "kubejs:motlen_burn_sun"},
-        result: "kubejs:burn_sun_ingot"
+        fluid: {amount: 90, fluid: "wtwfacore:motlen_burn_sun"},
+        result: "wtwfacore:burn_sun_ingot"
     },
     {
         type: "tconstruct:casting_table",
         cast: {tag: "tconstruct:casts/single_use/ingot"},
         castConsumed: true,
         coolingTime: 200,
-        fluid: {amount: 90, fluid: "kubejs:motlen_burn_sun"},
-        result: "kubejs:burn_sun_ingot"
+        fluid: {amount: 90, fluid: "wtwfacore:motlen_burn_sun"},
+        result: "wtwfacore:burn_sun_ingot"
     },
     {
         type: "tconstruct:casting_basin",
         coolingTime: 1800,
-        fluid: {amount: 900, fluid: "kubejs:motlen_burn_sun"},
-        result: "kubejs:burn_sun_block"
+        fluid: {amount: 900, fluid: "wtwfacore:motlen_burn_sun"},
+        result: "wtwfacore:burn_sun_block"
     },
     {
         type: "tconstruct:casting_table",
         cast: {item: "tconstruct:seared_melter"},
         castConsumed: true,
         coolingTime: 200,
-        fluid: {amount: 900, fluid: "kubejs:motlen_burn_sun"},
+        fluid: {amount: 900, fluid: "wtwfacore:motlen_burn_sun"},
         result: "tconstruct:smeltery_controller"
     },
     {
         type: "tconstruct:casting_table",
         coolingTime: 200,
-        fluid: {amount: 180, fluid: "kubejs:alloy_catalytic_intermediate"},
-        result: "kubejs:stable_alloy_casting_block"
+        fluid: {amount: 180, fluid: "wtwfacore:alloy_catalytic_intermediate"},
+        result: "wtwfacore:stable_alloy_casting_block"
     },
     {
         type: "tconstruct:casting_table",
-        cast: {item: "kubejs:calibrated_alloy_core"},
+        cast: {item: "wtwfacore:calibrated_alloy_core"},
         castConsumed: true,
         coolingTime: 200,
         fluid: {amount: 60, fluid: "embers_extended:molten_debris"},
@@ -87,7 +87,7 @@ const castingRecipes: CastingRecipe[] = [
     },
     {
         type: "tconstruct:casting_table",
-        cast: {item: "kubejs:calibrated_alloy_core"},
+        cast: {item: "wtwfacore:calibrated_alloy_core"},
         castConsumed: true,
         coolingTime: 200,
         fluid: {amount: 60, fluid: "tconstruct:molten_debris"},

@@ -45,7 +45,7 @@ const distilleryRecipes: DistilleryRecipe[] = [
     /*
     // Repeat an item entry to consume it more than once. Item.of(...) is also supported for NBT.
     {
-        id: "kubejs:enchanted/distillery/example",
+        id: "wtwfacore:enchanted/distillery/example",
         ingredients: [
             "enchanted:clay_jar",
             "enchanted:foul_fume",
@@ -62,7 +62,7 @@ const distilleryRecipes: DistilleryRecipe[] = [
     */
    {
     ingredients:["enchanted:clay_jar","enchanted:witch_cauldron","eidolon:crucible"],
-    results: ["kubejs:dishwater"],
+    results: ["wtwfacore:dishwater"],
     cookTime:300,
     power:500
    }

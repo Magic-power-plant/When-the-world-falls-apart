@@ -21,7 +21,7 @@ function melting(event: any, recipe: MeltingRecipe) {
 const meltingRecipes: MeltingRecipe[] = [
     {
         input: "rootsclassic:fruit_salad",
-        result: "100x kubejs:delicious_jam",
+        result: "100x wtwfacore:delicious_jam",
         temperature: 300,
         time: 100
     }

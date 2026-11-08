@@ -18,7 +18,7 @@ function byproduct (event: Internal.RecipesEventJS, recipe: ByproductRecipe) {
 const byproductRecipes: ByproductRecipe[] = [
     {
         ingredients: "minecraft:nether_star",
-        result: "kubejs:flow_stars"
+        result: "wtwfacore:flow_stars"
     }
 ]
 

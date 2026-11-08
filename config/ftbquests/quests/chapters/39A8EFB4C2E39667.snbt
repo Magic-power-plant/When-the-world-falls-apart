@@ -45,7 +45,7 @@
 			id: "2411FF8071232F1C"
 			tasks: [{
 				id: "15809B8A851EC470"
-				item: "kubejs:root_wrapped_invar_ingot"
+				item: "wtwfacore:root_wrapped_invar_ingot"
 				type: "item"
 			}]
 			title: "我不能呼吸了"
@@ -58,7 +58,7 @@
 			subtitle: "6"
 			tasks: [{
 				id: "5C60EA82B3FFF5CA"
-				item: "kubejs:root_wrapped_invar_machine_frame"
+				item: "wtwfacore:root_wrapped_invar_machine_frame"
 				type: "item"
 			}]
 			title: "呃啊，这是第几个了？"
@@ -112,17 +112,17 @@
 			tasks: [
 				{
 					id: "724AF674CF94271E"
-					item: "kubejs:living_ingot"
+					item: "wtwfacore:living_ingot"
 					type: "item"
 				}
 				{
 					id: "0219C26D7A825BA4"
-					item: "kubejs:wildwood_ingot"
+					item: "wtwfacore:wildwood_ingot"
 					type: "item"
 				}
 				{
 					id: "20E356D165478A88"
-					item: "kubejs:sylvan_ingot"
+					item: "wtwfacore:sylvan_ingot"
 					type: "item"
 				}
 			]
@@ -134,7 +134,7 @@
 			id: "09C8EEB0DEF8B4F2"
 			tasks: [{
 				id: "074F437C61FA1E02"
-				item: "kubejs:spiritleaf"
+				item: "wtwfacore:spiritleaf"
 				type: "item"
 			}]
 			x: 1.5d
@@ -149,7 +149,7 @@
 			id: "57012B33115F25E7"
 			tasks: [{
 				id: "6F98FB810BF101E3"
-				item: "kubejs:life_sustaining_metal"
+				item: "wtwfacore:life_sustaining_metal"
 				type: "item"
 			}]
 			x: 3.5d
@@ -171,7 +171,7 @@
 			id: "2FAF045659CA000C"
 			tasks: [{
 				id: "292B29BA60C38D4F"
-				item: "kubejs:weighty_lead_ingot"
+				item: "wtwfacore:weighty_lead_ingot"
 				type: "item"
 			}]
 			x: 6.0d
@@ -185,7 +185,7 @@
 			id: "7F72584E0E5741CB"
 			tasks: [{
 				id: "6B9E7470A6C9267A"
-				item: "kubejs:pewter_machine_frame"
+				item: "wtwfacore:pewter_machine_frame"
 				type: "item"
 			}]
 			x: 8.5d
@@ -199,7 +199,7 @@
 			id: "0CF5AAF109B4F327"
 			tasks: [{
 				id: "69ACA1323E0ED376"
-				item: "kubejs:weighty_lead_machine_frame"
+				item: "wtwfacore:weighty_lead_machine_frame"
 				type: "item"
 			}]
 			x: 8.5d

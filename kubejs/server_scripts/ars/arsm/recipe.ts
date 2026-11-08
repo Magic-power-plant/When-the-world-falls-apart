@@ -14,7 +14,7 @@ type MeteoriteRecipe = {
 const arsMeteorites: MeteoriteRecipe[] = [
     {
         name: "common_metals_meteors",
-        input: "kubejs:common_metals_meteors",
+        input: "wtwfacore:common_metals_meteors",
         source: 50,
         model: 0,
         catalysts: "ars_nouveau:source_gem",
@@ -32,7 +32,7 @@ const arsMeteorites: MeteoriteRecipe[] = [
     },
     {
         name: "abyssal",
-        input: "kubejs:abyssal_meteors",
+        input: "wtwfacore:abyssal_meteors",
         source: 100,
         model: 3,
         catalysts: "ars_nouveau:source_gem",
@@ -60,7 +60,7 @@ const arsMeteorites: MeteoriteRecipe[] = [
     },
     {
         name: "aetherwork",
-        input: "kubejs:aetherworks_meteors",
+        input: "wtwfacore:aetherworks_meteors",
         source: 100,
         model: 2,
         catalysts: "ars_nouveau:source_gem",
@@ -74,7 +74,7 @@ const arsMeteorites: MeteoriteRecipe[] = [
     },
     {
         name: "alien",
-        input: "kubejs:alien_meteors",
+        input: "wtwfacore:alien_meteors",
         source: 120,
         model: 3,
         catalysts: "ars_nouveau:source_gem",
@@ -93,7 +93,7 @@ const arsMeteorites: MeteoriteRecipe[] = [
     },
     {
         name: "candy",
-        input: "kubejs:candy_meteors",
+        input: "wtwfacore:candy_meteors",
         source: 100,
         model: 3,
         catalysts: "ars_nouveau:source_gem",
@@ -127,7 +127,7 @@ const arsMeteorites: MeteoriteRecipe[] = [
     },
     {
         name: "magnet",
-        input: "kubejs:magnet_meteors",
+        input: "wtwfacore:magnet_meteors",
         source: 100,
         model: 3,
         catalysts: "ars_nouveau:source_gem",
@@ -149,7 +149,7 @@ const arsMeteorites: MeteoriteRecipe[] = [
     },
     {
         name: "primitive",
-        input: "kubejs:primitive_meteors",
+        input: "wtwfacore:primitive_meteors",
         source: 100,
         model: 3,
         catalysts: "ars_nouveau:source_gem",

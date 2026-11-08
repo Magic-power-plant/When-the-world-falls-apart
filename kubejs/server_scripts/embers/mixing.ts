@@ -78,9 +78,9 @@ const mixingRecipes: MixingRecipe[] = [
         inputs: [
             "10x aetherworks:alchemic_precursor",
             "10x tconstruct:potion",
-            "10x kubejs:herb_residue_liquid"
+            "10x wtwfacore:herb_residue_liquid"
         ],
-        output: "30x kubejs:alchemical_extraction_liquid"
+        output: "30x wtwfacore:alchemical_extraction_liquid"
     }
 ]
 

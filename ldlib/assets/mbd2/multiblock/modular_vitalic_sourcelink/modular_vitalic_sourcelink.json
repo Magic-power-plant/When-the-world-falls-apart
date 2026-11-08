@@ -71,7 +71,7 @@
       },
       {
         "type": "builtin",
-        "key": "kubejs:burn_sun_block"
+        "key": "wtwfacore:burn_sun_block"
       },
       {
         "type": "builtin",
@@ -83,7 +83,7 @@
       },
       {
         "type": "builtin",
-        "key": "kubejs:source_gem_steel_machine_shell"
+        "key": "wtwfacore:source_gem_steel_machine_shell"
       },
       {
         "type": "builtin",
@@ -99,7 +99,7 @@
       },
       {
         "type": "builtin",
-        "key": "state:mbd2:mob_in_bin[facing=west]"
+        "key": "state:wtwfacore:mob_in_bin[facing=west]"
       }
     ],
     "x": 15,

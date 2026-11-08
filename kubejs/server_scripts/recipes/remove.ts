@@ -1,3 +1,4 @@
+// priority: 1
 import {banitsList} from "../../shared_scripts/list"
 import {ItemRef} from "../globalFunction"
 export {}

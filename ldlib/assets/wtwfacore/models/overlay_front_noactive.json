@@ -2,21 +2,20 @@
 	"format_version": "1.9.0",
 	"credit": "Made with pingsu",
 	"textures": {
-		"particle": "mbd2:block/bin/dawnstone_bin_other_face",
-		"other": "mbd2:block/bin/dawnstone_bin_other_face",
-		"front": "mbd2:block/bin/fluid_in_dawnstone_front"
+		"0": "wtwfacore:block/overlay/overlay_front_noactive",
+		"particle": "wtwfacore:block/overlay/overlay_front_noactive"
 	},
 	"elements": [
 		{
 			"from": [0, 0, 0],
-			"to": [16, 16, 16],
+			"to": [16, 16, 0],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#front"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#other"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#other"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#other"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#other"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#other"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [2, 0, 2, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 2, 16, 2], "texture": "#missing"}
 			}
 		}
 	],

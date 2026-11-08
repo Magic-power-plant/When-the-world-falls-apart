@@ -45,7 +45,7 @@ function eidolonCrucible(event: Internal.RecipesEventJS, recipe: CrucibleRecipe)
 const crucibleRecipes: CrucibleRecipe[] = [
     /*
     {
-        id: "kubejs:eidolon/crucible/example",
+        id: "wtwfacore:eidolon/crucible/example",
         steps: [
             {
                 items: [
@@ -93,29 +93,29 @@ const crucibleRecipes: CrucibleRecipe[] = [
             stirs:1
         }
     ],
-    result:"4x kubejs:mixed_incense"
+    result:"4x wtwfacore:mixed_incense"
    },
    {
     steps:[
         {
-            items:["kubejs:mixed_incense"],
+            items:["wtwfacore:mixed_incense"],
             stirs:2
         },{
             items:["eidolon:tallow","eidolon:tallow","eidolon:tallow"],
             stirs:2
         }
     ],
-    result:"kubejs:fragrant_fat"
+    result:"wtwfacore:fragrant_fat"
    },
    {
     steps:[
         {
             items:["eidolon:crucible"]
         },{
-            items:["kubejs:weighty_lead_machine_frame","kubejs:weighty_lead_ingot","kubejs:weighty_lead_ingot","kubejs:weighty_lead_ingot","kubejs:weighty_lead_ingot"],
+            items:["wtwfacore:weighty_lead_machine_frame","wtwfacore:weighty_lead_ingot","wtwfacore:weighty_lead_ingot","wtwfacore:weighty_lead_ingot","wtwfacore:weighty_lead_ingot"],
             stirs:4
         },{
-            items:["kubejs:fragrant_fat","kubejs:fragrant_fat","kubejs:fragrant_fat","kubejs:fragrant_fat","kubejs:fragrant_fat","kubejs:fragrant_fat"],
+            items:["wtwfacore:fragrant_fat","wtwfacore:fragrant_fat","wtwfacore:fragrant_fat","wtwfacore:fragrant_fat","wtwfacore:fragrant_fat","wtwfacore:fragrant_fat"],
             stirs:6
         }
     ],
@@ -124,12 +124,12 @@ const crucibleRecipes: CrucibleRecipe[] = [
    {
     steps:[
         {
-            items:["enchanted:breath_of_the_goddess","kubejs:flow_stars"],
+            items:["enchanted:breath_of_the_goddess","wtwfacore:flow_stars"],
             stirs:2
         },{
-            items:[Item.of('avaritia:singularity', '{Id:"kubejs:ender_pearl_singularity"}').weakNBT()]
+            items:[Item.of('avaritia:singularity', '{Id:"wtwfacore:ender_pearl_singularity"}').weakNBT()]
         },{
-            items:[Item.of('avaritia:singularity', '{Id:"kubejs:ender_pearl_singularity"}').weakNBT()]
+            items:[Item.of('avaritia:singularity', '{Id:"wtwfacore:ender_pearl_singularity"}').weakNBT()]
         },{
             items:["botania:purple_mystical_flower"],
             stirs:1

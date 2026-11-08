@@ -171,13 +171,13 @@
 			rewards: [{
 				count: 2
 				id: "5BF1791EE6739D72"
-				item: "kubejs:caminite_machine_frame"
+				item: "wtwfacore:caminite_machine_frame"
 				type: "item"
 			}]
 			subtitle: "感谢DJ2"
 			tasks: [{
 				id: "432E1552B9CE765B"
-				item: "kubejs:caminite_machine_frame"
+				item: "wtwfacore:caminite_machine_frame"
 				type: "item"
 			}]
 			title: "第一个机器框架"
@@ -200,7 +200,7 @@
 				{
 					count: 10
 					id: "15308A88924FBA89"
-					item: "kubejs:stone_iron_ingot"
+					item: "wtwfacore:stone_iron_ingot"
 					type: "item"
 				}
 				{
@@ -220,7 +220,7 @@
 					id: "4F58E80397300B7D"
 					item: {
 						Count: 1
-						id: "kubejs:fliny_hammer"
+						id: "wtwfacore:fliny_hammer"
 						tag: {
 							Damage: 0
 						}
@@ -239,7 +239,7 @@
 				}
 				{
 					id: "357CF110629D4984"
-					item: "kubejs:stone_iron_ingot"
+					item: "wtwfacore:stone_iron_ingot"
 					type: "item"
 				}
 				{
@@ -259,7 +259,7 @@
 				{
 					count: 4
 					id: "1A51D3C38C43A8FD"
-					item: "kubejs:simple_basic_component"
+					item: "wtwfacore:simple_basic_component"
 					type: "item"
 				}
 				{
@@ -299,7 +299,7 @@
 			]
 			tasks: [{
 				id: "25AF538060A8B5E8"
-				item: "kubejs:simple_basic_component"
+				item: "wtwfacore:simple_basic_component"
 				type: "item"
 			}]
 			title: "一些小玩意需要它"
@@ -405,7 +405,7 @@
 			id: "4F74A6DD26FAD2D3"
 			rewards: [{
 				id: "7B9B43F24FDA2A9D"
-				item: "kubejs:caminite_machine_frame"
+				item: "wtwfacore:caminite_machine_frame"
 				type: "item"
 			}]
 			tasks: [{
@@ -423,7 +423,7 @@
 			id: "36AC29763EB20D80"
 			rewards: [{
 				id: "1761E14976FAD6E5"
-				item: "kubejs:caminite_machine_frame"
+				item: "wtwfacore:caminite_machine_frame"
 				type: "item"
 			}]
 			subtitle: "好像用处不大"
@@ -857,7 +857,7 @@
 			id: "0EED39BB024DB4E6"
 			rewards: [{
 				id: "2A12BE51FF50B01E"
-				item: "kubejs:caminite_machine_frame"
+				item: "wtwfacore:caminite_machine_frame"
 				type: "item"
 			}]
 			tasks: [{
@@ -984,7 +984,7 @@
 				"079C90AFEFEA591D"
 				"10CCB967ED7CED87"
 			]
-			icon: "kubejs:amber_fragment"
+			icon: "wtwfacore:amber_fragment"
 			id: "3347F465C9F758CB"
 			rewards: [{
 				id: "43A039953338F5E6"
@@ -994,7 +994,7 @@
 					tag: {
 						tank: {
 							Amount: 4320
-							FluidName: "kubejs:liquid_amber"
+							FluidName: "wtwfacore:liquid_amber"
 						}
 					}
 				}
@@ -1003,7 +1003,7 @@
 			tasks: [
 				{
 					id: "54A60BC26C1EF172"
-					item: "kubejs:amber_fragment"
+					item: "wtwfacore:amber_fragment"
 					type: "item"
 				}
 				{
@@ -1022,12 +1022,12 @@
 			rewards: [{
 				count: 2
 				id: "41C68E391E5AD17B"
-				item: "kubejs:dawnstone_machine_frame"
+				item: "wtwfacore:dawnstone_machine_frame"
 				type: "item"
 			}]
 			tasks: [{
 				id: "49FA179D56CE61D3"
-				item: "kubejs:dawnstone_machine_frame"
+				item: "wtwfacore:dawnstone_machine_frame"
 				type: "item"
 			}]
 			title: "第三次了"
@@ -1099,12 +1099,12 @@
 			id: "019C8E2926BBDD2E"
 			rewards: [{
 				id: "5EDFA86E584C572A"
-				item: "kubejs:spirit_silver_ingot"
+				item: "wtwfacore:spirit_silver_ingot"
 				type: "item"
 			}]
 			tasks: [{
 				id: "0B521F98DB377900"
-				item: "kubejs:omni_aspectus"
+				item: "wtwfacore:omni_aspectus"
 				type: "item"
 			}]
 			title: "不猜谜"
@@ -1136,7 +1136,7 @@
 			id: "3775B13B82079B6E"
 			rewards: [{
 				id: "655E3F357AFB625B"
-				item: "kubejs:super_ember_fuel"
+				item: "wtwfacore:super_ember_fuel"
 				type: "item"
 			}]
 			tasks: [{
@@ -1173,12 +1173,12 @@
 			id: "60ECDE3D8E5D8DA3"
 			rewards: [{
 				id: "57EC81CB011F8E58"
-				item: "kubejs:ember_dawnstone_component"
+				item: "wtwfacore:ember_dawnstone_component"
 				type: "item"
 			}]
 			tasks: [{
 				id: "2D034F15AF310245"
-				item: "kubejs:ember_dawnstone_component"
+				item: "wtwfacore:ember_dawnstone_component"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1194,7 +1194,7 @@
 			}]
 			tasks: [{
 				id: "215B07A818F67BA3"
-				item: "kubejs:heavy_ingot"
+				item: "wtwfacore:heavy_ingot"
 				type: "item"
 			}]
 			title: "我不知道它是怎么产生的"
@@ -1208,12 +1208,12 @@
 			rewards: [{
 				count: 2
 				id: "5B75695334970EA9"
-				item: "kubejs:heavy_ingot"
+				item: "wtwfacore:heavy_ingot"
 				type: "item"
 			}]
 			tasks: [{
 				id: "7F4D16F0C900A043"
-				item: "kubejs:spirit_silver_ingot"
+				item: "wtwfacore:spirit_silver_ingot"
 				type: "item"
 			}]
 			title: "黑白配"
@@ -1229,12 +1229,12 @@
 			rewards: [{
 				count: 5
 				id: "047E5C55A8AF4D14"
-				item: "kubejs:ember_dawnstone_ingot"
+				item: "wtwfacore:ember_dawnstone_ingot"
 				type: "item"
 			}]
 			tasks: [{
 				id: "18CF6D60502F62DA"
-				item: "kubejs:ember_dawnstone_ingot"
+				item: "wtwfacore:ember_dawnstone_ingot"
 				type: "item"
 			}]
 			title: "使用余烬灌注"
@@ -1455,7 +1455,7 @@
 			}]
 			tasks: [{
 				id: "7B0F14C0D6E4C3E5"
-				item: "mbd2:dawnstone_crusher_controller"
+				item: "wtwfacore:dawnstone_crusher_controller"
 				type: "item"
 			}]
 			title: "磨粉"
@@ -1473,7 +1473,7 @@
 			}]
 			tasks: [{
 				id: "6928BE36DC344941"
-				item: "mbd2:dwarf_alchemy_cauldron_controller"
+				item: "wtwfacore:dwarf_alchemy_cauldron_controller"
 				type: "item"
 			}]
 			title: "虚空造矿"
@@ -1503,12 +1503,12 @@
 			tasks: [
 				{
 					id: "66A4271A391FD270"
-					item: "kubejs:scarlet_neodymium_dust"
+					item: "wtwfacore:scarlet_neodymium_dust"
 					type: "item"
 				}
 				{
 					id: "732D187F124776D8"
-					item: "kubejs:azure_neodymium_dust"
+					item: "wtwfacore:azure_neodymium_dust"
 					type: "item"
 				}
 			]
@@ -1568,7 +1568,7 @@
 			]
 			tasks: [{
 				id: "4708E6C5546E1EFC"
-				item: "kubejs:ultra_neodymium_ingot"
+				item: "wtwfacore:ultra_neodymium_ingot"
 				type: "item"
 			}]
 			x: -0.5d
@@ -1580,7 +1580,7 @@
 			rewards: [{
 				count: 5
 				id: "7B021AF68867E799"
-				item: "kubejs:burn_sun_ingot"
+				item: "wtwfacore:burn_sun_ingot"
 				type: "item"
 			}]
 			tasks: [{
@@ -1610,7 +1610,7 @@
 			]
 			tasks: [{
 				id: "65F109E4DC343FED"
-				item: "kubejs:source_matter_base"
+				item: "wtwfacore:source_matter_base"
 				type: "item"
 			}]
 			x: 0.5d
@@ -1625,7 +1625,7 @@
 			rewards: [{
 				count: 5
 				id: "05D8365C846E010E"
-				item: "kubejs:ultra_neodymium_ingot"
+				item: "wtwfacore:ultra_neodymium_ingot"
 				type: "item"
 			}]
 			tasks: [{
@@ -1642,7 +1642,7 @@
 			id: "6706997AC6FF016D"
 			tasks: [{
 				id: "7A63C7DA6FB379E9"
-				item: "kubejs:source_gem_steel_ingot"
+				item: "wtwfacore:source_gem_steel_ingot"
 				type: "item"
 			}]
 			x: 0.5d
@@ -1653,7 +1653,7 @@
 			id: "07CF5C97DE499C0F"
 			tasks: [{
 				id: "512FC47C047169F7"
-				item: "kubejs:source_gem_steel_machine_frame"
+				item: "wtwfacore:source_gem_steel_machine_frame"
 				type: "item"
 			}]
 			title: "444"
@@ -2009,7 +2009,7 @@
 			]
 			tasks: [{
 				id: "364F82105D45FECA"
-				item: "kubejs:essence_base"
+				item: "wtwfacore:essence_base"
 				type: "item"
 			}]
 			x: 2.0d
@@ -2021,12 +2021,12 @@
 			tasks: [
 				{
 					id: "0CEA986F07FAE4AE"
-					item: "kubejs:metal_essence"
+					item: "wtwfacore:metal_essence"
 					type: "item"
 				}
 				{
 					id: "5A6C6D7D7D58BA7B"
-					item: "kubejs:tree_essence"
+					item: "wtwfacore:tree_essence"
 					type: "item"
 				}
 				{
@@ -2164,32 +2164,32 @@
 			tasks: [
 				{
 					id: "2A32CAC20623DC29"
-					item: "kubejs:sky_essence"
+					item: "wtwfacore:sky_essence"
 					type: "item"
 				}
 				{
 					id: "4377A657E6F0C8C4"
-					item: "kubejs:swords_essence"
+					item: "wtwfacore:swords_essence"
 					type: "item"
 				}
 				{
 					id: "5B060DD506A4D38E"
-					item: "kubejs:range_mountains_essence"
+					item: "wtwfacore:range_mountains_essence"
 					type: "item"
 				}
 				{
 					id: "2689F4C49E9A7989"
-					item: "kubejs:vast_ocean_essence"
+					item: "wtwfacore:vast_ocean_essence"
 					type: "item"
 				}
 				{
 					id: "0F6A706B30408C36"
-					item: "kubejs:inferno_essence"
+					item: "wtwfacore:inferno_essence"
 					type: "item"
 				}
 				{
 					id: "558E43271615D0FE"
-					item: "kubejs:lush_forests_essence"
+					item: "wtwfacore:lush_forests_essence"
 					type: "item"
 				}
 			]
@@ -2224,7 +2224,7 @@
 			id: "76AA8CFCB1D86010"
 			tasks: [{
 				id: "08409F39C92C834E"
-				item: "kubejs:source_netherite_component"
+				item: "wtwfacore:source_netherite_component"
 				type: "item"
 			}]
 			x: 7.0d
@@ -2246,7 +2246,7 @@
 			id: "2248D414A625B526"
 			tasks: [{
 				id: "0AB4871EEFB22460"
-				item: "kubejs:aetherworks_machine_frame"
+				item: "wtwfacore:aetherworks_machine_frame"
 				type: "item"
 			}]
 			title: "4+1"
@@ -2332,12 +2332,12 @@
 			tasks: [
 				{
 					id: "5EFD4025CDC35ABC"
-					item: "kubejs:ember_essence"
+					item: "wtwfacore:ember_essence"
 					type: "item"
 				}
 				{
 					id: "56387C1B71DD2BEA"
-					item: "kubejs:nouveau_essence"
+					item: "wtwfacore:nouveau_essence"
 					type: "item"
 				}
 			]
@@ -2362,7 +2362,7 @@
 			subtitle: "极难任务，现在要证明你有资格进入第二章"
 			tasks: [{
 				id: "53DAE30D41E432A3"
-				item: "kubejs:history_adhesive_bucket"
+				item: "wtwfacore:history_adhesive_bucket"
 				type: "item"
 			}]
 			title: "历史的终结"
@@ -2546,12 +2546,12 @@
 			rewards: [{
 				count: 5
 				id: "6C999ED52ED46C10"
-				item: "kubejs:burn_sun_ingot"
+				item: "wtwfacore:burn_sun_ingot"
 				type: "item"
 			}]
 			tasks: [{
 				id: "1F296C140C9847BD"
-				item: "kubejs:burn_sun_ingot"
+				item: "wtwfacore:burn_sun_ingot"
 				type: "item"
 			}]
 			x: 1.0d

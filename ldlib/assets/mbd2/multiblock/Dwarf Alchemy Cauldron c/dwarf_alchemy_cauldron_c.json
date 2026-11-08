@@ -38,11 +38,11 @@
         "type": "builtin"
       },
       {
-        "key": "kubejs:stoneiron_machine_shell",
+        "key": "wtwfacore:stoneiron_machine_shell",
         "type": "builtin"
       },
       {
-        "key": "kubejs:dawnstone_machine_shell",
+        "key": "wtwfacore:dawnstone_machine_shell",
         "type": "builtin"
       },
       {

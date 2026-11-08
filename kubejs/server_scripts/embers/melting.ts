@@ -33,35 +33,35 @@ const meltingRecipes: MeltingRecipe[] = [
         input: "#forge:fragments/amber",
         output: "100x #forge:fluids/liquid_amber",
         conditionTag: amberCondition,
-        id: "kubejs:embers/melting_amber"
+        id: "wtwfacore:embers/melting_amber"
     },
     {
         input: "#minecraft:coals",
         output: "100x #forge:fluid/liquid_coal",
         conditionTag: amberCondition,
-        id: "kubejs:embers/melting_coal"
+        id: "wtwfacore:embers/melting_coal"
     },
     {
-        input: "#kubejs:item/raw_steel_billet",
+        input: "#wtwfacore:item/raw_steel_billet",
         output: "90x #forge:molten/raw_steel",
         conditionTag: amberCondition,
-        id: "kubejs:embers/melting_raw_steel"
+        id: "wtwfacore:embers/melting_raw_steel"
     },
     {
         input: "#forge:ingots/heavy",
         output: "90x #forge:molten/heavy",
         conditionTag: amberCondition,
-        id: "kubejs:embers/melting_heavy"
+        id: "wtwfacore:embers/melting_heavy"
     },
     {
         input: "#forge:dusts/enriched_debris",
         output: "120x #forge:molten/debris_solution",
         conditionTag: amberCondition,
-        id: "kubejs:molten/debris_solution"
+        id: "wtwfacore:molten/debris_solution"
     },
     {
-        input: "#kubejs:energized_nether_alloy_crystal",
-        output: "120x #kubejs:molten/alloy_catalytic_intermediate",
+        input: "#wtwfacore:energized_nether_alloy_crystal",
+        output: "120x #wtwfacore:molten/alloy_catalytic_intermediate",
         conditionTag: amberCondition
     },
     {
@@ -70,7 +70,7 @@ const meltingRecipes: MeltingRecipe[] = [
         conditionTag: amberCondition
     },
     {
-        input: "kubejs:spirit_silver_ingot",
+        input: "wtwfacore:spirit_silver_ingot",
         output: "90x #forge:molten/spirit_silver",
         conditionTag: amberCondition
     },
@@ -80,8 +80,8 @@ const meltingRecipes: MeltingRecipe[] = [
         conditionTag: amberCondition
     },
     {
-        input: "kubejs:herb_residue",
-        output: "100x kubejs:herb_residue_liquid",
+        input: "wtwfacore:herb_residue",
+        output: "100x wtwfacore:herb_residue_liquid",
         conditionTag: amberCondition
     },
     {
@@ -102,7 +102,7 @@ ServerEvents.recipes((event: any) => {
             input: `#forge:dusts/${material}`,
             output: `90x #forge:molten_${material}`,
             conditionTag: `forge:dusts/${material}`,
-            id: `kubejs:embers/melting_${material}`
+            id: `wtwfacore:embers/melting_${material}`
         })
     })
 

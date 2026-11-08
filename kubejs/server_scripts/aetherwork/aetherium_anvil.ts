@@ -42,8 +42,8 @@ function aetheriumAnvil(event: any, recipe: AetheriumAnvilRecipe) {
 
 const anvilRecipes: AetheriumAnvilRecipe[] = [
     {
-        input: "kubejs:refine_inferno_bulb",
-        output: "kubejs:aetherwork_inferno_bulb",
+        input: "wtwfacore:refine_inferno_bulb",
+        output: "wtwfacore:aetherwork_inferno_bulb",
         difficulty: 3,
         emberPerHit: 100,
         numberOfHits: 5,

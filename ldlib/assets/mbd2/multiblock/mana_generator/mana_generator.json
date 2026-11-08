@@ -82,11 +82,11 @@
       },
       {
         "type": "builtin",
-        "key": "mbd2:fe_output_bus"
+        "key": "wtwfacore:fe_output_bus"
       },
       {
         "type": "builtin",
-        "key": "mbd2:mana_input_bus"
+        "key": "wtwfacore:mana_input_bus"
       },
       {
         "type": "builtin",
@@ -2711,7 +2711,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:fe_output_bus"
+            "Name": "wtwfacore:fe_output_bus"
           }
         },
         {
@@ -2726,7 +2726,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:mana_input_bus",
+            "Name": "wtwfacore:mana_input_bus",
             "Properties": {
               "facing": "north"
             }

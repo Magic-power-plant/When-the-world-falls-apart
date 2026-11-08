@@ -5,7 +5,7 @@
   "color": "#cd5600",
   "ingredients": [
     {
-      "item": "kubejs:root_component"
+      "item": "wtwfacore:root_component"
     },
     {
       "item": "embers:cinder_staff"

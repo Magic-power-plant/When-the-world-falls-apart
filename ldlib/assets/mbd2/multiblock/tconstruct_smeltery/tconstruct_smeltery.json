@@ -178,11 +178,11 @@
       },
       {
         "type": "builtin",
-        "key": "state:mbd2:smeltery_item_bus[facing=south]"
+        "key": "state:wtwfacore:smeltery_item_bus[facing=south]"
       },
       {
         "type": "builtin",
-        "key": "state:mbd2:smeltery_fluid_bus[facing=south]"
+        "key": "state:wtwfacore:smeltery_fluid_bus[facing=south]"
       }
     ],
     "x": 14,
@@ -10579,7 +10579,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_item_bus",
+            "Name": "wtwfacore:smeltery_item_bus",
             "Properties": {
               "facing": "south"
             }
@@ -10661,7 +10661,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_item_bus",
+            "Name": "wtwfacore:smeltery_item_bus",
             "Properties": {
               "facing": "south"
             }
@@ -10743,7 +10743,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_item_bus",
+            "Name": "wtwfacore:smeltery_item_bus",
             "Properties": {
               "facing": "south"
             }
@@ -10825,7 +10825,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_item_bus",
+            "Name": "wtwfacore:smeltery_item_bus",
             "Properties": {
               "facing": "south"
             }
@@ -10907,7 +10907,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_item_bus",
+            "Name": "wtwfacore:smeltery_item_bus",
             "Properties": {
               "facing": "south"
             }
@@ -10989,7 +10989,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_item_bus",
+            "Name": "wtwfacore:smeltery_item_bus",
             "Properties": {
               "facing": "south"
             }
@@ -11071,7 +11071,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_item_bus",
+            "Name": "wtwfacore:smeltery_item_bus",
             "Properties": {
               "facing": "south"
             }
@@ -11153,7 +11153,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_item_bus",
+            "Name": "wtwfacore:smeltery_item_bus",
             "Properties": {
               "facing": "south"
             }
@@ -11235,7 +11235,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_item_bus",
+            "Name": "wtwfacore:smeltery_item_bus",
             "Properties": {
               "facing": "south"
             }
@@ -11631,7 +11631,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_fluid_bus",
+            "Name": "wtwfacore:smeltery_fluid_bus",
             "Properties": {
               "facing": "south"
             }
@@ -11713,7 +11713,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_fluid_bus",
+            "Name": "wtwfacore:smeltery_fluid_bus",
             "Properties": {
               "facing": "south"
             }
@@ -11795,7 +11795,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_fluid_bus",
+            "Name": "wtwfacore:smeltery_fluid_bus",
             "Properties": {
               "facing": "south"
             }
@@ -11877,7 +11877,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_fluid_bus",
+            "Name": "wtwfacore:smeltery_fluid_bus",
             "Properties": {
               "facing": "south"
             }
@@ -11959,7 +11959,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_fluid_bus",
+            "Name": "wtwfacore:smeltery_fluid_bus",
             "Properties": {
               "facing": "south"
             }
@@ -12041,7 +12041,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_fluid_bus",
+            "Name": "wtwfacore:smeltery_fluid_bus",
             "Properties": {
               "facing": "south"
             }
@@ -12123,7 +12123,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_fluid_bus",
+            "Name": "wtwfacore:smeltery_fluid_bus",
             "Properties": {
               "facing": "south"
             }
@@ -12205,7 +12205,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_fluid_bus",
+            "Name": "wtwfacore:smeltery_fluid_bus",
             "Properties": {
               "facing": "south"
             }
@@ -12287,7 +12287,7 @@
         },
         {
           "blockState": {
-            "Name": "mbd2:smeltery_fluid_bus",
+            "Name": "wtwfacore:smeltery_fluid_bus",
             "Properties": {
               "facing": "south"
             }

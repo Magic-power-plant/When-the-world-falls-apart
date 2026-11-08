@@ -19,9 +19,9 @@ type CoolingFluidData = {
     amountMultiplier: number
 }
 
-const REACTOR_ID = "mbd2:carnage_reactor"
-const FEL_REACTOR_UNIT = "kubejs:fel_reactor_unit"
-const WILL_MUCUS_BLOCK = "kubejs:will_mucus"
+const REACTOR_ID = "wtwfacore:carnage_reactor"
+const FEL_REACTOR_UNIT = "wtwfacore:fel_reactor_unit"
+const WILL_MUCUS_BLOCK = "wtwfacore:will_mucus"
 
 const NBT_TEMPERATURE = "temperature"
 const NBT_CALORIFIC_VALUE = "calorific_value"
@@ -41,7 +41,7 @@ const FEL_SCAN_START: RelativePos = { left: 2, fore: -4, y: 2 }
 const FEL_SCAN_END: RelativePos = { left: -2, fore: -9, y: -2 }
 
 const reactorFuels: { [key: string]: FuelData } = {
-    "kubejs:vitality_uranium": {
+    "wtwfacore:vitality_uranium": {
         burnTime: 1000,
         temperature: 100,
     },
@@ -414,8 +414,8 @@ MBDMachineEvents.onUI(REACTOR_ID, e => {
 })
 
 ServerEvents.recipes(event => {
-    event.recipes.mbd2.carnage_reactor()
-        .inputItems("kubejs:vitality_uranium")
+    event.recipes.wtwfacore.carnage_reactor()
+        .inputItems("wtwfacore:vitality_uranium")
         .duration(200)
         .blocksInStructure(1, 1000, FEL_REACTOR_UNIT)
         .perTick(builder => builder.outputFluids(["bloodmagic:life_essence_fluid 10000"] as any_[])

@@ -64,11 +64,11 @@ function getLootFromMobJarPositions(level: any, anchor: MachineAnchor, positions
 }
 
 ServerEvents.recipes(event => {
-    event.recipes.mbd2.modular_drygmy()
+    event.recipes.wtwfacore.modular_drygmy()
         .inputItems("ars_nouveau:source_gem")
 })
 
-MBDMachineEvents.onBeforeRecipeModify("mbd2:modular_drygmy", e => {
+MBDMachineEvents.onBeforeRecipeModify("wtwfacore:modular_drygmy", e => {
     const { machine, recipe } = e.event
     let level = machine.getLevel()
     let outputCon = getLootFromMobJarPositions(level, machineAnchor(machine), drygmyMobJarPositions)

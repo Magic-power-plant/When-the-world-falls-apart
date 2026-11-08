@@ -45,8 +45,8 @@ function aetherworksToolStation(event: Internal.RecipesEventJS, recipe: Aetherwo
 
 const toolStationRecipes: AetherworksToolStationRecipe[] = [
   {
-    input: ["embers:stamper", "embers:stamper", Item.of('avaritia:singularity', '{Id:"kubejs:bookshelf_singularity"}').weakNBT(), "embers:stamp_base", "embers:stamp_base"],
-    output: "kubejs:shattered_pages",
+    input: ["embers:stamper", "embers:stamper", Item.of('avaritia:singularity', '{Id:"wtwfacore:bookshelf_singularity"}').weakNBT(), "embers:stamp_base", "embers:stamp_base"],
+    output: "wtwfacore:shattered_pages",
     temperature: 2000,
     temperature_rate: 20
   }

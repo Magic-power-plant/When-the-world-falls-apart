@@ -29,15 +29,15 @@ function emberInfusion(event: Internal.RecipesEventJS, recipe: EmberInfusionReci
 const emberInfusionRecipes: EmberInfusionRecipe[] = [
     {
         input: "embers:ember_shard",
-        output: "kubejs:omni_aspectus",
-        fluid: "30x kubejs:molten_spirit_silver",
+        output: "wtwfacore:omni_aspectus",
+        fluid: "30x wtwfacore:molten_spirit_silver",
         emberCost: 1000,
         recipeTime: 100
     },
     {
         input: "rftoolsbase:dimensionalshard",
-        output: "kubejs:source_matter_base",
-        fluid: "30x kubejs:molten_ultra_neodymium",
+        output: "wtwfacore:source_matter_base",
+        fluid: "30x wtwfacore:molten_ultra_neodymium",
         emberCost: 1000,
         recipeTime: 100
     },
@@ -57,22 +57,22 @@ const emberInfusionRecipes: EmberInfusionRecipe[] = [
     },
     {
         input: "ars_nouveau:source_gem",
-        output: "2x kubejs:essence_base",
-        fluid: "60x kubejs:motlen_burn_sun",
+        output: "2x wtwfacore:essence_base",
+        fluid: "60x wtwfacore:motlen_burn_sun",
         emberCost: 3000,
         recipeTime: 100
     },
     {
         input: "minecraft:gold_ingot",
-        output: "kubejs:crude_nether_alloy_slag",
-        fluid: "90x kubejs:debris_molten_solution",
+        output: "wtwfacore:crude_nether_alloy_slag",
+        fluid: "90x wtwfacore:debris_molten_solution",
         emberCost: 100,
         recipeTime: 10
     },
     {
         input: "minecraft:gunpowder",
-        output: "kubejs:super_ember_fuel",
-        fluid: "500x kubejs:liquid_coal",
+        output: "wtwfacore:super_ember_fuel",
+        fluid: "500x wtwfacore:liquid_coal",
         emberCost: 1000,
         recipeTime: 10
     }

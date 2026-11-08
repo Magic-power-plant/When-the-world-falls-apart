@@ -98,20 +98,20 @@ const MODDED_ITEM_MIXES: ItemMixDefinition[] = [
 
 const STANDARD_SOURCE_TIERS: SourceTier[] = [
     { catalyst: "ars_nouveau:source_gem", outputFluid: "starbunclemania:source_fluid 100", hidden: false },
-    { catalyst: "ars_nouveau:source_gem_block", outputFluid: "kubejs:compression_liquid_source 10", hidden: true },
-    { catalyst: "kubejs:nouveau_essence", outputFluid: "kubejs:double_compression_liquid_source 1", hidden: true },
+    { catalyst: "ars_nouveau:source_gem_block", outputFluid: "wtwfacore:compression_liquid_source 10", hidden: true },
+    { catalyst: "wtwfacore:nouveau_essence", outputFluid: "wtwfacore:double_compression_liquid_source 1", hidden: true },
 ]
 
 const VITALIC_SOURCE_TIERS: SourceTier[] = [
     { catalyst: "ars_nouveau:source_gem", outputFluid: "starbunclemania:source_fluid 1", hidden: false },
-    { catalyst: "ars_nouveau:source_gem_block", outputFluid: "kubejs:compression_liquid_source 1", hidden: true },
-    { catalyst: "kubejs:nouveau_essence", outputFluid: "kubejs:double_compression_liquid_source 1", hidden: true },
+    { catalyst: "ars_nouveau:source_gem_block", outputFluid: "wtwfacore:compression_liquid_source 1", hidden: true },
+    { catalyst: "wtwfacore:nouveau_essence", outputFluid: "wtwfacore:double_compression_liquid_source 1", hidden: true },
 ]
 
 const ALCHEMICAL_SOURCE_TIERS: SourceTier[] = [
     { catalyst: "ars_nouveau:source_gem", outputFluid: "starbunclemania:source_fluid 100", hidden: false },
-    { catalyst: "ars_nouveau:source_gem_block", outputFluid: "kubejs:compression_liquid_source 10", hidden: false },
-    { catalyst: "kubejs:nouveau_essence", outputFluid: "kubejs:double_compression_liquid_source 1", hidden: false },
+    { catalyst: "ars_nouveau:source_gem_block", outputFluid: "wtwfacore:compression_liquid_source 10", hidden: false },
+    { catalyst: "wtwfacore:nouveau_essence", outputFluid: "wtwfacore:double_compression_liquid_source 1", hidden: false },
 ]
 
 const AGRONOMIC_INPUTS = [
@@ -170,31 +170,31 @@ function registerFluidSourceRecipe(recipe: any, inputFluid: string, duration: nu
 
 function registerVolcanicSource(event: any, fuel: any, duration: number) {
     STANDARD_SOURCE_TIERS.forEach(tier => {
-        registerItemSourceRecipe(event.recipes.mbd2.modular_volcanic_sourcelink(), fuel, duration, tier)
+        registerItemSourceRecipe(event.recipes.wtwfacore.modular_volcanic_sourcelink(), fuel, duration, tier)
     })
 }
 
 function registerMycelialSource(event: any, food: any, duration: number) {
     STANDARD_SOURCE_TIERS.forEach(tier => {
-        registerItemSourceRecipe(event.recipes.mbd2.modular_mycelial_sourcelink(), food, duration, tier)
+        registerItemSourceRecipe(event.recipes.wtwfacore.modular_mycelial_sourcelink(), food, duration, tier)
     })
 }
 
 function registerVitalicSource(event: any) {
     VITALIC_SOURCE_TIERS.forEach(tier => {
-        registerItemSourceRecipe(event.recipes.mbd2.modular_vitalic_sourcelink(), "minecraft:rotten_flesh", 1, tier)
+        registerItemSourceRecipe(event.recipes.wtwfacore.modular_vitalic_sourcelink(), "minecraft:rotten_flesh", 1, tier)
     })
 }
 
 function registerAgronomicSource(event: any, input: string) {
     STANDARD_SOURCE_TIERS.forEach(tier => {
-        registerItemSourceRecipe(event.recipes.mbd2.modular_agronomic_sourcelink(), input, 20, tier)
+        registerItemSourceRecipe(event.recipes.wtwfacore.modular_agronomic_sourcelink(), input, 20, tier)
     })
 }
 
 function registerAlchemicalSource(event: any) {
     ALCHEMICAL_SOURCE_TIERS.forEach(tier => {
-        registerFluidSourceRecipe(event.recipes.mbd2.modular_alchemical_sourcelink(), "kubejs:alchemical_extraction_liquid 10", 20, tier)
+        registerFluidSourceRecipe(event.recipes.wtwfacore.modular_alchemical_sourcelink(), "wtwfacore:alchemical_extraction_liquid 10", 20, tier)
     })
 }
 
@@ -228,10 +228,10 @@ function wixiePotionOutput(itemId: string, potionId: string) {
 }
 
 function registerWixieBrewingRecipe(event: any, input: any, ingredient: any, output: any, duration: number) {
-    event.recipes.mbd2.modular_wixie_cauldron()
+    event.recipes.wtwfacore.modular_wixie_cauldron()
         .inputItems(input)
         .inputItems(ingredient)
-        .outputItems("3x kubejs:herb_residue")
+        .outputItems("3x wtwfacore:herb_residue")
         .duration(duration)
         .outputItems(output)
         .chance(0, (builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputEntities("1x ars_nouveau:wixie")
@@ -431,7 +431,7 @@ function readSourceModel(recipe: any) {
                 model = 1
             } else if (itemStack.getId() === "ars_nouveau:source_gem_block") {
                 model = 2
-            } else if (itemStack.getId() === "kubejs:nouveau_essence") {
+            } else if (itemStack.getId() === "wtwfacore:nouveau_essence") {
                 model = 3
             }
         })
@@ -538,7 +538,7 @@ ServerEvents.recipes(event => {
     })
 })
 
-MBDMachineEvents.onAfterRecipeWorking("mbd2:modular_wixie_cauldron", e => {
+MBDMachineEvents.onAfterRecipeWorking("wtwfacore:modular_wixie_cauldron", e => {
     const mbdEvent = e.getEvent()
     const { machine } = mbdEvent
 
@@ -553,7 +553,7 @@ ServerEvents.recipes(event => {
     registerAlchemicalSource(event)
 })
 
-MBDMachineEvents.onBeforeRecipeModify("mbd2:modular_vitalic_sourcelink", e => {
+MBDMachineEvents.onBeforeRecipeModify("wtwfacore:modular_vitalic_sourcelink", e => {
     const { machine, recipe } = e.event
     let level = machine.getLevel()
     let model = readSourceModel(recipe)
@@ -574,7 +574,7 @@ MBDMachineEvents.onBeforeRecipeModify("mbd2:modular_vitalic_sourcelink", e => {
     }
 })
 
-MBDMachineEvents.onStructureFormed("mbd2:modualr_agronomic_sourcelink", e => {
+MBDMachineEvents.onStructureFormed("wtwfacore:modualr_agronomic_sourcelink", e => {
     let event = e.event
     let machine = event.getMachine()
     let level = machine.getLevel()
@@ -584,7 +584,7 @@ MBDMachineEvents.onStructureFormed("mbd2:modualr_agronomic_sourcelink", e => {
     writeInitialCropStages(data, stages)
 })
 
-MBDMachineEvents.onBeforeRecipeModify("mbd2:modualr_agronomic_sourcelink", e => {
+MBDMachineEvents.onBeforeRecipeModify("wtwfacore:modualr_agronomic_sourcelink", e => {
     let { machine } = e.event
     let level = machine.getLevel()
     let data = machine.getCustomData()

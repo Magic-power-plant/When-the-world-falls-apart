@@ -36,7 +36,7 @@ const directRituals: RitualRecipe[] = [
         level: 0,
         color: greenColor,
         ingredients: [
-            "kubejs:root_wrapped_invar_machine_frame",
+            "wtwfacore:root_wrapped_invar_machine_frame",
             "minecraft:iron_bars",
             "minecraft:campfire"
         ],
@@ -47,13 +47,13 @@ const directRituals: RitualRecipe[] = [
         level: 0,
         color: greenColor,
         ingredients: [
-            "kubejs:root_wrapped_invar_machine_frame",
-            "kubejs:entangle_aura_root",
+            "wtwfacore:root_wrapped_invar_machine_frame",
+            "wtwfacore:entangle_aura_root",
             "aether:sentry_stone"
         ],
         incenses: [
-            "kubejs:entangle_aura_root",
-            "kubejs:entangle_aura_root",
+            "wtwfacore:entangle_aura_root",
+            "wtwfacore:entangle_aura_root",
             "minecraft:stone_bricks",
             "aether:carved_stone"
         ],
@@ -65,18 +65,18 @@ const directRituals: RitualRecipe[] = [
         color: greenColor,
         ingredients: [
             "rootsclassic:verdant_sprig",
-            "kubejs:aubergine_seed",
-            "kubejs:sky_essence"
+            "wtwfacore:aubergine_seed",
+            "wtwfacore:sky_essence"
         ],
         incenses: [
-            "kubejs:sky_essence",
-            "kubejs:sky_essence",
-            "kubejs:tree_essence",
-            "kubejs:lush_forests_essence",
-            "kubejs:range_mountains_essence",
+            "wtwfacore:sky_essence",
+            "wtwfacore:sky_essence",
+            "wtwfacore:tree_essence",
+            "wtwfacore:lush_forests_essence",
+            "wtwfacore:range_mountains_essence",
             "aether:enchanted_gravitite"
         ],
-        result: "kubejs:moonglow_seed"
+        result: "wtwfacore:moonglow_seed"
     },
     {
         effect: greenCrafting,
@@ -100,59 +100,59 @@ const directRituals: RitualRecipe[] = [
         level: 1,
         color: greenColor,
         ingredients: [
-            "kubejs:moonglow_seed",
+            "wtwfacore:moonglow_seed",
             "minecraft:wheat_seeds",
             "aether:golden_amber"
         ],
         incenses: [
             "aether:ambrosium_shard",
-            "kubejs:swords_essence",
-            "kubejs:metal_essence",
+            "wtwfacore:swords_essence",
+            "wtwfacore:metal_essence",
             "thermal:electrum_block"
         ],
-        result: "kubejs:wildewheet_seed"
+        result: "wtwfacore:wildewheet_seed"
     },
     {
         effect: greenCrafting,
         level: 2,
         color: greenColor,
         ingredients: [
-            "kubejs:wildewheet_seed",
-            "kubejs:range_mountains_essence",
-            "kubejs:inferno_essence"
+            "wtwfacore:wildewheet_seed",
+            "wtwfacore:range_mountains_essence",
+            "wtwfacore:inferno_essence"
         ],
         incenses: [
-            "kubejs:stone_iron_block",
+            "wtwfacore:stone_iron_block",
             "twilightforest:ironwood_block",
             "twilightforest:knightmetal_block",
             "minecraft:netherite_block"
         ],
-        result: "kubejs:stalicripe_seed"
+        result: "wtwfacore:stalicripe_seed"
     },
     {
         effect: greenCrafting,
         level: 2,
         color: greenColor,
         ingredients: [
-            "kubejs:stalicripe_seed",
+            "wtwfacore:stalicripe_seed",
             "twilightforest:thorn_rose",
             "minecraft:beetroot"
         ],
         incenses: [
-            "kubejs:double_compression_liquid_source_bucket",
+            "wtwfacore:double_compression_liquid_source_bucket",
             "ars_nouveau:apprentice_spell_book",
-            "kubejs:tree_essence",
-            "kubejs:range_mountains_essence"
+            "wtwfacore:tree_essence",
+            "wtwfacore:range_mountains_essence"
         ],
-        result: "kubejs:pereskia_seed"
+        result: "wtwfacore:pereskia_seed"
     },
     {
         effect: greenCrafting,
         level: 2,
         color: greenColor,
         ingredients: [
-            "kubejs:pereskia_seed",
-            "kubejs:nouveau_essence",
+            "wtwfacore:pereskia_seed",
+            "wtwfacore:nouveau_essence",
             "aetherworks:aether_amalgam"
         ],
         incenses: [
@@ -161,7 +161,7 @@ const directRituals: RitualRecipe[] = [
             "starbunclemania:glyph_pickup_fluid",
             "ars_nouveau:glyph_conjure_water"
         ],
-        result: "kubejs:dewgonia_seed"
+        result: "wtwfacore:dewgonia_seed"
     },
     {
         effect: greenCrafting,
@@ -169,44 +169,44 @@ const directRituals: RitualRecipe[] = [
         color: greenColor,
         ingredients: [
             "aetherworks:crossbow_magma",
-            "kubejs:dewgonia_seed",
+            "wtwfacore:dewgonia_seed",
             "aether:aerogel"
         ],
         incenses: [
             "twilightforest:fluffy_cloud",
-            "kubejs:nouveau_essence",
-            "kubejs:sky_essence",
+            "wtwfacore:nouveau_essence",
+            "wtwfacore:sky_essence",
             "ars_nouveau:air_essence"
         ],
-        result: "kubejs:cloud_berry_seed"
+        result: "wtwfacore:cloud_berry_seed"
     },
     {
         effect: greenCrafting,
         level: 2,
         color: greenColor,
         ingredients: [
-            "kubejs:cloud_berry_seed",
-            "kubejs:entangle_aura_root",
-            "kubejs:entangle_aura_root"
+            "wtwfacore:cloud_berry_seed",
+            "wtwfacore:entangle_aura_root",
+            "wtwfacore:entangle_aura_root"
         ],
         incenses: [
-            "kubejs:entangle_aura_root",
-            "kubejs:entangle_aura_root",
-            "kubejs:entangle_aura_root",
-            "kubejs:entangle_aura_root",
-            "kubejs:entangle_aura_root",
-            "kubejs:entangle_aura_root",
-            "kubejs:entangle_aura_root",
-            "kubejs:entangle_aura_root"
+            "wtwfacore:entangle_aura_root",
+            "wtwfacore:entangle_aura_root",
+            "wtwfacore:entangle_aura_root",
+            "wtwfacore:entangle_aura_root",
+            "wtwfacore:entangle_aura_root",
+            "wtwfacore:entangle_aura_root",
+            "wtwfacore:entangle_aura_root",
+            "wtwfacore:entangle_aura_root"
         ],
-        result: "kubejs:wildroot_seed"
+        result: "wtwfacore:wildroot_seed"
     },
     {
         effect: greenCrafting,
         level: 2,
         color: greenColor,
         ingredients: [
-            "kubejs:wildroot_seed",
+            "wtwfacore:wildroot_seed",
             "minecraft:oak_leaves",
             "minecraft:spruce_leaves"
         ],
@@ -219,7 +219,7 @@ const directRituals: RitualRecipe[] = [
             "minecraft:cherry_leaves",
             "minecraft:azalea_leaves"
         ],
-        result: "kubejs:spiritleaf_seed"
+        result: "wtwfacore:spiritleaf_seed"
     }
 ]
 
@@ -228,20 +228,20 @@ const alloyRituals: RitualRecipe[] = [
         effect: greenCrafting,
         level: 2,
         color: greenColor,
-        ingredients: ["kubejs:root_wrapped_invar_ingot", "tconstruct:slimesteel_ingot"],
+        ingredients: ["wtwfacore:root_wrapped_invar_ingot", "tconstruct:slimesteel_ingot"],
         incenses: [
             "rootsclassic:sylvan_hood",
             "rootsclassic:sylvan_robe",
             "rootsclassic:sylvan_tunic",
             "rootsclassic:sylvan_boots"
         ],
-        result: "kubejs:sylvan_ingot"
+        result: "wtwfacore:sylvan_ingot"
     },
     {
         effect: greenCrafting,
         level: 2,
         color: greenColor,
-        ingredients: ["kubejs:root_wrapped_invar_ingot", "tconstruct:slimesteel_ingot"],
+        ingredients: ["wtwfacore:root_wrapped_invar_ingot", "tconstruct:slimesteel_ingot"],
         incenses: [
             "rootsclassic:living_sword",
             "rootsclassic:living_shovel",
@@ -249,21 +249,21 @@ const alloyRituals: RitualRecipe[] = [
             "rootsclassic:living_axe",
             "rootsclassic:living_hoe"
         ],
-        result: "kubejs:living_ingot"
+        result: "wtwfacore:living_ingot"
     },
     {
         effect: greenCrafting,
         level: 2,
         color: greenColor,
-        ingredients: ["kubejs:root_wrapped_invar_ingot", "tconstruct:slimesteel_ingot"],
+        ingredients: ["wtwfacore:root_wrapped_invar_ingot", "tconstruct:slimesteel_ingot"],
         incenses: [
             "rootsclassic:wildwood_mask",
             "rootsclassic:wildwood_plate",
             "rootsclassic:wildwood_leggings",
             "rootsclassic:wildwood_boots",
-            "kubejs:wildroot_seed"
+            "wtwfacore:wildroot_seed"
         ],
-        result: "kubejs:wildwood_ingot"
+        result: "wtwfacore:wildwood_ingot"
     },
     {
         effect: greenCrafting,
@@ -275,14 +275,14 @@ const alloyRituals: RitualRecipe[] = [
             "rootsclassic:whitecurrant"
         ],
         incenses: [],
-        result: "kubejs:big_currant"
+        result: "wtwfacore:big_currant"
     },
     {
         effect: greenCrafting,
         level: 2,
         color: greenColor,
         ingredients: [
-            "kubejs:life_sustaining_metal",
+            "wtwfacore:life_sustaining_metal",
             "thermal:lead_block",
             "minecraft:iron_block"
         ],
@@ -294,12 +294,12 @@ const alloyRituals: RitualRecipe[] = [
         level: 2,
         color: greenColor,
         ingredients: [
-            "kubejs:life_sustaining_metal",
+            "wtwfacore:life_sustaining_metal",
             "thermal:lead_block",
             "thermal:tin_block"
         ],
         incenses: [],
-        result: "kubejs:weighty_lead_ingot"
+        result: "wtwfacore:weighty_lead_ingot"
     }
 ]
 

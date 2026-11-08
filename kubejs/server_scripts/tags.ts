@@ -60,16 +60,16 @@ const sameIdItemTags = [
     "ars_nouveau:earth_essence",
     "ars_nouveau:fire_essence",
     "ars_nouveau:water_essence",
-    "kubejs:tree_essence",
-    "kubejs:metal_essence"
+    "wtwfacore:tree_essence",
+    "wtwfacore:metal_essence"
 ]
 
 const itemTags: TagEntry[] = [
-    {tag: "mbd2:bin", values: "mbd2:item_input_bin_dawnstone"},
-    {tag: "mbd2:bin", values: "mbd2:item_output_bin_dawnstone"},
-    {tag: "mbd2:bin", values: "mbd2:ember_input_bin"},
-    {tag: "mbd2:bin", values: "mbd2:fluid_input_bin_dawnstone"},
-    {tag: "mbd2:bin", values: "mbd2:fluid_output_bin_dawnstone"},
+    {tag: "wtwfacore:bin", values: "wtwfacore:item_input_bin_dawnstone"},
+    {tag: "wtwfacore:bin", values: "wtwfacore:item_output_bin_dawnstone"},
+    {tag: "wtwfacore:bin", values: "wtwfacore:ember_input_bin"},
+    {tag: "wtwfacore:bin", values: "wtwfacore:fluid_input_bin_dawnstone"},
+    {tag: "wtwfacore:bin", values: "wtwfacore:fluid_output_bin_dawnstone"},
     {tag: "embers:wildfire_core", values: "embers:wildfire_core"},
     {tag: "forge:ingots/azure_neodymium", values: "alexscaves:azure_neodymium_ingot"},
     {tag: "forge:ingots/scarlet_neodymium", values: "alexscaves:scarlet_neodymium_ingot"},
@@ -81,8 +81,8 @@ const itemTags: TagEntry[] = [
     {tag: "alexscaves:ferrouslime_ball", values: "alexscaves:ferrouslime_ball"},
     {tag: "alexsmobs:banana_slug_slime", values: "alexsmobs:banana_slug_slime"},
     {tag: "minecraft:magma_cream", values: "minecraft:magma_cream"},
-    {tag: "kubejs:metal_essence", values: "kubejs:metal_essence"},
-    {tag: "kubejs:dawnstone_machine_frame", values: "kubejs:dawnstone_machine_frame"},
+    {tag: "wtwfacore:metal_essence", values: "wtwfacore:metal_essence"},
+    {tag: "wtwfacore:dawnstone_machine_frame", values: "wtwfacore:dawnstone_machine_frame"},
     {
         tag:"forge:block/coals",
         values: [
@@ -103,28 +103,28 @@ const bloodOrbs = [
 ]
 
 const blockTags: TagEntry[] = [
-    {tag: "mbd2:bin", values: "mbd2:item_input_bin_dawnstone"},
-    {tag: "mbd2:bin", values: "mbd2:item_output_bin_dawnstone"},
-    {tag: "mbd2:bin", values: "mbd2:ember_input_bin"},
-    {tag: "mbd2:bin", values: "mbd2:fluid_input_bin_dawnstone"},
-    {tag: "mbd2:bin", values: "mbd2:fluid_output_bin_dawnstone"},
+    {tag: "wtwfacore:bin", values: "wtwfacore:item_input_bin_dawnstone"},
+    {tag: "wtwfacore:bin", values: "wtwfacore:item_output_bin_dawnstone"},
+    {tag: "wtwfacore:bin", values: "wtwfacore:ember_input_bin"},
+    {tag: "wtwfacore:bin", values: "wtwfacore:fluid_input_bin_dawnstone"},
+    {tag: "wtwfacore:bin", values: "wtwfacore:fluid_output_bin_dawnstone"},
     {tag: "minecraft:block/clay", values: "minecraft:clay"},
     {
-        tag: "mbd2:bin",
+        tag: "wtwfacore:bin",
         values: [
-            "mbd2:fluid_in_1",
-            "mbd2:fluid_out_1",
-            "mbd2:item_in_1",
-            "mbd2:item_out_1",
-            "mbd2:mob_in_bin",
-            "mbd2:me_out",
-            "mbd2:item_out_2",
-            "mbd2:item_out_3",
-            "mbd2:item_out_2",
-            "mbd2:item_out_3",
-            "mbd2:item_out_3_plus",
-            "mbd2:item_in_2",
-            "mbd2:item_in_3"
+            "wtwfacore:fluid_in_1",
+            "wtwfacore:fluid_out_1",
+            "wtwfacore:item_in_1",
+            "wtwfacore:item_out_1",
+            "wtwfacore:mob_in_bin",
+            "wtwfacore:me_out",
+            "wtwfacore:item_out_2",
+            "wtwfacore:item_out_3",
+            "wtwfacore:item_out_2",
+            "wtwfacore:item_out_3",
+            "wtwfacore:item_out_3_plus",
+            "wtwfacore:item_in_2",
+            "wtwfacore:item_in_3"
         ]
     },
     {tag: "aether:portal_fluids", values: "aetherworks:aether_gas_painful_block"}

@@ -62,11 +62,11 @@
       },
       {
         "type": "builtin",
-        "key": "kubejs:source_gem_steel_machine_shell"
+        "key": "wtwfacore:source_gem_steel_machine_shell"
       },
       {
         "type": "builtin",
-        "key": "state:mbd2:mob_in_bin[facing=west]"
+        "key": "state:wtwfacore:mob_in_bin[facing=west]"
       }
     ],
     "x": 9,

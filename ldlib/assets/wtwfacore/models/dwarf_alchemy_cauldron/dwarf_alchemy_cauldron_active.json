@@ -2,21 +2,21 @@
 	"format_version": "1.9.0",
 	"credit": "Made with pingsu",
 	"textures": {
-		"0": "mbd2:block/dwarf_alchemy_cauldron/dwarf_alchemy_cauldron_noactive_other",
-		"1": "mbd2:block/dwarf_alchemy_cauldron/dwarf_alchemy_cauldron_noactive_front",
-		"particle": "mbd2:block/dwarf_alchemy_cauldron/dwarf_alchemy_cauldron_noactive_other"
+		"particle": "wtwfacore:block/dwarf_alchemy_cauldron/dwarf_alchemy_cauldron_active_other",
+		"other": "wtwfacore:block/dwarf_alchemy_cauldron/dwarf_alchemy_cauldron_active_other",
+		"front": "wtwfacore:block/dwarf_alchemy_cauldron/dwarf_alchemy_cauldron_active_front"
 	},
 	"elements": [
 		{
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#other"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#other"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#other"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#other"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#other"}
 			}
 		}
 	],

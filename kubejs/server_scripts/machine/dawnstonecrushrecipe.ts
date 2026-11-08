@@ -57,14 +57,14 @@ const commonCrusherRecipes: CrusherRecipe[] = [
     { input: "thermal:apatite_ore", output: "3x thermal:apatite_dust" },
     { input: "occultism:iesnium_ore", output: "3x occultism:iesnium_dust" },
     { input: "thermal:deepslate_sapphire_ore", output: "3x thermal:sapphire_dust" },
-    { input: "alexscaves:raw_azure_neodymium", output: "2x kubejs:azure_neodymium_dust" },
-    { input: "alexscaves:raw_scarlet_neodymium", output: "2x kubejs:scarlet_neodymium_dust" },
-    { input: "ars_nouveau:source_gem", output: "kubejs:source_gem_dust" },
+    { input: "alexscaves:raw_azure_neodymium", output: "2x wtwfacore:azure_neodymium_dust" },
+    { input: "alexscaves:raw_scarlet_neodymium", output: "2x wtwfacore:scarlet_neodymium_dust" },
+    { input: "ars_nouveau:source_gem", output: "wtwfacore:source_gem_dust" },
 ]
 
 const extraBothLevelCrusherRecipes: CrusherRecipe[] = [
-    { input: "minecraft:netherite_scrap", output: "2x kubejs:ancient_debris_fragment" },
-    { input: "kubejs:ancient_debris_fragment", output: "2x kubejs:enriched_debris_powder" },
+    { input: "minecraft:netherite_scrap", output: "2x wtwfacore:ancient_debris_fragment" },
+    { input: "wtwfacore:ancient_debris_fragment", output: "2x wtwfacore:enriched_debris_powder" },
     { input: "2x alexscaves:depth_glass", output: "alexscaves:sea_glass_shards" },
 ]
 
@@ -72,26 +72,26 @@ function crusherRecipeId(inputItem: string, outputItem: string, levelPrefix: str
     const inputId = inputItem.replace(":", "_").replace("#", "").replace(" ", "")
     const outputId = outputItem.replace(":", "_").replace(" ", "_")
 
-    return `mbd2:${levelPrefix}${inputId}_to_${outputId}`
+    return `wtwfacore:${levelPrefix}${inputId}_to_${outputId}`
 }
 
 function registerLevel0CrusherRecipe(event: any, recipe: CrusherRecipe) {
-    event.recipes.mbd2.dawnstone_crusher_controller()
+    event.recipes.wtwfacore.dawnstone_crusher_controller()
         .id(crusherRecipeId(recipe.input, recipe.output, ""))
         .duration(50)
         .inputItems(recipe.input)
         .outputItems(recipe.output)
-        .blocksInStructure(0, 0, "mbd2:liquid_ember_complete_combustion_unit")
+        .blocksInStructure(0, 0, "wtwfacore:liquid_ember_complete_combustion_unit")
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputEmber(10))
 }
 
 function registerLevel1CrusherRecipe(event: any, recipe: CrusherRecipe) {
-    event.recipes.mbd2.dawnstone_crusher_controller()
+    event.recipes.wtwfacore.dawnstone_crusher_controller()
         .id(crusherRecipeId(recipe.input, recipe.output, "level1"))
         .duration(50)
         .inputItems(recipe.input)
         .outputItems(recipe.output)
-        .blocksInStructure(1, 1, "mbd2:liquid_ember_complete_combustion_unit")
+        .blocksInStructure(1, 1, "wtwfacore:liquid_ember_complete_combustion_unit")
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 10"))
 }
 
@@ -105,17 +105,18 @@ ServerEvents.recipes((event) => {
     commonCrusherRecipes.forEach(recipe => registerLevel1CrusherRecipe(event, recipe))
     extraBothLevelCrusherRecipes.forEach(recipe => registerBothCrusherLevels(event, recipe))
 
-    event.recipes.mbd2.dawnstone_crusher_controller()
-        .inputItems(["2x eidolon:merammer_root","eidolon:pewter_blend","kubejs:nouveau_essence"] as unknown as InputItem_[])
+    event.recipes.wtwfacore.dawnstone_crusher_controller()
+        .inputItems(["2x eidolon:merammer_root","eidolon:pewter_blend","wtwfacore:nouveau_essence"] as unknown as InputItem_[])
         .outputItems("eidolon:merammer_resin")
         .duration(500)
-        .blocksInStructure(1, 1, "mbd2:liquid_ember_complete_combustion_unit")
+        .blocksInStructure(1, 1, "wtwfacore:liquid_ember_complete_combustion_unit")
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 50"))
 
-    event.recipes.mbd2.dawnstone_crusher_controller()
-        .inputItems(Item.of('avaritia:singularity', '{Id:"kubejs:treated_wood_singularity"}').weakNBT())
-        .outputItems("80x kubejs:treated_wood_plank" as InputItem_)
+    event.recipes.wtwfacore.dawnstone_crusher_controller()
+        .id("wtwfacore:treated_wood_plank")
+        .inputItems(Item.of('avaritia:singularity', '{Id:"wtwfacore:treated_wood_singularity"}').weakNBT())
+        .outputItems("80x wtwfacore:treated_wood_plank" as InputItem_)
         .duration(500)
-        .blocksInStructure(1, 1, "mbd2:liquid_ember_complete_combustion_unit")
+        .blocksInStructure(1, 1, "wtwfacore:liquid_ember_complete_combustion_unit")
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 25"))
 });

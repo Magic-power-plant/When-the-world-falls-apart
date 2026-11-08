@@ -56,21 +56,21 @@ function castingBasin(event: Internal.RecipesEventJS, recipe: CastingRecipe) {
 
 const basinRecipes: CastingRecipe[] = [
     {
-        cast: "kubejs:entangle_aura_root",
-        result: "kubejs:root_wrapped_invar_ingot",
+        cast: "wtwfacore:entangle_aura_root",
+        result: "wtwfacore:root_wrapped_invar_ingot",
         fluid: {amount: 180, tag: "forge:molten_invar"},
         castConsumed: true,
         coolingTime: 100
     },
     {
         cast: "rootsclassic:infernal_bulb",
-        result: "kubejs:inferno_bulb_seed",
+        result: "wtwfacore:inferno_bulb_seed",
         fluid: {amount: 20000, fluid: "tconstruct:blazing_blood"},
         castConsumed: true,
         coolingTime: 2000
     },
     {
-        cast: "kubejs:life_sustaining_metal",
+        cast: "wtwfacore:life_sustaining_metal",
         result: "extendedcrafting:black_iron_ingot",
         fluid: {amount: 1000, fluid: "tconstruct:molten_hepatizon"},
         castConsumed: true,
@@ -84,17 +84,17 @@ const basinRecipes: CastingRecipe[] = [
         coolingTime: 200
     },
     {
-        cast: "kubejs:uninspired_computer",
-        result: "kubejs:complex_processing_computer",
-        fluid: "360x kubejs:mind_nectar",
+        cast: "wtwfacore:uninspired_computer",
+        result: "wtwfacore:complex_processing_computer",
+        fluid: "360x wtwfacore:mind_nectar",
         castConsumed: true,
         coolingTime:4000
     },
     {
-        cast:Item.of('avaritia:singularity').withNBT('{Id:"kubejs:wooden_singularity"}'),
+        cast:Item.of('avaritia:singularity').withNBT('{Id:"wtwfacore:wooden_singularity"}'),
         result: {
             item: 'avaritia:singularity',
-            nbt: {Id: 'kubejs:treated_wood_singularity'}
+            nbt: {Id: 'wtwfacore:treated_wood_singularity'}
         },
         fluid:"125000x thermal:creosote",
         castConsumed:true,

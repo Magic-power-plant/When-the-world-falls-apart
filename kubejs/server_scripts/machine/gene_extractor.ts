@@ -6,26 +6,26 @@ type GeneRecipe = {
 }
 
 const petalGeneRecipes: GeneRecipe[] = [
-    { petal: "botania:white_petal", gene: "kubejs:white_gene" },
-    { petal: "botania:red_petal", gene: "kubejs:red_gene" },
-    { petal: "botania:orange_petal", gene: "kubejs:orange_gene" },
-    { petal: "botania:yellow_petal", gene: "kubejs:yellow_gene" },
-    { petal: "botania:lime_petal", gene: "kubejs:lime_gene" },
-    { petal: "botania:green_petal", gene: "kubejs:green_gene" },
-    { petal: "botania:cyan_petal", gene: "kubejs:cyan_gene" },
-    { petal: "botania:light_blue_petal", gene: "kubejs:light_blue_gene" },
-    { petal: "botania:blue_petal", gene: "kubejs:blue_gene" },
-    { petal: "botania:purple_petal", gene: "kubejs:purple_gene" },
-    { petal: "botania:magenta_petal", gene: "kubejs:magenta_gene" },
-    { petal: "botania:gray_petal", gene: "kubejs:gray_gene" },
-    { petal: "botania:black_petal", gene: "kubejs:black_gene" },
-    { petal: "botania:light_gray_petal", gene: "kubejs:light_gray_gene" },
-    { petal: "botania:brown_petal", gene: "kubejs:brown_gene" },
-    { petal: "botania:pink_petal", gene: "kubejs:pink_gene" },
+    { petal: "botania:white_petal", gene: "wtwfacore:white_gene" },
+    { petal: "botania:red_petal", gene: "wtwfacore:red_gene" },
+    { petal: "botania:orange_petal", gene: "wtwfacore:orange_gene" },
+    { petal: "botania:yellow_petal", gene: "wtwfacore:yellow_gene" },
+    { petal: "botania:lime_petal", gene: "wtwfacore:lime_gene" },
+    { petal: "botania:green_petal", gene: "wtwfacore:green_gene" },
+    { petal: "botania:cyan_petal", gene: "wtwfacore:cyan_gene" },
+    { petal: "botania:light_blue_petal", gene: "wtwfacore:light_blue_gene" },
+    { petal: "botania:blue_petal", gene: "wtwfacore:blue_gene" },
+    { petal: "botania:purple_petal", gene: "wtwfacore:purple_gene" },
+    { petal: "botania:magenta_petal", gene: "wtwfacore:magenta_gene" },
+    { petal: "botania:gray_petal", gene: "wtwfacore:gray_gene" },
+    { petal: "botania:black_petal", gene: "wtwfacore:black_gene" },
+    { petal: "botania:light_gray_petal", gene: "wtwfacore:light_gray_gene" },
+    { petal: "botania:brown_petal", gene: "wtwfacore:brown_gene" },
+    { petal: "botania:pink_petal", gene: "wtwfacore:pink_gene" },
 ]
 
 function registerGeneExtractorRecipe(event: any, recipe: GeneRecipe, index: number) {
-    event.recipes.mbd2.gene_extractor()
+    event.recipes.wtwfacore.gene_extractor()
         .inputItems(recipe.petal)
         .outputItems(recipe.gene)
         .duration(100)

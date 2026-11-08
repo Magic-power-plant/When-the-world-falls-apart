@@ -306,7 +306,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "5ED40E6D99A33DB2"
-				item: "mbd2:runic_altar"
+				item: "wtwfacore:runic_altar"
 				type: "item"
 			}]
 			title: "更多的符文"
@@ -862,7 +862,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "6FB0CC6E4EB74ED9"
-				item: "mbd2:mana_pool"
+				item: "wtwfacore:mana_pool"
 				type: "item"
 			}]
 			title: "自动化魔力池"
@@ -887,7 +887,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "50BE409828D77706"
-				item: "mbd2:gene_extractor"
+				item: "wtwfacore:gene_extractor"
 				type: "item"
 			}]
 			x: -3.5d
@@ -899,7 +899,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "426FA5262AE55CBD"
-				item: "kubejs:light_gray_gene"
+				item: "wtwfacore:light_gray_gene"
 				type: "item"
 			}]
 			x: -6.0d
@@ -911,7 +911,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "2C3B2348930E9C3C"
-				item: "kubejs:blue_gene"
+				item: "wtwfacore:blue_gene"
 				type: "item"
 			}]
 			x: -5.0d
@@ -923,7 +923,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "533C532978276AFF"
-				item: "kubejs:pink_gene"
+				item: "wtwfacore:pink_gene"
 				type: "item"
 			}]
 			x: -4.5d
@@ -935,7 +935,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "1C35A83239296BFE"
-				item: "kubejs:brown_gene"
+				item: "wtwfacore:brown_gene"
 				type: "item"
 			}]
 			x: -5.0d
@@ -947,7 +947,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "70E88B6CE03590DE"
-				item: "kubejs:lime_gene"
+				item: "wtwfacore:lime_gene"
 				type: "item"
 			}]
 			x: -6.0d
@@ -959,7 +959,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "78873F9E8FD361DA"
-				item: "kubejs:yellow_gene"
+				item: "wtwfacore:yellow_gene"
 				type: "item"
 			}]
 			x: -6.5d
@@ -971,7 +971,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "53BB6B1F50655870"
-				item: "kubejs:orange_gene"
+				item: "wtwfacore:orange_gene"
 				type: "item"
 			}]
 			x: -7.0d
@@ -983,7 +983,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "03F21C8793E74735"
-				item: "kubejs:red_gene"
+				item: "wtwfacore:red_gene"
 				type: "item"
 			}]
 			x: -7.5d
@@ -995,7 +995,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "212A16C21E1215F3"
-				item: "kubejs:white_gene"
+				item: "wtwfacore:white_gene"
 				type: "item"
 			}]
 			x: -7.0d
@@ -1007,7 +1007,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "41BED1401B01934A"
-				item: "kubejs:light_blue_gene"
+				item: "wtwfacore:light_blue_gene"
 				type: "item"
 			}]
 			x: -6.5d
@@ -1019,7 +1019,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "23893645D3BC7EAB"
-				item: "kubejs:cyan_gene"
+				item: "wtwfacore:cyan_gene"
 				type: "item"
 			}]
 			x: -5.5d
@@ -1031,7 +1031,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "217D1AE777771411"
-				item: "kubejs:green_gene"
+				item: "wtwfacore:green_gene"
 				type: "item"
 			}]
 			x: -6.5d
@@ -1043,7 +1043,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "735255C3EEFDFFAE"
-				item: "kubejs:black_gene"
+				item: "wtwfacore:black_gene"
 				type: "item"
 			}]
 			x: -5.5d
@@ -1055,7 +1055,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "65A1ED872A3D633D"
-				item: "kubejs:gray_gene"
+				item: "wtwfacore:gray_gene"
 				type: "item"
 			}]
 			x: -6.0d
@@ -1067,7 +1067,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "4FFEA98288BA3AAE"
-				item: "kubejs:magenta_gene"
+				item: "wtwfacore:magenta_gene"
 				type: "item"
 			}]
 			x: -6.0d
@@ -1079,7 +1079,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "0B2C3CD11184B483"
-				item: "kubejs:purple_gene"
+				item: "wtwfacore:purple_gene"
 				type: "item"
 			}]
 			x: -5.5d
@@ -1091,7 +1091,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "1B4EEC3ADBC631AA"
-				item: "mbd2:genic_altar"
+				item: "wtwfacore:genic_altar"
 				type: "item"
 			}]
 			x: 0.0d

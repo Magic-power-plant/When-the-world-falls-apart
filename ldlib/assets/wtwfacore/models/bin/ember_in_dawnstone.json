@@ -2,9 +2,9 @@
 	"format_version": "1.9.0",
 	"credit": "Made with pingsu",
 	"textures": {
-		"particle": "mbd2:block/bin/dawnstone_bin_other_face",
-		"other": "mbd2:block/bin/dawnstone_bin_other_face",
-		"front": "mbd2:block/bin/item_in_dawnstone_front"
+		"particle": "wtwfacore:block/bin/dawnstone_bin_other_face",
+		"other": "wtwfacore:block/bin/dawnstone_bin_other_face",
+		"front": "wtwfacore:block/bin/ember_in_dawnstone_front"
 	},
 	"elements": [
 		{

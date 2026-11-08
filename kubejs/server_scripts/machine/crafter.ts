@@ -11,7 +11,7 @@ type NumberByString = {
 const CRAFTER_SLOT_COUNT = 9
 const PATTERN_INPUT_TARGET_COUNT = 81
 const PATTERN_SPARSE_OUTPUT_COUNT = 27
-const CRAFT_LOGGER_ITEM = "kubejs:craft_logoer"
+const CRAFT_LOGGER_ITEM = "wtwfacore:craft_logoer"
 
 const crafterSlotByName: NumberByString = {
     "crafter_0": 0,
@@ -26,15 +26,15 @@ const crafterSlotByName: NumberByString = {
 }
 
 const crafterSlotByBlock: NumberByString = {
-    "mbd2:crafter_input_0": 0,
-    "mbd2:crafter_input_1": 1,
-    "mbd2:crafter_input_2": 2,
-    "mbd2:crafter_input_3": 3,
-    "mbd2:crafter_input_4": 4,
-    "mbd2:crafter_input_5": 5,
-    "mbd2:crafter_input_6": 6,
-    "mbd2:crafter_input_7": 7,
-    "mbd2:crafter_input_8": 8,
+    "wtwfacore:crafter_input_0": 0,
+    "wtwfacore:crafter_input_1": 1,
+    "wtwfacore:crafter_input_2": 2,
+    "wtwfacore:crafter_input_3": 3,
+    "wtwfacore:crafter_input_4": 4,
+    "wtwfacore:crafter_input_5": 5,
+    "wtwfacore:crafter_input_6": 6,
+    "wtwfacore:crafter_input_7": 7,
+    "wtwfacore:crafter_input_8": 8,
 }
 
 const faceNumberByDirection: NumberByString = {
@@ -247,7 +247,7 @@ function saveCrafterPart(data: any, level: any, part: any) {
     data.put(`Slot${slot}`, temporaryData.copy())
 }
 
-MBDRecipeTypeEvents.onTransferProxyRecipe("mbd2:crafter", e => {
+MBDRecipeTypeEvents.onTransferProxyRecipe("wtwfacore:crafter", e => {
     let event = e.event
     const { proxyTypeId, proxyRecipe } = event
 
@@ -262,7 +262,7 @@ MBDRecipeTypeEvents.onTransferProxyRecipe("mbd2:crafter", e => {
     }
 })
 
-MBDMachineEvents.onUI("mbd2:patten_handler", e => {
+MBDMachineEvents.onUI("wtwfacore:patten_handler", e => {
     const { machine, root } = e.event
     let level = machine.getLevel()
     let query = root.getFirstWidgetById("query") as ButtonWidget
@@ -308,7 +308,7 @@ MBDMachineEvents.onUI("mbd2:patten_handler", e => {
     })
 })
 
-MBDMachineEvents.onStructureFormed("mbd2:ultimate_crafter", e => {
+MBDMachineEvents.onStructureFormed("wtwfacore:ultimate_crafter", e => {
     const { machine } = (e.event as unknown as {machine : Internal.MBDMultiblockMachine})
     let level = machine.getLevel()
     let data = machine.getCustomData()
@@ -329,7 +329,7 @@ BlockEvents.rightClicked(event => {
             mainHandItem.setNbt("{}")
             let itemData = mainHandItem.getNbt()
 
-            if (event.getBlock().getId() === "mbd2:ultimate_crafter") {
+            if (event.getBlock().getId() === "wtwfacore:ultimate_crafter") {
                 let crafterBlock = event.getBlock()
                 let blockData = crafterBlock.getEntityData()
 

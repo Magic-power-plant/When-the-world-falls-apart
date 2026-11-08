@@ -3,14 +3,14 @@ const BlockBehaviour$Properties = Java.loadClass("net.minecraft.world.level.bloc
 const BlockBehaviour = Java.loadClass("net.minecraft.world.level.block.state.BlockBehaviour")
 
 StartupEvents.registry("item",event =>{
-    event.create("wtwfacore:aubergine","basic").displayName("茄子").texture("wtwfacore:item/crop/aubergine").tag("forge:crops").tag("forge:crops/aubergine")
-    event.create("wtwfacore:moonglow","basic").displayName("月萤").texture("wtwfacore:item/crop/moonglow").tag("forge:crops").tag("forge:crops/moonglow")
-    event.create("wtwfacore:pereskia","basic").displayName("木麒麟").texture("wtwfacore:item/crop/pereskia").tag("forge:crops").tag("forge:crops/pereskia")
-    event.create("wtwfacore:wildewheet","basic").displayName("野麦").texture("wtwfacore:item/crop/wildewheet").tag("forge:crops").tag("forge:crops/wildewheet")
-    event.create("wtwfacore:spiritleaf","basic").displayName("嫩叶").texture("wtwfacore:item/crop/spiritleaf").tag("forge:crops").tag("forge:crops/spiritleaf")
+    event.create("wtwfacore:aubergine","basic").texture("wtwfacore:item/crop/aubergine").tag("forge:crops").tag("forge:crops/aubergine")
+    event.create("wtwfacore:moonglow","basic").texture("wtwfacore:item/crop/moonglow").tag("forge:crops").tag("forge:crops/moonglow")
+    event.create("wtwfacore:pereskia","basic").texture("wtwfacore:item/crop/pereskia").tag("forge:crops").tag("forge:crops/pereskia")
+    event.create("wtwfacore:wildewheet","basic").texture("wtwfacore:item/crop/wildewheet").tag("forge:crops").tag("forge:crops/wildewheet")
+    event.create("wtwfacore:spiritleaf","basic").texture("wtwfacore:item/crop/spiritleaf").tag("forge:crops").tag("forge:crops/spiritleaf")
 })
 StartupEvents.registry("block",event =>{
-    event.create("wtwfacore:aubergine","crop").displayName("茄子")
+    event.create("wtwfacore:aubergine","crop")
     .crop("wtwfacore:aubergine",1).crop("wtwfacore:aubergine",0.05)
     .age(7,builder => {
         builder.shape(0,0,0,0,16,2,16)
@@ -41,7 +41,6 @@ StartupEvents.registry("block",event =>{
     .item((seedItem) => {
         seedItem
         .texture('wtwfacore:item/crop/aubergine_seeds')
-        .displayName('茄子种子')
     })
     const crops7 = [
     {
@@ -64,7 +63,7 @@ StartupEvents.registry("block",event =>{
         localSeedName:"野麦种子"
     }]
     crops7.forEach(crop => {
-        event.create(`wtwfacore:${crop.name}`,"crop").displayName(crop.localName)
+        event.create(`wtwfacore:${crop.name}`,"crop")
         .crop(crop.cropItem,1).crop(crop.cropItem,0.05)
         .age(7,builder => {
             builder.shape(0,0,0,0,16,2,16)
@@ -95,7 +94,6 @@ StartupEvents.registry("block",event =>{
         .item((seedItem) => {
             seedItem
             .texture('wtwfacore:item/crop/'+crop.seedTexture)
-            .displayName(crop.localSeedName)
         })
     })
     const crop3 = [
@@ -114,7 +112,7 @@ StartupEvents.registry("block",event =>{
         }
     ]
     crop3.forEach(crop => {
-        event.create(`wtwfacore:${crop.name}`,"crop").displayName(crop.localName)
+        event.create(`wtwfacore:${crop.name}`,"crop")
         .age(3,builder => {
             builder.shape(0,0,0,0,16,2,16)
             builder.shape(1,0,0,0,16,6,16)
@@ -134,10 +132,10 @@ StartupEvents.registry("block",event =>{
         .texture(2,'wtwfacore:block/crop/'+crop.name+'_2')
         .texture(3,'wtwfacore:block/crop/'+crop.name+'_3')
         .item(seedItem =>
-            seedItem.displayName(crop.localName).texture(`wtwfacore:item/crop/${crop.name}`).tag("forge:crops").tag(`forge:crops/${crop.name}`).tag("forge:seeds").tag(`forge:seeds/${crop.name}`)
+            seedItem.texture(`wtwfacore:item/crop/${crop.name}`).tag("forge:crops").tag(`forge:crops/${crop.name}`).tag("forge:seeds").tag(`forge:seeds/${crop.name}`)
         )
     })
-    event.create("wtwfacore:inferno_bulb","crop").displayName("地狱根茎")
+    event.create("wtwfacore:inferno_bulb","crop")
     .crop("rootsclassic:infernal_bulb",1).crop("rootsclassic:infernal_bulb",0.05)
     .age(3,builder => {
         builder.shape(0,0,0,0,16,2,16)
@@ -160,9 +158,8 @@ StartupEvents.registry("block",event =>{
     .item((seedItem) => {
         seedItem
         .texture('wtwfacore:item/crop/inferno_bulb')
-        .displayName('地狱根茎')
     })
-    event.create("wtwfacore:spiritleaf","crop").displayName("嫩叶")
+    event.create("wtwfacore:spiritleaf","crop")
     .crop("wtwfacore:spiritleaf",1).crop("wtwfacore:spiritleaf",0.05).crop("rootsclassic:verdant_sprig",1).crop("rootsclassic:verdant_sprig",0.05)
     .age(4,builder => {
         builder.shape(0,0,0,0,16,2,16)
@@ -187,7 +184,6 @@ StartupEvents.registry("block",event =>{
     .item((seedItem) => {
         seedItem
         .texture('wtwfacore:item/crop/spiritleaf_seeds')
-        .displayName('嫩叶种子')
     })
 })
 ForgeEvents.onEvent

@@ -1,5 +1,7 @@
 export {}
 
+import {recipeId} from "../globalFunction"
+
 type CauldronOreRecipe = {
     seed: string
     input: string
@@ -16,16 +18,16 @@ const oreSeedRecipes: CauldronOreRecipe[] = [
     { seed: "embers:tin_crystal_seed", input: "#forge:cobblestone", output: "2x thermal:tin_ore" },
 ]
 
-function cauldronRecipeId(recipe: CauldronOreRecipe) {
+function cauldronRecipeId(recipe: CauldronOreRecipe, levelSuffix: string) {
     const inputId = recipe.input.replace(":", "_").replace("#", "")
     const outputId = recipe.output.replace(":", "_").replace(" ", "_")
 
-    return `wtwfacore:${inputId}_to_${outputId}`
+    return recipeId(`dwarf_cauldron/${inputId}_to_${outputId}${levelSuffix}`)
 }
 
 function registerLevel0CauldronRecipe(event: any, recipe: CauldronOreRecipe) {
     event.recipes.wtwfacore.dwarf_alchemy_cauldron()
-        .id(cauldronRecipeId(recipe))
+        .id(cauldronRecipeId(recipe, ""))
         .duration(100)
         .inputItems(recipe.input)
         .outputItems(recipe.output)
@@ -35,7 +37,7 @@ function registerLevel0CauldronRecipe(event: any, recipe: CauldronOreRecipe) {
         )
 
     event.recipes.wtwfacore.dwarf_alchemy_cauldron()
-        .id(cauldronRecipeId(recipe) + "_level1")
+        .id(cauldronRecipeId(recipe, "_level1"))
         .duration(100)
         .inputItems(recipe.input)
         .outputItems(recipe.output)
@@ -55,7 +57,7 @@ ServerEvents.recipes(event => {
         .outputFluids("wtwfacore:mind_nectar 180")
         .blocksInStructure(1, 1, "wtwfacore:liquid_ember_complete_combustion_unit")
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 50"))
-        .id("wtwfacore:mind_nectar_from_dwarf_alchemy_cauldron")
+        .id("wtwfacore:dwarf_cauldron/mind_nectar")
 
     event.recipes.wtwfacore.dwarf_alchemy_cauldron()
         .duration(200)
@@ -63,7 +65,7 @@ ServerEvents.recipes(event => {
         .outputItems("3x enchanted:quicklime" as InputItem_)
         .blocksInStructure(1, 1, "wtwfacore:liquid_ember_complete_combustion_unit")
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 50"))
-        .id("wtwfacore:quicklime_from_dwarf_alchemy_cauldron")
+        .id("wtwfacore:dwarf_cauldron/quicklime")
 
     event.recipes.wtwfacore.dwarf_alchemy_cauldron()
         .duration(1000)
@@ -71,7 +73,7 @@ ServerEvents.recipes(event => {
         .outputItems('aether:aether_portal_frame')
         .blocksInStructure(1, 1, "wtwfacore:liquid_ember_complete_combustion_unit")
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 50"))
-        .id("wtwfacore:aether_portal_frame_from_dwarf_alchemy_cauldron")
+        .id("wtwfacore:dwarf_cauldron/aether_portal_frame")
     
     event.recipes.wtwfacore.dwarf_alchemy_cauldron()
         .duration(100)
@@ -79,5 +81,5 @@ ServerEvents.recipes(event => {
         .outputItems("wtwfacore:light_blue_chalk")
         .blocksInStructure(1, 1, "wtwfacore:liquid_ember_complete_combustion_unit")
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 100"))
-        .id("wtwfacore:light_blue_chalk_from_dwarf_alchemy_cauldron")
+        .id("wtwfacore:dwarf_cauldron/light_blue_chalk")
 })

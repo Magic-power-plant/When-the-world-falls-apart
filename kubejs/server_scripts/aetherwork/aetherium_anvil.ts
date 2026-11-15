@@ -1,4 +1,4 @@
-import {itemJson, ItemRef} from "../globalFunction"
+import {itemJson, ItemRef, recipeId} from "../globalFunction"
 export {}
 
 type AetheriumAnvilRecipe = {
@@ -37,7 +37,7 @@ function aetheriumAnvil(event: any, recipe: AetheriumAnvilRecipe) {
         ],
         temperatureMax: temperatureMax,
         temperatureMin: temperatureMin
-    })
+    }).id(recipeId("aetherworks/aetherium_anvil", recipe.output))
 }
 
 const anvilRecipes: AetheriumAnvilRecipe[] = [

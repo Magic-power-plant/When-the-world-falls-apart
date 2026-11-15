@@ -1,5 +1,7 @@
 export {}
 
+import {recipeId} from "../globalFunction"
+
 type GeneRecipe = {
     petal: string
     gene: string
@@ -29,7 +31,7 @@ function registerGeneExtractorRecipe(event: any, recipe: GeneRecipe, index: numb
         .inputItems(recipe.petal)
         .outputItems(recipe.gene)
         .duration(100)
-        .id("gene_" + index.toString())
+        .id(recipeId("gene_extractor", recipe.gene))
 }
 
 ServerEvents.recipes(event => {

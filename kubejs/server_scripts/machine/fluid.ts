@@ -1,4 +1,7 @@
 export {}
+
+import {recipeId} from "../globalFunction"
+
 let $ForgeRegistries = Java.loadClass("net.minecraftforge.registries.ForgeRegistries")
 
 function removeEndSuffix(str: string): string {
@@ -14,10 +17,11 @@ ServerEvents.recipes((event:Internal.RecipesEventJS) => {
         event.recipes.wtwfacore.fluid()
             .outputFluids((FluidId + " 1000"))
             .inputItems(Item.of('packagedauto:volume_package', `{Fluid:{Amount:1000,FluidName:"${FluidId}"},Type:"minecraft:fluid"}`).weakNBT())
-            .id(`wtwfacore:${FluidId.replace(":","_")}_package_to_fluid`);
+            .id(recipeId(`fluid/${FluidId.replace(":","_")}_package_to_fluid`));
 
         event.recipes.wtwfacore.fluid()
             .outputFluids((FluidId + " 1000"))
             .inputItems(Item.of('tconstruct:seared_fuel_tank',`{tank:{Amount:1000,FluidName:"${FluidId}"},tic_persistent:{}}`).weakNBT().withCount(1) as InputItem_)
+            .id(recipeId(`fluid/${FluidId.replace(":","_")}_seared_tank_to_fluid`))
     })
 })

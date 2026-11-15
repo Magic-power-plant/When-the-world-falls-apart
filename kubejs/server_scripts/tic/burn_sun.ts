@@ -1,4 +1,4 @@
-import {itemJson, fluidJson, ItemRef, FluidRef, FluidJson} from "../globalFunction"
+import {itemJson, fluidJson, ItemRef, FluidRef, FluidJson, recipeId} from "../globalFunction"
 export {}
 
 type MeltingRecipe = {
@@ -102,7 +102,7 @@ function melting(event: Internal.RecipesEventJS, recipe: MeltingRecipe) {
         result: fluidJson(recipe.result),
         temperature: recipe.temperature,
         time: recipe.time
-    } as unknown as Internal.JsonObject)
+    } as unknown as Internal.JsonObject).id(recipeId("tconstruct/melting", recipe.input))
 }
 
 function materialFluid(event: Internal.RecipesEventJS, recipe: MaterialFluidRecipe) {
@@ -111,7 +111,7 @@ function materialFluid(event: Internal.RecipesEventJS, recipe: MaterialFluidReci
         fluid: recipe.fluid,
         temperature: recipe.temperature,
         output: recipe.output
-    } as unknown as Internal.JsonObject)
+    } as unknown as Internal.JsonObject).id(recipeId("tconstruct/material_fluid", recipe.output))
 }
 
 function castingJson(recipe: CastingRecipe) {
@@ -139,5 +139,6 @@ ServerEvents.recipes((event: Internal.RecipesEventJS) => {
 
     castingRecipes.forEach(recipe => {
         event.custom(castingJson(recipe))
+            .id(recipeId("tconstruct/" + recipe.type.replace("tconstruct:", ""), recipe.result))
     })
 })

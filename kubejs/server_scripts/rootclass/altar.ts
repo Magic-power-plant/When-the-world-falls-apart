@@ -1,4 +1,4 @@
-import {itemJson, ItemRef} from "../globalFunction"
+import {itemJson, ItemRef, recipeId} from "../globalFunction"
 export {}
 
 type RitualRecipe = {
@@ -24,7 +24,7 @@ function ritual(event: Internal.RecipesEventJS, recipe: RitualRecipe) {
     if (recipe.result) json.result = itemJson(recipe.result)
     if (recipe.entity) json.entity = recipe.entity
 
-    event.custom(json)
+    event.custom(json).id(recipeId("rootsclassic/ritual", recipe.result ?? recipe.entity ?? recipe.effect))
 }
 
 const greenCrafting = "rootsclassic:crafting"

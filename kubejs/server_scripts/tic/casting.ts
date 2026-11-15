@@ -1,4 +1,4 @@
-import {fluidJson, ItemRef, FluidRef, FluidJson, g} from "../globalFunction"
+import {fluidJson, ItemRef, FluidRef, FluidJson, g, recipeId} from "../globalFunction"
 export {}
 
 type CastingRecipe = {
@@ -51,7 +51,7 @@ function castingBasin(event: Internal.RecipesEventJS, recipe: CastingRecipe) {
         json.result = recipe.result
     }
 
-    event.custom(json)
+    event.custom(json).id(recipeId("tconstruct/casting_basin", recipe.result))
 }
 
 const basinRecipes: CastingRecipe[] = [

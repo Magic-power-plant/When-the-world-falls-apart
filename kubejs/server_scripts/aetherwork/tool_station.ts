@@ -1,4 +1,4 @@
-import {ingredientJson, ItemRef, IngredientRef} from "../globalFunction"
+import {ingredientJson, ItemRef, IngredientRef, recipeId} from "../globalFunction"
 export {}
 
 type FiveRecipeIngredientList = [IngredientRef, IngredientRef, IngredientRef, IngredientRef, IngredientRef]
@@ -40,7 +40,7 @@ function aetherworksToolStation(event: Internal.RecipesEventJS, recipe: Aetherwo
     output: ingredientJson(recipe.output),
     temperature: recipe.temperature,
     temperature_rate: recipe.temperature_rate
-  } as unknown as Internal.JsonObject)
+  } as unknown as Internal.JsonObject).id(recipeId("aetherworks/tool_station", recipe.output))
 }
 
 const toolStationRecipes: AetherworksToolStationRecipe[] = [

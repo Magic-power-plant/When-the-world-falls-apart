@@ -1,5 +1,7 @@
 export {}
 
+import {recipeId} from "../globalFunction"
+
 type WeightedOre = {
     item: string
     weight: number
@@ -85,6 +87,7 @@ ServerEvents.recipes(event => {
     orechidTables.forEach(table => {
         event.recipes.wtwfacore.orechid()
             .inputItems(table.input as InputItem_)
+            .id(recipeId("orechid", table.input))
     })
 })
 

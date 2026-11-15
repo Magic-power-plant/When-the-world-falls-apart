@@ -288,5 +288,18 @@
     "singularity.wtwfacore.ember_essence_singularity": "余烬之精粹",
     "singularity.wtwfacore.nouveau_essence_singularity": "新生之精粹",
     "wtwfacore.dawnstone_crusher_controller": "磨粉(黎明石)",
-    "wtwfacore.dwarf_alchemy_cauldron": "矮人炼金釜锅"
+    "wtwfacore.dwarf_alchemy_cauldron": "矮人炼金釜锅",
+    "item.wtwfacore.universal_set" : "全集",
+    "item.wtwfacore.composite_dragonsteel_ingot" : "复合龙钢锭",
+    "item.wtwfacore.composite_dragonsteel_plate" : "复合龙钢板",
+    "item.wtwfacore.fiery_composite_dragonsteel_ingot" : "炽热复合龙钢锭",
+    "item.wtwfacore.fiery_composite_dragonsteel_plate" : "炽热复合龙钢板",
+    "item.wtwfacore.fiery_composite_dragonsteel_rod" : "炽热复合龙钢棒",
+    "block.wtwfacore.elemental_soil" : "元素土",
+    "block.wtwfacore.terran_soil" : "地素土",
+    "block.wtwfacore.magmatic_soil" : "火素土",
+    "block.wtwfacore.aqueous_soil" : "水素土",
+    "block.wtwfacore.caelic_soil" : "风素土",
+    "block.wtwfacore.fiery_composite_dragonsteel_machine_frame" : "炽热复合龙钢机器框架",
+    "block.wtwfacore.fiery_composite_dragonsteel_machine_shell" : "炽热复合龙钢机器外壳"
 }

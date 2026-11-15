@@ -1,4 +1,4 @@
-import {itemJson, ItemRef} from "../globalFunction"
+import {itemJson, ItemRef, recipeId} from "../globalFunction"
 export {}
 
 type InscriberRecipe = {
@@ -18,7 +18,7 @@ function inscriber(event: any, recipe: InscriberRecipe) {
         },
         mode: "press",
         result: itemJson(recipe.result)
-    })
+    }).id(recipeId("ae2/inscriber", recipe.result))
 }
 
 const digitalTransducers: InscriberRecipe[] = [

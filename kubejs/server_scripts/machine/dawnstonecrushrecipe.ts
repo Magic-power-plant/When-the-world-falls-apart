@@ -1,5 +1,7 @@
 export {}
 
+import {recipeId} from "../globalFunction"
+
 type CrusherRecipe = {
     input: string
     output: string
@@ -72,7 +74,7 @@ function crusherRecipeId(inputItem: string, outputItem: string, levelPrefix: str
     const inputId = inputItem.replace(":", "_").replace("#", "").replace(" ", "")
     const outputId = outputItem.replace(":", "_").replace(" ", "_")
 
-    return `wtwfacore:${levelPrefix}${inputId}_to_${outputId}`
+    return recipeId(`dawnstone_crusher/${inputId}_to_${outputId}${levelPrefix ? "_" + levelPrefix : ""}`)
 }
 
 function registerLevel0CrusherRecipe(event: any, recipe: CrusherRecipe) {
@@ -106,6 +108,7 @@ ServerEvents.recipes((event) => {
     extraBothLevelCrusherRecipes.forEach(recipe => registerBothCrusherLevels(event, recipe))
 
     event.recipes.wtwfacore.dawnstone_crusher_controller()
+        .id("wtwfacore:dawnstone_crusher/merammer_resin")
         .inputItems(["2x eidolon:merammer_root","eidolon:pewter_blend","wtwfacore:nouveau_essence"] as unknown as InputItem_[])
         .outputItems("eidolon:merammer_resin")
         .duration(500)
@@ -113,7 +116,7 @@ ServerEvents.recipes((event) => {
         .perTick((builder:Internal.MBDRecipeSchema$MBDRecipeJS) => builder.inputFluids("embers_extended:liquid_ember 50"))
 
     event.recipes.wtwfacore.dawnstone_crusher_controller()
-        .id("wtwfacore:treated_wood_plank")
+        .id("wtwfacore:dawnstone_crusher/treated_wood_plank")
         .inputItems(Item.of('avaritia:singularity', '{Id:"wtwfacore:treated_wood_singularity"}').weakNBT())
         .outputItems("80x wtwfacore:treated_wood_plank" as InputItem_)
         .duration(500)

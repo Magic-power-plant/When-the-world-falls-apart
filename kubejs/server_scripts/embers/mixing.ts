@@ -1,4 +1,4 @@
-import {fluidJson, FluidRef} from "../globalFunction"
+import {fluidJson, FluidRef, recipeId} from "../globalFunction"
 export {}
 
 type MixingRecipe = {
@@ -11,7 +11,7 @@ function mixing(event: any, recipe: MixingRecipe) {
         type: "embers:mixing",
         inputs: recipe.inputs.map(fluidJson),
         output: fluidJson(recipe.output)
-    })
+    }).id(recipeId("embers/mixing", recipe.output))
 }
 
 const mixingRecipes: MixingRecipe[] = [

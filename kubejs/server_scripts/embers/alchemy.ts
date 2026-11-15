@@ -1,4 +1,4 @@
-import {itemJson, notEmptyTag, ItemRef} from "../globalFunction"
+import {itemJson, notEmptyTag, ItemRef, recipeId} from "../globalFunction"
 export {}
 
 type AlchemyRecipe = {
@@ -32,7 +32,7 @@ function alchemy(event: any, recipe: AlchemyRecipe) {
 
     if (recipe.conditions) json.conditions = recipe.conditions
 
-    event.custom(json)
+    event.custom(json).id(recipeId("embers/alchemy", recipe.output))
 }
 
 const alchemyRecipes: AlchemyRecipe[] = [

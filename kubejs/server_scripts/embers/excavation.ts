@@ -1,4 +1,4 @@
-import {itemJson, ItemRef} from "../globalFunction"
+import {itemJson, ItemRef, recipeId} from "../globalFunction"
 export {}
 
 type ExcavationRecipe = {
@@ -21,7 +21,7 @@ function excavation(event: any, recipe: ExcavationRecipe) {
             block_tag: recipe.blockTag
         },
         weight: recipe.weight
-    })
+    }).id(recipeId("embers/excavation", recipe.output))
 }
 
 const excavationRecipes: ExcavationRecipe[] = [

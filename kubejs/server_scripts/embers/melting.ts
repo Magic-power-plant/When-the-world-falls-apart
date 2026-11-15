@@ -1,4 +1,4 @@
-import {itemJson, fluidJson, notEmptyTag, ItemRef, FluidRef} from "../globalFunction"
+import {itemJson, fluidJson, notEmptyTag, ItemRef, FluidRef, recipeId} from "../globalFunction"
 export {}
 
 type MeltingRecipe = {
@@ -16,7 +16,7 @@ function melting(event: any, recipe: MeltingRecipe) {
         output: fluidJson(recipe.output)
     })
 
-    if (recipe.id) customRecipe.id(recipe.id)
+    customRecipe.id(recipe.id ?? recipeId("embers/melting", recipe.input))
 }
 
 const amberCondition = "forge:fragments/amber"
@@ -33,31 +33,31 @@ const meltingRecipes: MeltingRecipe[] = [
         input: "#forge:fragments/amber",
         output: "100x #forge:fluids/liquid_amber",
         conditionTag: amberCondition,
-        id: "wtwfacore:embers/melting_amber"
+        id: "wtwfacore:embers/melting/amber"
     },
     {
         input: "#minecraft:coals",
         output: "100x #forge:fluid/liquid_coal",
         conditionTag: amberCondition,
-        id: "wtwfacore:embers/melting_coal"
+        id: "wtwfacore:embers/melting/coal"
     },
     {
         input: "#wtwfacore:item/raw_steel_billet",
         output: "90x #forge:molten/raw_steel",
         conditionTag: amberCondition,
-        id: "wtwfacore:embers/melting_raw_steel"
+        id: "wtwfacore:embers/melting/raw_steel"
     },
     {
         input: "#forge:ingots/heavy",
         output: "90x #forge:molten/heavy",
         conditionTag: amberCondition,
-        id: "wtwfacore:embers/melting_heavy"
+        id: "wtwfacore:embers/melting/heavy"
     },
     {
         input: "#forge:dusts/enriched_debris",
         output: "120x #forge:molten/debris_solution",
         conditionTag: amberCondition,
-        id: "wtwfacore:molten/debris_solution"
+        id: "wtwfacore:embers/melting/debris_solution"
     },
     {
         input: "#wtwfacore:energized_nether_alloy_crystal",
@@ -102,7 +102,7 @@ ServerEvents.recipes((event: any) => {
             input: `#forge:dusts/${material}`,
             output: `90x #forge:molten_${material}`,
             conditionTag: `forge:dusts/${material}`,
-            id: `wtwfacore:embers/melting_${material}`
+            id: `wtwfacore:embers/melting/${material}`
         })
     })
 

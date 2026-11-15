@@ -1,5 +1,7 @@
 export {}
 
+import {recipeId} from "../globalFunction"
+
 type ApparatusRecipe = {
     inputs: InputItem_[]
     reagent: InputItem_[] | InputItem_
@@ -13,7 +15,7 @@ function enchantingApparatus(event: Internal.RecipesEventJS, recipe: ApparatusRe
         recipe.reagent as InputItem_[],
         recipe.output,
         recipe.source
-    )
+    ).id(recipeId("ars_nouveau/enchanting_apparatus", recipe.output))
 }
 
 const apparatusRecipes: ApparatusRecipe[] = [

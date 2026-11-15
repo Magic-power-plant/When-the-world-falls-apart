@@ -1,5 +1,7 @@
 export {}
 
+import {recipeId} from "../globalFunction"
+
 type FluidSourcelinkRecipe = {
     fluid: string
     mbToSourceRatio: number
@@ -10,7 +12,7 @@ function fluidSourcelink(event: any, recipe: FluidSourcelinkRecipe) {
         type: "starbunclemania:fluid_sourcelink",
         fluid: recipe.fluid,
         mb_to_source_ratio: recipe.mbToSourceRatio
-    })
+    }).id(recipeId("starbunclemania/fluid_sourcelink", recipe.fluid))
 }
 
 const fluidSourcelinkRecipes: FluidSourcelinkRecipe[] = [

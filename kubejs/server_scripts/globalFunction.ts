@@ -115,6 +115,68 @@ export const notEmptyTag = (tag: string) => ({
     }
 })
 
+// ---- 配方 ID ----
+
+const usedRecipeIds: {[id: string]: boolean} = {}
+
+/**
+ * 把任意物品/流体/tag/字符串规范化成 ResourceLocation 路径片段。
+ * 例如 "2x #forge:ingots/steel" -> "forge_ingots_steel"
+ */
+function normalizeRecipeId(value: any, keepSlash: boolean): string {
+    let raw = ""
+
+    if (value != null) {
+        if (typeof value === "string") {
+            raw = value
+        } else if (typeof value.getId === "function") {
+            raw = String(value.getId())
+        } else if (typeof value.item === "string") {
+            raw = value.item
+        }
+    }
+
+    const id = raw
+        .toLowerCase()
+        .replace(/^\d+x\s+/, "")
+        .replace(/#/g, "")
+        .replace(/^minecraft:/, "")
+        .replace(keepSlash ? /[^a-z0-9_./-]+/g : /[^a-z0-9_-]+/g, "_")
+        .replace(/_+/g, "_")
+
+    if (keepSlash) {
+        return id.replace(/^[_./-]+/, "").replace(/[_./-]+$/, "")
+    }
+
+    return id.replace(/^[_-]+/, "").replace(/[_-]+$/, "")
+}
+
+export function recipeIdPart(value: any): string {
+    return normalizeRecipeId(value, false)
+}
+
+/**
+ * 生成稳定且唯一的配方 ID，格式为 `wtwfacore:<kind>/<parts...>`。
+ * 同一 ID 被重复使用时自动追加 _2、_3 … ，保证 KubeJS 不会静默覆盖配方。
+ *
+ * @param kind  配方类型路径段，例如 "crafting/shaped"、"embers/melting"
+ * @param parts 用于区分同类型配方的标识（产物、输入、药水等）
+ */
+export function recipeId(kind: string, ...parts: any[]): string {
+    const name = parts.map(part => recipeIdPart(part)).filter(part => part.length > 0).join("_")
+    const base = `wtwfacore:${normalizeRecipeId(kind, true)}` + (name.length > 0 ? `/${name}` : "")
+
+    let id = base
+    let index = 2
+    while (usedRecipeIds[id] === true) {
+        id = `${base}_${index}`
+        index++
+    }
+
+    usedRecipeIds[id] = true
+    return id
+}
+
 // ---- 机器坐标辅助（原 machine/global.ts 与多个机器脚本的重复实现）----
 
 /**

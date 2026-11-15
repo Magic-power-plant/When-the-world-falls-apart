@@ -1,4 +1,4 @@
-import {g, ingredientJson, ItemRef, IngredientRef} from "../globalFunction"
+import {g, ingredientJson, ItemRef, IngredientRef, recipeId} from "../globalFunction"
 export {}
 
 type CrucibleItemStep = {
@@ -26,19 +26,11 @@ function eidolonCrucible(event: Internal.RecipesEventJS, recipe: CrucibleRecipe)
         return json
     })
 
-    if (recipe.id) {
-        event.custom({
-            type: "eidolon:crucible",
-            steps: steps,
-            result: g.json.ItemObjectToJson(recipe.result)
-        } as unknown as Internal.JsonObject).id(recipe.id)
-    } else {
-        event.custom({
-            type: "eidolon:crucible",
-            steps: steps,
-            result: g.json.ItemObjectToJson(recipe.result)
-        } as unknown as Internal.JsonObject)
-    }
+    event.custom({
+        type: "eidolon:crucible",
+        steps: steps,
+        result: g.json.ItemObjectToJson(recipe.result)
+    } as unknown as Internal.JsonObject).id(recipe.id ?? recipeId("eidolon/crucible", recipe.result))
 }
 
 // Repeat an input entry to consume more than one item. Output supports "2x namespace:item".
@@ -93,6 +85,7 @@ const crucibleRecipes: CrucibleRecipe[] = [
             stirs:1
         }
     ],
+    id:"wtwfacore:eidolon/crucible/mixed_incense",
     result:"4x wtwfacore:mixed_incense"
    },
    {
@@ -105,6 +98,7 @@ const crucibleRecipes: CrucibleRecipe[] = [
             stirs:2
         }
     ],
+    id:"wtwfacore:eidolon/crucible/fragrant_fat",
     result:"wtwfacore:fragrant_fat"
    },
    {
@@ -119,6 +113,7 @@ const crucibleRecipes: CrucibleRecipe[] = [
             stirs:6
         }
     ],
+    id:"wtwfacore:eidolon/crucible/witch_cauldron",
     result:"enchanted:witch_cauldron"
    },
    {
@@ -135,6 +130,7 @@ const crucibleRecipes: CrucibleRecipe[] = [
             stirs:1
         }
     ],
+    id:"wtwfacore:eidolon/crucible/tear_of_the_goddess",
     result:"enchanted:tear_of_the_goddess"
    }
 ]

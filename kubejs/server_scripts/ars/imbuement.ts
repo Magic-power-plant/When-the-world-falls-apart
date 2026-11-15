@@ -1,5 +1,7 @@
 export {}
 
+import {recipeId} from "../globalFunction"
+
 type ItemRef = string
 type ImbuementRecipe = {
     input: ItemRef
@@ -14,7 +16,7 @@ function imbuement(event: any, recipe: ImbuementRecipe) {
         recipe.output,
         recipe.source,
         recipe.pedestalItems
-    )
+    ).id(recipeId("ars_nouveau/imbuement", recipe.output))
 }
 
 const emberImbuements: ImbuementRecipe[] = [

@@ -1,4 +1,4 @@
-import {ItemRef} from "../globalFunction"
+import {ItemRef, recipeId} from "../globalFunction"
 export {}
 
 type KeyValue = ItemRef | (() => any)
@@ -26,6 +26,7 @@ function resolvedKey(key: KeyMap) {
 
 function shapedTable(event: Internal.RecipesEventJS, output: ItemRef, pattern: string[], key: KeyMap) {
     event.recipes.extendedcrafting.shaped_table(output as OutputItem_, pattern, resolvedKey(key))
+        .id(recipeId("extendedcrafting/shaped_table", output))
 }
 
 ServerEvents.recipes((event: Internal.RecipesEventJS) => {

@@ -1,4 +1,4 @@
-import {machineAnchor, relativeToMachine, RelativePos} from "../globalFunction"
+import {machineAnchor, relativeToMachine, RelativePos, recipeId} from "../globalFunction"
 export {}
 
 const $RECIPE_TYPE = Java.loadClass("net.minecraft.world.item.crafting.RecipeType")
@@ -120,6 +120,12 @@ const AGRONOMIC_INPUTS = [
     "#minecraft:saplings",
 ]
 
+const SOURCE_TIER_NAMES = [
+    "source_gem",
+    "source_gem_block",
+    "nouveau_essence",
+]
+
 const NBT_GROWTH_POINT = "growthPoint"
 const CROP_STAGE_KEYS = [
     "cropStage1",
@@ -156,45 +162,52 @@ function applySourceTier(recipe: any, tier: SourceTier) {
     )
 }
 
-function registerItemSourceRecipe(recipe: any, input: any, duration: number, tier: SourceTier) {
+function registerItemSourceRecipe(recipe: any, input: any, duration: number, tier: SourceTier, id: string) {
+    recipe.id(id)
     recipe.inputItems(input)
     recipe.duration(duration)
     applySourceTier(recipe, tier)
 }
 
-function registerFluidSourceRecipe(recipe: any, inputFluid: string, duration: number, tier: SourceTier) {
+function registerFluidSourceRecipe(recipe: any, inputFluid: string, duration: number, tier: SourceTier, id: string) {
+    recipe.id(id)
     recipe.inputFluids(inputFluid)
     recipe.duration(duration)
     applySourceTier(recipe, tier)
 }
 
 function registerVolcanicSource(event: any, fuel: any, duration: number) {
-    STANDARD_SOURCE_TIERS.forEach(tier => {
-        registerItemSourceRecipe(event.recipes.wtwfacore.modular_volcanic_sourcelink(), fuel, duration, tier)
+    STANDARD_SOURCE_TIERS.forEach((tier, i) => {
+        registerItemSourceRecipe(event.recipes.wtwfacore.modular_volcanic_sourcelink(), fuel, duration, tier,
+            recipeId("sourcelink/volcanic", fuel, SOURCE_TIER_NAMES[i]))
     })
 }
 
 function registerMycelialSource(event: any, food: any, duration: number) {
-    STANDARD_SOURCE_TIERS.forEach(tier => {
-        registerItemSourceRecipe(event.recipes.wtwfacore.modular_mycelial_sourcelink(), food, duration, tier)
+    STANDARD_SOURCE_TIERS.forEach((tier, i) => {
+        registerItemSourceRecipe(event.recipes.wtwfacore.modular_mycelial_sourcelink(), food, duration, tier,
+            recipeId("sourcelink/mycelial", food, SOURCE_TIER_NAMES[i]))
     })
 }
 
 function registerVitalicSource(event: any) {
-    VITALIC_SOURCE_TIERS.forEach(tier => {
-        registerItemSourceRecipe(event.recipes.wtwfacore.modular_vitalic_sourcelink(), "minecraft:rotten_flesh", 1, tier)
+    VITALIC_SOURCE_TIERS.forEach((tier, i) => {
+        registerItemSourceRecipe(event.recipes.wtwfacore.modular_vitalic_sourcelink(), "minecraft:rotten_flesh", 1, tier,
+            recipeId("sourcelink/vitalic", "rotten_flesh", SOURCE_TIER_NAMES[i]))
     })
 }
 
 function registerAgronomicSource(event: any, input: string) {
-    STANDARD_SOURCE_TIERS.forEach(tier => {
-        registerItemSourceRecipe(event.recipes.wtwfacore.modular_agronomic_sourcelink(), input, 20, tier)
+    STANDARD_SOURCE_TIERS.forEach((tier, i) => {
+        registerItemSourceRecipe(event.recipes.wtwfacore.modular_agronomic_sourcelink(), input, 20, tier,
+            recipeId("sourcelink/agronomic", input, SOURCE_TIER_NAMES[i]))
     })
 }
 
 function registerAlchemicalSource(event: any) {
-    ALCHEMICAL_SOURCE_TIERS.forEach(tier => {
-        registerFluidSourceRecipe(event.recipes.wtwfacore.modular_alchemical_sourcelink(), "wtwfacore:alchemical_extraction_liquid 10", 20, tier)
+    ALCHEMICAL_SOURCE_TIERS.forEach((tier, i) => {
+        registerFluidSourceRecipe(event.recipes.wtwfacore.modular_alchemical_sourcelink(), "wtwfacore:alchemical_extraction_liquid 10", 20, tier,
+            recipeId("sourcelink/alchemical", "alchemical_extraction_liquid", SOURCE_TIER_NAMES[i]))
     })
 }
 
@@ -227,8 +240,9 @@ function wixiePotionOutput(itemId: string, potionId: string) {
     return Item.of(itemId as Internal.ItemStack_, { Potion: potionId, tooltips: WIXIE_TOOLTIP }).weakNBT().withCount(6)
 }
 
-function registerWixieBrewingRecipe(event: any, input: any, ingredient: any, output: any, duration: number) {
+function registerWixieBrewingRecipe(event: any, input: any, ingredient: any, output: any, duration: number, id: string) {
     event.recipes.wtwfacore.modular_wixie_cauldron()
+        .id(id)
         .inputItems(input)
         .inputItems(ingredient)
         .outputItems("3x wtwfacore:herb_residue")
@@ -241,19 +255,23 @@ function registerWixieBrewingRecipe(event: any, input: any, ingredient: any, out
 }
 
 function registerWixiePotionRecipe(event: any, inputItem: string, inputPotion: string, ingredient: any, outputItem: string, outputPotion: string, duration: number) {
-    registerWixieBrewingRecipe(event, potionStack(inputItem, inputPotion), ingredient, wixiePotionOutput(outputItem, outputPotion), duration)
+    registerWixieBrewingRecipe(event, potionStack(inputItem, inputPotion), ingredient, wixiePotionOutput(outputItem, outputPotion), duration,
+        recipeId("wixie_cauldron/potion", inputItem, inputPotion, outputItem, outputPotion))
 }
 
 function registerWixieItemToPotionRecipe(event: any, inputItem: string, ingredient: any, outputPotion: string, duration: number) {
-    registerWixieBrewingRecipe(event, wixieItemStack(inputItem), ingredient, wixiePotionOutput("minecraft:potion", outputPotion), duration)
+    registerWixieBrewingRecipe(event, wixieItemStack(inputItem), ingredient, wixiePotionOutput("minecraft:potion", outputPotion), duration,
+        recipeId("wixie_cauldron/item_to_potion", inputItem, outputPotion))
 }
 
 function registerWixiePotionToItemRecipe(event: any, inputPotion: string, ingredient: any, outputItem: string, duration: number) {
-    registerWixieBrewingRecipe(event, potionStack("minecraft:potion", inputPotion), ingredient, wixieItemStack(outputItem), duration)
+    registerWixieBrewingRecipe(event, potionStack("minecraft:potion", inputPotion), ingredient, wixieItemStack(outputItem), duration,
+        recipeId("wixie_cauldron/potion_to_item", inputPotion, outputItem))
 }
 
 function registerWixieItemRecipe(event: any, inputItem: string, ingredient: any, outputItem: string, duration: number) {
-    registerWixieBrewingRecipe(event, wixieItemStack(inputItem), ingredient, wixieItemStack(outputItem), duration)
+    registerWixieBrewingRecipe(event, wixieItemStack(inputItem), ingredient, wixieItemStack(outputItem), duration,
+        recipeId("wixie_cauldron/item", inputItem, outputItem))
 }
 
 function registerWixiePotionFormRecipes(event: any, potionId: string) {

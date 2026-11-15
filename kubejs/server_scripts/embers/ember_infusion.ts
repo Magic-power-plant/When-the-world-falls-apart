@@ -1,4 +1,4 @@
-import {itemJson, fluidJson, ItemRef, FluidRef} from "../globalFunction"
+import {itemJson, fluidJson, ItemRef, FluidRef, recipeId} from "../globalFunction"
 export {}
 
 type EmberInfusionRecipe = {
@@ -23,7 +23,7 @@ function emberInfusion(event: Internal.RecipesEventJS, recipe: EmberInfusionReci
     if (recipe.fluid) json.fluidInput = fluidJson(recipe.fluid)
     if (recipe.fluidO) json.fluidOutput = fluidJson(recipe.fluidO)
 
-    event.custom(json as Internal.JsonObject_)
+    event.custom(json as Internal.JsonObject_).id(recipeId("embers_extended/ember_infusing", recipe.output ?? recipe.fluidO ?? recipe.input))
 }
 
 const emberInfusionRecipes: EmberInfusionRecipe[] = [

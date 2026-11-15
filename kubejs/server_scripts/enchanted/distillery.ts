@@ -1,4 +1,4 @@
-import {ingredientJson, IngredientRef} from "../globalFunction"
+import {ingredientJson, IngredientRef, recipeId} from "../globalFunction"
 export {}
 
 type DistilleryRecipe = {
@@ -36,9 +36,7 @@ function enchantedDistillery(event: Internal.RecipesEventJS, recipe: DistilleryR
         results: recipe.results.map(ingredientJson)
     } as unknown as Internal.JsonObject)
 
-    if (recipe.id) {
-        customRecipe.id(recipe.id)
-    }
+    customRecipe.id(recipe.id ?? recipeId("enchanted/distilling", recipe.results[0]))
 }
 
 const distilleryRecipes: DistilleryRecipe[] = [

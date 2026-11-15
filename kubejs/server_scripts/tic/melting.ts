@@ -1,4 +1,4 @@
-import {itemJson, fluidJson, ItemRef, FluidRef} from "../globalFunction"
+import {itemJson, fluidJson, ItemRef, FluidRef, recipeId} from "../globalFunction"
 export {}
 
 type MeltingRecipe = {
@@ -15,7 +15,7 @@ function melting(event: any, recipe: MeltingRecipe) {
         result: fluidJson(recipe.result),
         temperature: recipe.temperature,
         time: recipe.time
-    })
+    }).id(recipeId("tconstruct/melting", recipe.input))
 }
 
 const meltingRecipes: MeltingRecipe[] = [

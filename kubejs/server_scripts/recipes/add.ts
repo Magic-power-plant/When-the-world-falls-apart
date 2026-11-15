@@ -1,4 +1,4 @@
-import {ItemRef} from "../globalFunction"
+import {ItemRef, recipeId} from "../globalFunction"
 export {}
 
 type ItemOutput = ItemRef | (() => any)
@@ -26,31 +26,34 @@ function outputOf(value: ItemOutput) {
     return typeof value == "function" ? value() : value
 }
 
-function applyExtras(builder: any, extras?: RecipeExtras) {
-    if (!extras) return
-    if (extras.damage) builder.damageIngredient(extras.damage.item, extras.damage.amount)
-    if (extras.keep) builder.keepIngredient(extras.keep)
-    if (extras.id) builder.id(extras.id)
+function applyExtras(builder: any, autoId: string, extras?: RecipeExtras) {
+    if (extras) {
+        if (extras.damage) builder.damageIngredient(extras.damage.item, extras.damage.amount)
+        if (extras.keep) builder.keepIngredient(extras.keep)
+    }
+
+    // 没有显式指定 id 时，按"配方类型 + 产物"生成稳定的 recipe id
+    builder.id(extras && extras.id ? extras.id : autoId)
 }
 
 function shaped(event: Internal.RecipesEventJS, output: ItemOutput, pattern: string[], key: KeyMap, extras?: RecipeExtras) {
     const builder = (event as unknown as RecipeBuilderMethods).shaped(outputOf(output), pattern, key)
-    applyExtras(builder, extras)
+    applyExtras(builder, recipeId("crafting/shaped", output), extras)
 }
 
 function shapeless(event: Internal.RecipesEventJS, output: ItemOutput, inputs: any[], extras?: RecipeExtras) {
     const builder = (event as unknown as RecipeBuilderMethods).shapeless(outputOf(output), inputs)
-    applyExtras(builder, extras)
+    applyExtras(builder, recipeId("crafting/shapeless", output), extras)
 }
 
 function campfire(event: Internal.RecipesEventJS, output: ItemOutput, input: any, xp?: number, time?: number, extras?: RecipeExtras) {
     const builder = (event as unknown as RecipeBuilderMethods).campfireCooking(outputOf(output), input, xp as number, time as number)
-    applyExtras(builder, extras)
+    applyExtras(builder, recipeId("campfire_cooking", output), extras)
 }
 
 function smelting(event: Internal.RecipesEventJS, output: ItemOutput, input: any, extras?: RecipeExtras) {
     const builder = (event as unknown as RecipeBuilderMethods).smelting(outputOf(output), input)
-    applyExtras(builder, extras)
+    applyExtras(builder, recipeId("smelting", output), extras)
 }
 
 ServerEvents.recipes((event: Internal.RecipesEventJS) => {
@@ -315,7 +318,7 @@ ServerEvents.recipes((event: Internal.RecipesEventJS) => {
     shaped(event, nbtItem("alexscaves:cave_map", "{BiomeTargetResourceKey:\"alexscaves:primordial_caves\"}"), [" a ", "aba", " a "], {
         a: "embers:archaic_brick",
         b: "minecraft:paper"
-    })
+    }, {id: "wtwfacore:crafting/shaped/primordial_caves_map"})
     shaped(event, "wtwfacore:stoneiron_machine_shell", [" a ", "aba", " a "], {
         a: "wtwfacore:stone_iron_plate",
         b: "wtwfacore:caminite_machine_frame"

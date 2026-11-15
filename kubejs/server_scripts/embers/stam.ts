@@ -1,4 +1,4 @@
-import {itemJson, fluidJson, notEmptyTag, ItemRef, FluidRef} from "../globalFunction"
+import {itemJson, fluidJson, notEmptyTag, ItemRef, FluidRef, recipeId} from "../globalFunction"
 export {}
 
 type StampingRecipe = {
@@ -22,7 +22,7 @@ function stamping(event: any, recipe: StampingRecipe) {
     if (recipe.fluid) json.fluid = fluidJson(recipe.fluid)
     if (recipe.conditions) json.conditions = recipe.conditions
 
-    event.custom(json)
+    event.custom(json).id(recipeId("embers/stamping", recipe.output))
 }
 
 const plateMaterials = [

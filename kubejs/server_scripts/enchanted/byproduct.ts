@@ -1,4 +1,4 @@
-import {itemJson, ItemRef} from "../globalFunction"
+import {itemJson, ItemRef, recipeId} from "../globalFunction"
 export {}
 
 type ByproductRecipe = {
@@ -12,7 +12,7 @@ function byproduct (event: Internal.RecipesEventJS, recipe: ByproductRecipe) {
         ingredient: itemJson(recipe.ingredients),
         result: itemJson(recipe.result)
     }
-    event.custom(json)
+    event.custom(json).id(recipeId("enchanted/byproduct", recipe.result))
 }
 
 const byproductRecipes: ByproductRecipe[] = [

@@ -1,4 +1,4 @@
-import {machineAnchor, relativeToMachine, MachineAnchor, RelativePos} from "../globalFunction"
+import {machineAnchor, relativeToMachine, MachineAnchor, RelativePos, recipeId} from "../globalFunction"
 export {}
 
 const $MBDRecipe = Java.loadClass("com.lowdragmc.mbd2.api.recipe.MBDRecipe")
@@ -415,6 +415,7 @@ MBDMachineEvents.onUI(REACTOR_ID, e => {
 
 ServerEvents.recipes(event => {
     event.recipes.wtwfacore.carnage_reactor()
+        .id(recipeId("carnage_reactor", "vitality_uranium"))
         .inputItems("wtwfacore:vitality_uranium")
         .duration(200)
         .blocksInStructure(1, 1000, FEL_REACTOR_UNIT)

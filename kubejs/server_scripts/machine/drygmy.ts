@@ -1,4 +1,4 @@
-import {machineAnchor, relativeToMachine, MachineAnchor, RelativePos} from "../globalFunction"
+import {machineAnchor, relativeToMachine, MachineAnchor, RelativePos, recipeId} from "../globalFunction"
 export {}
 
 const $LootParams = Java.loadClass("net.minecraft.world.level.storage.loot.LootParams")
@@ -66,6 +66,7 @@ function getLootFromMobJarPositions(level: any, anchor: MachineAnchor, positions
 ServerEvents.recipes(event => {
     event.recipes.wtwfacore.modular_drygmy()
         .inputItems("ars_nouveau:source_gem")
+        .id(recipeId("modular_drygmy", "source_gem"))
 })
 
 MBDMachineEvents.onBeforeRecipeModify("wtwfacore:modular_drygmy", e => {
